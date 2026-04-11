@@ -1,6 +1,19 @@
 ---
 layout: default
-title: Troik-Rats
+title: Troik-Rats av Nils Jivegård.
+---
+## Innehållsförteckning
+* [Grundregler](#grundregler)
+* [Initiativ](#initiativ)
+* [Strid](#strid)
+* [Magi](#magi)
+* [Erfarenhet & Utveckling](#erfarenhet--utveckling)
+* [Att må bättre och inte](#att-må-bättre-och-inte)
+* [Exempel på motståndare](#exempel-på-motståndare)
+* [Besvärjelser (Circles)](#besvärjelser-circles)
+* [Fummel tabeller](#fummel-tabeller)
+* [Karaktärsblad: Troik-Rats](#karaktärsblad-troik-rats)
+
 ---
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
@@ -92,7 +105,8 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 * **Etikett:** Att veta exakt hur man tilltalar en greve eller en maffialedare.
 * **Kasino:** Konsten att fuska i tärning, räkna kort och vinna i spel.
 * **Melodi:** Att spela instrument eller sjunga för att styra andras känslor.
-## Initiativ
+
+# Initiativ
 Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initiativet baseras på ditt **Skill-värde**.
 **Så här fungerar det:** Ditt Skill-värde översätts till en tärning. Om ditt värde ligger mellan två tärningssteg avrundar du nedåt till närmaste tärning men får **+1** på resultatet.
 
@@ -103,10 +117,10 @@ Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initi
 > + Skill 12 ➡️ Initiativ d12
 > + Skill 13 ➡️ Initiative d12+1
 
-## Strid
+# Strid
 Strid här är intensivt och dödligt. Man turas om att agera baserat på **Initiativ**, men varje attack är en tävling där båda parter riskerar att ta skada.
 
-### Så går en attack till
+## Så går en attack till
 
 När du anfaller en fiende (eller fienden anfaller dig) gör ni ett **Motståndsslag**.
 
@@ -120,7 +134,7 @@ När du anfaller en fiende (eller fienden anfaller dig) gör ni ett **Motstånds
 
 > **Exempel:** Du har Body 7 + Strid 2 (Målvärde 9). En Ork har Brawn 6. Du slår en 7:a (Lyckat!). Orken slår en 5:a (Lyckat!). **Resultat:** Eftersom din 7:a är högre än Orkens 5:a (och båda är under sina målvärden) vinner du och hugger Orken!
 
-### Kreativ strid
+## Kreativ strid
 
 Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för att få din vilja igenom:
 
@@ -129,14 +143,14 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 * **Populär:** Kanske känner fienden igen dig och vill inte slåss, eller så börjar publiken kasta sten på din motståndare.
 * **Vinnarens vilja:** Den som vinner motståndsslaget "får igenom sin vilja". Om du använde _Skrämma_ och vann, flyr fienden istället för att ta skada.
 
-### Grupper och numerärt överläge
+## Grupper och numerärt överläge
 
 Att slåss mot flera är livsfarligt.
 
 * **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt tärningsresultat** för varje extra medlem i gruppen (detta hjälper dem att vinna "högst vinner"-duellen).
 * **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-1 på Mind/Moral** på grund av chocken.
 
-### Skada och Skydd
+## Skada och Skydd
 
 När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd).
 
@@ -148,8 +162,8 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 
 * **0 Body/Brawn:** När hälsan når 0 faller man till marken, medvetslös och döende.
 
+## Vapen
 
-### Vapen
 | Närstridsvapen  |  Beskrivning | Skada |
 |---|---|--|
 |  Lätta vapen |  Dolk, kortsvärd, hammare, lie, rapier | 1d4+1 |
@@ -163,11 +177,11 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 |  Medel distans |  Långbåge, armborst, sp |  1d6 |
 |   |   |   |
 
-## Magi
+# Magi
 
 Magi är kraftfullt men tär på utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte mutera. Magin delas upp i tre **Circles**, där Circle 1 är den mest kraftfulla och svåra. När du utvecklas som magiker låser du upp lägre Circles. Att nå **Circle 1** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
 
-### Circles
+## Circles
 
 Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa ditt målvärde.
 
@@ -177,25 +191,25 @@ Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa d
 
 _Du kan alltid välja att kasta en formel från en lägre Circle (t.ex. använda din kraft från Circle 1 för att kasta en Circle 3-formel) för att göra det enklare att lyckas. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan._
 
-### Att kasta en trollformel
+## Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
 
 1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot **Mind + Circle**. Om du lyckas har du formeln "redo" och kan kasta den i strid utan att behöva slå tärning igen.
 2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckas du händer ingenting (eller värre – se Fummel).
 
-### Fummel & Katastrofer
+## Fummel & Katastrofer
 
 Magi är en instabil kraft.
 
 * **1,1:** Om du rullar två ettor när du kastar eller förbereder magi, drabbas du eller någon av en **Mutation**.
 * **Katastrof:** Vid särskilt grova misslyckanden (eller om spelledaren anser att situationen är kaotisk) kan magin orsaka en **Katastrof** som påverkar hela omgivningen.
 
-## Erfarenhet & Utveckling
+# Erfarenhet & Utveckling
 
 Här blir du bättre genom att misslyckas och lära dig av dina misstag.
 
-### Att bli bättre på Talents
+## Att bli bättre på Talents
 
 Varje gång du **misslyckas** med ett slag för en **Talent**, får du sätta en **bock** i rutan för den talangen på ditt karaktärsblad. Du kan bara ha en bock per Talent åt gången.
 Vid en vila på minst 8 timmar kan du försöka höja dina värden:
@@ -206,7 +220,7 @@ Vid en vila på minst 8 timmar kan du försöka höja dina värden:
 4. **Kritisk framgång (Par):** Om du slår ett par som lyckas höja din Talent, ökar även ditt tillhörande grundvärde (**Body, Skill** eller **Mind**) med +1!
 5. Sudda sedan ut bocken.
 
-### Att levla upp (Nivåer)
+## Att levla upp (Nivåer)
 
 Din nivå (Level) bestäms av hur många poäng du har i dina **Talents**.
 
@@ -214,15 +228,15 @@ Din nivå (Level) bestäms av hur många poäng du har i dina **Talents**.
 * **Level 2:** Du når nivå 2 när du har ökat dina sammanlagda poäng till 7.
 * Varje gång din totala summa poäng i **Talents** ökar, kommer du närmare nästa nivå.
 
-### Magisk utveckling (Circles)
+## Magisk utveckling (Circles)
 
 Att bli bättre på magi fungerar annorlunda. Istället för att räkna uppåt, räknar du nedåt mot de mäktigare cirklarna:
 
 * När du har bemästrat dina nuvarande krafter kan du välja att sänka din **Circle** (från 3 till 2, och slutligen till 1). Detta kräver djupare studier eller att du hittar sällsynta grimoirer under dina äventyr.
 * Du kan även stöta på andra visa och kunniga som är villiga att lära ut, till ett pris förstås.
 
-## Att må bättre och inte
-### Vila
+# Att må bättre och inte
+## Vila
 
 Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
@@ -230,17 +244,17 @@ Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
 * **Långvila (48h):** Du återfår alla poäng i **Body** och **Mind** till ditt maxvärde.
 
-### När krafterna sinar
+## När krafterna sinar
 
 * **0 Body / Brawn:** Du faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör du inom kort (spelledaren avgör hur många minuter du har kvar).
 
 * **0 Mind / Moral:** Ditt psyke brister. Du drabbas av total panik, katatoni eller flyr hals över huvud. Du är ospelbar och i händerna på ödet tills du återfått minst 1 poäng **Mind**.
 
-### Döden
+## Döden
 
 Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till 0 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
 
-## Exempel på motståndare
+# Exempel på motståndare
 
 |  HD (hit die) | Exempel                    | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
@@ -251,9 +265,9 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 |   4 | Jätte, Liten drake        | 15                | 11             | d10          | 1d6+3 |
 |  5+ | Boss, Drake, Demon         | 20+               | 12+            | d10/d12      | 2d6   |
 
-### Besvärjelser (Circles)
+# Besvärjelser (Circles)
 
-### 🔮 Circle 3 (Lätt)
+## 🔮 Circle 3 (Lätt)
 *Målvärde: Mind + 3. Skada: 1d4+1. Varaktighet: 10 sek.*
 * **Charm Person:** Offret ser dig som en nära vän.
 * **Detect Magic:** Ser magiska energier i närheten.
@@ -262,21 +276,21 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 * **Mage Shield:** Osynlig barriär som ger -1 skada.
 * **Cure Light Wounds:** Läker 1d4+1 Body.
 
-### 🔮 Circle 2 (Medel)
+## 🔮 Circle 2 (Medel)
 *Målvärde: Mind + 2. Skada: 1d6. Varaktighet: 60 sek.*
 * **Web:** Klibbigt nät fångar alla i ett område (AoE).
 * **Invisibility:** Gör en varelse helt osynlig (om den är tyst).
 * **Mirror Image:** Skapar 1d4 kopior av dig själv.
 * **Bless / Blight:** Ger allierade bonus eller fiender nackdel (AoE).
 
-### 🔮 Circle 1 (Svår)
+## 🔮 Circle 1 (Svår)
 *Målvärde: Mind + 1. Skada: 1d6+2. Varaktighet: 5 min.*
 * **Fire Ball:** Explosion som skadar alla i ett stort område.
 * **Haste:** Målet får dubbelt så många handlingar per runda.
 * **Fly:** Du kan flyga fritt i luften.
 * **Raise Dead:** Återuppväcker en nyligen avliden (kräver vila efteråt).
 
-## Fummel tabeller
+# Fummel tabeller
 
 | 2d6  | Fummel  |   |
 |---|---|---|
@@ -308,7 +322,7 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 | **5** | Utomjording | Folk krymper | Folk försvinner | Växter vissnar | Portal öppnas | Reva i tiden |
 | **6** | Skuggor talar | Rummet vids | Stenar talar | Total tystnad | Torn dyker upp | Vatten till blod |
 
-# 🐀 Karaktärsblad: Troik-Rats
+# Karaktärsblad: Troik-Rats
 
 **Namn:** _________________  **Level:** ___  **Guld:** ___
 **Bakgrund:** ___________________________________________
