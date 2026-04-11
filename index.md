@@ -16,8 +16,6 @@ När omständigheterna ger dig en tydlig fördel eller nackdel slår du **3d6** 
 
 I båda fallen av fördel och nackdel ökar chansen för att få ett par till 21% och risken för en fummel ökar i fördel till 7,4% (eftersom du sparar de låga talen) och vid nackdel minskar risken till 0,5%. Matte är coolt, eller hur?
 
-+++ Kan trollformler gå ner i en circle eller är de fast där? Ska de inte kunna fifflas med utan att en ny trllformel skapas?
-
 ## Grundvärde
 En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan man enkelt bryta ner betydelsen av grundvärde:
 * **Body** = Hälsa = Styrka 
@@ -25,7 +23,7 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 * **Mind** = Mental hälsa = Magi = Språk = Kunskap
 
 ### Motståndarens grundvärde är lite annorlunda
-Motståndaren använder en annan termonolgi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden. Motståndare använder då dessa istället: 
+Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden. Motståndare använder då dessa istället: 
 * **Brawn** = Hälsa = Styrka = Smidighet = Rörelse
 * **Special** = Skill = Mind = Fingerfärdighet = Språk = Kunskap
 * **Moral** = Mental hälsa
@@ -177,7 +175,7 @@ Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa d
 * **Circle 2:** Medelstark magi. 1d6 skada. Ofta AoE (Area of Effect).
 * **Circle 1:** Svår och farlig magi. 1d6+2 skada. Stora områden eller permanenta effekter.
 
-_Du kan alltid välja att kasta en formel från en lägre Circle (t.ex. använda din kraft från Circle 1 för att kasta en Circle 3-formel) för att göra det enklare att lyckas._
+_Du kan alltid välja att kasta en formel från en lägre Circle (t.ex. använda din kraft från Circle 1 för att kasta en Circle 3-formel) för att göra det enklare att lyckas. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan._
 
 ### Att kasta en trollformel
 
@@ -253,8 +251,7 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 |   4 | Jätte, Liten drake        | 15                | 11             | d10          | 1d6+3 |
 |  5+ | Boss, Drake, Demon         | 20+               | 12+            | d10/d12      | 2d6   |
 
-
-### **Besvärjelser (Circles)
+### Besvärjelser (Circles)
 
 ### 🔮 Circle 3 (Lätt)
 *Målvärde: Mind + 3. Skada: 1d4+1. Varaktighet: 10 sek.*
@@ -291,25 +288,25 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 
 Att fumla med magin resulterar i mutationer. Tolka för situationen 👹
 
-|     |       1        |      2      |        3         |        4        |        5         |        6        |
-| --- | :------------: | :---------: | :--------------: | :-------------: | :--------------: | :-------------: |
-| 1   |      Ages      | Animal head |     Cyclops      |   Extra eyes    |   Gender swap    |    Hunchback    |
-| 2   |  Animal eyes   | Animal legs |    Extra arms    |   Extra legs    | Hair covers body |    Long arms    |
-| 3   |  Animal skin   | Animal-form |  Forked tongue   |  Lose all hair  |     No eyes      |    No mouth     |
-| 4   |   Skin boils   | Slime trail | Translucent skin |   Weeps blood   |    Sheds skin    |   Second face   |
-| 5   |   Child-form   | Corpulence  |    Item-form     |     Shrinks     |     Shrivels     |   Loses teeth   |
-| 6   | Attracts birds | Animal arms |   Animal mouth   | Physical Element-skin |  Monster Trait   | Monster Feature |
+| d6 | 1 | 2 | 3 | 4 | 5 | 6 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | Åldras | Djurhuvud | Cyklop | Extra ögon | Könsbyte | Puckelrygg |
+| **2** | Djurögon | Djurben | Extra armar | Extra ben | Pälsig kropp | Långa armar |
+| **3** | Djurhud | Djurform | Kluven tunga | Tappar hår | Inga ögon | Ingen mun |
+| **4** | Bölder | Slemspår | Genomskinlig | Blöder blod | Ömsar skinn | Extra ansikte |
+| **5** | Barnform | Fetma | Föremålsform | Krymper | Vissnar | Tappar tänder |
+| **6** | Lockar fåglar | Djurarmar | Djurmun | Element-hud | Monsterdrag | Monsterklor |
 
 Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 👾
 
-|     |        1        |       2        |       3        |       4       |        5         |       6        |
-| --- | :-------------: | :------------: | :------------: | :-----------: | :--------------: | :------------: |
-| 1   | All iron rusts  |  Animals die   | Animals mutate | Birds attack  |   City appears   |   Deadly fog   |
-| 2   |  Dream plague   | Endless night  |  Endless rain  | Endless storm | Endless twilight | Endless winter |
-| 3   |   Fae return    | Forest appears | Forgetfulness  |  Graves open  |   Lamentations   |    Maggots     |
-| 4   |  Mass insanity  | Mass mutation  |  Mass slumber  | Meteor strike |  Mirrors speak   |    No stars    |
-| 5   | Outsider enters | People shrink  | People vanish  | Plants wither |   Portal opens   |   Rifts open   |
-| 6   |  Shadows speak  | Space distorts |  Stones speak  | Total silence |  Tower appears   | Water to blood |
+| d6 | 1 | 2 | 3 | 4 | 5 | 6 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | Järn rostar | Djur dör | Djur muterar | Fåglar anfaller | Stad dyker upp | Dödlig dimma |
+| **2** | Drömpest | Evig natt | Evigt regn | Evig storm | Evig skymning | Evig vinter |
+| **3** | Fae återvänder | Skog växer upp | Glömska | Gravar öppnas | Klagovisor | Fluglarver |
+| **4** | Massgalenskap | Massmutation | Mass-sömn | Meteornedslag | Speglar talar | Inga stjärnor |
+| **5** | Utomjording | Folk krymper | Folk försvinner | Växter vissnar | Portal öppnas | Reva i tiden |
+| **6** | Skuggor talar | Rummet vids | Stenar talar | Total tystnad | Torn dyker upp | Vatten till blod |
 
 # 🐀 Karaktärsblad: Troik-Rats
 
