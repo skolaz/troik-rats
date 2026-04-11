@@ -51,6 +51,7 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 > * **Mind:** Magi, Historia, Hela, Argumentera, Naturkännedom, Skrämma.
 
 ### Tabell med Talents
+
 | d6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1 (Body)** | Strid | Slåss | Skrämma | Styrkeprov | Bärsärk | Klättra |
@@ -175,7 +176,6 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 |---|---|---|
 |  Lätta och nära vapen |  Slunga, hand-armborst, kortbåge |  1d4+1 |
 |  Medel distans |  Långbåge, armborst, sp |  1d6 |
-|   |   |   |
 
 # Magi
 
@@ -324,10 +324,11 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 
 # Karaktärsblad: Troik-Rats
 
-**Namn:** _________________  **Level:** ___  **Guld:** ___
+**Namn: _________________  Level: ___  Guld:** ___
 **Bakgrund:** ___________________________________________
 
-### Grundvärden
+## Grundvärden
+
 | Värde | Max | Nuvarande |
 | :--- | :---: | :---: |
 | **Body** (Hälsa) | | |
@@ -336,14 +337,14 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 
 **Initiativtärning:** ________ (Baserat på Skill)
 
-### Talents
+## Talents
 *Varje misslyckande ger en bock [X]. Vid vila, slå 2d6 över rank för att höja.*
 * [ ] __________ Rank: ___
 * [ ] __________ Rank: ___
 * [ ] __________ Rank: ___
 * [ ] __________ Rank: ___
 
-### Circle
+## Circle
 *Är det en bock är den förberedd.*
 * [ ] __________ Rank: ___
 * [ ] __________ Rank: ___
