@@ -2,20 +2,23 @@
 layout: default
 title: Troik-Rats
 ---
-# troik-rats
-Ett hack av troika och Maze Rats
+# Troika-Rats
 
-# Troika x Maze Rats
-Maze Troika Rats. ToMaRa. MaRaTo. ToRaMa. MaToRo. Troik Rats
-
-# Grundregeler
+# Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
-Slår du ett par är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Alltid 14% chans!
+Slår du ett par är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Alltid 16,7% chans!
 
-Undantaget från att ett par är bra är när du får två ettor. Detta är istället en fummel och är ett fruktansvärt misslyckades. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer.
+Undantaget från att ett par är bra är när du får två ettor. Detta är istället en fummel och är ett fruktansvärt misslyckades. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två ettor är 2,8%
 
-+++ Lägg till nackdel och fördel.
+När omständigheterna ger dig en tydlig fördel eller nackdel slår du **3d6** istället för 2d6.
+
+* **Fördel:** Behåll de **två lägsta** tärningarna.
+* **Nackdel:** Behåll de **två högsta** tärningarna.
+
+I båda fallen av fördel och nackdel ökar chansen för att få ett par till 21% och risken för en fummel ökar i fördel till 7,4% (eftersom du sparar de låga talen) och vid nackdel minskar risken till 0,5%. Matte är coolt, eller hur?
+
++++ Kan trollformler gå ner i en circle eller är de fast där? Ska de inte kunna fifflas med utan att en ny trllformel skapas?
 
 ## Grundvärde
 En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan man enkelt bryta ner betydelsen av grundvärde:
@@ -30,14 +33,69 @@ Motståndaren använder en annan termonolgi för att särskilda dem från spelar
 * **Moral** = Mental hälsa
 
 ## Talents
-Talents eller talanger representerar din specifika träning och erfarenhet. Vid nivå 1 har du **6 poäng** att fördela på dina talanger (max 5 i en enskild Talent).
+Talents eller talanger representerar din specifika träning och erfarenhet. Vid nivå 1 har du **6 poäng** att fördela på dina Talents (max 5 i en enskild Talent).
 När du använder en Talent adderar du dess värde till ditt grundvärde (**Body, Skill** eller **Mind**) för att få ditt **målvärde**. Det är detta totala värde du ska slå under med 2d6.
 
-* **Body:** Strid, Slåss, Skrämma, Styrkeprov.
+> Exempel
+> * **Body:** Strid, Slåss, Skrämma, Styrkeprov.
+> * **Skill:** Smyga, Stjäla, Skjuta, Hantverk, Akrobatik, Matlagning.
+> * **Mind:** Magi, Historia, Hela, Argumentera, Naturkännedom, Skrämma.
 
-* **Skill:** Smyga, Stjäla, Skjuta, Hantverk, Akrobatik, Matlagning.
+### Tabell med Talents
+| d6 | 1 | 2 | 3 | 4 | 5 | 6 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1 (Body)** | Strid | Slåss | Skrämma | Styrkeprov | Bärsärk | Klättra |
+| **2 (Body)** | Simma | Uthållighet | Akrobatik | Provocera | Byggnad | Grovarbete |
+| **3 (Skill)** | Smyga | Stjäla | Skjuta | Dölja | Fällor | Hantverk |
+| **4 (Skill)** | Fingerfärdig | Matlagning | Djurtämjare | Sikta | Dans | Navigera |
+| **5 (Mind)** | Magi | Hela | Historia | Argumentera | Natur | Språk |
+| **6 (Mind)** | Värdera | Spåra | Välsignelse | Etikett | Kasino | Melodi |
 
-* **Mind:** Magi, Historia, Hela, Argumentera, Naturkännedom, Skrämma.
+#### Beskrivning av tabell med Talents
+##### **Body-baserade**
+
+* **Strid:** Effektivt användande av svärd, yxor och närstridsvapen.
+* **Slåss:** Handgemäng, knytnävar och oortodoxa krogmål.
+* **Skrämma:** Att använda sin fysiska storlek eller hotfullhet för att få sin vilja igenom.
+* **Styrkeprov:** Bryta upp dörrar, lyfta fallgaller eller flytta tunga stenar.
+* **Bärsärk:** Att kanalisera vrede för att ignorera smärta eller öka sin kraft.
+* **Klättra:** Ta sig uppför lodräta ytor, riggar eller stadsmurar.
+* **Simma:** Förmågan att inte drunkna i tunga rustningar och korsa vattendrag.
+* **Uthållighet:** Att motstå gifter, extrem utmattning eller svält.
+* **Akrobatik:** Balansgång på hustak och att landa mjukt efter ett hopp.
+* **Provocera:** Att få fienden att tappa fattningen och attackera dig istället för dina vänner.
+* **Byggnad:** Att snabbt resa skydd, barrikader eller reparera vagnar.
+* **Grovarbete:** Allmän kroppslig händighet och kunskap om gruvor/byggen.
+
+##### **Skill-baserade**
+
+* **Smyga:** Konsten att inte höras eller synas i skuggorna.
+* **Stjäla:** Lätta fickor och att knycka föremål mitt framför näsan på folk.
+* **Skjuta:** Prickskytte med båge eller armborst.
+* **Dölja:** Att gömma föremål på kroppen eller maskera spår av smuggling.
+* **Fällor:** Att konstruera dödliga fällor eller desarmera dem man stöter på.
+* **Hantverk:** Finlir med trä, läder eller metall för att laga utrustning.
+* **Fingerfärdighet:** Att dyrka lås och utföra imponerande trick med händerna.
+* **Matlagning:** Att förvandla ruttna rester till en måltid som läker Body eller Mind.
+* **Djurtämjare:** Att få vilddjur att lyda eller lugna rädda hästar.
+* **Sikta:** Att kasta knivar, stenar eller flaskor med precision.
+* **Dans:** Att imponera på hovet eller distrahera en vakt med graciösa rörelser.
+* **Navigera:** Att hitta vägen i vildmarken eller styra en farkost genom storm.
+
+##### **Mind-baserade**
+
+* **Magi:** Kunskapen att läsa grimoirer och kanalisera kosmiska krafter.
+* **Hela:** Förbinda sår, stoppa blödningar och kurera sjukdomar.
+* **Historia:** Att känna till gamla kungar, ruiner och bortglömda legender.
+* **Argumentera:** Att vinna diskussioner genom logik, lögner eller retorik.
+* **Natur:** Att veta vilka svampar som dödar och hur man överlever i skogen.
+* **Språk:** Att läsa utdöda språk och förhandla med främmande kulturer.
+* **Värdera:** Att snabbt se skillnad på äkta guld och förgyllt bly.
+* **Spåra:** Att tolka brutna kvistar och fotspår för att hitta sitt mål.
+* **Välsignelse:** Att genom tro eller ritualer skänka hopp (eller otur).
+* **Etikett:** Att veta exakt hur man tilltalar en greve eller en maffialedare.
+* **Kasino:** Konsten att fuska i tärning, räkna kort och vinna i spel.
+* **Melodi:** Att spela instrument eller sjunga för att styra andras känslor.
 ## Initiativ
 Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initiativet baseras på ditt **Skill-värde**.
 **Så här fungerar det:** Ditt Skill-värde översätts till en tärning. Om ditt värde ligger mellan två tärningssteg avrundar du nedåt till närmaste tärning men får **+1** på resultatet.
@@ -48,6 +106,7 @@ Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initi
 > + Skill 7 ➡️ Initiative d6+1
 > + Skill 12 ➡️ Initiativ d12
 > + Skill 13 ➡️ Initiative d12+1
+
 ## Strid
 Strid här är intensivt och dödligt. Man turas om att agera baserat på **Initiativ**, men varje attack är en tävling där båda parter riskerar att ta skada.
 
@@ -92,6 +151,8 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
   * _Tungt skydd:_ -3 skada och nackdel när du smyger, klättrar och sänker initiativ tärningen med en hel tärning.
 
 * **0 Body/Brawn:** När hälsan når 0 faller man till marken, medvetslös och döende.
+
+
 ### Vapen
 | Närstridsvapen  |  Beskrivning | Skada |
 |---|---|--|
@@ -120,7 +181,7 @@ Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa d
 
 _Du kan alltid välja att kasta en formel från en lägre Circle (t.ex. använda din kraft från Circle 1 för att kasta en Circle 3-formel) för att göra det enklare att lyckas._
 
-### Att kasta en formel
+### Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
 
@@ -164,81 +225,62 @@ Att bli bättre på magi fungerar annorlunda. Istället för att räkna uppåt, 
 * När du har bemästrat dina nuvarande krafter kan du välja att sänka din **Circle** (från 3 till 2, och slutligen till 1). Detta kräver djupare studier eller att du hittar sällsynta grimoirer under dina äventyr.
 * Du kan även stöta på andra visa och kunniga som är villiga att lära ut, till ett pris förstås.
 
-
-## Vapen
-
-| Närstridsvapen  |  Beskrivning | Skada |
-|---|---|--|
-|  Lätta vapen |  Dolk, kortsvärd, hammare, lie, rapier | 1d4+1 |
-|  Medel vapen (1-2 händer) |  Spjut, långsvärd, spikklubba, yxa, stridsstav | 1d6 |
-|       Tunga vapen (2 händer)       |  Halberd, Maul, storsvärd, storyxa | 1d6+2 |
-|                  Slåss med nävarna                  |                  Mör och Bult vill möta ditt ansikte, snabbt                  |    1d4   |
-
-|  Distansvapen |  Beskrivning |  Skada |
-|---|---|---|
-|  Lätta och nära vapen |  Slunga, hand-armborst, kortbåge |  1d4+1 |
-|  Medel distans |  Långbåge, armborst, sp |  1d6 |
-|   |   |   |
-
----
 ## Att må bättre och inte
-* Återfå hela Body / Mind efter 48h, hälften efter 8h.  
-* Medvetslös och förblöder vid 0 Body / Brawn  
-* Flyr / panik vid 0 Mind / Moral.  
-* Alla dör när de varit medvetslösa en tid.
+### Vila
 
+Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
+
+* **Kort vila (8h):** Du återfår hälften av dina förlorade poäng i **Body** och **Mind**.
+
+* **Långvila (48h):** Du återfår alla poäng i **Body** och **Mind** till ditt maxvärde.
+
+### När krafterna sinar
+
+* **0 Body / Brawn:** Du faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör du inom kort (spelledaren avgör hur många minuter du har kvar).
+
+* **0 Mind / Moral:** Ditt psyke brister. Du drabbas av total panik, katatoni eller flyr hals över huvud. Du är ospelbar och i händerna på ödet tills du återfått minst 1 poäng **Mind**.
+
+### Döden
+
+Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till 0 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
+
+# Exempel på motståndare
 |  HD (hit die) | Exempel                    | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 3                 | 4              | d4           | 1d2   |
-|   1 | Ork, Vakt, Varg            | 6                 | 6              | d6           | 1d6   |
+|   1 | Ork, Människa, Varg            | 6                 | 6              | d6           | 1d6   |
 |   2 | Elitsoldat, Björn          | 9                 | 8              | d6           | 1d6+1 |
 |   3 | Ogre, Riddare, Ond Magiker | 12                | 10             | d8           | 1d6+2 |
-|   4 | Jätte, Monsterranko        | 15                | 11             | d10          | 1d6+3 |
+|   4 | Jätte, Liten drake        | 15                | 11             | d10          | 1d6+3 |
 |  5+ | Boss, Drake, Demon         | 20+               | 12+            | d10/d12      | 2d6   |
 
-## Standard Talents att välja på
-Akrobatik Argumentera Arkana Bågskytte Bärsärk Dans Djurtämjare Dölja Etikett Fällor Förhandla Gifter Guldvittring Gömma Hela Hitta Kasino Klättra Knogar Lugna Melodi Musik Provocera Reparera Sikta Simma Skrämma Smyga Språk Spåra Stjäla Strid Styrkeprov Välsignelse Värdera
 
-### **🔮 Cirkel 3 (Lätt)**
+### **Besvärjelser (Circles)
 
-Skada: 1d4+1 | Varaktighet: 10 sek | Mål: En person/plats.
+### 🔮 Circle 3 (Lätt)
+*Målvärde: Mind + 3. Skada: 1d4+1. Varaktighet: 10 sek.*
+* **Charm Person:** Offret ser dig som en nära vän.
+* **Detect Magic:** Ser magiska energier i närheten.
+* **Light / Darkness:** Skapar ljus eller totalt mörker.
+* **Magic Missile:** En projektil som alltid träffar (1d4+1 Body).
+* **Mage Shield:** Osynlig barriär som ger -1 skada.
+* **Cure Light Wounds:** Läker 1d4+1 Body.
 
-* **Charm Person:** Offret ser kastaren som en nära vän.  
-* **Detect Magic:** Ser magiska energier inom nära räckhåll.  
-* **Light / Darkness:** Skapar starkt ljus eller totalt mörker i ett litet område.  
-* **Magic Missile:** En magisk projektil som alltid träffar. (1d4+1 Body).  
-* **Mage Shield:** En osynlig barriär som ger skydd mot fysiska anfall. \-1  
-* **Cure Light Wounds:** Läker sår på en person (1d4+1 Body).  
-* **Remove Fear:** Stoppar panik och återställer lite Mind.  
-* **Purify Food and Water:** Gör rutten mat och smutsigt vatten ätbart.
+### 🔮 Circle 2 (Medel)
+*Målvärde: Mind + 2. Skada: 1d6. Varaktighet: 60 sek.*
+* **Web:** Klibbigt nät fångar alla i ett område (AoE).
+* **Invisibility:** Gör en varelse helt osynlig (om den är tyst).
+* **Mirror Image:** Skapar 1d4 kopior av dig själv.
+* **Bless / Blight:** Ger allierade bonus eller fiender nackdel (AoE).
 
-### **🔮 Cirkel 2 (Medel)**
+### 🔮 Circle 1 (Svår)
+*Målvärde: Mind + 1. Skada: 1d6+2. Varaktighet: 5 min.*
+* **Fire Ball:** Explosion som skadar alla i ett stort område.
+* **Haste:** Målet får dubbelt så många handlingar per runda.
+* **Fly:** Du kan flyga fritt i luften.
+* **Raise Dead:** Återuppväcker en nyligen avliden (kräver vila efteråt).
 
-Skada: 1d6 | Varaktighet: 60 sek | Effekt: Flera mål (AoE).
-
-* **Web:** Skapar klibbiga nät som fångar alla i ett område (AoE).  
-* **Invisibility:** Gör en varelse helt osynlig så länge den är tyst.  
-* **Levitate:** Kastaren eller ett föremål kan sväva långsamt upp och ner.  
-* **Mirror Image:** Skapar 1d4 kopior av kastaren som förvirrar fiender.  
-* **Identify:** Avslöjar de magiska egenskaperna hos ett föremål.  
-* **Silence Field:** Skapar en sfär där inget ljud kan höras eller skapas.  
-* **Bless / Blight:** Ger allierade bonus på slag, eller fiender nackdel (AoE).  
-* **Find Traps:** Upptäcker dolda fällor i närheten.
-
-### **🔮 Cirkel 1 (Svår)**
-
-Skada: 1d6+2 | Varaktighet: 5 min | Effekt: Stora områden eller
-
-* **Fire Ball:** En enorm explosion som skadar alla i ett stort område (1d6+2 skada).  
-* **Lightning Bolt:** En blixtstråle som genomborrar alla i en rät linje  
-* **Haste:** Målet får dubbelt så många handlingar per runda  
-* **Fly:** Kastaren kan flyga fritt i luften.  
-* **Dispel Magic:** Avbryter omedelbart andra pågående magiska effekter.  
-* **Animate Dead:** Väcker döda kroppar till liv som tjänare.  
-* **Cloudkill:** Ett giftigt moln som sakta dödar de som stannar kvar (AoE).  
-* **Raise Dead:** Återuppväcker en nyligen avliden karaktär (kräver vila efteråt). 
-
-## Fummel i strid och med magi
+## Fummel tabeller
 | 2d6  | Fummel  |   |
 |---|---|---|
 | 2-3 | Katastrof  |  Vapnet går sönder eller kastas iväg 5 meter. |
@@ -256,7 +298,7 @@ Att fumla med magin resulterar i mutationer. Tolka för situationen 👹
 | 3   |  Animal skin   | Animal-form |  Forked tongue   |  Lose all hair  |     No eyes      |    No mouth     |
 | 4   |   Skin boils   | Slime trail | Translucent skin |   Weeps blood   |    Sheds skin    |   Second face   |
 | 5   |   Child-form   | Corpulence  |    Item-form     |     Shrinks     |     Shrivels     |   Loses teeth   |
-| 6   | Attracts birds | Animal arms |   Animal mouth   | P. Element-skin |  Monster Trait   | Monster Feature |
+| 6   | Attracts birds | Animal arms |   Animal mouth   | Physical Element-skin |  Monster Trait   | Monster Feature |
 
 Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 👾
 
@@ -268,25 +310,38 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 | 4   |  Mass insanity  | Mass mutation  |  Mass slumber  | Meteor strike |  Mirrors speak   |    No stars    |
 | 5   | Outsider enters | People shrink  | People vanish  | Plants wither |   Portal opens   |   Rifts open   |
 | 6   |  Shadows speak  | Space distorts |  Stones speak  | Total silence |  Tower appears   | Water to blood |
-# Karaktärsblad
-|  Namn |   |
-|---|---|
-|  Nivå |   |
-|  Guld |   |
-|    Bakgrund   |   |
+# 🐀 Karaktärsblad: Troik-Rats
 
-|  Värde |  Nuvarande |  Max |   |   |
-|---|---|---|---|---|
-|  Body ♥️ |   |   |   |   |
-|  Skill 🏹 |   |   |  Initiativ: |   |
-|     Mind 🧠     |   |   |   |   |
+**Namn:** _________________  **Level:** ___  **Guld:** ___
+**Bakgrund:** ___________________________________________
 
-|  Talents  |  Rank eller Circle |  Misslyckat? |
-|---|---|---|
-|  - |   |   |
-|  - |   |   |
-|  - |   |   |
-|  -  |   |   |
-|  -  |   |   |
-|  -  |   |   |
-|  - |   |   |
+### Grundvärden
+| Värde | Max | Nuvarande |
+| :--- | :---: | :---: |
+| **Body** (Hälsa) | | |
+| **Skill** (Init) | | |
+| **Mind** (Magi) | | |
+
+**Initiativtärning:** ________ (Baserat på Skill)
+
+### Talents
+*Varje misslyckande ger en bock [X]. Vid vila, slå 2d6 över rank för att höja.*
+* [ ] __________ Rank: ___
+* [ ] __________ Rank: ___
+* [ ] __________ Rank: ___
+* [ ] __________ Rank: ___
+
+### Circle
+*Är det en bock är den förberedd.*
+* [ ] __________ Rank: ___
+* [ ] __________ Rank: ___
+* [ ] __________ Rank: ___
+* [ ] __________ Rank: ___
+
+### Utrustning & Magidrycker
+* _________________
+* _________________
+* _________________
+* _________________
+* _________________
+* _________________
