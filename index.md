@@ -2,8 +2,6 @@
 layout: default
 title: Troik-Rats
 ---
-# Troika-Rats
-
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
@@ -244,7 +242,8 @@ Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
 Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till 0 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
 
-# Exempel på motståndare
+## Exempel på motståndare
+
 |  HD (hit die) | Exempel                    | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 3                 | 4              | d4           | 1d2   |
@@ -281,6 +280,7 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 * **Raise Dead:** Återuppväcker en nyligen avliden (kräver vila efteråt).
 
 ## Fummel tabeller
+
 | 2d6  | Fummel  |   |
 |---|---|---|
 | 2-3 | Katastrof  |  Vapnet går sönder eller kastas iväg 5 meter. |
@@ -310,6 +310,7 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 | 4   |  Mass insanity  | Mass mutation  |  Mass slumber  | Meteor strike |  Mirrors speak   |    No stars    |
 | 5   | Outsider enters | People shrink  | People vanish  | Plants wither |   Portal opens   |   Rifts open   |
 | 6   |  Shadows speak  | Space distorts |  Stones speak  | Total silence |  Tower appears   | Water to blood |
+
 # 🐀 Karaktärsblad: Troik-Rats
 
 **Namn:** _________________  **Level:** ___  **Guld:** ___
