@@ -13,8 +13,8 @@ title: Troik-Rats av Nils Jivegård.
 * [Besvärjelser (Circles)](#besvärjelser-circles)
 * [Fummel tabeller](#fummel-tabeller)
 * [Karaktärsblad: Troik-Rats](#karaktärsblad-troik-rats)
----
-## Länkar till ytterligare regler
+
+Länkar till ytterligare regler
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 ---
