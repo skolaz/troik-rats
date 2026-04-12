@@ -38,6 +38,23 @@ Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) el
 
 `*` Kräver två händer. `#` Ignorerar 1 Skydd. Krutvapen är extremt högljudda och riskabla.
 
+## Prislista: Skydd & Rustning
+Skydd dras av från inkommande skada. Tyngre rustningar ger bättre skydd men gör det svårare att röra sig tyst och smidigt.
+
+| Skyddstyp | Effekt | Vrakpris | Standard | Mästerligt |
+| :--- | :--- | :---: | :---: | :---: |
+| **Lätt skydd** | -1 Skada | 10 sp | 30 sp | 100 sp |
+| **Medel skydd** | -2 Skada | 25 sp | 75 sp | 250 sp |
+| **Tungt skydd** | -3 Skada | 50 sp | 150 sp | 500 sp |
+| **Sköld** | +1 i försvar* | 5 sp | 15 sp | 50 sp |
+
+### Beskrivning av skydd
+* **Lätt skydd:** Vaxat läder, förstärkt tyg eller en tjock vadderad jacka. Inga nackdelar.
+* **Medel skydd:** Ringbrynja eller härdat läder med metallplattor. Ger **Nackdel** på att *Smyga*.
+* **Tungt skydd:** Helplåt eller tung fjällpansar. Ger **Nackdel** på att *Smyga* och *Klättra*, samt sänker din **Initiativtärning** med ett steg (t.ex. d10 till d8).
+* **Sköld:** Ger dig **+1 på ditt tärningsresultat** när du försvarar dig i strid, vilket gör det enklare att vinna "högst vinner"-duellen.
+
+*Mästerligt skydd är ofta lättare eller smidigare och kan (om spelledaren tillåter) ignorera en av nackdelarna (t.ex. att man kan smyga i mästerlig ringbrynja).*
 ---
 
 ## Prislista: Utrustning & Verktyg
