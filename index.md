@@ -18,9 +18,9 @@ title: Troik-Rats av Nils Jivegård.
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
-Slår du ett par är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Alltid 16,7% chans!
+**Slår du ett par** är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Alltid 16,7% chans!
 
-Undantaget från att ett par är bra är när du får två ettor. Detta är istället en fummel och är ett fruktansvärt misslyckades. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två ettor är 2,8%
+Undantaget från att ett par är bra är **när du får två ettor**. Detta är istället en **fummel och är ett fruktansvärt misslyckades**. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två ettor är 2,8%
 
 När omständigheterna ger dig en tydlig fördel eller nackdel slår du **3d6** istället för 2d6.
 
@@ -267,7 +267,7 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 
 # Besvärjelser (Circles)
 
-## 🔮 Circle 3 (Lätt)
+## Circle 3 (Lätt)
 *Målvärde: Mind + 3. Skada: 1d4+1. Varaktighet: 10 sek.*
 * **Charm Person:** Offret ser dig som en nära vän.
 * **Detect Magic:** Ser magiska energier i närheten.
@@ -276,14 +276,14 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 * **Mage Shield:** Osynlig barriär som ger -1 skada.
 * **Cure Light Wounds:** Läker 1d4+1 Body.
 
-## 🔮 Circle 2 (Medel)
+## Circle 2 (Medel)
 *Målvärde: Mind + 2. Skada: 1d6. Varaktighet: 60 sek.*
 * **Web:** Klibbigt nät fångar alla i ett område (AoE).
 * **Invisibility:** Gör en varelse helt osynlig (om den är tyst).
 * **Mirror Image:** Skapar 1d4 kopior av dig själv.
 * **Bless / Blight:** Ger allierade bonus eller fiender nackdel (AoE).
 
-## 🔮 Circle 1 (Svår)
+## Circle 1 (Svår)
 *Målvärde: Mind + 1. Skada: 1d6+2. Varaktighet: 5 min.*
 * **Fire Ball:** Explosion som skadar alla i ett stort område.
 * **Haste:** Målet får dubbelt så många handlingar per runda.
@@ -300,7 +300,7 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 | 9-10 | Självskada  |  Du slår din egen vapenskada mot dig själv.  |
 | 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns). |
 
-Att fumla med magin resulterar i mutationer. Tolka för situationen 👹
+Att fumla med magin resulterar i mutationer. Tolka för situationen
 
 | d6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -311,7 +311,7 @@ Att fumla med magin resulterar i mutationer. Tolka för situationen 👹
 | **5** | Barnform | Fetma | Föremålsform | Krymper | Vissnar | Tappar tänder |
 | **6** | Lockar fåglar | Djurarmar | Djurmun | Element-hud | Monsterdrag | Monsterklor |
 
-Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 👾
+Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen
 
 | d6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -324,8 +324,8 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 
 # Karaktärsblad: Troik-Rats
 
-**Namn: _________________  Level: ___  Guld:** ___
-**Bakgrund:** ___________________________________________
+**Namn: _________________  Level: _____  Guld: _____
+Bakgrund:** ___________________________________________
 
 ## Grundvärden
 
@@ -337,19 +337,24 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen 
 
 **Initiativtärning:** ________ (Baserat på Skill)
 
+**Skydd**
+* [ ] Lätt skydd -1 skada.
+* [ ] Medel skydd -2 skada och nackdel: smyger
+* [ ] Tungt skydd -3 skada och nackdel: smyger, klättrar, simmar. Sänker init. tärning
+
 ## Talents
 *Varje misslyckande ger en bock [X]. Vid vila, slå 2d6 över rank för att höja.*
-* [ ] __________ Rank: ___
-* [ ] __________ Rank: ___
-* [ ] __________ Rank: ___
-* [ ] __________ Rank: ___
+* [ ] __________________ Rank: ___
+* [ ] __________________ Rank: ___
+* [ ] __________________ Rank: ___
+* [ ] __________________ Rank: ___
 
 ## Circle
 *Är det en bock är den förberedd.*
-* [ ] __________ Rank: ___
-* [ ] __________ Rank: ___
-* [ ] __________ Rank: ___
-* [ ] __________ Rank: ___
+* [ ] __________________ Rank: ___
+* [ ] __________________ Rank: ___
+* [ ] __________________ Rank: ___
+* [ ] __________________ Rank: ___
 
 ### Utrustning & Magidrycker
 * _________________
