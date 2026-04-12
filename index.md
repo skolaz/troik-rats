@@ -327,16 +327,16 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen
 
 # Karaktärsblad: Troik-Rats
 
-**Namn: _________________  Level: _____  Guld: _____
+**Namn: _________________  Level: _____  Silver: _____
 Bakgrund:** ___________________________________________
 
 ## Grundvärden
 
 | Värde | Max | Nuvarande |
 | :--- | :---: | :---: |
-| **Body** (Hälsa) | | |
-| **Skill** (Init) | | |
-| **Mind** (Magi) | | |
+| **Body** | | |
+| **Skill** | | |
+| **Mind** | | |
 
 **Initiativtärning:** ________ (Baserat på Skill)
 
