@@ -1,5 +1,3 @@
-# Vikt
-Du kan bära lika många saker som du har i Body.
 # Prislista: Utrustning
 Söndriga vapen är billigare och fina skick kan kosta skjortan
 Ett alternativ till att köpa sina vapen själv är att rulla fram d6+5 Silver och utgå därifrån vad karaktären har råd med.
@@ -91,3 +89,6 @@ Pris per styck om inget annat anges.
 | **Flaska med syra** | 30 sp | **Djurdoft** | 10 sp |
 | **Stålspegel** | 15 sp | **Fiskenät** | 6 sp |
 | **Krita / Horn** | 1 sp | **Stor säck / Spade** | 3 sp |
+
+# Vikt
+Du kan bära lika många saker som du har i Body.
