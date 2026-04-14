@@ -18,7 +18,7 @@ _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startbakgrund.md)
-* [Råttvakt, en nybörjar-stad]
+* [Råttvakt, en nybörjar-stad](rattvakt.md)
 * [Varför äventyrar de med varandra?]
 ---
 # Grundregler
