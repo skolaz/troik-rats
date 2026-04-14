@@ -3,6 +3,7 @@ Använd dessa tabeller för att ge liv åt spelarkaraktärer eller för att snab
 
 ---
 ## Bakgrunder (d66)
+
 | d66 | Bakgrund | d66 | Bakgrund | d66 | Bakgrund |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **11** | Alkemist | **31** | Gatubarn | **51** | Pestläkare |
@@ -41,6 +42,7 @@ Slå två gånger om du vill ha en mer komplex karaktär (t.ex. "Envis men Jovia
 ---
 
 ## Distinktioner (d66)
+
 | d66 | Egenskap | d66 | Egenskap |
 | :--- | :--- | :--- | :--- |
 | **11** | Alltid klädd i lila | **41** | Luktar kaffe & gammalt papper |
@@ -65,6 +67,7 @@ Slå två gånger om du vill ha en mer komplex karaktär (t.ex. "Envis men Jovia
 ---
 
 ## Behov & Drivkraft (d66)
+
 | d66 | Karaktären vill... | d66 | Karaktären söker... |
 | :--- | :--- | :--- | :--- |
 | **11** | Ha bekräftelse | **41** | En bot för en sjukdom |
@@ -89,6 +92,7 @@ Slå två gånger om du vill ha en mer komplex karaktär (t.ex. "Envis men Jovia
 ---
 
 ## Agenda & Hemligheter (d66)
+
 | d66 | Dold sanning | d66 | Dold sanning |
 | :--- | :--- | :--- | :--- |
 | **11** | Arbetar för en mystisk figur | **41** | Planerar ett större brott |
