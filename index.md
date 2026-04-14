@@ -18,7 +18,8 @@ _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startbakgrund.md)
-
+* [Råttvakt, en nybörjar-stad]
+* [Varför äventyrar de med varandra?]
 ---
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
