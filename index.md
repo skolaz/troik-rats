@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troik-Rats av Nils Jivegård.
+title: Troik-Rats av Nils Jivegård
 ---
 ## Innehållsförteckning
 * [Grundregler](#grundregler)
@@ -17,7 +17,7 @@ title: Troik-Rats av Nils Jivegård.
 _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
-*
+* [Startkaraktärer med Talents](startbakgrund.md)
 
 ---
 # Grundregler
@@ -39,6 +39,8 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 * **Body** = Hälsa = Styrka 
 * **Skill** = Smidighet = Rörelse = Fingerfärdighet
 * **Mind** = Mental hälsa = Magi = Språk = Kunskap
+
+> En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
 
 ### Motståndarens grundvärde är lite annorlunda
 Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden. Motståndare använder då dessa istället: 
