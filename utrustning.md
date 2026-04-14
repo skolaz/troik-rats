@@ -22,6 +22,9 @@ I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hit
 ### Skicket påverkar spelet
 * **Vrakpris (Söndrigt):** Vid ett **Fummel (1,1)** går vapnet sönder helt. Det kan inte lagas utan en smed och material.
 * **Mästerligt (Fint):** Balanserat och dödligt. Ger **+1 på tärningsresultatet** (hjälper dig att vinna motståndsslag där båda lyckas).
+
+---
+
 ## Distansvapen
 Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) eller krutets sällsynthet.
 
@@ -35,6 +38,8 @@ Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) el
 | **Lätt musköt*#** | 50 sp | 150 sp | 400 sp |
 
 `*` Kräver två händer. `#` Ignorerar 1 Skydd. Krutvapen är extremt högljudda och riskabla.
+
+---
 
 ## Prislista: Skydd & Rustning
 Skydd dras av från inkommande skada. Tyngre rustningar ger bättre skydd men gör det svårare att röra sig tyst och smidigt.
@@ -53,12 +58,14 @@ Skydd dras av från inkommande skada. Tyngre rustningar ger bättre skydd men g�
 * **Sköld:** Ger dig **+1 på ditt tärningsresultat** när du försvarar dig i strid, vilket gör det enklare att vinna "högst vinner"-duellen.
 
 *Mästerligt skydd är ofta lättare eller smidigare och kan (om spelledaren tillåter) ignorera en av nackdelarna (t.ex. att man kan smyga i mästerlig ringbrynja).*
+
 ---
 
 ## Prislista: Utrustning & Verktyg
 Pris per styck om inget annat anges.
 
 ### Överlevnad & Ljus
+
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
 | **Ransoner (3)** | 5 sp | **Fackla** | 1 sp |
@@ -66,6 +73,7 @@ Pris per styck om inget annat anges.
 | **Sovsäck** | 4 sp | **Elddon** | 3 sp |
 
 ### Verktyg & Inbrott
+
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
 | **Låsdyrkar (3)** | 25 sp | **Kofot** | 10 sp |
@@ -75,6 +83,7 @@ Pris per styck om inget annat anges.
 | **Järnspikar (10)** | 2 sp | **Tiofotsstång** | 1 sp |
 
 ### Fällor & Sabotage
+
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
 | **Björnsax** | 15 sp | **Fotanglar** | 8 sp |
@@ -83,6 +92,7 @@ Pris per styck om inget annat anges.
 | **Kedja 3 meter** | 15 sp | **Ståltråd** | 6 sp |
 
 ### Specialartiklar
+
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
 | **Medicin (3)** | 20 sp | **Flaska med gift** | 40 sp+ |
