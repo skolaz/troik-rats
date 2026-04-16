@@ -19,7 +19,7 @@ _Länkar till ytterligare regler_
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startbakgrund.md)
 * [Råttvakt, en nybörjar-stad](rattvakt.md)
-* [Varför äventyrar de med varandra?]
+* [Varför håller ni ihop?](varförHåller.md)
 
 ---
 # Grundregler
