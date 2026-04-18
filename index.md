@@ -45,19 +45,24 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
 
 ### Motståndarens grundvärde är lite annorlunda
-Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden. Motståndare använder då dessa istället: 
+Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden som motståndare. Motståndare använder då dessa istället: 
 * **Brawn** = Hälsa = Styrka = Smidighet = Rörelse
-* **Special** = Skill = Mind = Fingerfärdighet = Språk = Kunskap
+* **Special** = Skill = Mind = Magi = Fingerfärdighet = Språk = Kunskap
 * **Moral** = Mental hälsa
 
+### Death-Spiral när grundvärde minskar
+Body och Mind minskar när grundvärdet tar skada och det resulterar i att målvärdet minskar tillsammans och gör det svårare att lyckas. Detta kallas Death-Spiral och gör dig svagare ju längre tid du är i striden. Du vill alltså avsluta det snabbt.
+
 ## Talents
-Talents eller talanger representerar din specifika träning och erfarenhet. Vid nivå 1 har du **6 poäng** att fördela på dina Talents (max 5 i en enskild Talent).
+Talents eller talanger representerar din specifika träning och erfarenhet. Vid nivå 1 har du **6 poäng** att fördela på dina Talents (max 6 i en enskild Talent).
 När du använder en Talent adderar du dess värde till ditt grundvärde (**Body, Skill** eller **Mind**) för att få ditt **målvärde**. Det är detta totala värde du ska slå under med 2d6.
 
 > Exempel
 > * **Body:** Strid, Slåss, Skrämma, Styrkeprov.
 > * **Skill:** Smyga, Stjäla, Skjuta, Hantverk, Akrobatik, Matlagning.
 > * **Mind:** Magi, Historia, Hela, Argumentera, Naturkännedom, Skrämma.
+
+> Vid nivå 1 delar du ut **6 poäng** på dina Talents.
 
 ### Tabell med Talents
 
