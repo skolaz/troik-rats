@@ -185,7 +185,7 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 
 Att slåss mot flera är livsfarligt.
 
-* **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt tärningsresultat** för varje extra medlem i gruppen, **om de lyckas med utmaning**. Misslyckas de räknas gäng-bonusen bort.
+* **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt målvärde och tärningsresultat tärningsresultat** för varje extra medlem i gruppen.
 * **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-1 på Mind/Moral** på grund av chocken.
 
 ## Skada och skydd
@@ -305,6 +305,8 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 
 # Exempel på motståndare
 
+Enklare strid är HD 1d4. Standard strid är HD 1d6.
+
 |  HD (hit die) | Exempel                    | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 3                 | 4              | d4           | 1d2   |
@@ -312,7 +314,7 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 |   2 | Elitsoldat, Björn          | 9                 | 8              | d6           | 1d6+1 |
 |   3 | Ogre, Riddare, Ond Magiker | 12                | 10             | d8           | 1d6+2 |
 |   4 | Jätte, Liten drake        | 15                | 11             | d10          | 1d6+3 |
-|  5+ | Boss, Drake, Demon         | 20+               | 12+            | d10/d12      | 2d6   |
+|  5+ | Boss, Drake, Demon; naturkatastrof         | 20+               | 12+            | d10/d12      | 2d6   |
 
 # Besvärjelser och trollformler (Circles)
 ### **Circle 0: Gatu-magi**
