@@ -3,17 +3,26 @@ layout: default
 title: Troik-Rats av Nils Jivegård
 ---
 ## Innehållsförteckning
-* [Grundregler](#grundregler)
-* [Svårighetsgrad](#svårighetsgrad)
-* [Initiativ](#initiativ)
-* [Strid](#strid)
-* [Magi](#magi)
-* [Erfarenhet & Utveckling](#erfarenhet--utveckling)
-* [Att må bättre och inte](#att-må-bättre-och-inte)
-* [Exempel på motståndare](#exempel-på-motståndare)
-* [Besvärjelser (Circles)](#besvärjelser-circles)
-* [Fummel tabeller](#fummel-tabeller)
-* [Karaktärsblad: Troik-Rats](#karaktärsblad-troik-rats)
+**Spelets grunder**
+* [Grundregler & Utmaningar](#grundregler)
+* [Svårighetsgrad (Tärningspooler)](#svårighetsgrad)
+* [Death-Spiral & Hälsa](#death-spiral-när-grundvärde-minskar)
+
+**Strid**
+* [Initiativ (Snabbhet)](#initiativ)
+* [Strid (Motståndsslag)](#strid)
+* [Vapen & Skydd](#skada-och-skydd)
+
+**Det Övernaturliga**
+* [Magi & Circles](#magi)
+* [Besvärjelser (Lista)](#besvärjelser-och-trollformler-circles)
+* [Mutationer & Katastrofer](#fummel-tabeller)
+
+**Progression & Bilagor**
+* [Talents (Talanger))](#talents)
+* [Erfarenhet (Lärdom genom misslyckande)](#erfarenhet--utveckling)
+* [Motståndare (Bestiarium)](#exempel-på-motståndare)
+* [Karaktärsblad](#karaktärsblad-troik-rats)
 
 _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
@@ -24,11 +33,13 @@ _Länkar till ytterligare regler_
 
 ---
 # Grundregler
-För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
+För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
-**Slår du ett par** är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Vid standard utmaning är det alltid 16,7% chans!
+**Slår du ett par** är betyder det att du **kritisk lyckas med din utmaning** oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Vid standard utmaning är det alltid 13,9% chans!
 
 Undantaget från att ett par är bra är **när du får sexor (6, 6)**. Detta är istället en **fummel och är ett fruktansvärt misslyckades**. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två sexor vid standard utmaning är 2,8%.
+
+> Skulle det vara två par där den ena är fummel och den andra är kritisk lycka, vinner alltid fummel.
 
 När omständigheterna ger dig en tydlig fördel eller nackdel slår du **en extra d6** än vad utmaningen kräver.
 
@@ -38,7 +49,7 @@ När omständigheterna ger dig en tydlig fördel eller nackdel slår du **en ext
 ## Grundvärde
 En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan man enkelt bryta ner betydelsen av grundvärde:
 * **Body** = Hälsa = Styrka 
-* **Skill** = Smidighet = Rörelse = Fingerfärdighet
+* **Skill** = Smidighet = Rörelse = Fingerfärdighet = Hantverk
 * **Mind** = Mental hälsa = Magi = Språk = Kunskap
 
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
@@ -47,20 +58,18 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 
 När du står inför en utmaning där du definitivt klarar uppgiften så klarar du det automatiskt. Skulle det vara något svårare är det dags att använda Svårighetsgraderna. För varje steg av svårighet ökar antalet d6 tärningar du får använda.
 
-- **Lätt utmaning** använder du **1d6** och försöker nå under ditt målvärde. Här **går det inte att få par eller fummla.**
+- **Lätt utmaning** använder du **1d6** och försöker nå ditt målvärde eller under. Här **går det inte att få par eller fummla.**
+- **Standard utmaning och vanlig strid** använder du **2d6** och försöker nå ditt målvärde eller under.  Här **kan du få ett par eller fummla.**
+- **Svår utmaning** använder du **3d6** och försöker nå ditt målvärde eller under. Här behövs **tre av samma för att få en kritisk framgång, fummel kräver bara två sexor (6, 6)**.
+- **Omöjlig utmaning** använder du **4d6** och försöker nå ditt målvärde eller under. Här behövs **fyra av samma för att få en kritisk framgång, fummel kräver bara två sexor (6, 6)**.
 
-- **Standard utmaning och vanlig strid** använder du **2d6** och försöker nå under ditt målvärde.  Här och nedan **kan du få par eller fummla.**
-
-- **Svår utmaning** använder du **3d6** och försöker nå under ditt målvärde.
-
-- **Jättesvår utmaning** använder du **4d6** och försöker nå under ditt målvärde.
-
+> Genom planering, använda lämpliga Talents, lämplig utrustning m.m. av spelaren kan spelledaren gå med på att sänka utmaningen eller ge en fördel.
 
 ### Motståndarens grundvärde är lite annorlunda
 Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden som motståndare. Motståndare använder då dessa istället: 
 * **Brawn** = Hälsa = Styrka = Smidighet = Rörelse
 * **Special** = Skill = Mind = Magi = Fingerfärdighet = Språk = Kunskap
-* **Moral** = Mental hälsa
+* **Moral** = Mental hälsa = Hur länge de vågar vara i striden
 
 ### Death-Spiral när grundvärde minskar
 Body och Mind minskar när grundvärdet tar skada och det resulterar i att målvärdet minskar tillsammans och gör det svårare att lyckas. Detta kallas Death-Spiral och gör dig svagare ju längre tid du är i striden. Du vill alltså avsluta det snabbt.
@@ -144,6 +153,8 @@ Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initi
 > + Skill 12 ➡️ Initiativ d12
 > + Skill 13 ➡️ Initiative d12+1
 
+När alla har sina svar så börjar den med högst siffra.
+
 # Strid
 Strid här är intensivt och dödligt. Man turas om att agera baserat på **Initiativ**, men varje attack är en tävling där båda parter riskerar att ta skada.
 
@@ -151,11 +162,11 @@ Strid här är intensivt och dödligt. Man turas om att agera baserat på **Init
 
 När du anfaller en fiende (eller fienden anfaller dig) gör ni ett **Motståndsslag**.
 
-1. **Välj Talang:** Spelaren väljer en passande Talent (oftast **Strid** eller **Slåss**) och adderar sitt grundvärde (**Body**). Detta är spelarens målvärde.
+1. **Välj Talent:** Spelaren väljer en passande Talent (oftast **Strid** eller **Slåss**) och adderar sitt grundvärde (**Body**). Detta är spelarens målvärde.
 2. **Motstånd:** Fienden använder sitt värde (t.ex. **Brawn**).
-3. **Slå 2d6:** Båda slår samtidigt.
+3. **Slå 2d6; Standard utmaning:** Båda slår samtidigt.
 
-   * För att vinna måste du slå **under ditt målvärde** men **högre än motståndaren**.
+   * För att vinna måste du slå **ditt målvärde eller under** men **högre än motståndaren**.
    * Om båda lyckas slå under sina värden vinner den som slog **högst summa**.
    * **Vinnaren gör skada:** Den som vinner stridsrundan slår sin vapenskada.
 
@@ -177,9 +188,9 @@ Att slåss mot flera är livsfarligt.
 * **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt tärningsresultat** för varje extra medlem i gruppen (detta hjälper dem att vinna "högst vinner"-duellen).
 * **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-1 på Mind/Moral** på grund av chocken.
 
-## Skada och Skydd
+## Skada och skydd
 
-När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd).
+När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar motståndarens Body/Brawn med resultatet.
 
 * **Skydd:** Fienden (eller du) drar av sitt Skyddsvärde från skadan.
 
@@ -205,31 +216,47 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 
 # Magi
 
-Magi är kraftfullt men tär på utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte mutera. Magin delas upp i tre **Circles**, där Circle 1 är den mest kraftfulla och svåra. När du utvecklas som magiker låser du upp lägre Circles. Att nå **Circle 1** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
+Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex **Circles**, där Circle -5 är den mest kraftfulla och svåra, och Circle 0 är där nybörjare härjar. När du utvecklas inom Mind har du bättre möjlighet att lyckas med lägre Circles. Att nå **Circle -5** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
 
 ## Circles
 
 Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa ditt målvärde.
+* **Circle 0:** Ytterst lätt magi. Skadan du kan göra är 1.
+* **Circle -1:** Manipulerande magi, om än något kort. Max 60 sekunder.
+* **Circle -2:** Framkallande magi introduceras. Kan göra 1d4+1 i skada.
+* **Circle -3:** Omgivningspåverkande magi, kallas även AoE (Area of Effect). 1d4+2 skada. Max 5 min.
+* **Circle -4:** Medelstark magi och börjar bli okontrollerbar. 1d6 skada. Max 60 min.
+* **Circle -5:** Svår och farlig magi. 1d8 skada. Stora områden eller permanenta effekter.
 
-* **Circle 3:** Lätt magi. 1d4+1 skada.
-* **Circle 2:** Medelstark magi. 1d6 skada. Ofta AoE (Area of Effect).
-* **Circle 1:** Svår och farlig magi. 1d6+2 skada. Stora områden eller permanenta effekter.
+> Du kan alltid välja att kasta en formel från en högre Circle (t.ex. använda din kraft från Circle -5 för att kasta en Circle 0-formel) för att göra det enklare att lyckas. Då skalas resultatet enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
 
-_Du kan alltid välja att kasta en formel från en lägre Circle (t.ex. använda din kraft från Circle 1 för att kasta en Circle 3-formel) för att göra det enklare att lyckas. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan._
+### Circle Talents
+För att underlätta utspottandet av trollformler och besvärjerlser kan du ha Talents i vissa magiska skolor.
+- **Abjuration = Beskydd:** Skapar sköldar, bannlyser spöken och häver förbannelser
+- **Conjuration = Frammaning:** Förflyttar föremål eller kallar på varesler från andra dimensioner.
+- **Divination = Spå:** Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
+- **Enchantment = Förtrollning:** Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
+- **Evocation = Framkallning:** Framkallar eld, blixtar, ljus, vatten och andra element.
+- **Illusion:** Skapar skenbilder, ljud och annat som lurar sinnena.
+- **Necromancy = Nekromanti:** Manipulerar liv och död, prata med andar eller väcka döda.
+- **Transmutation = Förvandling:** Ändrar fysiska egenskaper hos föremål eller varelser.
+
+> Exempel
+> Spelaren vill förflytta en nyckel som finns på högsta bokhyllan. Hon använder Circle 0 Liten knuff och lägger ihop sin Mind (5) + Talent inom Frammaning (1) + Circle 0 och får sitt målvärde 6. Hon rullar 2d6 för standard utmaning och får 2 + 3 = 5. Hon lyckas med att knuffa ner nyckel så de kan gå vidare genom dörren.
 
 ## Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
 
-1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot **Mind + Circle**. Om du lyckas har du formeln "redo" och kan kasta den i strid utan att behöva slå tärning igen.
+1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen.
 2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckas du händer ingenting (eller värre – se Fummel).
 
 ## Fummel & Katastrofer
 
 Magi är en instabil kraft.
 
-* **1,1:** Om du rullar två ettor när du kastar eller förbereder magi, drabbas du eller någon av en **Mutation**.
-* **Katastrof:** Vid särskilt grova misslyckanden (eller om spelledaren anser att situationen är kaotisk) kan magin orsaka en **Katastrof** som påverkar hela omgivningen.
+* **6,6 :** Om du rullar två sexor när du kastar eller förbereder magi, drabbas du eller någon av en **Mutation**.
+* **Katastrof:** Vid särskilt grova misslyckanden (eller om spelledaren anser att situationen är kaotisk, som vid Circle -4 och Circle -5) kan magin orsaka en **Katastrof** som påverkar hela omgivningen.
 
 # Erfarenhet & Utveckling
 
@@ -242,24 +269,20 @@ Vid en vila på minst 8 timmar kan du försöka höja dina värden:
 
 1. Välj en Talent du har en bock i.
 2. Slå **2d6**.
-3. Om resultatet är **ÖVER** din nuvarande rank i den talangen, höjs ranken med +1 (max 5).
+3. Om resultatet är **ÖVER** din nuvarande rank i den talangen, höjs ranken med +1.
 4. **Kritisk framgång (Par):** Om du slår ett par som lyckas höja din Talent, ökar även ditt tillhörande grundvärde (**Body, Skill** eller **Mind**) med +1!
 5. Sudda sedan ut bocken.
 
 ## Att levla upp (Nivåer)
 
-Din nivå (Level) bestäms av hur många poäng du har i dina **Talents**.
+Din nivå (Level) bestäms av hur många poäng du har i dina **Talents** och lagt till någon av grundvärdena.
 
 * **Level 1:** Du startar med 6 poäng totalt fördelat på dina **Talents**.
 * **Level 2:** Du når nivå 2 när du har ökat dina sammanlagda poäng till 7.
 * Varje gång din totala summa poäng i **Talents** ökar, kommer du närmare nästa nivå.
 
 ## Magisk utveckling (Circles)
-
-Att bli bättre på magi fungerar annorlunda. Istället för att räkna uppåt, räknar du nedåt mot de mäktigare cirklarna:
-
-* När du har bemästrat dina nuvarande krafter kan du välja att sänka din **Circle** (från 3 till 2, och slutligen till 1). Detta kräver djupare studier eller att du hittar sällsynta grimoirer under dina äventyr.
-* Du kan även stöta på andra visa och kunniga som är villiga att lära ut, till ett pris förstås.
+Magiska trollformler och besvärjelser kan inte bli bättra så som Talents kan. Istället får du lära dig nya genom att hitta magiska böcker eller lärda magiker som är villiga att lära ut till ett pris. Däremot kan en magisk Talent bli bättre.
 
 # Att må bättre och inte
 ## Vila
@@ -291,31 +314,54 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 |   4 | Jätte, Liten drake        | 15                | 11             | d10          | 1d6+3 |
 |  5+ | Boss, Drake, Demon         | 20+               | 12+            | d10/d12      | 2d6   |
 
-# Besvärjelser (Circles)
+# Besvärjelser och trollformler (Circles)
+### **Circle 0: Gatu-magi**
 
-## Circle 3 (Lätt)
-*Målvärde: Mind + 3. Skada: 1d4+1. Varaktighet: 10 sek.*
-* **Charm Person:** Offret ser dig som en nära vän.
-* **Detect Magic:** Ser magiska energier i närheten.
-* **Light / Darkness:** Skapar ljus eller totalt mörker.
-* **Magic Missile:** En projektil som alltid träffar (1d4+1 Body).
-* **Mage Shield:** Osynlig barriär som ger -1 skada.
-* **Cure Light Wounds:** Läker 1d4+1 Body.
+_Målvärde: Mind + 0. Skada: 1. Varaktighet: 15 sekunder._
+* **Gnista (Evocation):** Tänder en eld, ett ljus eller ger en fiende en smärtsam stöt (1 skada).
+* **Synvilla (Illusion):** Skapar ett kort ljud eller en lukt (t.ex. doften av ruttet kött eller ljudet av fotsteg).
+* **Liten knuff (Conjuration):** Flyttar ett föremål som väger mindre än en råtta upp till 5 meter.
+* **Budskap (Divination):** Viska ett meddelande till en person du kan se; ingen annan hör det.
 
-## Circle 2 (Medel)
-*Målvärde: Mind + 2. Skada: 1d6. Varaktighet: 60 sek.*
-* **Web:** Klibbigt nät fångar alla i ett område (AoE).
-* **Invisibility:** Gör en varelse helt osynlig (om den är tyst).
-* **Mirror Image:** Skapar 1d4 kopior av dig själv.
-* **Bless / Blight:** Ger allierade bonus eller fiender nackdel (AoE).
+### **Circle -1: Manipulatören**
 
-## Circle 1 (Svår)
-*Målvärde: Mind + 1. Skada: 1d6+2. Varaktighet: 5 min.*
-* **Fire Ball:** Explosion som skadar alla i ett stort område.
-* **Haste:** Målet får dubbelt så många handlingar per runda.
-* **Fly:** Du kan flyga fritt i luften.
-* **Raise Dead:** Återuppväcker en nyligen avliden (kräver vila efteråt).
+_Målvärde: Mind - 1. Skada: 1d2. Varaktighet: 60 sek._
+* **Vänskap (Enchantment):** En varelse blir vänligt inställd till dig så länge du inte hotar den. Men kan förstå efteråt vad som hände.
+* **Skuggslöja (Illusion):** Du blir svår att se i mörker (Ger fördel på _Smyga_).
+* **Dödskyss (Necromancy):** Suger musten ur offret (1d2 skada), du återfår 1 poäng Body.
+* **Låsdyrk (Transmutation):** Formar om en metallbit till en fungerande nyckel för ett specifikt lås.
 
+### **Circle -2: Framkallaren**
+
+_Målvärde: Mind - 2. Skada: 1d4+1. Varaktighet: 1 strid/5 min._
+* **Råttsvärm (Conjuration):** Kallar fram en svärm råttor som biter en fiende (1d4+1 skada).
+* **Sköld (Abjuration):** En magisk barriär ger -1 på all inkommande skada i 5 min.
+* **Hela sår (Abjuration):** Sluter djupa sår och läker 1d4+1 Body.
+* **Levitera (Transmutation):** Målet svävar sakta upp till 3 meter upp i luften.
+
+### **Circle -3: Kraften (AoE)**
+
+_Målvärde: Mind - 3. Skada: 1d4+2. Varaktighet: 5 min._
+* **Eldstöt (Evocation):** En våg av eld träffar alla framför dig (AoE, 1d4+2 skada).
+* **Sömn (Enchantment):** 1d6 små varelser (eller 1 stor) faller i djup dvala i 5 minuter. Mottagaren får lov att försöka motstå.
+* **Tala med döda (Necromancy):** Frammanar anden från ett lik för att ställa tre frågor. Anden är sällan glad.
+* **Dimridå (Conjuration):** En tjock, magisk dimma täcker ett område. Alla inuti har nackdel på att försöka orientera sig, hitta eller sikta.
+
+### **Circle -4: Den Ostyrige**
+
+_Målvärde: Mind - 4. Skada: 1d6. Varaktighet: 60 min._
+* **Blixtkedja (Evocation):** En blixt hoppar mellan tre olika mål (1d6 skada per mål).
+* **Förvandling (Transmutation):** Du ändrar form till ett djur (t.ex. en varg eller en stor korp) i en timme. Kräver samma kroppstorlek.
+* **Total osynlighet (Illusion):** Målet blir helt osynligt. Effekten bryts om man attackerar.
+* **Besatt (Enchantment):** Tvingar en fiende att utföra en enkel order ("Släpp vapnet", "Gå hem", "Dansa"). Mottagaren får lov att försöka motså.
+
+### **Circle -5: Mästaren**
+
+_Målvärde: Mind - 5. Skada: 1d8. Varaktighet: Permanent eller stort område._
+* **Dödens port (Necromancy):** Slår ut livsgnistan hos ett mål (1d8 direkt skada). Om målet dör, reser det sig som din slav.
+* **Meteorfall (Evocation):** Stenar från skyn krossar en hel byggnad eller en armé (Massiv AoE).
+* **Stas (Abjuration):** Fryser en varelse i tiden. Den kan inte skadas eller åldras, men kan inte heller röra sig. Permanent tills du häver det.
+* **Sann syn (Divination):** Du ser genom alla illusioner, ser dolda dörrar och kan se in i framtiden (Ger automatisk lyckad på nästa 3 slag).
 # Fummel tabeller
 
 | 2d6  | Fummel  |   |
