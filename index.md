@@ -49,7 +49,7 @@ När du står inför en utmaning där du definitivt klarar uppgiften så klarar 
 
 - **Lätt utmaning** använder du **1d6** och försöker nå under ditt målvärde. Här **går det inte att få par eller fummla.**
 
-- **Standard utmaning** använder du **2d6** och försöker nå under ditt målvärde.  Här och nedan **kan du få par eller fummla.**
+- **Standard utmaning och vanlig strid** använder du **2d6** och försöker nå under ditt målvärde.  Här och nedan **kan du få par eller fummla.**
 
 - **Svår utmaning** använder du **3d6** och försöker nå under ditt målvärde.
 
