@@ -5,7 +5,7 @@ title: Troik-Rats av Nils Jivegård
 ## Innehållsförteckning
 **Spelets grunder**
 * [Grundregler & Utmaningar](#grundregler)
-* [Svårighetsgrad (Tärningspooler)](#svårighetsgrad)
+* [Svårighetsgrad (Tärningspooler)](##svårighetsgrad)
 * [Death-Spiral & Hälsa](#death-spiral-när-grundvärde-minskar)
 
 **Strid**
@@ -21,7 +21,7 @@ title: Troik-Rats av Nils Jivegård
 **Progression & Bilagor**
 * [Talents (Talanger))](#talents)
 * [Erfarenhet (Lärdom genom misslyckande)](#erfarenhet--utveckling)
-* [Motståndare (Bestiarium)](#exempel-på-motståndare)
+* [Motståndare (Bestiarium)](#motståndare)
 * [Karaktärsblad](troik-ratsChar.png)
 
 _Länkar till ytterligare regler_
@@ -54,7 +54,7 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
 
- ## Svårighetsgrad
+## Svårighetsgrad
 
 När du står inför en utmaning där du definitivt klarar uppgiften så klarar du det automatiskt. Skulle det vara något svårare är det dags att använda Svårighetsgraderna. För varje steg av svårighet ökar antalet d6 tärningar du får använda.
 
@@ -303,18 +303,32 @@ Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
 Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till 0 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
 
-# Exempel på motståndare
+# Motståndare
 
 Enklare strid är HD 1d4. Standard strid är HD 1d6.
 
-|  HD (hit die) | Exempel                    | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
+|  HD (hit die) | Exempel          | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
-| 0.5 | Råtta, Vätte, Kobold       | 3                 | 4              | d4           | 1d2   |
-|   1 | Ork, Människa, Varg            | 6                 | 6              | d6           | 1d6   |
-|   2 | Elitsoldat, Björn          | 9                 | 8              | d6           | 1d6+1 |
-|   3 | Ogre, Riddare, Ond Magiker | 12                | 10             | d8           | 1d6+2 |
-|   4 | Jätte, Liten drake        | 15                | 11             | d10          | 1d6+3 |
-|  5+ | Boss, Drake, Demon; naturkatastrof         | 20+               | 12+            | d10/d12      | 2d6   |
+| 0.5 | Råtta, Vätte, Kobold       | 1-3               | 4              | d4           | 1d2   |
+|   1 | Ork, Människa, Varg        | 1-6               | 6              | d6           | 1d6   |
+|   2 | Elitsoldat, Björn          | 2-12              | 8              | d6           | 1d6+1 |
+|   3 | Ogre, Riddare, Ond Magiker | 3-18              | 10             | d8           | 1d6+2 |
+|   4 | Jätte, Liten drake         | 4-24              | 11             | d10          | 1d6+3 |
+|  5+ | Boss, Drake, Demon; naturkatastrof | 5-30      | 12+            | d10/d12      | 2d6   |
+
+## Problem vid Brawn 12
+Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, väl planerade Talents och utrustning krävs för att underlätta sådana strider. 
+
+## Att möta Giganter (HD 3+)
+
+Stora monster är ofta för starka för att möta i öppen strid. Spelledaren får gärna att använda följande enkla principer:
+
+- Sårbarhet: Monstret har ett Skydd som bara kan ignoreras om spelarna utnyttjar en svaghet (t.ex. "slåss i vatten" eller "anfall underifrån").
+- Delmål: Genom att lyckas med en specifik Talent (t.ex. Klättra, Distrahera eller Melodi) kan spelarna permanent sänka monstrets Brawn eller Special med 1d6.
+- Grymt slut: När ett massivt monster når 0 Brawn dör det inte alltid direkt – det kanske gör ett sista, desperat utfall eller raserar hela lyan.
+- Det går också att dela in olika kroppsdelar i zoner för att underlätta för spelaren. Om draken med 24 Brawn totalt har 6 Brawn i svansen går det för en vanlig spelare att vinna över svansen. Ett till tips är att få attacker att ladda upp sig i någon runda tills attacken utlöses. Då hinner spelarna planera och agera.
+
+Eftersom dessa katastrofer inte är enkla att ha att göra med, skickar jag med ett tips: armeér.
 
 # Besvärjelser och trollformler (Circles)
 ### **Circle 0: Gatu-magi**
