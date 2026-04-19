@@ -4,6 +4,7 @@ title: Troik-Rats av Nils Jivegård
 ---
 ## Innehållsförteckning
 * [Grundregler](#grundregler)
+* [Svårighetsgrad](#svårighetsgrad)
 * [Initiativ](#initiativ)
 * [Strid](#strid)
 * [Magi](#magi)
@@ -25,16 +26,14 @@ _Länkar till ytterligare regler_
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Slår du under värdet som du utmanas i lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
-**Slår du ett par** är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Alltid 16,7% chans!
+**Slår du ett par** är betyder det att du kritisk lyckas med din utmaning oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Vid standard utmaning är det alltid 16,7% chans!
 
-Undantaget från att ett par är bra är **när du får två ettor**. Detta är istället en **fummel och är ett fruktansvärt misslyckades**. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två ettor är 2,8%
+Undantaget från att ett par är bra är **när du får sexor (6, 6)**. Detta är istället en **fummel och är ett fruktansvärt misslyckades**. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två sexor vid standard utmaning är 2,8%.
 
-När omständigheterna ger dig en tydlig fördel eller nackdel slår du **3d6** istället för 2d6.
+När omständigheterna ger dig en tydlig fördel eller nackdel slår du **en extra d6** än vad utmaningen kräver.
 
-* **Fördel:** Behåll de **två lägsta** tärningarna.
-* **Nackdel:** Behåll de **två högsta** tärningarna.
-
-I båda fallen av fördel och nackdel ökar chansen för att få ett par till 21% och risken för en fummel ökar i fördel till 7,4% (eftersom du sparar de låga talen) och vid nackdel minskar risken till 0,5%. Matte är coolt, eller hur?
+* **Fördel:** Behåll de **lägsta** tärningarna som utmaningen kräver.
+* **Nackdel:** Behåll de **högsta** tärningarna som utmaningen kräver.
 
 ## Grundvärde
 En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan man enkelt bryta ner betydelsen av grundvärde:
@@ -43,6 +42,19 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 * **Mind** = Mental hälsa = Magi = Språk = Kunskap
 
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
+
+ ## Svårighetsgrad
+
+När du står inför en utmaning där du definitivt klarar uppgiften så klarar du det automatiskt. Skulle det vara något svårare är det dags att använda Svårighetsgraderna. För varje steg av svårighet ökar antalet d6 tärningar du får använda.
+
+- **Lätt utmaning** använder du **1d6** och försöker nå under ditt målvärde. Här **går det inte att få par eller fummla.**
+
+- **Standard utmaning** använder du **2d6** och försöker nå under ditt målvärde.  Här och nedan **kan du få par eller fummla.**
+
+- **Svår utmaning** använder du **3d6** och försöker nå under ditt målvärde.
+
+- **Jättesvår utmaning** använder du **4d6** och försöker nå under ditt målvärde.
+
 
 ### Motståndarens grundvärde är lite annorlunda
 Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden som motståndare. Motståndare använder då dessa istället: 
