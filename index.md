@@ -185,7 +185,7 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 
 Att slåss mot flera är livsfarligt.
 
-* **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt tärningsresultat** för varje extra medlem i gruppen (detta hjälper dem att vinna "högst vinner"-duellen).
+* **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt tärningsresultat** för varje extra medlem i gruppen, **om de lyckas med utmaning**. Misslyckas de räknas gäng-bonusen bort.
 * **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-1 på Mind/Moral** på grund av chocken.
 
 ## Skada och skydd
