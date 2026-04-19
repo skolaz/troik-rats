@@ -22,7 +22,7 @@ title: Troik-Rats av Nils Jivegård
 * [Talents (Talanger))](#talents)
 * [Erfarenhet (Lärdom genom misslyckande)](#erfarenhet--utveckling)
 * [Motståndare (Bestiarium)](#exempel-på-motståndare)
-* [Karaktärsblad](#karaktärsblad-troik-rats)
+* [Karaktärsblad](troik-ratsChar.png)
 
 _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
@@ -395,43 +395,4 @@ Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen
 | **6** | Skuggor talar | Rummet vids | Stenar talar | Total tystnad | Torn dyker upp | Vatten till blod |
 
 # Karaktärsblad: Troik-Rats
-
-**Namn: _________________  Level: _____  Silver: _____
-Bakgrund:** ___________________________________________
-
-## Grundvärden
-
-| Värde | Max | Nuvarande |
-| :--- | :---: | :---: |
-| **Body** | | |
-| **Skill** | | |
-| **Mind** | | |
-
-**Initiativtärning:** ________ (Baserat på Skill)
-
-**Skydd**
-* [ ] Lätt skydd -1 skada.
-* [ ] Medel skydd -2 skada och nackdel: smyger
-* [ ] Tungt skydd -3 skada och nackdel: smyger, klättrar, simmar. Sänker init. tärning
-
-## Talents
-*Varje misslyckande ger en bock [X]. Vid vila, slå 2d6 över rank för att höja.*
-* [ ] __________________ Rank: ___
-* [ ] __________________ Rank: ___
-* [ ] __________________ Rank: ___
-* [ ] __________________ Rank: ___
-
-## Circle
-*Är det en bock är den förberedd.*
-* [ ] __________________ Rank: ___
-* [ ] __________________ Rank: ___
-* [ ] __________________ Rank: ___
-* [ ] __________________ Rank: ___
-
-### Utrustning & Magidrycker
-* _________________
-* _________________
-* _________________
-* _________________
-* _________________
-* _________________
+![Karaktärsblad](troik-ratsChar.png)
