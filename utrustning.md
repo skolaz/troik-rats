@@ -1,20 +1,20 @@
 # Prislista: Utrustning
 Söndriga vapen är billigare och fina skick kan kosta skjortan
-Ett alternativ till att köpa sina vapen själv är att rulla fram d6+5 Silver och utgå därifrån vad karaktären har råd med.
+Ett alternativ till att köpa sina vapen själv är att rulla fram 2d6+10 Silver och utgå därifrån vad karaktären har råd med.
 ## Vapen
-I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hittas i rännstenen för en spottstyver, medan mästerverk är förbehållna adeln och framgångsrika legosoldater.
+I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hittas i rännstenen för några korvöre, medan mästerverk är förbehållna adeln och framgångsrika legosoldater.
 
 | Vapen | Vrakpris (Söndrigt) | Standard (Brukskick) | Mästerligt (Fint) |
 | :--- | :---: | :---: | :---: |
-| **Kniv / Dolk** | 1 sp | 5 sp | 20 sp |
-| **Stav / Klubba** | 0 sp | 2 sp | 10 sp |
-| **Yxa / Hammare#** | 4 sp | 12 sp | 45 sp |
-| **Spjut** | 3 sp | 10 sp | 35 sp |
-| **Svärd / Spikklubba#** | 8 sp | 25 sp | 80 sp |
-| **Långsvärd** | 12 sp | 40 sp | 120 sp |
-| **Stångvapen*#** | 15 sp | 50 sp | 150 sp |
-| **Storsvärd* / Mörbulta*#** | 20 sp | 65 sp | 200 sp |
-| **Sköld** | 5 sp | 15 sp | 50 sp |
+| **Kniv / Dolk** | 1 s | 5 s | 20 s |
+| **Stav / Klubba** | 0 s | 2 s | 10 s |
+| **Yxa / Hammare#** | 4 s | 12 s | 45 s |
+| **Spjut** | 3 s | 10 s | 35 s |
+| **Svärd / Spikklubba#** | 8 s | 25 s | 80 s |
+| **Långsvärd** | 12 s | 40 s | 120 s |
+| **Stångvapen*#** | 15 s | 50 s | 150 s |
+| **Storsvärd* / Mörbulta*#** | 20 s | 65 s | 200 s |
+| **Sköld** | 5 s | 15 s | 50 s |
 
 `*` Indikerar ett vapen som kräver minst två händer att använda.  
 `#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
@@ -30,12 +30,12 @@ Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) el
 
 | Vapen | Vrakpris | Standard | Mästerligt |
 | :--- | :---: | :---: | :---: |
-| **Kastknivar / Yxor** | 2 sp | 6 sp | 20 sp |
-| **Slangbella** | 0 sp | 1 sp | 5 sp |
-| **Pilbåge*** | 10 sp | 30 sp | 100 sp |
-| **Armborst*** | 15 sp | 45 sp | 130 sp |
-| **Pistolet#** | 30 sp | 80 sp | 250 sp |
-| **Lätt musköt*#** | 50 sp | 150 sp | 400 sp |
+| **Kastknivar / Yxor** | 2 s | 6 s | 20 s |
+| **Slangbella** | 0 s | 1 s | 5 s |
+| **Pilbåge*** | 10 s | 30 s | 100 s |
+| **Armborst*** | 15 s | 45 s | 130 s |
+| **Pistolet#** | 30 s | 80 s | 250 s |
+| **Lätt musköt*#** | 50 s | 150 s | 400 s |
 
 `*` Kräver två händer. `#` Ignorerar 1 Skydd. Krutvapen är extremt högljudda och riskabla.
 
@@ -46,10 +46,10 @@ Skydd dras av från inkommande skada. Tyngre rustningar ger bättre skydd men g�
 
 | Skyddstyp | Effekt | Vrakpris | Standard | Mästerligt |
 | :--- | :--- | :---: | :---: | :---: |
-| **Lätt skydd** | -1 Skada | 10 sp | 30 sp | 100 sp |
-| **Medel skydd** | -2 Skada | 25 sp | 75 sp | 250 sp |
-| **Tungt skydd** | -3 Skada | 50 sp | 150 sp | 500 sp |
-| **Sköld** | +1 i försvar* | 5 sp | 15 sp | 50 sp |
+| **Lätt skydd** | -1 Skada | 10 s | 30 s | 100 s |
+| **Medel skydd** | -2 Skada | 25 s | 75 s | 250 s |
+| **Tungt skydd** | -3 Skada | 50 s | 150 s | 500 s |
+| **Sköld** | +1 i försvar* | 5 s | 15 s | 50 s |
 
 ### Beskrivning av skydd
 * **Lätt skydd:** Vaxat läder, förstärkt tyg eller en tjock vadderad jacka. Inga nackdelar.
@@ -68,37 +68,37 @@ Pris per styck om inget annat anges.
 
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
-| **Ransoner (3)** | 5 sp | **Fackla** | 1 sp |
-| **Vattensäck** | 2 sp | **Lykta och olja** | 10 sp |
-| **Sovsäck** | 4 sp | **Elddon** | 3 sp |
+| **Ransoner (3)** | 5 s | **Fackla** | 1 s |
+| **Vattensäck** | 2 s | **Lykta och olja** | 10 s |
+| **Sovsäck** | 4 s | **Elddon** | 3 s |
 
 ### Verktyg & Inbrott
 
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
-| **Låsdyrkar (3)** | 25 sp | **Kofot** | 10 sp |
-| **Bågfil / Metallfil** | 12 sp | **Mejsel / Hammare** | 4 sp |
-| **Handborr** | 8 sp | **Järntång** | 7 sp |
-| **Änterhake** | 10 sp | **Rep 20 meter** | 5 sp |
-| **Järnspikar (10)** | 2 sp | **Tiofotsstång** | 1 sp |
+| **Låsdyrkar (3)** | 25 s | **Kofot** | 10 s |
+| **Bågfil / Metallfil** | 12 s | **Mejsel / Hammare** | 4 s |
+| **Handborr** | 8 s | **Järntång** | 7 s |
+| **Änterhake** | 10 s | **Rep 20 meter** | 5 s |
+| **Järnspikar (10)** | 2 s | **Tiofotsstång** | 1 s |
 
 ### Fällor & Sabotage
 
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
-| **Björnsax** | 15 sp | **Fotanglar** | 8 sp |
-| **Bojor** | 12 sp | **Fett (burk)** | 3 sp |
-| **Glaskulor (påse)** | 4 sp | **Lim** | 5 sp |
-| **Kedja 3 meter** | 15 sp | **Ståltråd** | 6 sp |
+| **Björnsax** | 15 s | **Fotanglar** | 8 s |
+| **Bojor** | 12 s | **Fett (burk)** | 3 s |
+| **Glaskulor (påse)** | 4 s | **Lim** | 5 s |
+| **Kedja 3 meter** | 15 s | **Ståltråd** | 6 s |
 
 ### Specialartiklar
 
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
-| **Medicin (3)** | 20 sp | **Flaska med gift** | 40 sp+ |
-| **Flaska med syra** | 30 sp | **Djurdoft** | 10 sp |
-| **Stålspegel** | 15 sp | **Fiskenät** | 6 sp |
-| **Krita / Horn** | 1 sp | **Stor säck / Spade** | 3 sp |
+| **Medicin (3)** | 20 s | **Flaska med gift** | >40 s |
+| **Flaska med syra** | 30 s | **Djurdoft** | 10 s |
+| **Stålspegel** | 15 s | **Fiskenät** | 6 s |
+| **Krita / Horn** | 1 s | **Stor säck / Spade** | 3 s |
 
 # Vikt
 Du kan bära lika många saker som du har i Body.
