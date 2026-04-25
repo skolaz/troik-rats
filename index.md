@@ -3,35 +3,44 @@ layout: default
 title: Troik-Rats av Nils Jivegård
 ---
 ## Innehållsförteckning
-**Spelets grunder**
-* [Grundregler & Svårigheter](#grundregler)
-* [Svårighetsgrad (Tärningspooler)](#svårighetsgrad)
-* [Death-Spiral](#death-spiral-när-grundvärde-minskar)
 
-**Strid**
-* [Initiativ (Snabbhet)](#initiativ)
-* [Strid (Motståndsslag)](#strid)
-* [Vapen & Skydd](#skada-och-skydd)
+### **I. Spelets grunder**
+* [# Grundregler](#grundregler) – *2d6-systemet, Par & Fummel*
+* [## Grundvärde](#grundvärde) – *Body, Skill och Mind*
+* [# Svårighetsgrad](#svårighetsgrad) – *Tärningspooler och utmaningar*
+* [# Motståndarens grundvärde](#motståndarens-grundvärde-är-lite-annorlunda) – *Brawn, Special och Moral*
+* [# Death-Spiral](#death-spiral-när-grundvärde-minskar) – *Konsekvenserna av att ta skada*
 
-**Det Övernaturliga**
-* [Magi & Circles](#magi)
-* [Besvärjelser (Lista)](#besvärjelser-och-trollformler-circles)
-* [Mutationer & Katastrofer](#fummel-tabeller)
+### **II. Karaktärsegenskaper**
+* [# Talents](#talents) – *Hur talanger fungerar och beräknas*
+* [## Tabell med Talents](#tabell-med-talents) – *Snabbguide till alla färdigheter*
+* [## Beskrivning av Talents](#beskrivning-av-tabell-med-talents) – *Detaljerade förklaringar*
 
-**Progression & Bilagor**
-* [Talents (Talanger))](#talents)
-* [Erfarenhet (Lärdom genom misslyckande)](#erfarenhet--utveckling)
-* [Motståndare (Bestiarium)](#motståndare)
-* [Mutationer och rådgivning](#mutationer)
+### **III. Strid & Överlevnad**
+* [# Initiativ](#initiativ) – *Turordning baserat på Skill*
+* [# Strid](#strid) – *Motståndsslag och anfall*
+* [## Kreativ strid & grupper](#kreativ-strid) – *Vinnarens vilja och numerärt överläge*
+* [## Skada och skydd](#skada-och-skydd) – *Rustning och hälsa*
+* [## Vapen](#vapen) – *Vapentabeller för närstrid och distans*
+* [# Motståndare](#motståndare) – *Bestiarium och HD-värden*
+* [## Att möta Giganter](#att-möta-giganter-hd-3) – *Strategier mot monster med HD 3+*
+
+### **IV. Det övernaturliga**
+* [# Magi](#magi) – *Grunderna i magiska krafter*
+* [## Circles](#circles) – *Kraftnivåer från 0 till -5*
+* [## Circle Talents](#circle-talents) – *De magiska skolorna*
+* [# Besvärjelser och trollformler](#besvärjelser-och-trollformler-circles) – *Lista över magi per cirkel*
+* [# Mutationer](#mutationer) – *När kroppen förändras*
+* [# Fummel tabeller](#fummel-tabeller) – *Katastrofer och mutationstabell*
+---
 * [Karaktärsblad](troik-ratsChar.png)
-
+---
 _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startbakgrund.md)
 * [Råttvakt, en nybörjarstad](rattvakt.md)
 * [Varför håller ni ihop?](varförHåller.md)
-
 ---
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
@@ -327,7 +336,7 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 
 Enklare strid är HD 1d4. Standard strid är HD 1d6.
 
-|  HD (hit die) | Exempel          | Brawn (HP/Attack) | Special (Init) | Init-Tärning | Skada |
+|  HD (hit die) | Exempel          | Brawn (HP/Målvärde) | Special | Init-Tärning | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 1-3               | 4              | d4           | 1d2   |
 |   1 | Ork, Människa, Varg        | 1-6               | 6              | d6           | 1d6   |
