@@ -22,6 +22,7 @@ title: Troik-Rats av Nils Jivegård
 * [Talents (Talanger))](#talents)
 * [Erfarenhet (Lärdom genom misslyckande)](#erfarenhet--utveckling)
 * [Motståndare (Bestiarium)](#motståndare)
+* [Mutationer och rådgivning](#mutationer)
 * [Karaktärsblad](troik-ratsChar.png)
 
 _Länkar till ytterligare regler_
@@ -54,7 +55,7 @@ En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan
 
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
 
-## Svårighetsgrad
+# Svårighetsgrad
 
 När du står inför en utmaning där du definitivt klarar uppgiften så klarar du det automatiskt. Skulle det vara något svårare är det dags att använda Svårighetsgraderna. För varje steg av svårighet ökar antalet d6 tärningar du får använda.
 
@@ -65,16 +66,18 @@ När du står inför en utmaning där du definitivt klarar uppgiften så klarar 
 
 > Genom planering, använda lämpliga Talents, lämplig utrustning m.m. av spelaren kan spelledaren gå med på att sänka utmaningen eller ge en fördel.
 
-### Motståndarens grundvärde är lite annorlunda
+# Motståndarens grundvärde är lite annorlunda
 Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden som motståndare. Motståndare använder då dessa istället: 
 * **Brawn** = Hälsa = Styrka = Smidighet = Rörelse
 * **Special** = Skill = Mind = Magi = Fingerfärdighet = Språk = Kunskap
 * **Moral** = Mental hälsa = Hur länge de vågar vara i striden
 
-### Death-Spiral när grundvärde minskar
+Moralen sjunker när någon dör i gruppen. När de nått hälften av sin moral testas en standard utmaning (2d6 med målvärde prick eller under) med moralen som sitt målvärde. Lyckas utmaningen stannar de kvar i striden.
+
+# Death-Spiral när grundvärde minskar
 Body och Mind minskar när grundvärdet tar skada och det resulterar i att målvärdet minskar tillsammans och gör det svårare att lyckas. Detta kallas Death-Spiral och gör dig svagare ju längre tid du är i striden. Du vill alltså avsluta det snabbt.
 
-## Talents
+# Talents
 Talents eller talanger representerar din specifika träning och erfarenhet. Vid nivå 1 har du **6 poäng** att fördela på dina Talents (max 6 i en enskild Talent).
 När du använder en Talent adderar du dess värde till ditt grundvärde (**Body, Skill** eller **Mind**) för att få ditt **målvärde**. Det är detta totala värde du ska slå under med 2d6.
 
@@ -85,7 +88,7 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 
 > Vid nivå 1 delar du ut **6 poäng** på dina Talents.
 
-### Tabell med Talents
+## Tabell med Talents
 
 | d6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -96,8 +99,8 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 | **5 (Mind)** | Magi | Hela | Historia | Argumentera | Natur | Språk |
 | **6 (Mind)** | Värdera | Spåra | Välsignelse | Etikett | Kasino | Melodi |
 
-#### Beskrivning av tabell med Talents
-##### **Body-baserade**
+### Beskrivning av tabell med Talents
+#### **Body-baserade**
 
 * **Strid:** Effektivt användande av svärd, yxor och närstridsvapen.
 * **Slåss:** Handgemäng, knytnävar och oortodoxa krogmål.
@@ -112,7 +115,7 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 * **Byggnad:** Att snabbt resa skydd, barrikader eller reparera vagnar.
 * **Grovarbete:** Allmän kroppslig händighet och kunskap om gruvor/byggen.
 
-##### **Skill-baserade**
+#### **Skill-baserade**
 
 * **Smyga:** Konsten att inte höras eller synas i skuggorna.
 * **Stjäla:** Lätta fickor och att knycka föremål mitt framför näsan på folk.
@@ -127,7 +130,7 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 * **Dans:** Att imponera på hovet eller distrahera en vakt med graciösa rörelser.
 * **Navigera:** Att hitta vägen i vildmarken eller styra en farkost genom storm.
 
-##### **Mind-baserade**
+#### **Mind-baserade**
 
 * **Magi:** Kunskapen att läsa grimoirer och kanalisera kosmiska krafter.
 * **Hela:** Förbinda sår, stoppa blödningar och kurera sjukdomar.
@@ -186,15 +189,22 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 Att slåss mot flera är livsfarligt.
 
 * **Gäng:** Om flera fiender attackerar samma mål på samma sätt får de **+1 på sitt målvärde, tärningsresultat och skadan** för varje extra medlem i gruppen. Skadan går först till de svagaste. Överbliven skada går till 
-* **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-1 på Mind/Moral** på grund av chocken.
+* **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-2 på Mind/Moral** på grund av chocken.
 
 > Exempel på attack i grupp
+> 
 > Spelaren har rekryterat 5 extra medlemmar, kanske överdrivet men kontot hade råd. Hon möter 2 modifierade zombies med 10 i Brawn. Zombien attackerar med sin vän och spelaren med sina kupaner.
+> 
 > Spelaren har målvärde 8 och får nytt målvärde 8 + 5 (för medlemmarna som gör samma attack) = 13.
+> 
 > Modifierade zombien har målvärde 10 och får nytt målvärde 10 + 1 (för medlemmen som gör samma attack) = 11.
-> Rullar för standard utmaning 2d6. Endast här kan du få reda på om du lyckas eller misslyckas. 
+> 
+> Rullar för standard utmaning 2d6. Endast här kan du få reda på om du lyckas eller misslyckas.
+> 
 > Spelaren får 10 (lyckas) och zombien 7 (lyckas). Därefter läggs gängbonusen på.
+> 
 > Spelaren får 10 + 5 = 10 och zombien får 7 + 1 = 8
+> 
 > Spelaren vann striden och delar ut sin skada + gängbonusen (+5) till den svagaste zombien.
 ## Skada och skydd
 
@@ -257,7 +267,7 @@ För att underlätta utspottandet av trollformler och besvärjerlser kan du ha T
 Det finns två sätt att hantera magi:
 
 1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen.
-2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckas du händer ingenting (eller värre – se Fummel).
+2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckande åstakommer ingenting (eller värre – se Fummel).
 
 ## Fummel & Katastrofer
 
@@ -307,9 +317,11 @@ Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
 * **0 Mind / Moral:** Ditt psyke brister. Du drabbas av total panik, katatoni eller flyr hals över huvud. Du är ospelbar och i händerna på ödet tills du återfått minst 1 poäng **Mind**.
 
+* **-4 Body / Brawn / Mind / Moral:** Du dör på fläcken. Ingen återvändo.
+
 ## Döden
 
-Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till 0 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
+Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till under -4 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
 
 # Motståndare
 
@@ -386,6 +398,14 @@ _Målvärde: Mind - 5. Skada: 1d8. Varaktighet: Permanent eller stort område._
 * **Meteorfall (Evocation):** Stenar från skyn krossar en hel byggnad eller en armé (Massiv AoE).
 * **Stas (Abjuration):** Fryser en varelse i tiden. Den kan inte skadas eller åldras, men kan inte heller röra sig. Permanent tills du häver det.
 * **Sann syn (Divination):** Du ser genom alla illusioner, ser dolda dörrar och kan se in i framtiden (Ger automatisk lyckad på nästa 3 slag).
+
+# Mutationer
+Tanken bakom mutationer är att det ska vara något som skapar frågor och intriger. Som exempel hoppas jag att frågor kan komma som: Hur fick den karaktärern sin tredje armen? Är den magiker eller är det en olycka där han har varit på fel plats vid fel tidpunkt? Är den karaktären starkare och bättre för den har tre armar?
+
+Mutationer kan vara permanenta eller tillfälliga. De skulle kunna fungerar som en förbannelse också. Men dessa mutationer påverkar först och främst de fysiska delarna och de fysiska förnimmelser. Till exempel kan större öron resultera i bättre hörande men känslig för extremt höga ljud. Vissa karaktärer kanske till och med samlar på sig mutationer för att bygga en sån bra kropp som möjligt. Så som looksmaxxing gör idag.
+
+Mycket hänger på vad spelledare vill göra. Reglerna är för dem att tolka och justera. Därför lämnas det öppet.
+
 # Fummel tabeller
 
 | 2d6  | Fummel  |   |
