@@ -4,9 +4,9 @@ title: Troik-Rats av Nils Jivegård
 ---
 ## Innehållsförteckning
 **Spelets grunder**
-* [Grundregler & Utmaningar](#grundregler)
+* [Grundregler & Svårigheter](#grundregler)
 * [Svårighetsgrad (Tärningspooler)](##svårighetsgrad)
-* [Death-Spiral & Hälsa](#death-spiral-när-grundvärde-minskar)
+* [Death-Spiral](#death-spiral-när-grundvärde-minskar)
 
 **Strid**
 * [Initiativ (Snabbhet)](#initiativ)
@@ -28,7 +28,7 @@ _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startbakgrund.md)
-* [Råttvakt, en nybörjar-stad](rattvakt.md)
+* [Råttvakt, en nybörjarstad](rattvakt.md)
 * [Varför håller ni ihop?](varförHåller.md)
 
 ---
@@ -185,9 +185,17 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 
 Att slåss mot flera är livsfarligt.
 
-* **Gäng:** Om flera fiender attackerar samma mål får de **+1 på sitt målvärde och tärningsresultat tärningsresultat** för varje extra medlem i gruppen.
+* **Gäng:** Om flera fiender attackerar samma mål på samma sätt får de **+1 på sitt målvärde, tärningsresultat och skadan** för varje extra medlem i gruppen. Skadan går först till de svagaste. Överbliven skada går till 
 * **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-1 på Mind/Moral** på grund av chocken.
 
+> Exempel på attack i grupp
+> Spelaren har rekryterat 5 extra medlemmar, kanske överdrivet men kontot hade råd. Hon möter 2 modifierade zombies med 10 i Brawn. Zombien attackerar med sin vän och spelaren med sina kupaner.
+> Spelaren har målvärde 8 och får nytt målvärde 8 + 5 (för medlemmarna som gör samma attack) = 13.
+> Modifierade zombien har målvärde 10 och får nytt målvärde 10 + 1 (för medlemmen som gör samma attack) = 11.
+> Rullar för standard utmaning 2d6. Endast här kan du få reda på om du lyckas eller misslyckas. 
+> Spelaren får 10 (lyckas) och zombien 7 (lyckas). Därefter läggs gängbonusen på.
+> Spelaren får 10 + 5 = 10 och zombien får 7 + 1 = 8
+> Spelaren vann striden och delar ut sin skada + gängbonusen (+5) till den svagaste zombien.
 ## Skada och skydd
 
 När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar motståndarens Body/Brawn med resultatet.
@@ -198,7 +206,7 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
   * _Medel skydd:_ -2 skada och nackdel när du smyger.
   * _Tungt skydd:_ -3 skada och nackdel när du smyger, klättrar och sänker initiativ tärningen med en hel tärning.
 
-* **0 Body/Brawn:** När hälsan når 0 faller man till marken, medvetslös och döende.
+* **0 Body/Brawn:** När hälsan når 0 faller man till marken, medvetslös och döende. En allierad måste rädda dig!
 
 ## Vapen
 
