@@ -1,94 +1,102 @@
-# Startkaraktärer med Talents
+# Startkaraktärer
 ## Krigare
+*En bråkstake som överlever genom råstyrka och slipat stål.*
 
-Body 7
+**Body:** 7 | **Skill:** 6 | **Mind:** 5
 
-Skill 6
+**Talents:**
+* Strid: 2 (Body)
+* Slåss: 1 (Body)
+* Styrkeprov: 1 (Body)
+* Hantverk: 1 (Skill)
+* Spåra: 1 (Mind)
 
-Mind 5
+---
 
-Talents:
-- Slåss 1 Body
-- Strid 2 Body
-- Spåra 1 Mind
-- Hantverk 1 Skill
-- Styrkeprov 1 Body
 ## Helare
+*Välkomnad överallt, men magin hon använder för att läka sår lämnar ofta egna ärr på sinnet.*
 
-Body 5
+**Body:** 5 | **Skill:** 6 | **Mind:** 7
 
-Skill 6
+**Talents:**
+* Hela: 2 (Mind)
+* Abjuration (Beskydd): 2 (Mind)
+* Strid: 1 (Body)
+* Natur: 1 (Mind)
 
-Mind 7
+**Trollformler:**
+* **C 0:** Budskap (Divination) – *Viska ett meddelande till en person du kan se; ingen annan hör det.*
+* **C 0:** Liten knuff (Conjuration) – *Flyttar ett föremål som väger mindre än en råtta upp till 5 meter.*
+* **C -2:** Hela sår (Abjuration) – *Sluter djupa sår och läker 1d4+1 Body.*
+* **C -2:** Sköld (Abjuration) – *En magisk barriär ger -1 på all inkommande skada i 5 min.*
 
-Talents:
-- Strid 1 Body
-- Magi 1 Mind
-- Natur 1 Skill
-- Hela 2 Mind
-- Språk 1 Mind
+---
 
-Circles:
-- '2. Bless / Blight: Ger allierade bonus eller fiender nackdel (AoE).
-- '3. Cure Light Wounds: Läker 1d4+1 Body.
 ## Tjuv
+*Varför dyrka ett lås när man kan forma om det? Varför gömma sig i skuggorna när man kan bli dem?*
 
-Body 6
+**Body:** 6 | **Skill:** 7 | **Mind:** 5
 
-Skill 7
+**Talents:**
+* Smyga: 2 (Skill)
+* Illusion: 1 (Mind)
+* Stjäla: 1 (Skill)
+* Fällor: 1 (Skill)
+* Strid: 1 (Body)
 
-Mind 5
+**Trollformler:**
+* **C 0:** Synvilla (Illusion) – *Skapar ett kort ljud eller en lukt (t.ex. doften av ruttet kött eller ljudet av fotsteg).*
+* **C 0:** Gnista (Evocation) – *Tänder en eld, ett ljus eller ger en fiende en smärtsam stöt (1 skada).*
+* **C -1:** Skuggslöja (Illusion) – *Du blir svår att se i mörker (Ger fördel på Smyga).*
 
-Talents:
-- Stjäla 1 Skill
-- Sikta 1 Skill
-- Strid 1 Body
-- Smyga 1 Skill
-- Fällor 1 Skill
-- Fingerfärdighet 1 Skill
+---
+
 ## Jägare
+*Världen är full av monster, och den här överlevaren vet hur man spårar och dödar dem.*
 
-Body 6
+**Body:** 6 | **Skill:** 7 | **Mind:** 5
 
-Skill 7
+**Talents:**
+* Skjuta: 2 (Skill)
+* Fällor: 1 (Skill)
+* Djurtämjare: 1 (Skill)
+* Strid: 1 (Body)
+* Spåra: 1 (Mind)
 
-Mind 5
+---
 
-Talents:
-- Strid 1 Body
-- Skjuta 2 Skill
-- Spåra 1 Mind
-- Djurtämjare 1 Skill
-- Fällor 1 Skill
 ## Hantverkare
+*Snickrar ihop barrikader och manipulerar material med magiska medel när verktygen inte räcker till.*
 
-Body 5
+**Body:** 5 | **Skill:** 7 | **Mind:** 6
 
-Skill 7
+**Talents:**
+* Hantverk: 2 (Skill)
+* Transmutation (Förvandling): 1 (Mind)
+* Byggnad: 1 (Body)
+* Strid: 1 (Body)
+* Kasino: 1 (Mind)
 
-Mind 6
+**Trollformler:**
+* **C 0:** Gnista (Evocation) – *Tänder en eld, ett ljus eller ger en fiende en smärtsam stöt (1 skada).*
+* **C 0:** Synvilla (Illusion) – *Skapar ett kort ljud eller en lukt (t.ex. doften av ruttet kött eller ljudet av fotsteg).*
+* **C -1:** Låsdyrk (Transmutation) – *Formar om en metallbit till en fungerande nyckel för ett specifikt lås.*
 
-Talents:
-- Strid 1 Body
-- Byggnad 1 Body
-- Hantverk 2 Skill
-- Kasino 1 Mind
-- Värdera 1 Mind
+---
+
 ## Magiker
+*En vandrande katastrof. Hon kan bränna ner ett rum, eller en hel stad.*
 
-Body 5
+**Body:** 5 | **Skill:** 6 | **Mind:** 7
 
-Skill 6
+**Talents:**
+* Evocation (Framkallning): 3 (Mind)
+* Necromancy (Nekromanti): 1 (Mind)
+* Historia: 1 (Mind)
+* Strid: 1 (Body)
 
-Mind 7
-
-Talents:
-- Magi 3 Mind
-- Etikett 1 Mind
-- Historia 2 Mind
-
-Circles:
-- '2. Web: Klibbigt nät fångar alla i ett område (AoE).
-- '1. Magic Missile: En projektil som alltid träffar (1d4+1 Body).
-- '1. Mage Shield: Osynlig barriär som ger -1 skada.
-- '1. Detect Magic: Ser magiska energier i närheten.
+**Trollformler:**
+* **C 0:** Gnista (Evocation) – *Tänder en eld, ett ljus eller ger en fiende en smärtsam stöt (1 skada).*
+* **C 0:** Budskap (Divination) – *Viska ett meddelande till en person du kan se; ingen annan hör det.*
+* **C -1:** Dödskyss (Necromancy) – *Suger musten ur offret (1d2 skada), du återfår 1 poäng Body*
+* **C -3:** Eldstöt (Evocation) – *En våg av eld träffar alla framför dig (AoE, 1d4+2 skada).*
