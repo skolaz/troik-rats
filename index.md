@@ -32,15 +32,14 @@ title: Troik-Rats av Nils Jivegård
 * [# Besvärjelser och trollformler](#besvärjelser-och-trollformler-circles) – *Lista över magi per cirkel*
 * [# Mutationer](#mutationer) – *När kroppen förändras*
 * [# Fummel tabeller](#fummel-tabeller) – *Katastrofer och mutationstabell*
----
-* [Karaktärsblad](troik-ratsChar.png)
----
+
 _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startbakgrund.md)
 * [Råttvakt, en nybörjarstad](rattvakt.md)
 * [Varför håller ni ihop?](varförHåller.md)
+* [**Karaktärsblad**](troik-ratsChar.png)
 ---
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
@@ -93,9 +92,9 @@ När du använder en Talent adderar du dess värde till ditt grundvärde (**Body
 > Exempel
 > * **Body:** Strid, Slåss, Skrämma, Styrkeprov.
 > * **Skill:** Smyga, Stjäla, Skjuta, Hantverk, Akrobatik, Matlagning.
-> * **Mind:** Magi, Historia, Hela, Argumentera, Naturkännedom, Skrämma.
+> * **Mind:** Magi, Historia, Hela, Argumentera, Naturkännedom, Abjuration (Beskydd), Evocation (Framkallning).
 
-> Vid nivå 1 delar du ut **6 poäng** på dina Talents.
+> Vid nivå 1 delar du ut **6 poäng** på dina Talents. Väljer du någon Circle Talent har du möjlighet att välja någon trollformeln från den ranken. Se mer på avsnittet Circle Talents.
 
 ## Tabell med Talents
 
@@ -257,7 +256,7 @@ Trollformelns **Circle rank subtraherar** ditt **Mind**-värde för att **skapa 
 * **Circle -4:** Medelstark magi och börjar bli okontrollerbar. 1d6 skada. Max 60 min.
 * **Circle -5:** Svår och farlig magi. 1d8 skada. Stora områden eller permanenta effekter.
 
-> Du kan alltid välja att kasta en formel från en högre Circle (t.ex. använda din kraft från Circle -5 för att kasta en Circle 0-formel) för att göra det enklare att lyckas. Då skalas resultatet enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
+> Du kan alltid välja att kasta en formel från en högre Circle (t.ex. använda din kraft från Circle -5 för att kasta en Circle 2-formel) för att göra det enklare att lyckas. Då skalas effekten enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
 
 ### Circle Talents
 För att underlätta utspottandet och vårskriket av trollformler kan du ha Talents i vissa magiska skolor. Dessa ranker adderas till målvärdet.
@@ -273,12 +272,19 @@ För att underlätta utspottandet och vårskriket av trollformler kan du ha Tale
 > Exempel
 > Spelaren vill förflytta en nyckel som finns på högsta bokhyllan. Hon använder Circle 0 Liten knuff och lägger ihop sin Mind (5) + Talent inom Frammaning (1) + Circle 0 och får sitt målvärde 6. Hon rullar 2d6 för standard utmaning och får 2 + 3 = 5. Hon lyckas med att knuffa ner nyckel så de kan gå vidare genom dörren. Eftersom att trollformlen var i Circle 0 så skadar det inte hennes Mind.
 
+När du skapar en nybörjarkaraktär kan du välja att invenstera i Circle Talents och välja då någon trollformel ur den skolan från den ranken. Alla som saknar Circle Talents kan börja med två trollformler från Circle 0. Har du en hög rank kan du välja att disposinera vilka trollformler du önskar, men bara upp till den rank Circle Talent befinner sig i.
+> Exempelvis har spelaren invensterat i Circle Talent: Enchantment (Förtrollning) rank 3 och kan då välja att börja med trollformeln C -3: Sömn.
+>
+> Om hon hade önskat kunde hon välja också en trollformel från Circle -1 (Vänskap) och en trollformel från Circle -2. 
+
 ## Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
 
 1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen. **Circle rank skadan utsöndras när trollformeln används.** **Fummlar sker direkt.**
 2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckande åstakommer ingenting, plus lite skada på din Mind (eller värre – se Fummel).
+
+> Du kan alltid välja att kasta en formel från en högre Circle (t.ex. använda din kraft från Circle -5 för att kasta en Circle 2-formel) för att göra det enklare att lyckas. Då skalas effekten enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
 
 ## Fummel & Katastrofer
 
