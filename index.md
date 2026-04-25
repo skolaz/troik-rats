@@ -58,9 +58,9 @@ När omständigheterna ger dig en tydlig fördel eller nackdel slår du **en ext
 
 ## Grundvärde
 En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan man enkelt bryta ner betydelsen av grundvärde:
-* **Body** = Hälsa = Styrka 
-* **Skill** = Smidighet = Rörelse = Fingerfärdighet = Hantverk
-* **Mind** = Mental hälsa = Magi = Språk = Kunskap
+* **Body** = Hälsa = Styrka  | Sjunker av fysisk skada
+* **Skill** = Smidighet = Rörelse = Fingerfärdighet = Hantverk | Sjunker av kritiska skador eller omgivningen
+* **Mind** = Mental hälsa = Magi = Språk = Kunskap | Sjunker av användandet av magi
 
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
 
@@ -165,7 +165,7 @@ Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initi
 > + Skill 12 ➡️ Initiativ d12
 > + Skill 13 ➡️ Initiative d12+1
 
-När alla har sina svar så börjar den med högst siffra.
+När alla har slagit börjar den med högst resultat.
 
 # Strid
 Strid här är intensivt och dödligt. Man turas om att agera baserat på **Initiativ**, men varje attack är en tävling där båda parter riskerar att ta skada.
@@ -190,8 +190,10 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 
 * **Skrämma:** Få fienden att tveka eller fly.
 * **Akrobatik:** Manövrera dig till en bättre position eller undvika att bli omringad.
-* **Populär:** Kanske känner fienden igen dig och vill inte slåss, eller så börjar publiken kasta sten på din motståndare.
+* **Argumentera:** Motståndaren går på ditt argument att spara hennes liv eller att de kan kämpa tillsammans.
 * **Vinnarens vilja:** Den som vinner motståndsslaget "får igenom sin vilja". Om du använde _Skrämma_ och vann, flyr fienden istället för att ta skada.
+
+> Använd gärna andra svårigheter om situationen skulle luta åt det hållet.
 
 ## Grupper och numerärt överläge
 
@@ -212,7 +214,7 @@ Att slåss mot flera är livsfarligt.
 > 
 > Spelaren får 10 (lyckas) och zombien 7 (lyckas). Därefter läggs gängbonusen på.
 > 
-> Spelaren får 10 + 5 = 10 och zombien får 7 + 1 = 8
+> Spelaren får 10 + 5 = 15 och zombien får 7 + 1 = 8
 > 
 > Spelaren vann striden och delar ut sin skada + gängbonusen (+5) till den svagaste zombien.
 ## Skada och skydd
@@ -243,11 +245,11 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 
 # Magi
 
-Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex **Circles**, där Circle -5 är den mest kraftfulla och svåra, och Circle 0 är där nybörjare härjar. När du utvecklas inom Mind har du bättre möjlighet att lyckas med lägre Circles. Att nå **Circle -5** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
+Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex **Circles**, där Circle -5 är den mest kraftfulla och svåra, och Circle 0 är där nybörjare härjar. När du utvecklas inom Mind har du bättre möjlighet att lyckas med lägre Circles. Att få trollformler inom **Circle -5** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
 
 ## Circles
 
-Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa ditt målvärde.
+Trollformelns **Circle rank subtraherar** ditt **Mind**-värde för att **skapa ditt målvärde**. **Efter du har lyckats eller misslyckats skadar Circle ranken ditt grundvärde Mind.**
 * **Circle 0:** Ytterst lätt magi. Skadan du kan göra är 1.
 * **Circle -1:** Manipulerande magi, om än något kort. Max 60 sekunder.
 * **Circle -2:** Framkallande magi introduceras. Kan göra 1d4+1 i skada.
@@ -258,7 +260,7 @@ Ditt värde i en **Circle** läggs ovanpå ditt **Mind**-värde för att skapa d
 > Du kan alltid välja att kasta en formel från en högre Circle (t.ex. använda din kraft från Circle -5 för att kasta en Circle 0-formel) för att göra det enklare att lyckas. Då skalas resultatet enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
 
 ### Circle Talents
-För att underlätta utspottandet av trollformler och besvärjerlser kan du ha Talents i vissa magiska skolor.
+För att underlätta utspottandet och vårskriket av trollformler kan du ha Talents i vissa magiska skolor. Dessa ranker adderas till målvärdet.
 - **Abjuration = Beskydd:** Skapar sköldar, bannlyser spöken och häver förbannelser
 - **Conjuration = Frammaning:** Förflyttar föremål eller kallar på varesler från andra dimensioner.
 - **Divination = Spå:** Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
@@ -269,14 +271,14 @@ För att underlätta utspottandet av trollformler och besvärjerlser kan du ha T
 - **Transmutation = Förvandling:** Ändrar fysiska egenskaper hos föremål eller varelser.
 
 > Exempel
-> Spelaren vill förflytta en nyckel som finns på högsta bokhyllan. Hon använder Circle 0 Liten knuff och lägger ihop sin Mind (5) + Talent inom Frammaning (1) + Circle 0 och får sitt målvärde 6. Hon rullar 2d6 för standard utmaning och får 2 + 3 = 5. Hon lyckas med att knuffa ner nyckel så de kan gå vidare genom dörren.
+> Spelaren vill förflytta en nyckel som finns på högsta bokhyllan. Hon använder Circle 0 Liten knuff och lägger ihop sin Mind (5) + Talent inom Frammaning (1) + Circle 0 och får sitt målvärde 6. Hon rullar 2d6 för standard utmaning och får 2 + 3 = 5. Hon lyckas med att knuffa ner nyckel så de kan gå vidare genom dörren. Eftersom att trollformlen var i Circle 0 så skadar det inte hennes Mind.
 
 ## Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
 
-1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen.
-2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckande åstakommer ingenting (eller värre – se Fummel).
+1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen. **Circle rank skadan utsöndras när trollformeln används.** **Fummlar sker direkt.**
+2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckande åstakommer ingenting, plus lite skada på din Mind (eller värre – se Fummel).
 
 ## Fummel & Katastrofer
 
@@ -336,14 +338,14 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 
 Enklare strid är HD 1d4. Standard strid är HD 1d6.
 
-|  HD (hit die) | Exempel          | Brawn (HP/Målvärde) | Special | Init-Tärning | Skada |
-| --: | :------------------------- |:-----------------:| -------------- | ------------ | ----- |
-| 0.5 | Råtta, Vätte, Kobold       | 1-3               | 4              | d4           | 1d2   |
-|   1 | Ork, Människa, Varg        | 1-6               | 6              | d6           | 1d6   |
-|   2 | Elitsoldat, Björn          | 2-12              | 8              | d6           | 1d6+1 |
-|   3 | Ogre, Riddare, Ond Magiker | 3-18              | 10             | d8           | 1d6+2 |
-|   4 | Jätte, Liten drake         | 4-24              | 11             | d10          | 1d6+3 |
-|  5+ | Boss, Drake, Demon; naturkatastrof | 5-30      | 12+            | d10/d12      | 2d6   |
+|  HD (hit die) | Exempel          | Brawn (HP/Målvärde) | Special | Init-Tärning | Moral | Skada |
+| --: | :------------------------- |:-----------------:| -------------- | ------- | ----- | ----- |
+| 0.5 | Råtta, Vätte, Kobold       | 1-3               | 4              | d4      | 2     | 1d2   |
+|   1 | Ork, Människa, Varg        | 1-6               | 6              | d6      | 4     | 1d6   |
+|   2 | Elitsoldat, Björn          | 2-12              | 8              | d6      | 6     | 1d6+1 |
+|   3 | Ogre, Riddare, Ond Magiker | 3-18              | 10             | d8      | 7     | 1d6+2 |
+|   4 | Jätte, Liten drake         | 4-24              | 11             | d8+2    | 8     | 1d6+3 |
+|  5+ | Boss, Drake, Demon; naturkatastrof | 5-30      | 12+            | d10+2   | 10    | 2d6   |
 
 ## Problem vid Brawn 12
 Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, väl planerade Talents och utrustning krävs för att underlätta sådana strider. 
@@ -355,9 +357,10 @@ Stora monster är ofta för starka för att möta i öppen strid. Spelledaren f�
 - Sårbarhet: Monstret har ett Skydd som bara kan ignoreras om spelarna utnyttjar en svaghet (t.ex. "slåss i vatten" eller "anfall underifrån").
 - Delmål: Genom att lyckas med en specifik Talent (t.ex. Klättra, Distrahera eller Melodi) kan spelarna permanent sänka monstrets Brawn eller Special med 1d6.
 - Grymt slut: När ett massivt monster når 0 Brawn dör det inte alltid direkt – det kanske gör ett sista, desperat utfall eller raserar hela lyan.
+- Större och välrustade motståndare har ofta -3 eller -4 i skydd. Men kan ha ställen där de är svagare.
 - Det går också att dela in olika kroppsdelar i zoner för att underlätta för spelaren. Om draken med 24 Brawn totalt har 6 Brawn i svansen går det för en vanlig spelare att vinna över svansen. Ett till tips är att få attacker att ladda upp sig i någon runda tills attacken utlöses. Då hinner spelarna planera och agera.
 
-Eftersom dessa katastrofer inte är enkla att ha att göra med, skickar jag med ett tips: armeér.
+Eftersom dessa katastrofer inte är enkla att ha att göra med, skickar jag med ett tips: rekryter.
 
 # Besvärjelser och trollformler (Circles)
 ### **Circle 0: Gatu-magi**
@@ -432,7 +435,7 @@ Att fumla med magin resulterar i mutationer. Tolka för situationen
 | **1** | Åldras | Djurhuvud | Cyklop | Extra ögon | Könsbyte | Puckelrygg |
 | **2** | Djurögon | Djurben | Extra armar | Extra ben | Pälsig kropp | Långa armar |
 | **3** | Djurhud | Djurform | Kluven tunga | Tappar hår | Inga ögon | Ingen mun |
-| **4** | Bölder | Slemspår | Genomskinlig | Blöder blod | Ömsar skinn | Extra ansikte |
+| **4** | Bölder | Slemspår | Genomskinlig | Blöder blod | Ömsar skinn | Extra medvetande |
 | **5** | Barnform | Fetma | Föremålsform | Krymper | Vissnar | Tappar tänder |
 | **6** | Lockar fåglar | Djurarmar | Djurmun | Element-hud | Monsterdrag | Monsterklor |
 
