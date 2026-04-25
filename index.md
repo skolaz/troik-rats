@@ -40,7 +40,9 @@ _Länkar till ytterligare regler_
 * [Råttvakt, en nybörjarstad](rattvakt.md)
 * [Varför håller ni ihop?](varförHåller.md)
 * [**Karaktärsblad**](troik-ratsChar.png)
+
 ---
+
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
@@ -216,6 +218,7 @@ Att slåss mot flera är livsfarligt.
 > Spelaren får 10 + 5 = 15 och zombien får 7 + 1 = 8
 > 
 > Spelaren vann striden och delar ut sin skada + gängbonusen (+5) till den svagaste zombien.
+
 ## Skada och skydd
 
 När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar motståndarens Body/Brawn med resultatet.
