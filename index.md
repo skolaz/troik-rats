@@ -5,7 +5,7 @@ title: Troik-Rats av Nils Jivegård
 ## Innehållsförteckning
 **Spelets grunder**
 * [Grundregler & Svårigheter](#grundregler)
-* [Svårighetsgrad (Tärningspooler)](##svårighetsgrad)
+* [Svårighetsgrad (Tärningspooler)](#svårighetsgrad)
 * [Death-Spiral](#death-spiral-när-grundvärde-minskar)
 
 **Strid**
