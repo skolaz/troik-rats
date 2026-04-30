@@ -222,6 +222,8 @@ Att slåss mot flera är livsfarligt.
 > 
 > Spelaren vann striden och delar ut sin skada + gängbonusen (+5) till den svagaste zombien.
 
+Regelproblem med gängbonusen är att fem stycken möss skulle kunna sänka en karaktär på en runda.
+
 ## Skada och skydd
 
 När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar motståndarens Body/Brawn med resultatet.
@@ -310,7 +312,7 @@ Vid en vila på minst 8 timmar kan du försöka höja dina värden:
 
 1. Välj en Talent du har en bock i. Räkna ut målvärdet: Rank + Grundvärde.
 2. Slå standard utmaning **2d6**.
-3. Om resultatet är **ÖVER** din nuvarande rank i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
+3. Om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
 * **Misslyckat eller fummel (6, 6):** Inget händer
 * **Kritisk framgång (Par):** Höj både din rank och tillhörande grundvärde (**Body, Skill** eller **Mind**) med ett poäng.
