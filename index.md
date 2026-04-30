@@ -43,6 +43,9 @@ _Länkar till ytterligare regler_
 
 ---
 
+### Intro
+Detta regelsystem som är ihopknaprat av mina personliga idéer och önskemål, och ja, Troika! RPG och Maze Rats, har som mål att stötta spelledaren med regler som underlättar äventyrandet. Meningen är inte att det vara så fullständigt att det ska finnas regler för allt. Ett vakum av regler är bra, för då har du mer möjlighet att bestämma och fylla på. Saknas det regler så hitta på något för det. Gillar du inte nån regel så strunta i den. Är något inte alls i din stil, ändra på det! Lycka till.
+
 # Grundregler
 För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
@@ -302,22 +305,26 @@ Här blir du bättre genom att misslyckas och lära dig av dina misstag.
 
 ## Att bli bättre på Talents
 
-Varje gång du **misslyckas** med ett slag för en **Talent**, får du sätta en **bock** i rutan för den talangen på ditt karaktärsblad. Du kan bara ha en bock per Talent åt gången.
+Varje gång du **misslyckas** med en utmaning för en **Talent**, får du sätta en **bock** i rutan för den talangen på ditt karaktärsblad. Du kan bara ha en bock per Talent åt gången.
 Vid en vila på minst 8 timmar kan du försöka höja dina värden:
 
-1. Välj en Talent du har en bock i.
-2. Slå **2d6**.
-3. Om resultatet är **ÖVER** din nuvarande rank i den talangen, höjs ranken med +1.
-4. **Kritisk framgång (Par):** Om du slår ett par som lyckas höja din Talent, ökar även ditt tillhörande grundvärde (**Body, Skill** eller **Mind**) med +1!
-5. Sudda sedan ut bocken.
+1. Välj en Talent du har en bock i. Räkna ut målvärdet: Rank + Grundvärde.
+2. Slå standard utmaning **2d6**.
+3. Om resultatet är **ÖVER** din nuvarande rank i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
+* **Lyckat:** Höj din rank med ett poäng.
+* **Misslyckat eller fummel (6, 6):** Inget händer
+* **Kritisk framgång (Par):** Höj både din rank och tillhörande grundvärde (**Body, Skill** eller **Mind**) med ett poäng.
+4. Sudda sedan ut bocken.
 
 ## Att levla upp (Nivåer)
 
-Din nivå (Level) bestäms av hur många poäng du har i dina **Talents** och lagt till någon av grundvärdena.
+Din nivå (Level) bestäms av hur många poäng du har i dina sammanlagda **Talents poäng** sedan du började.
 
 * **Level 1:** Du startar med 6 poäng totalt fördelat på dina **Talents**.
 * **Level 2:** Du når nivå 2 när du har ökat dina sammanlagda poäng till 7.
 * Varje gång din totala summa poäng i **Talents** ökar, kommer du närmare nästa nivå.
+
+Vid nivå 20 har du nått taket för Talents och får inte lov att försöka bli bättre.
 
 ## Magisk utveckling (Circles)
 Magiska trollformler och besvärjelser kan inte bli bättra så som Talents kan. Istället får du lära dig nya genom att hitta magiska böcker eller lärda magiker som är villiga att lära ut till ett pris. Däremot kan en magisk Talent bli bättre.
