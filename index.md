@@ -352,33 +352,60 @@ Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
 Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på slagfältet utan hjälp, eller om skadan som tog dig till under -4 var extrem (t.ex. ett fall från en flygande pråm eller en direktträff av en eldboll), dör karaktären omedelbart.
 
+
 # Motståndare
 
-Enklare strid är HD 1d4. Standard strid är HD 1d6.
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och Statisk Brawn. Denna statiska, eller fastställda, Brawn är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
 
-|  HD (hit die) | Exempel          | Brawn (HP/Målvärde) | Special | Init-Tärning | Moral | Skada |
+|  HD | Exempel          | Statisk Brawn (HP/Målvärde) | Special | Init-Tärning | Moral | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------- | ----- | ----- |
-| 0.5 | Råtta, Vätte, Kobold       | 1-3               | 4              | d4      | 2     | 1d2   |
-|   1 | Ork, Människa, Varg        | 1-6               | 6              | d6      | 4     | 1d6   |
-|   2 | Elitsoldat, Björn          | 2-12              | 8              | d6      | 6     | 1d6+1 |
-|   3 | Ogre, Riddare, Ond Magiker | 3-18              | 10             | d8      | 7     | 1d6+2 |
-|   4 | Jätte, Liten drake         | 4-24              | 11             | d8+2    | 8     | 1d6+3 |
-|  5+ | Boss, Drake, Demon; naturkatastrof | 5-30      | 12+            | d10+2   | 10    | 2d6   |
+| 0.5 | Råtta, Vätte, Kobold       | 3               | 2              | d4      | 2     | 1d2   |
+|   1 | Ork, Människa, Varg        | 6               | 5              | d6      | 4     | 1d6   |
+|   2 | Elitsoldat, Björn          | 8              | 7              | d6      | 6     | 1d6+1 |
+|   3 | Ogre, Riddare, Ond Magiker | 10             | 9             | d8+1      | 7     | 1d6+2 |
+|   4 | Jätte, Liten drake         | 14              | 10             | d8+2    | 8     | 1d8+1 |
+|  5+ | Boss, Drake, Demon; naturkatastrof | 18      | 11            | d10+4   | 10    | 2d6+2   |
 
 ## Problem vid Brawn 12
-Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, väl planerade Talents och utrustning krävs för att underlätta sådana strider. 
+Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
 
-## Att möta Giganter (HD 3+)
+## Att möta Giganter (HD 4+)
 
-Stora monster är ofta för starka för att möta i öppen strid. Spelledaren får gärna att använda följande enkla principer:
+Stora monster är ofta för starka för små grupper av spelare att möta i öppen strid. Dessa gående katastrofer bör undvikas av spelare. Spelledaren rekommenderas att använda någon av dessa taktiker:
 
-- Sårbarhet: Monstret har ett Skydd som bara kan ignoreras om spelarna utnyttjar en svaghet (t.ex. "slåss i vatten" eller "anfall underifrån").
-- Delmål: Genom att lyckas med en specifik Talent (t.ex. Klättra, Distrahera eller Melodi) kan spelarna permanent sänka monstrets Brawn eller Special med 1d6.
+- Sårbarhet: Motståndaren har ett Skydd som bara kan ignoreras om spelarna utnyttjar en svaghet t.ex. slåss i vatten, anfall underifrån m.m.
+- Delmål: Genom att lyckas med en specifik Talent t.ex. fälla, klättra eller melodi kan spelarna permanent sänka monstrets Brawn eller Special med 1d6.
 - Grymt slut: När ett massivt monster når 0 Brawn dör det inte alltid direkt – det kanske gör ett sista, desperat utfall eller raserar hela lyan.
-- Större och välrustade motståndare har ofta -3 eller -4 i skydd. Men kan ha ställen där de är svagare.
-- Det går också att dela in olika kroppsdelar i zoner för att underlätta för spelaren. Om draken med 24 Brawn totalt har 6 Brawn i svansen går det för en vanlig spelare att vinna över svansen. Ett till tips är att få attacker att ladda upp sig i någon runda tills attacken utlöses. Då hinner spelarna planera och agera.
+- Skydd: Större och välrustade motståndare har ofta -3 eller -4 i skydd. Men kan ha ställen där de är svagare.
+- Zoner: Motståndarens olika kroppsdelar delas upp i zoner för att underlätta för spelaren. Om en drake har 24 Brawn totalt, finns kanske 6 Brawn i svansen och resterande i andra kroppsledar. Då går det för en vanlig spelare att vinna över svansen.
+- Ladda upp attack: Attacken kan ta tid att ladda upp sig innan den utlöses. Då hinner spelarna planera och agera.
 
-Eftersom dessa katastrofer inte är enkla att ha att göra med, skickar jag med ett tips: rekryter.
+> Använder spelledaren någon av taktikerna så ha med något i omgivningen eller någon ledtråd som får spelarna att förstå precis vad de ska göra. Även en motståndare är ett pussel att lösa.
+
+Eftersom dessa katastrofer inte är enkla att ha att göra med, skickar jag med ett tips: rekryter, kumpaner och följeslagare.
+
+## Tid det skulle ta emot de olika HD
+Exemplet är gjort på en nybörjarkaraktär med 9 i målvärde.
+
+| HD  | Exempel | Statisk Brawn | Tid |  Info |  Risk |
+|---|---|--|---|---|---|
+| 0.5  | Råtta, Vätte  | 3 |  1 runda |  Med Brawn 3 vinner hon motståndsslaget nästan varje gång (hon har 9 i målvärde, de har 3). Ett enda hugg med ett svärd (1d6) räcker oftast för att sänka dem direkt. |  Obefintlig |
+|  1 |  Ork, Varg | 6 |  2-3 rundor |  Hon vinner fortfarande de flesta slagen, men med Brawn 6 krävs det oftast två träffar för att fälla dem |  Låg, men du kan ta skada |
+|  2 |  Elitsoldat, Björn | 8 |  3-5 rundor |  Vanlig boss. Eftersom de gör 1d6+1 i skada kommer en enda förlorad runda sänka hennes Body från 7 till ca 3. Death-Spiral kickar in, hennes målvärde sjunker till 5, och plötsligt är chansen att du vinner nästa runda minimal. |  Hög |
+|  3 |  Riddare, Ond Magiker | 10 |  2 rundor (tills du dör) |  Även om du vinner första rundan och gör 4 skada (de har 6 kvar), kommer de troligen vinna nästa. Deras skada (1d6+2) sänker dig till 0 eller nära 0 direkt. En nybörjare behöver kumpaner eller magi för att ha en chans här. |  Självmord |
+|  4 |  Jätte, Liten drake | 14 |  - |  - |  - |
+|  5+  |  Boss, Drake, Demon; naturkatastrof | 18 |  - |  - |  - |
+
+## Rekryter det skulle behövas emot de olika HD
+Exemplet är gjort på en nybörjarkaraktär med 9 i målvärde utifrån en jämn strid.
+
+| HD  | Exempel | Statisk Brawn | Rekryter | Rundor |  Info |  Nya målvärdet |
+|---|---|--|--|---|---|---|
+|  1 |  Ork, Varg | 6 | 0 |  2-3 rundor |   |  (+0) 9 |
+|  2 |  Elitsoldat, Björn | 8 | 1-2 |  3-5 rundor |   |  (+1) 10 |
+|  3 |  Riddare, Ond Magiker | 10 | 3-4 |  2-4 rundor |  Nu lyckas spelaren nästan jämt, och även om Riddaren slår en 8:a, så blir hennes 7:a till en 9:a. Stridslyckan har vänt. |  (+3) 12 |
+|  4 |  Jätte, Liten drake | 14 | 6+ |  4-6 rundor |  Nu är striden jämn. Om Jätten slår en 10:a (lyckat), och du slår en 6:a (lyckat), blir din 6:a till en 11:a. Du vinner rundan! |  (+6) 15 |
+|  5+  |  Boss, Drake, Demon; naturkatastrof | 18 | 10+ |  snabbt |  - |  (+10) 19 |
 
 # Besvärjelser och trollformler (Circles)
 ### **Circle 0: Gatu-magi**
