@@ -27,7 +27,7 @@ title: Troik-Rats av Nils Jivegård
 
 ### **IV. Det övernaturliga**
 * [# Magi](#magi) – *Grunderna i magiska krafter*
-* [## Circles](#circles) – *Kraftnivåer från 0 till -5*
+* [## Circle](#circles) – *Kraftnivåer från 0 till -5*
 * [## Circle Talents](#circle-talents) – *De magiska skolorna*
 * [# Besvärjelser och trollformler](#besvärjelser-och-trollformler-circles) – *Lista över magi per cirkel*
 * [# Mutationer](#mutationer) – *När kroppen förändras*
@@ -48,7 +48,7 @@ _Länkar till ytterligare regler_
 Detta regelsystem som är ihopknaprat av mina personliga idéer och önskemål, och ja, Troika! RPG och Maze Rats, har som mål att stötta spelledaren med regler som underlättar äventyrandet. Meningen är inte att det vara så fullständigt att det ska finnas regler för allt. Ett vakum av regler är bra, för då har du mer möjlighet att bestämma och fylla på. Saknas det regler så hitta på något för det. Gillar du inte nån regel så strunta i den. Är något inte alls i din stil, ändra på det! Lycka till.
 
 # Grundregler
-För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6. Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
+För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6 (i svenksa sammanhang). Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
 **Slår du ett par** är betyder det att du **kritisk lyckas med din utmaning** oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Vid standard utmaning är det alltid 13,9% chans!
 
@@ -253,7 +253,7 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 
 # Magi
 
-Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex **Circles**, där Circle -5 är den mest kraftfulla och svåra, och Circle 0 är där nybörjare härjar. När du utvecklas inom Mind har du bättre möjlighet att lyckas med lägre Circles. Att få trollformler inom **Circle -5** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
+Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Circles**, där Circle -5 är den mest kraftfulla och svåra, och Circle 0 är där nybörjare härjar. När du utvecklas inom Mind har du bättre möjlighet att lyckas med lägre Circles. Att få trollformler inom **Circle -5** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
 
 ## Circles
 
@@ -269,14 +269,14 @@ Trollformelns **Circle rank subtraherar** ditt **Mind**-värde för att **skapa 
 
 ### Circle Talents
 För att underlätta utspottandet och vårskriket av trollformler kan du ha Talents i vissa magiska skolor. Dessa ranker adderas till målvärdet.
-- **Abjuration = Beskydd:** Skapar sköldar, bannlyser spöken och häver förbannelser
-- **Conjuration = Frammaning:** Förflyttar föremål eller kallar på varesler från andra dimensioner.
-- **Divination = Spå:** Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
-- **Enchantment = Förtrollning:** Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
-- **Evocation = Framkallning:** Framkallar eld, blixtar, ljus, vatten och andra element.
+- **Abjuration (Beskydd):** Skapar sköldar, bannlyser spöken och häver förbannelser
+- **Conjuration (Frammaning):** Förflyttar föremål eller kallar på varesler från andra dimensioner.
+- **Divination (Spå):** Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
+- **Enchantment (Förtrollning):** Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
+- **Evocation (Framkallning):** Framkallar eld, blixtar, ljus, vatten och andra element.
 - **Illusion:** Skapar skenbilder, ljud och annat som lurar sinnena.
-- **Necromancy = Nekromanti:** Manipulerar liv och död, prata med andar eller väcka döda.
-- **Transmutation = Förvandling:** Ändrar fysiska egenskaper hos föremål eller varelser.
+- **Necromancy (Nekromanti):** Manipulerar liv och död, prata med andar eller väcka döda.
+- **Transmutation (Förvandling):** Ändrar fysiska egenskaper hos föremål eller varelser.
 
 > Exempel
 > Spelaren vill förflytta en nyckel som finns på högsta bokhyllan. Hon använder Circle 0 Liten knuff och lägger ihop sin Mind (5) + Talent inom Frammaning (1) + Circle 0 och får sitt målvärde 6. Hon rullar 2d6 för standard utmaning och får 2 + 3 = 5. Hon lyckas med att knuffa ner nyckel så de kan gå vidare genom dörren. Eftersom att trollformlen var i Circle 0 så skadar det inte hennes Mind.
@@ -356,15 +356,15 @@ Döden är slutgiltig i **Troik-Rats**. Om en karaktär lämnas medvetslös på 
 
 # Motståndare
 
-HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och Statisk Brawn. Denna statiska, eller fastställda, Brawn är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och rekomenderad Brawn. Denna rekomenderade Brawn är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
 
-|  HD | Exempel          | Statisk Brawn (HP/Målvärde) | Special | Init-Tärning | Moral | Skada |
+|  HD | Exempel          | Rek. Brawn (HP/Målvärde) | Special | Init-Tärning | Moral | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ------- | ----- | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 3               | 2              | d4      | 2     | 1d2   |
 |   1 | Ork, Människa, Varg        | 6               | 5              | d6      | 4     | 1d6   |
 |   2 | Elitsoldat, Björn          | 8              | 7              | d6      | 6     | 1d6+1 |
 |   3 | Ogre, Riddare, Ond Magiker | 10             | 9             | d8+1      | 7     | 1d6+2 |
-|   4 | Jätte, Liten drake         | 14              | 10             | d8+2    | 8     | 1d8+1 |
+|   4 | Jätte, Ung drake         | 14              | 10             | d8+2    | 8     | 1d8+1 |
 |  5+ | Boss, Drake, Demon; naturkatastrof | 18      | 11            | d10+4   | 10    | 2d6+2   |
 
 ## Problem vid Brawn 12
@@ -419,7 +419,7 @@ _Målvärde: Mind + 0. Skada: 1. Varaktighet: 15 sekunder._
 
 ### **Circle -1: Manipulatören**
 
-_Målvärde: Mind - 1. Skada: 1d2. Varaktighet: 60 sek._
+_Målvärde: Mind - 1. Skada: 1d2. Varaktighet: 60 sekunder._
 * **Vänskap (Enchantment):** En varelse blir vänligt inställd till dig så länge du inte hotar den. Men kan förstå efteråt vad som hände.
 * **Skuggslöja (Illusion):** Du blir svår att se i mörker (Ger fördel på _Smyga_).
 * **Dödskyss (Necromancy):** Suger musten ur offret (1d2 skada), du återfår 1 poäng Body.
@@ -427,7 +427,7 @@ _Målvärde: Mind - 1. Skada: 1d2. Varaktighet: 60 sek._
 
 ### **Circle -2: Framkallaren**
 
-_Målvärde: Mind - 2. Skada: 1d4+1. Varaktighet: 1 strid/5 min._
+_Målvärde: Mind - 2. Skada: 1d4+1. Varaktighet: 1 strid/5 minuter._
 * **Råttsvärm (Conjuration):** Kallar fram en svärm råttor som biter en fiende (1d4+1 skada).
 * **Sköld (Abjuration):** En magisk barriär ger -1 på all inkommande skada i 5 min.
 * **Hela sår (Abjuration):** Sluter djupa sår och läker 1d4+1 Body.
@@ -435,7 +435,7 @@ _Målvärde: Mind - 2. Skada: 1d4+1. Varaktighet: 1 strid/5 min._
 
 ### **Circle -3: Kraften (AoE)**
 
-_Målvärde: Mind - 3. Skada: 1d4+2. Varaktighet: 5 min._
+_Målvärde: Mind - 3. Skada: 1d4+2. Varaktighet: 5 minuter._
 * **Eldstöt (Evocation):** En våg av eld träffar alla framför dig (AoE, 1d4+2 skada).
 * **Sömn (Enchantment):** 1d6 små varelser (eller 1 stor) faller i djup dvala i 5 minuter. Mottagaren får lov att försöka motstå.
 * **Tala med döda (Necromancy):** Frammanar anden från ett lik för att ställa tre frågor. Anden är sällan glad.
