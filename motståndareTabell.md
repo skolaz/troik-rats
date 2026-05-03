@@ -53,12 +53,12 @@ Förgiftning gör 1d4 skada varje tur den påverkade agerar.
 
 | Namn          | Rek. Brawn | Special | Init-Tärning | Moral | Skada |
 | :------------------------- |:-----------------:| -------------- | ------- | ----- | ----- |
-|    Jätte    |        14        |        9       | d8+2      |   8   |  1d8+1  |
-|     Ung drake    |        14        |        10       |       |   8   |    |
-|      Mässing-Slaktare     |        13       |        10       |       |   8   |  |
-| Parasitsvamp |       13       |       Beror på varelsen den parasiterar       |    d6   |   -0   |  |
-|     Stengolem     |        14       |       9       |     |   -0   |  |
-| Sphinx |    13   |       10      |    |   8  |    |
+|    Jätte    |        14    |        9       | d8+2      |   8   |  klubba 1d8+1  |
+|     Ung drake    |   14    |        10       |       |   8   |  eld + tänder 1d8+1   |
+|      Mässing-Slaktare | 13 (skydd -3) |        10       |       |   8   | korronderande svärd 1d8+1  |
+| Parasitsvamp | 13          |       Beror på varelsen den parasiterar  (Formel: Fungi-spridning) |    d6   |   -0   | syra 1d8+1  |
+|     Stengolem     |  14    |       9       |     |   -0   | nävar 1d8+1  |
+| Sphinx |    13   |       10      |    |   8  |  tänder + vingar 1d8+1   |
 
 ## HD 5+
 
