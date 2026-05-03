@@ -1,4 +1,4 @@
-# motståndareTabell
+# Tabeller för motståndare
 
 ## HD 0.5
 
@@ -23,6 +23,7 @@
 | Myskmadra | 7      | 8 (Formel: Örtbindare)            |    | 4    | energi 1d6   |
 
 Myskmadra är en sorts träd-, skogsnymf.
+Förgiftning gör 1d4 skada varje tur den påverkade agerar.
 
 ## HD 2
 
@@ -34,6 +35,8 @@ Myskmadra är en sorts träd-, skogsnymf.
 | Jättespindel | 7             | 5             |       | 6     | tänder 1d6+1 + Förgiftning |
 |     Vålnad     | 7              | 5 (Formel: Frys, Dödskyss)             |     | 5     | nekromanti energi 1d6+1 (mot Body eller Mind) |
 | Magiker | 7      | 8 (Formel: Eldklot Levitera)             |    | 6    | magi 1d6+1 (mot Body eller Mind)   |
+
+Förgiftning gör 1d4 skada varje tur den påverkade agerar.
 
 ## HD 3
 
