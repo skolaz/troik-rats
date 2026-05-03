@@ -39,6 +39,7 @@ _Länkar till ytterligare regler_
 * [Startkaraktärer med Talents](startbakgrund.md)
 * [Råttvakt, en nybörjarstad](rattvakt.md)
 * [Varför håller ni ihop?](varförHåller.md)
+* [Fler motståndare](motståndareTabell.md)
 * [**Karaktärsblad**](troik-ratsChar.png)
 
 ---
@@ -163,11 +164,11 @@ Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initi
 **Så här fungerar det:** Ditt Skill-värde översätts till en tärning. Om ditt värde ligger mellan två tärningssteg avrundar du nedåt till närmaste tärning men får **+1** på resultatet.
 
 > Exempel
-> + Skill 5 ➡️ Initiativ d4+1
-> + Skill 6 ➡️ Initiativ d6
-> + Skill 7 ➡️ Initiative d6+1
-> + Skill 12 ➡️ Initiativ d12
-> + Skill 13 ➡️ Initiative d12+1
+> + Skill 5 -> Initiativ d4+1
+> + Skill 6 -> Initiativ d6
+> + Skill 7 -> Initiativ d6+1
+> + Skill 12 -> Initiativ d12
+> + Skill 13 -> Initiativ d12+1
 
 När alla har slagit börjar den med högst resultat.
 
