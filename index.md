@@ -29,15 +29,15 @@ title: Troik-Rats av Nils Jivegård
 * [# Magi](#magi) – *Grunderna i magiska krafter*
 * [## Circle](#circles) – *Kraftnivåer från 0 till -5*
 * [## Circle Talents](#circle-talents) – *De magiska skolorna*
-* [# Besvärjelser och trollformler](#besvärjelser-och-trollformler-circles) – *Lista över magi per cirkel*
+* [# Besvärjelser och trollformler](#besvärjelser-och-trollformler-circles) – *Lista med flera exemepl på trollformler*
 * [# Mutationer](#mutationer) – *När kroppen förändras*
 * [# Fummel tabeller](#fummel-tabeller) – *Katastrofer och mutationstabell*
 
 _Länkar till ytterligare regler_
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
-* [Startkaraktärer med Talents](startbakgrund.md)
-* [Råttvakt, en nybörjarstad](rattvakt.md)
+* [Startkaraktärer med Talents](startBakgrund.md)
+* [Råttvakt, en nybörjarstad](råttvakt.md)
 * [Varför håller ni ihop?](varförHåller.md)
 * [Fler motståndare](motståndareTabell.md)
 * [**Karaktärsblad**](troik-ratsChar.png)
