@@ -27,9 +27,9 @@ title: Troik-Rats av Nils Jivegård
 
 ### **IV. Det övernaturliga**
 * [# Magi](#magi) – *Grunderna i magiska krafter*
-* [## Circle](#circles) – *Kraftnivåer från 0 till -5*
+* [## Circle](#circle) – *Kraftnivåer från 0 till -5*
 * [## Circle Talents](#circle-talents) – *De magiska skolorna*
-* [# Besvärjelser och trollformler](#besvärjelser-och-trollformler-circles) – *Lista med flera exemepl på trollformler*
+* [# Besvärjelser och trollformler](#besvärjelser-och-trollformler) – *Lista med flera exempel på trollformler*
 * [# Mutationer](#mutationer) – *När kroppen förändras*
 * [# Fummel tabeller](#fummel-tabeller) – *Katastrofer och mutationstabell*
 
@@ -48,7 +48,7 @@ _Länkar till ytterligare regler_
 Detta regelsystem som är ihopknaprat av mina personliga idéer och önskemål, och ja, Troika! RPG och Maze Rats, har som mål att stötta spelledaren med regler som underlättar äventyrandet. Meningen är inte att det vara så fullständigt att det ska finnas regler för allt. Ett vakum av regler är bra, för då har du mer möjlighet att bestämma och fylla på. Saknas det regler så hitta på något för det. Gillar du inte nån regel så strunta i den. Är något inte alls i din stil, ändra på det! Lycka till.
 
 # Grundregler
-För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6 (i svenksa sammanhang). Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
+För att se om du klarar en utmaning (om det ej är en utmaning kan man se det som att man automatiskt lyckas) rullar du två sexsidiga tärningar, även kallat 2d6 eller 2t6 (i svenska sammanhang). Detta är en standard utmaning. Slår du under eller på målvärdet lyckas du. Är det en utmaning eller tävling mot en motståndare vinner den som lyckas slå under sitt värde. Skulle båda lyckas vinner den med högsta summan.
 
 **Slår du ett par** är betyder det att du **kritisk lyckas med din utmaning** oavsett om du kom under ditt värde eller inte. Det kan resultera i dubbel skada, något annat fantastiskt bra händer eller bara att utmaning lyckades. Vid standard utmaning är det alltid 13,9% chans!
 
@@ -255,7 +255,7 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 
 Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Circles**, där Circle -5 är den mest kraftfulla och svåra, och Circle 0 är där nybörjare härjar. När du utvecklas inom Mind har du bättre möjlighet att lyckas med lägre Circles. Att få trollformler inom **Circle -5** innebär att du har bemästrat de djupaste och svåraste hemligheterna.
 
-## Circles
+## Circle
 
 Trollformelns **Circle rank subtraherar** ditt **Mind**-värde för att **skapa ditt målvärde**. **Efter du har lyckats eller misslyckats skadar Circle ranken ditt grundvärde Mind.**
 * **Circle 0:** Ytterst lätt magi. Skadan du kan göra är 1.
@@ -408,7 +408,7 @@ Exemplet är gjort på en nybörjarkaraktär med 9 i målvärde utifrån en jäm
 |  4 |  Jätte, Liten drake | 14 | 6+ |  4-6 rundor |  Nu är striden jämn. Om Jätten slår en 10:a (lyckat), och du slår en 6:a (lyckat), blir din 6:a till en 11:a. Du vinner rundan! |  (+6) 15 |
 |  5+  |  Boss, Drake, Demon; naturkatastrof | 18 | 10+ |  snabbt |  - |  (+10) 19 |
 
-# Besvärjelser och trollformler (Circles)
+# Besvärjelser och trollformler
 ### **Circle 0: Gatu-magi**
 
 _Målvärde: Mind + 0. Skada: 1. Varaktighet: 15 sekunder._
