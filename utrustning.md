@@ -20,7 +20,7 @@ I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hit
 `#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
 
 ### Skicket påverkar spelet
-* **Vrakpris (Söndrigt):** Vid ett **Fummel (1,1)** går vapnet sönder helt. Det kan inte lagas utan en smed och material.
+* **Vrakpris (Söndrigt):** Vid ett **Fummel (6, 6)** går vapnet sönder helt. Det kan inte lagas utan en smed och material.
 * **Mästerligt (Fint):** Balanserat och dödligt. Ger **+1 på tärningsresultatet** (hjälper dig att vinna motståndsslag där båda lyckas).
 
 ---
