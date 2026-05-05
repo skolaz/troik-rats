@@ -350,6 +350,8 @@ Att överleva i en fientlig värld kräver vila, men trygghet är en lyx.
 
 * **0 Mind / Moral:** Ditt psyke brister. Du drabbas av total panik, katatoni eller flyr hals över huvud. Du är ospelbar och i händerna på ödet tills du återfått minst 1 poäng **Mind**.
 
+> När spelaren når 0 i antigen Body eller Mind kan de få utföra "några sista ord". Vilket är en sista gärning. Kanske användandet av ett annat grundvärde kan rädda ditt skinn?
+
 * **-4 Body / Brawn / Mind / Moral:** Du dör på fläcken. Ingen återvändo.
 
 ## Döden
