@@ -54,7 +54,7 @@ För att se om du klarar en utmaning (om det ej är en utmaning kan man se det s
 
 Undantaget från att ett par är bra är **när du får sexor (6, 6)**. Detta är istället en **fummel och är ett fruktansvärt misslyckades**. Vilket kan bli så att fienden gör dubbel skada, du gör skada på dig själv eller en allierad eller magin orsakar mutationer eller katastrofer. Risken att få två sexor vid standard utmaning är 2,8%.
 
-> Skulle det vara två par där den ena är fummel och den andra är kritisk lycka, vinner alltid fummel.
+> Skulle det vara två par där den ena är fummel och den andra är kritisk lycka, vinner alltid fummel. Tanken bakom denna regeln är att misslyckas belönas med att bli bättre.
 
 När omständigheterna ger dig en tydlig fördel eller nackdel slår du **en extra d6** än vad utmaningen kräver.
 
@@ -291,16 +291,19 @@ När du skapar en nybörjarkaraktär kan du välja att invenstera i Circle Talen
 Det finns två sätt att hantera magi:
 
 1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen. **Circle rank skadan utsöndras när trollformeln används.** **Fummlar sker direkt.**
-2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckande åstakommer ingenting, plus lite skada på din Mind (eller värre – se Fummel).
+2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under Mind + Circle** mitt i stridens hetta. Misslyckande åstakommer ingenting, plus lite skada på din Mind (eller värre – se nedan).
 
 > Du kan alltid välja att kasta en formel från en högre Circle (t.ex. använda din kraft från Circle -5 för att kasta en Circle 2-formel) för att göra det enklare att lyckas. Då skalas effekten enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
 
-## Fummel & Katastrofer
+## Fumla med magi
 
-Magi är en instabil kraft.
+Magi är en instabil kraft. Reglerna för fumla med magi bör läsas i stegvis ordning
 
-* **6,6 :** Om du rullar två sexor när du kastar eller förbereder magi, drabbas du eller någon av en **Mutation**.
-* **Katastrof:** Vid särskilt grova misslyckanden (eller om spelledaren anser att situationen är kaotisk, som vid Circle -4 och Circle -5) kan magin orsaka en **Katastrof** som påverkar hela omgivningen.
+1. **6,6 :** Om du rullar två sexor när du kastar eller förbereder magi, kan du eller någon annan drabbas av en **Mutation**.
+2. Nästa steg är att rulla för **Magikontroll**. Detta görs genom att kasta tre sexsidiga tärningar (3d6) och läsa svaret
+-    Ett par: inget händer. Magin svalnar.
+-    En fummel (6, 6): En **katastrof** inträffar. Använd sista siffran och hitta reaktionen på katastroflistan.
+-    Tärningarna visar inget par eller fummel: Sätt ihop siffrorna i obestämd följd och hitta reaktionen på mutationslistan.
 
 # Erfarenhet & Utveckling
 
