@@ -461,13 +461,14 @@ _Målvärde: Mind - 5. Skada: 1d8. Varaktighet: Permanent eller stort område._
 * **Sann syn (Divination):** Du ser genom alla illusioner, ser dolda dörrar och kan se in i framtiden (Ger automatisk lyckad på nästa 3 slag).
 
 # Mutationer
-Tanken bakom mutationer är att det ska vara något som skapar frågor och intriger. Som exempel hoppas jag att frågor kan komma som: Hur fick den karaktärern sin tredje armen? Är den magiker eller är det en olycka där han har varit på fel plats vid fel tidpunkt? Är den karaktären starkare och bättre för den har tre armar?
+Tanken bakom mutationer är att det ska vara något som skapar frågor och intriger. Som exempel hoppas jag att frågor kan komma som: Hur fick den karaktärern sin tredje armen? Är den magiker eller är det en olycka där hon har varit på fel plats vid fel tidpunkt? Är den karaktären starkare och bättre för den har tre armar?
 
 Mutationer kan vara permanenta eller tillfälliga. De skulle kunna fungerar som en förbannelse också. Men dessa mutationer påverkar först och främst de fysiska delarna och de fysiska förnimmelser. Till exempel kan större öron resultera i bättre hörande men känslig för extremt höga ljud. Vissa karaktärer kanske till och med samlar på sig mutationer för att bygga en sån bra kropp som möjligt. Så som looksmaxxing gör idag.
 
-Mycket hänger på vad spelledare vill göra. Reglerna är för dem att tolka och justera. Därför lämnas det öppet.
+Mycket hänger på vad spelledare vill göra. Reglerna är för dem att tolka och justera. Därför lämnas det hyfsat öppet.
 
 # Fummel tabeller
+## Fumla i strid
 
 | 2d6  | Fummel  |   |
 |---|---|---|
@@ -477,27 +478,48 @@ Mycket hänger på vad spelledare vill göra. Reglerna är för dem att tolka oc
 | 9-10 | Självskada  |  Du slår din egen vapenskada mot dig själv.  |
 | 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns). |
 
-Att fumla med magin resulterar i mutationer. Tolka för situationen
+## Fumla med magi
 
-| d6 | 1 | 2 | 3 | 4 | 5 | 6 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Åldras | Djurhuvud | Cyklop | Extra ögon | Könsbyte | Puckelrygg |
-| **2** | Djurögon | Djurben | Extra armar | Extra ben | Pälsig kropp | Långa armar |
-| **3** | Djurhud | Djurform | Kluven tunga | Tappar hår | Inga ögon | Ingen mun |
-| **4** | Bölder | Slemspår | Genomskinlig | Blöder blod | Ömsar skinn | Extra medvetande |
-| **5** | Barnform | Fetma | Föremålsform | Krymper | Vissnar | Tappar tänder |
-| **6** | Lockar fåglar | Djurarmar | Djurmun | Element-hud | Monsterdrag | Monsterklor |
+Slå för din Magikontroll (3d6)
+> Par = inget händer (37%)
+> Fummel = katastrof (7%)
+> Inget av ovan -> läs av siffrorna i obestämd ordning och hitta din mutation (55%)
 
-Att fumla med magin kan också resulterar i katastrofer. Tolka för situationen
+### Mutationslistan
 
-| d6 | 1 | 2 | 3 | 4 | 5 | 6 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Järn rostar | Djur dör | Djur muterar | Fåglar anfaller | Stad dyker upp | Dödlig dimma |
-| **2** | Drömpest | Evig natt | Evigt regn | Evig storm | Evig skymning | Evig vinter |
-| **3** | Fae återvänder | Skog växer upp | Glömska | Gravar öppnas | Klagovisor | Fluglarver |
-| **4** | Massgalenskap | Massmutation | Mass-sömn | Meteornedslag | Speglar talar | Inga stjärnor |
-| **5** | Utomjording | Folk krymper | Folk försvinner | Växter vissnar | Portal öppnas | Reva i tiden |
-| **6** | Skuggor talar | Rummet vids | Stenar talar | Total tystnad | Torn dyker upp | Vatten till blod |
+| Kod | Mutation | Spelteknisk Effekt |
+| :--- | :--- | :--- |
+| **123** | **Glasartad hud** | Din hud blir genomskinlig. Du ser dina organ. -1 Moral för de som ser dig. |
+| **124** | **Mässings-fingrar** | Dina fingrar blir av metall. Du kan dyrka lås utan verktyg men låter när du rör dig. |
+| **125** | **Extra mun** | En mun öppnas på din hals. Den pratar konstant och avslöjar dina hemligheter. |
+| **126** | **Insektshår** | Styva, svarta insektshår täcker din kropp. -1 på Akrobatik (du är stel). |
+| **134** | **Teleskop-öga** | Ett öga kan skjutas ut 10 cm. Du har Fördel på slag för att spana. |
+| **135** | **Svamp-växt** | Lila svampar växer ur dina axlar. De lyser svagt i mörker (du kan inte gömma dig). |
+| **136** | **Hål i bröstet** | Ett knytnävsstort hål öppnar sig rakt genom bröstet. Du kan tekniskt sett förvara små saker där, men det syns. |
+| **145** | **Magnetiskt fält** | Små metallföremål (pilar, knivar, nycklar) dras till dig. Tar +1 mer skada från metallvapen. |
+| **146** | **Grod-tunga** | Din tunga blir 1 meter lång och klibbig. Du kan plocka upp saker på avstånd. Du pratar väldigt märkligt. |
+| **156** | **Tids-skugga** | Du har en skugga som rör sig 2 sekunder efter dig. |
+| **234** | **Gälar** | Du kan andas under vatten men måste fukta kroppen för att kunna ta upp syret. |
+| **235** | **Hov-fötter** | Dina fötter blir till hovar. Du springer snabbare men kan inte bära skor och har svårt att smyga. |
+| **236** | **Huggorm-tänder** | Du får gifttänder. Ett lyckat bett gör 1d4 extra skada (Förgiftning). |
+| **245** | **Dubbla leder** | Dina armar och ben kan böjas åt båda hållen. Du kan ta dig ur alla bojor. Att stå rakt är svårt. |
+| **246** | **Svavel-andedräkt** | Din andedräkt luktar ruttna ägg och ryker. -2 på alla sociala slag. |
+| **256** | **Självlysande blod** | Ditt blod lyser starkt neonblått. Om du är skadad är du lätt att spåra. |
+| **345** | **Fjällig hud** | Din hud blir hård och täckt av fiskfjäll. |
+| **346** | **Känselhorn** | Antenner växer ut ur pannan. Du kan "se" i totalt mörker via vibrationer. |
+| **356** | **Tredje arm** | En liten, svag arm växer ut ur magen. Kan hålla en fackla eller en sköld. |
+| **456** | **Muterat kranium** | Ditt huvud sväller och får formen av en kon. |
+
+### Katastroflistan
+
+| Tärning (X) | Katastrof | Effekt på världen |
+| :--- | :--- | :--- |
+| **1** | **Dimensionsspricka** | En reva öppnas. 1d6 varelser från en annan tidsepok väller ut och är hungriga. |
+| **2** | **Magisk Torka** | All magi i området (1 km radie) dör ut helt i 1d6 dagar. Inga formler fungerar. |
+| **3** | **Tids-eko** | Alla inom synhåll åldras eller föryngras 1d20 år omedelbart (slå 1d2 för riktning). |
+| **4** | **Väder-omkastning** | Himlen byter färg och det börjar regna flytande mässing, syra eller levande grodor. |
+| **5** | **Själs-läckage** | Magikern och den närmaste personen byter kroppar med varandra (permanent tills motmedel hittas). |
+| **6** | **Historiens Skalv** | En känd historisk händelse raderas eller ändras. (T.ex. en stad som fanns nyss har nu legat i ruin i 100 år). |
 
 # Karaktärsblad: Troik-Rats
 ![Karaktärsblad](troik-ratsChar.png)
