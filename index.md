@@ -5,35 +5,36 @@ title: Troik-Rats av Nils Jivegård
 ## Innehållsförteckning
 
 ### **I. Spelets grunder**
-* [# Grundregler](#grundregler) – *2d6-systemet, Par & Fummel*
-* [## Grundvärde](#grundvärde) – *Body, Skill och Mind*
-* [# Svårighetsgrad](#svårighetsgrad) – *Tärningspooler och utmaningar*
-* [# Motståndarens grundvärde](#motståndarens-grundvärde-är-lite-annorlunda) – *Brawn, Special och Moral*
-* [# Death-Spiral](#death-spiral-när-grundvärde-minskar) – *Konsekvenserna av att ta skada*
+* [Grundregler](#grundregler) – *2d6-systemet, Par & Fummel*
+* [Grundvärde](#grundvärde) – *Body, Skill och Mind*
+* [Svårighetsgrad](#svårighetsgrad) – *Tärningspooler och utmaningar*
+* [Motståndarens grundvärde](#motståndarens-grundvärde-är-lite-annorlunda) – *Brawn, Special och Moral*
+* [Death-Spiral](#death-spiral-när-grundvärde-minskar) – *Konsekvenserna av att ta skada*
 
 ### **II. Karaktärsegenskaper**
-* [# Talents](#talents) – *Hur talanger fungerar och beräknas*
-* [## Tabell med Talents](#tabell-med-talents) – *Snabbguide till alla färdigheter*
-* [## Beskrivning av Talents](#beskrivning-av-tabell-med-talents) – *Detaljerade förklaringar*
+* [Talents](#talents) – *Hur talanger fungerar och beräknas*
+* [Tabell med Talents](#tabell-med-talents) – *Snabbguide till alla färdigheter*
+* [Beskrivning av Talents](#beskrivning-av-tabell-med-talents) – *Detaljerade förklaringar*
 
 ### **III. Strid & Överlevnad**
-* [# Initiativ](#initiativ) – *Turordning baserat på Skill*
-* [# Strid](#strid) – *Motståndsslag och anfall*
-* [## Kreativ strid & grupper](#kreativ-strid) – *Vinnarens vilja och numerärt överläge*
-* [## Skada och skydd](#skada-och-skydd) – *Rustning och hälsa*
-* [## Vapen](#vapen) – *Vapentabeller för närstrid och distans*
-* [# Motståndare](#motståndare) – *Bestiarium och HD-värden*
-* [## Att möta Giganter](#att-möta-giganter-hd-3) – *Strategier mot monster med HD 3+*
+* [Initiativ](#initiativ) – *Turordning baserat på Skill*
+* [Strid](#strid) – *Motståndsslag och anfall*
+* [Kreativ strid & grupper](#kreativ-strid) – *Vinnarens vilja och numerärt överläge*
+* [Skada och skydd](#skada-och-skydd) – *Rustning och hälsa*
+* [Vapen](#vapen) – *Vapentabeller för närstrid och distans*
+* [Motståndare](#motståndare) – *Bestiarium och HD-värden*
+* [Att möta Giganter](#att-möta-giganter-hd-4) – *Strategier mot monster med HD 4+*
 
 ### **IV. Det övernaturliga**
-* [# Magi](#magi) – *Grunderna i magiska krafter*
-* [## Circle](#circle) – *Kraftnivåer från 0 till -5*
-* [## Circle Talents](#circle-talents) – *De magiska skolorna*
-* [# Besvärjelser och trollformler](#besvärjelser-och-trollformler) – *Lista med flera exempel på trollformler*
-* [# Mutationer](#mutationer) – *När kroppen förändras*
-* [# Fummel tabeller](#fummel-tabeller) – *Katastrofer och mutationstabell*
+* [Magi](#magi) – *Grunderna i magiska krafter*
+* [Circle](#circle) – *Kraftnivåer från 0 till -5*
+* [Circle Talents](#circle-talents) – *De magiska skolorna*
+* [Besvärjelser och trollformler](#besvärjelser-och-trollformler) – *Lista med flera exempel på trollformler*
+* [Mutationer](#mutationer) – *När kroppen förändras*
+* [Fummel tabeller](#fummel-tabeller) – *Katastrofer och mutationstabell*
 
 _Länkar till ytterligare regler_
+* [Guide till att skapa en karaktär](skapaKaraktärGuide.md)
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Startkaraktärer med Talents](startBakgrund.md)
@@ -63,9 +64,9 @@ När omständigheterna ger dig en tydlig fördel eller nackdel slår du **en ext
 
 ## Grundvärde
 En spelare har tre grundvärden. De heter **Body, Skill och Mind**. Så här kan man enkelt bryta ner betydelsen av grundvärde:
-* **Body** = Hälsa = Styrka  | Sjunker av fysisk skada
-* **Skill** = Smidighet = Rörelse = Fingerfärdighet = Hantverk | Sjunker av kritiska skador eller omgivningen
-* **Mind** = Mental hälsa = Magi = Språk = Kunskap | Sjunker av användandet av magi
+* **Body** = Hälsa, Styrka
+* **Skill** = Smidighet,  Rörelse,  Fingerfärdighet,  Hantverk
+* **Mind** = Mental hälsa, Magi,  Språk,  Kunskap
 
 > En ny karaktär börjar med att sätta 5, 6 och 7 på varsitt grundvärde.
 
@@ -75,16 +76,16 @@ När du står inför en utmaning där du definitivt klarar uppgiften så klarar 
 
 - **Lätt utmaning** använder du **1d6** och försöker nå ditt målvärde eller under. Här **går det inte att få par eller fummla.**
 - **Standard utmaning och vanlig strid** använder du **2d6** och försöker nå ditt målvärde eller under.  Här **kan du få ett par eller fummla.**
-- **Svår utmaning** använder du **3d6** och försöker nå ditt målvärde eller under. Här behövs **tre av samma för att få en kritisk framgång, fummel kräver bara två sexor (6, 6)**.
-- **Omöjlig utmaning** använder du **4d6** och försöker nå ditt målvärde eller under. Här behövs **fyra av samma för att få en kritisk framgång, fummel kräver bara två sexor (6, 6)**.
+- **Svår utmaning** använder du **3d6** och försöker nå ditt målvärde eller under. Här behövs **tre av samma för att få par effekten, fummel kräver bara två sexor (6, 6)**.
+- **Omöjlig utmaning** använder du **4d6** och försöker nå ditt målvärde eller under. Här behövs **fyra av samma för att få par effekten, fummel kräver bara två sexor (6, 6)**.
 
 > Genom planering, använda lämpliga Talents, lämplig utrustning m.m. av spelaren kan spelledaren gå med på att sänka utmaningen eller ge en fördel.
 
 # Motståndarens grundvärde är lite annorlunda
 Motståndaren använder en annan terminologi för att särskilda dem från spelare. De använder även Hit Die vilket är antal 6 sidiga tärningar som summeras för att representera svårighetsgraden som motståndare. Motståndare använder då dessa istället: 
-* **Brawn** = Hälsa = Styrka = Smidighet = Rörelse
-* **Special** = Skill = Mind = Magi = Fingerfärdighet = Språk = Kunskap
-* **Moral** = Mental hälsa = Hur länge de vågar vara i striden
+* **Brawn** = Hälsa, Styrka, Smidighet, Rörelse
+* **Special** = Skill, Mind, Magi, Fingerfärdighet, Språk, Kunskap
+* **Moral** = Mental hälsa, Hur länge de vågar vara i striden
 
 Moralen sjunker när någon dör i gruppen. När de nått hälften av sin moral testas en standard utmaning (2d6 med målvärde prick eller under) med moralen som sitt målvärde. Lyckas utmaningen stannar de kvar i striden.
 
@@ -167,6 +168,7 @@ Ditt initiativ avgör vem som handlar först i strid och hur snabb du är. Initi
 > + Skill 5 -> Initiativ d4+1
 > + Skill 6 -> Initiativ d6
 > + Skill 7 -> Initiativ d6+1
+> + ...
 > + Skill 12 -> Initiativ d12
 > + Skill 13 -> Initiativ d12+1
 
@@ -180,7 +182,7 @@ Strid här är intensivt och dödligt. Man turas om att agera baserat på **Init
 När du anfaller en fiende (eller fienden anfaller dig) gör ni ett **Motståndsslag**.
 
 1. **Välj Talent:** Spelaren väljer en passande Talent (oftast **Strid** eller **Slåss**) och adderar sitt grundvärde (**Body**). Detta är spelarens målvärde.
-2. **Motstånd:** Fienden använder sitt värde (t.ex. **Brawn**).
+2. **Motståndsslag:** Fienden använder sitt värde (t.ex. **Brawn**).
 3. **Slå 2d6; Standard utmaning:** Båda slår samtidigt.
 
    * För att vinna måste du slå **ditt målvärde eller under** men **högre än motståndaren**.
@@ -189,9 +191,11 @@ När du anfaller en fiende (eller fienden anfaller dig) gör ni ett **Motstånds
 
 > **Exempel:** Du har Body 7 + Strid 2 (Målvärde 9). En Ork har Brawn 6. Du slår en 7:a (Lyckat!). Orken slår en 5:a (Lyckat!). **Resultat:** Eftersom din 7:a är högre än Orkens 5:a (och båda är under sina målvärden) vinner du och hugger Orken!
 
+> Skulle det vara en strid mellan två grupper, alltså gångbonusen används, delas skadan ut till de svagaste och själva ledaren sist. 
+
 ## Kreativ strid
 
-Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för att få din vilja igenom:
+Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för att få sin vilja igenom:
 
 * **Skrämma:** Få fienden att tveka eller fly.
 * **Akrobatik:** Manövrera dig till en bättre position eller undvika att bli omringad.
@@ -200,30 +204,29 @@ Strid handlar inte bara om vapen. Du kan välja att använda andra Talents för 
 
 > Använd gärna andra svårigheter om situationen skulle luta åt det hållet.
 
-## Grupper och numerärt överläge
+## Gängbonus
 
 Att slåss mot flera är livsfarligt.
 
-* **Gäng:** Om flera fiender attackerar samma mål på samma sätt får de **+1 på sitt målvärde, tärningsresultat och skadan** för varje extra medlem i gruppen. Skadan går först till de svagaste. Överbliven skada går till 
+* **Gängbonus:** Om flera fiender attackerar samma mål på samma sätt får de **+1 på sitt målvärde, tärningsresultat och skadan** för varje extra medlem i gruppen. Skadan går först till de svagaste. Överbliven skada går till 
 * **Moral:** När en kamrat faller eller blir medvetslös drabbas resten av laget av **-2 på Mind/Moral** på grund av chocken.
 
 > Exempel på attack i grupp
-> 
+>
 > Spelaren har rekryterat 5 extra medlemmar, kanske överdrivet men kontot hade råd. Hon möter 2 modifierade zombies med 10 i Brawn. Zombien attackerar med sin vän och spelaren med sina kupaner.
-> 
-> Spelaren har målvärde 8 och får nytt målvärde 8 + 5 (för medlemmarna som gör samma attack) = 13.
-> 
-> Modifierade zombien har målvärde 10 och får nytt målvärde 10 + 1 (för medlemmen som gör samma attack) = 11.
-> 
-> Rullar för standard utmaning 2d6. Endast här kan du få reda på om du lyckas eller misslyckas.
+> > Spelaren har målvärde 8 och får nytt målvärde 8 + 5 (för medlemmarna som gör samma attack) = 13.
+> >
+> > Modifierade zombien har målvärde 10 och får nytt målvärde 10 + 1 (för medlemmen som gör samma attack) = 11.
+> >
+> > Rullar för standard utmaning 2d6. Endast här kan du få reda på om du lyckas eller misslyckas.
 > 
 > Spelaren får 10 (lyckas) och zombien 7 (lyckas). Därefter läggs gängbonusen på.
 > 
 > Spelaren får 10 + 5 = 15 och zombien får 7 + 1 = 8
-> 
+>
 > Spelaren vann striden och delar ut sin skada + gängbonusen (+5) till den svagaste zombien.
 
-Regelproblem med gängbonusen är att fem stycken möss skulle kunna sänka en karaktär på en runda.
+Regelproblem med gängbonusen är att fem stycken möss skulle kunna sänka en karaktär på en runda. Men kanske är det denna buggen som gör det intressant?
 
 ## Skada och skydd
 
