@@ -32,6 +32,7 @@ Förflyttar föremål eller kallar på varelser från andra dimensioner.
 ### Circle -4
 
 ### Circle -5
+* Teleportera: Upp till fyra mål kan teleporteras vart som helst som teleportören varit tidigare.
 </details>
 
 <details>
@@ -61,7 +62,8 @@ Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
 ### Circle -1
 * Vänskap: En varelse blir vänligt inställd till dig så länge du inte hotar den. Men kan förstå efteråt vad som hände.
 ### Circle -2
-
+* Tankeånga: Trollkarlen kan få deras näsa att existera i flera alternativa verkligheter, resa genom olika sfärer och möjliggöra tankens luktkänsla. Känslor, attityder och underliggande känslor kan luktas. Inga ord eller bilder bildas, bara intryck. All stark lukt kommer att få denna trollformel att misslyckas.
+* Tindrande klot: Trollkarlen skapar ett 5:e dimensionellt klot ovanför deras huvud. Alla intelligenta varelser som tittar på den måste lyckas mot sin Mind eller förundras över den i 5 minuter.
 ### Circle -3
 * Sömn: 1d6 små varelser (eller 1 stor) faller i djup dvala i 5 minuter. Mottagaren får lov att försöka motstå.
 ### Circle -4
@@ -133,7 +135,7 @@ Manipulerar liv och död, prata med andar eller väcka döda.
 ### Circle -2
 * Levitera: Målet svävar sakta upp till 3 meter upp i luften. Den som förvandlar styr höjden mentalt. (Lägg till denna i grund index.md)
 ### Circle -3
-
+* Tungvrickare: Målet får sin talförmåga förstörd och kan bara agera fysiskt. Skadar 1d4+2 Mind.
 ### Circle -4
 *Förvandling: Du ändrar form till ett djur (t.ex. en varg eller en stor korp) i en timme. Kräver samma kroppstorlek.
 ### Circle -5
