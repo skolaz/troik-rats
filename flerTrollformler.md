@@ -1,7 +1,7 @@
 # Fler Trollformler
 <details>
-<summary> Abjuration (Beskydd): Skapar sköldar, bannlyser spöken och häver förbannelser.</summary>
-
+<summary> <h2> Abjuration (Beskydd)</h2> </summary>
+Skapar sköldar, bannlyser spöken och häver förbannelser.
 ### Circle 0
 
 ### Circle -1
@@ -18,8 +18,9 @@
 </details>
 
 <details>
-<summary> Conjuration (Frammaning): Förflyttar föremål eller kallar på varelser från andra dimensioner.</summary>
-
+<summary><h2>Conjuration (Frammaning)</h2></summary>
+Förflyttar föremål eller kallar på varelser från andra dimensioner.
+  
 ### Circle 0
 * Liten knuff: Flyttar ett föremål som väger mindre än en råtta upp till 5 meter.
 ### Circle -1
@@ -34,7 +35,8 @@
 </details>
 
 <details>
-<summary> Divination (Spå): Ger insikt om framtiden, finner dolda sanningar och borttappade saker</summary>
+<summary><h2>Divination (Spå)</h2></summary>
+Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
 
 ### Circle 0
 * Budskap: Viska ett meddelande till en person du kan se; ingen annan hör det.
@@ -51,8 +53,9 @@
 </details>
 
 <details>
-<summary> Enchantment (Förtrollning): Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.</summary>
-
+<summary><h2>Enchantment (Förtrollning)</h2></summary>
+Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
+  
 ### Circle 0
 
 ### Circle -1
@@ -67,8 +70,9 @@
 </details>
 
 <details>
-<summary> Evocation (Framkallning): Framkallar eld, blixtar, ljus, vatten och andra element.</summary>
-
+<summary><h2>Evocation (Framkallning)</h2></summary>
+Framkallar eld, blixtar, ljus, vatten och andra element.
+  
 ### Circle 0
 * Gnista: Tänder en eld, ett ljus eller ger en fiende en smärtsam stöt (1 skada)
 ### Circle -1
@@ -84,8 +88,9 @@
 </details>
 
 <details>
-<summary> Illusion: Skapar skenbilder, ljud och annat som lurar sinnena.</summary>
-
+<summary><h2>Illusion</h2></summary>
+Skapar skenbilder, ljud och annat som lurar sinnena.
+  
 ### Circle 0
 * Synvilla: Skapar ett kort ljud eller en lukt (t.ex. doften av ruttet kött eller ljudet av fotsteg).
 ### Circle -1
@@ -100,8 +105,9 @@
 </details>
 
 <details>
-<summary> Necromancy (Nekromanti): Manipulerar liv och död, prata med andar eller väcka döda.</summary>
-
+<summary><h2>Necromancy (Nekromanti)</h2></summary>
+Manipulerar liv och död, prata med andar eller väcka döda.
+  
 ### Circle 0
 
 ### Circle -1
@@ -117,8 +123,9 @@
 </details>
 
 <details>
-<summary> Transmutation (Förvandling): Ändrar fysiska egenskaper hos föremål eller varelser.</summary>
-
+<summary><h2>Transmutation (Förvandling)</h2></summary>
+Ändrar fysiska egenskaper hos föremål eller varelser.
+  
 ### Circle 0
 
 ### Circle -1
