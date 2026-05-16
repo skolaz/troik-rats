@@ -9,6 +9,16 @@ Om det inte står skada och tidslängd förutsätt att dessa regler gäller:
 * **Circle -4: Den Ostyrige** _Målvärde: Mind - 4. Skada: 1d6. Varaktighet: 60 min._
 * **Circle -5: Mästaren** _Målvärde: Mind - 5. Skada: 1d8. Varaktighet: Permanent eller stort område._
 
+Om enchantment finns:
+
+    härskare använder anti-magi
+    vakter har ritualskydd
+    präster testar besökare
+    viktiga samtal sker bakom warding
+
++ inga spells kräver koncentration,
+
+- behöver mer counter magic utrustning
 
 <details>
 <summary> <h2> Abjuration (Beskydd)</h2> </summary>
@@ -91,11 +101,11 @@ Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
 * Fara för känns: Du får en kall kåre längs ryggraden 6 sekunder innan en fälla utlöses eller ett bakhåll sker. Ger dig (och bara dig) en automatisk lyckad undanmanöver. Varar i ett dygn.
 * Eteriskt titthål: Du skapar ett osynligt, svävande öga som du kan styra upp till 100 meter bort. Det kan flyga genom små nyckelhål men syns för de som har Magi-vittring.
 ### Circle -4
-* Kort framtid: Du kan se in i framtiden 30 sekunder i 60 minuter. Motståndare har alltid nackdel mot allt de gör mot dig.
+* Kort framtid: Du kan se in i framtiden 30 sekunder i 10 minuter. Motståndare har alltid nackdel mot allt de gör mot dig.
 * Tanke-stöld: Du dyker djupt in i en varelses medvetande. Du får svar på en specifik fråga som de försöker dölja. Offret känner att någon "roterar" i deras hjärna och drabbas av en nackdel på Mind-slag resten av dagen.
 * Kartografens blick: Du sluter ögonen och "ser" layouten av alla rum och gångar inom 50 meter, inklusive dolda rum. Du ser dock inte varelser, bara arkitekturen.
 ### Circle -5
-* Sann syn: Du ser genom alla illusioner, ser dolda dörrar och kan se in i framtiden (Ger automatisk lyckad på nästa 3 slag).
+* Sann syn: Du kan se genom alla illusioner, kan se dolda dörrar och kan se in i framtiden (Ger automatisk lyckad på nästa 3 slag, går ej att spara).
 * Ödes-fråga: Du ställer en fråga direkt till världsalltet (Spelledaren). Du får ett ärligt, men kort svar (Ja, Nej, Aldrig, Snart). Detta kan förändra hela kampanjens riktning.
 * Tidens backspegel: Du spelar upp händelserna på en specifik plats som om det vore en film, upp till 100 år bakåt i tiden. Du kan se vem som begravde skatten eller vem som mördade kungen som om du stod bredvid.
 </details>
@@ -126,7 +136,7 @@ Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
 * Mässings-lojalitet: Du förtrollar ett föremål av mässing. Den som håller i det blir maniskt besatt av att skydda föremålet (och dess ägare) med sitt liv. Varar till nästa soluppgång.
 ### Circle -5
 * Spröda kvistar: Du förtrollar någon eller något att sammanlänka med någon eller något. Skulle då benet brytas på den ena bryts den på den andra. Eller om en kvist brast så brast deras arm.
-* Mass-psykos: Alla varelser som hör din röst drabbas av en kollektiv hallucination. Du kan få en hel stad att tro att de brinner, eller att kungen är en jätteråtta. Varar i en timme.
+* Mass-psykos: Alla varelser som hör din röst drabbas av en kollektiv hallucination. Du kan till exempel få en hel stad att tro att de brinner, eller att kungen är en jätteråtta. Varar i en timme. Begränsas tillsammans med spelledaren. 
 * Själsvandring: Du tvingar din egen själ in i en annan varelse. Du tar total kontroll över deras kropp medan din egen ligger i trans. Om deras kropp dör medan du är i den, svävar din själv tillbaka där den hör hemma.
 </details>
 
@@ -141,15 +151,16 @@ Framkallar eld, blixtar, ljus, vatten och andra element.
 ### Circle -1
 * Stöt: Skicka en båge av elektricitet som ignorerar skydd. 1d2 skada.
 * Fryspunkt: Du rör vid ett föremål eller en yta och täcker det med ett tjockt lager frost. Kan frysa fast ett lås, göra ett golv halt (nackdel på rörelse) eller kyla ner en dryck omedelbart.
-* Ljudbang: Du skapar en öronbedövande knall vid en punkt inom 10 meter. Alla inom 2 meter blir tillfälligt döva och desorienterade (nackdel på nästa handling).
+* Ljudbang: Du skapar en öronbedövande knall vid en punkt inom 10 meter. Alla inom 2 meter blir tillfälligt döva och desorienterade (nackdel på nästa handling, om inte mer).
 ### Circle -2
 * Giftskott: Två giftskott sänds i valfri riktigt. Motståndare får lov att försöka undvika. Förgiftning gör 1d4 skada varje tur.
 * Eldbult: Skjuter en snabb bult av eld och orsakar skada på ett mål inom 20 meter.
 * Syra-dusch: Du sprutar en kaskad av frätande vätska. Skadar inte bara köttet (1d4 skada) utan fräter även sönder rep, läderremmar och förstör kläder.
 ### Circle -3
-* Eldstöt: En våg av eld träffar alla framför dig (AoE, 1d4+2 skada).
+* Eldstöt: En kon av eld träffar alla framför dig upp till 3 meter fram (AoE, 1d4+2 skada). Första metern framåt är 1m², andra metern är 2m² och sista metern är 3m².
 * Påfyllning, del 2: Fyller en liten behållaren med olja.
 * Köldvåg: En runda av extrem kyla sprider sig från dig. Alla fiender inom 5 meter tar 1d4 skada och deras lemmar blir så stela att de inte kan utföra några handlingar som kräver rörlighet nästa runda.
+* Kosmisk energi: Du skjuter framåt en osynlig energi som skapar en slumpmässig mutation samt skadar 1d4+2.
 ### Circle -4
 * Blixtkedja: En blixt hoppar mellan tre olika mål (1d6 skada per mål).
 * Drunkna: Framkalla vatten i motståndarens lungor. Människo-stor motståndaren måste hosta ut det i två rundor.
