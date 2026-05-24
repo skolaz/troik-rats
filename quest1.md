@@ -48,7 +48,7 @@ Roamar fiender utan dess like. Många affilierar till Ruttna Slavarinnan. Detta 
 
 # BBG
 General till Ruttna Slavarinnan försöker öka hennes inflytande. *Mässingsgrillen* har länge försökt komma över ett misstag när han förlorade en look-out point och tog tillbaka hennes domän några steg. *Mässingsgrillen* vill skapa en katastrof som både övertar ett försvagat område och skapar slavar till henne. (lite som Sylora Salm i Neverwinter Sage)
-
+![Mässingsgrillen](mässingsgrillenQuest1.png)
 
 ```
 
