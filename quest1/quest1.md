@@ -15,7 +15,7 @@ Spåren är tydliga därför de inte brytt sig om att dölja dem. Men gissningsv
 
 # Viktiga personer
 
-![Kerstin Stenplatta](quest1/kerstinStenplattaQuest1.png)
+![Kerstin Stenplatta](kerstinStenplattaQuest1.png)
 
 ```
 Namn: Kerstin Stenplatta
@@ -36,7 +36,7 @@ Mässingsgrillen är en animerad humanoid med brödrost hål på magen som kan s
 ```
 ---
 # Platser
-![Råttvakt regionen](råttvaktRegion.png)
+![Råttvakt regionen](/råttvaktRegion.png)
 ## Förmörkade cirkeln
 Roamar fiender utan dess like. Många affilierar till Ruttna Slavarinnan. Detta är en helgedom för många onda satar.
 
