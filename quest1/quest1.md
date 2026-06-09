@@ -15,7 +15,8 @@ Spåren är tydliga därför de inte brytt sig om att dölja dem. Men gissningsv
 
 # Viktiga personer
 
-![Kerstin Stenplatta](kerstinStenplattaQuest1.png)
+<img src="kerstinStenplattaQuest1.png" width="333">
+
 
 ```
 Namn: Kerstin Stenplatta
