@@ -2,6 +2,7 @@
 layout: default
 title: Troik-Rats av Nils Jivegård
 ---
+# [Nya och reformerade regler!](nyMinskadGrundregler.md)
 ## Innehållsförteckning
 
 ### **I. Spelets grunder**
