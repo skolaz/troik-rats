@@ -1,0 +1,199 @@
+# Grundregler
+* 2d6 slå under ditt (grundvärde + talents=) målvärde för att lyckas
+* Att slå på sitt målvärde är ett lyckat försök, men med en liten konsekvens
+* Om det är en svår utmaning slår du först 2d6, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
+* Om det är en lätt utmaning slår du först 2d6, sedan slår du om den lägsta siffran. Extra lätt behöver inte finnas.
+* När du slår ett par lyckas spelaren med ett fantastiskt bra resultat, även kallad krit.
+* Skulle spelaren slå två sexor (6, 6) blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
+  
+# Grundvärde
+Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 5, 6, 7 i grundvärde och placerar de valfritt på varsitt grundvärde.
+
+* Kropp
+    * Din styrka, din hälsa, din uthållighet, din närstridstalang
+* Skill
+    * Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang
+* Minne
+    * Din mentala hälsa, din magi, ditt språk, din kunskap
+
+# Talanger
+Talanger är det din karaktär besitter som ger henne mer bakgrund och komplement som hjälper dig öka målvärdet.
+
+Talanger har ranker som går från 1 och uppåt. Värdet på ranken är det som adderas till målvärdet.
+
+En nybörjare börjar med totalt 6 talang ranker spridda. För att få en talang måste nybörjaren "spendera" minst en talang rank.
+
+Slå 2d6 och se vilka talanger du får. Talanger måste inte vara knutna till just dessa **kropp, skill eller minne**. Men ska de ha ett annat grundvärde kan talangen bara användas om situationen kan använda det grundvärdet på ett rimligt sätt.
+
+1. Kropp
+    1. Råstyrka
+    2. Akrobatik
+    3. Skrämma
+    4. Strid
+    5. Uthållighet
+    6. Klättra
+2. Kropp
+    1. Simma
+    2. Bygga
+    3. Undvika (eller skill)
+    4. Jaga
+    5. Rida
+    6. Kasta
+3. Skill
+    1. Smidighet
+    2. Stjäla
+    3. Skjuta
+    4. Hantverk
+    5. Smygande
+    6. Djurvän
+4. Skill
+    1. Spåra
+    2. Läkemedel
+    3. Bluffa
+    4. Musik
+    5. Mekanik
+    6. Matlagning
+5. Minne
+    1. Bluffa
+    2. Dekryptera
+    3. Mystik magi
+    4. Kunskap
+    5. Historia
+    6. Kasino
+6. Minne
+    1. Språk
+    2. Koncentration
+    3. Värdera
+    4. Astrologi
+    5. Dryckblandare
+    6. Ledarskap
+
+# Magi och cirkel talanger
+Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där cirkel -5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar.
+
+## Cirkel
+
+Trollformelns **cirkel rank subtraherar** ditt **minne**-värde för att **skapa ditt målvärde**. **Efter du har lyckats eller misslyckats skadar Cirkel ranken ditt minne.**
+* **Cirkel 0:** Ytterst lätt magi. Skadan du kan göra är 1.
+* **Cirkel -1:** Manipulerande magi, om än något kort. Max 60 sekunder.
+* **Cirkel -2:** Framkallande magi introduceras. Kan göra 1d4+1 i skada.
+* **Cirkel -3:** Omgivningspåverkande magi, kallas även AoE (Area of Effect). 1d4+2 skada. Max 5 min.
+* **Cirkel -4:** Medelstark magi och börjar bli okontrollerbar. 1d6 skada. Max 60 min.
+* **Cirkel -5:** Svår och farlig magi. 1d8 skada. Stora områden eller permanent
+### Cirkel talanger (magiska skolor)
+För att underlätta vårskriket av trollformler kan du ha talanger i vissa magiska skolor. Dessa ranker adderas till målvärdet som vanligt.
+- **Beskydd:** Skapar sköldar, bannlyser spöken och häver förbannelser
+- **Frammaning:** Förflyttar föremål eller kallar på varesler från andra dimensioner.
+- **Spå:** Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
+- **Förtrollning:** Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
+- **Framkallning:** Framkallar eld, blixtar, ljus, vatten och andra element.
+- **Illusion:** Skapar skenbilder, ljud och annat som lurar sinnena.
+- **Nekromanti:** Manipulerar liv och död, prata med andar eller väcka döda.
+- **Förvandling:** Ändrar fysiska egenskaper hos föremål eller varelser.
+
+> Designers tanke: Jag funderar på att bryta ner dessa skolor och göra det till "ord magi" istället. Alltså att det finns vissa slumpade ord och effekter som i Maze Rats och som sedan kan kastas som en trollformel med olika utgångar bereonde på vad kastaren önskar. Istället för magiska skolor används vanliga talanger.
+
+> Säg att du har några talang med Jaga 1 (Kropp), Bluffa 2 (Minne), Hantverk 1 (Skill)
+
+> Och de magiska orden är Lera (effekt fysisk) + Dimma (form magisk).
+
+> Med detta skulle du kunna tolka Jaga med: skapa en tjock brun dimma som bara jag ser igenom.
+
+> Bluffa: skapa en illusion att där finns det vanlig mark, men är egentligen en fälla rakt ner i ett hål
+
+> Hantverk: skapa en lerfigur som tyvärr går lätt sönder
+
+> Resultatet skulle göra att det finns färre talanger att hålla koll på, men att jag behöver utöka listor för skapandet av ord magi. Även hur ska cirklerna tolkas då?
+
+## Att kasta en trollformel
+
+Det finns två sätt att hantera magi:
+
+1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen. **Cirkel rank skadan utsöndras när trollformeln används.** **Fummlar sker direkt.**
+2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under minne + Cirkel** mitt i stridens hetta. Misslyckande åstakommer ingenting, plus lite skada på din minne (eller värre – se nedan).
+
+> Du kan alltid välja att kasta en formel från en högre Cirkel (t.ex. använda din kraft från Cirkel -5 för att kasta en Cirkel -2 formel) för att göra det enklare att lyckas. Då skalas effekten enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
+
+## Fumla med magi
+
+Magi är en instabil kraft. Reglerna för fumla med magi bör läsas i stegvis ordning
+
+1. **6,6 :** Om du rullar två sexor när du kastar eller förbereder magi, kan du eller någon annan drabbas av en **Mutation**.
+2. Nästa steg är att rulla för **Magikontroll**. Detta görs genom att kasta tre sexsidiga tärningar (3d6) och läsa svaret
+-    Ett par: inget händer. Magin svalnar.
+-    En fummel (6, 6): En **katastrof** inträffar. Använd sista siffran och hitta reaktionen på katastroflistan.
+-    Tärningarna visar inget par eller fummel: Sätt ihop siffrorna i obestämd följd och hitta reaktionen på mutationslistan.
+---
+# Bli bättre
+Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. 
+
+Slå 2d6 och slå på målvärdet eller över för att öka ranken med 1 värde.
+Om det är ett par ökar grundvärdet också. Är det en fummel händer inget.
+
+1. Välj en talang med bock. Räkna ut målvärdet: rank + grundvärde.
+2. Slå **2d6**.
+3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
+* **Lyckat:** Höj din rank med ett poäng.
+* **Misslyckat eller fummel (6, 6):** Inget händer
+* **Kritisk framgång (Par):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
+4. Sudda sedan ut bocken.
+
+---
+# Strid och återhämtning
+## Skada
+När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar motståndarens kropp med resultatet.
+
+* **Skydd:** Fienden (eller spelkaraktären) drar av sitt skyddsvärde från skadan.
+
+  * _Lätt skydd:_ -1 skada.
+  * _Medel skydd:_ -2 skada och nackdel när du smyger.
+  * _Tungt skydd:_ -3 skada och nackdel när du smyger, klättrar och sänker initiativ tärningen med en hel tärning.
+
+* **-3 till 0 kropp / Kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
+
+* **-3 till 0 minne / moral:** Psyket brister. Drabbas av total panik, katatoni eller flyr hals över huvud. Karaktären är ospelbar och i händerna på ödet tills du återfått minst upp till 1 **minne**.
+
+> När spelkaraktären når 0 i antingen kropp eller minne kan de få utföra "några sista ord". Vilket är en sista gärning. Kanske användandet av ett annat grundvärde kan rädda sitt skinn?
+
+* **-4 kropp / kraft / minne / moral:** Du dör på fläcken. Ingen återvändo.
+
+## Motståndsslag
+När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår 2d6 samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången.
+
+## Initiativ
+Vem agerar först? Tänk ut vem som skulle ha överläge och ge dem +2 på sitt initiativ slag. Alla parter slår sedan 2d6 samtidigt och den eller de med sin överläge bonus räknar med den. Högst vinner och bestämmer sedan vem den ger initiativet vidare till, och den bestämmer sedan till nästa, tills alla har fått göra sin handling. Sedan börjar initiativet om. Kom ihåg att överläget kan ändras.
+
+## Jakt
+När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2.Grupperna slår sedan 2d6 samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
+
+## Återhämtning
+* **Kort vila (8h):** Du återfår hälften av dina förlorade poäng i **kropp** och **minne**.
+
+* **Långvila (48h):** Du återfår alla poäng i **kropp** och **minne** till ditt maxvärde.
+
+---
+# Motståndare
+Grundvärde är lite annorlunda:
+* Kraft
+    * deras hälsa, styrka, rörelse
+* Special
+    * deras skill, minne, magi, fingerfärdighet, språk, kunskap
+* Moral
+    * deras mentala hälsa och moral
+ 
+## Motståndar exempel
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekomenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
+
+|  HD | Exempel          | Kraft (exempel) | Special | Moral | Skada |
+| --: | :------------------------- |:-----------------:| -------------- | ----- | ----- |
+| 0.5 | Råtta, Vätte, Kobold       | 3               | 2              | 2     | 1d2   |
+|   1 | Ork, Människa, Varg        | 6               | 5              | 4     | 1d6   |
+|   2 | Elitsoldat, Björn          | 8              | 7              | 6     | 1d6+1 |
+|   3 | Ogre, Riddare, Ond Magiker | 10             | 9             | 7     | 1d6+2 |
+|   4 | Jätte, Ung drake         | 14              | 10             | 8     | 1d8+1 |
+|  5+ | Boss, Drake, Demon; naturkatastrof | 18      | 11            | 10    | 2d6+2   |
+
+## Problem vid Kropp 12
+Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
+
+> Behöver fortfarande jobba på den här
