@@ -1,23 +1,23 @@
 function generateSpell() {
     const outputDiv = document.getElementById('spell-output');
     
-    // Spell Formulas
+    // Spell Formulas (med svenska ord)
     const spellFormulas = [
-        ["Physical Effect + Physical Form", "Ethereal Element + Physical Form"],
-        ["Physical Effect + Ethereal Form", "Ethereal Element + Ethereal Form"],
-        ["Ethereal Effect + Physical Form", "Physical Effect + Physical Element"],
-        ["Ethereal Effect + Ethereal Form", "Physical Effect + Ethereal Element"],
-        ["Physical Element + Physical Form", "Ethereal Effect + Physical Element"],
-        ["Physical Element + Ethereal Form", "Ethereal Effect + Ethereal Element"]
+        ["Fysisk Effekt + Fysisk Form", "Eterisk Element + Fysisk Form"],
+        ["Fysisk Effekt + Eterisk Form", "Eterisk Element + Eterisk Form"],
+        ["Eterisk Effekt + Fysisk Form", "Fysisk Effekt + Fysisk Element"],
+        ["Eterisk Effekt + Eterisk Form", "Fysisk Effekt + Eterisk Element"],
+        ["Fysisk Element + Fysisk Form", "Eterisk Effekt + Fysisk Element"],
+        ["Fysisk Element + Eterisk Form", "Eterisk Effekt + Eterisk Element"]
     ];
 
     // Magic Tables
-    const physicalEffects = ["Animating", "Attracting", "Binding", "Blossoming", "Consuming", "Creeping", "Crushing", "Diminishing", "Dividing", "Duplicating", "Enveloping", "Expanding", "Fusing", "Grasping", "Hastening", "Hindering", "Illuminating", "Imprisoning", "Levitating", "Opening", "Petrifying", "Phasing", "Piercing", "Pursuing", "Reflecting", "Regenerating", "Rending", "Repelling", "Resurrecting", "Screaming", "Sealing", "Shapeshifting", "Shielding", "Spawning", "Transmuting", "Transporting"];
-    const physicalElements = ["Acid", "Amber", "Bark", "Blood", "Bone", "Brine", "Clay", "Crow", "Crystal", "Ember", "Flesh", "Fungus", "Glass", "Honey", "Ice", "Insect", "Wood", "Lava", "Moss", "Obsidian", "Oil", "Poison", "Rat", "Salt", "Sand", "Sap", "Serpent", "Slime", "Stone", "Tar", "Thorn", "Vine", "Water", "Wine", "Wood", "Worm"];
-    const physicalForms = ["Altar", "Armor", "Arrow", "Beast", "Blade", "Cauldron", "Chain", "Chariot", "Claw", "Cloak", "Colossus", "Crown", "Elemental", "Eye", "Fountain", "Gate", "Golem", "Hammer", "Horn", "Key", "Mask", "Monolith", "Pit", "Prison", "Sentinel", "Servant", "Shield", "Spear", "Steed", "Swarm", "Tentacle", "Throne", "Torch", "Trap", "Wall", "Web"];
-    const etherealEffects = ["Avenging", "Banishing", "Bewildering", "Blinding", "Charming", "Communicating", "Compelling", "Concealing", "Deafening", "Deceiving", "Deciphering", "Dispelling", "Emboldening", "Encoding", "Energizing", "Enlightening", "Enraging", "Excruciating", "Foreseeing", "Intoxicating", "Maddening", "Mesmerizing", "Mindreading", "Nullifying", "Paralyzing", "Revealing", "Revolting", "Scrying", "Silencing", "Soothing", "Summoning", "Terrifying", "Warding", "Wearying", "Withering"];
-    const etherealElements = ["Ash", "Chaos", "Distortion", "Dream", "Dust", "Echo", "Ectoplasm", "Fire", "Fog", "Ghost", "Harmony", "Heat", "Light", "Lightning", "Memory", "Mind", "Mutation", "Negation", "Plague", "Plasma", "Probability", "Rain", "Rot", "Shadow", "Smoke", "Snow", "Soul", "Star", "Stasis", "Steam", "Thunder", "Time", "Void", "Warp", "Whisper", "Wind"];
-    const etherealForms = ["Aura", "Beacon", "Beam", "Blast", "Blob", "Bolt", "Bubble", "Call", "Cascade", "Circle", "Cloud", "Coil", "Cone", "Cube", "Dance", "Disk", "Field", "Form", "Gaze", "Loop", "Moment", "Nexus", "Portal", "Pulse", "Pyramid", "Ray", "Shard", "Sphere", "Spray", "Storm", "Swarm", "Torrent", "Touch", "Vortex", "Wave", "Word"];
+    const physicalEffects = ["Besjälande", "Attraherande", "Bindande", "Blommande", "Förtärande", "Krypande", "Krossande", "Förminskande", "Delande", "Duplicerande", "Omslutande", "Expanderande", "Sammansmältande", "Gripande", "Påskyndande", "Hindrande", "Upplysande", "Fängslande", "Svävande", "Öppnande", "Förstenande", "Genomträngande", "Genomborrande", "Förföljande", "Reflekterande", "Regenererande", "Slitande", "Avvisande", "Återupplivande", "Skrikande", "Förseglande", "Formskiftande", "Skyddande", "Alstrande", "Omvandlande", "Förflyttande"];
+    const physicalElements = ["Syra", "Bärnsten", "Bark", "Blod", "Ben", "Saltvatten", "Lera", "Kråka", "Kristall", "Glöd", "Kött", "Svamp", "Glas", "Honung", "Is", "Insekt", "Trä", "Lava", "Mossa", "Obsidian", "Olja", "Gift", "Råtta", "Salt", "Sand", "Kåda", "Orm", "Slem", "Sten", "Tjära", "Tagg", "Rank", "Vatten", "Vin", "Trä", "Mask"];
+    const physicalForms = ["Altar", "Rustning", "Pil", "Best", "Klinga", "Kittel", "Kedja", "Triumfvagn", "Klo", "Mantel", "Kolossal", "Krona", "Elementarväsen", "Öga", "Fontän", "Port", "Golem", "Hammare", "Horn", "Nyckel", "Mask", "Monolit", "Grop", "Fängelse", "Vaktpost", "Tjänare", "Sköld", "Spjut", "Stridshäst", "Svärm", "Tentakel", "Tron", "Fackla", "Fälla", "Vägg", "Nät"];
+    const etherealEffects = ["Hämnande", "Bannlysande", "Förvirrande", "Bländande", "Charmande", "Kommunicerande", "Tvingande", "Döljande", "Dövande", "Bedräglig", "Tyda", "Drivande", "Modig", "Avkoda", "Energigivande", "Upplysande", "Bärsärk", "Plågsam", "Framsynt", "Berusande", "Gör galen", "Hypnotiserande", "Tankeläsande", "Nollställande", "Förlamande", "Avslöjande", "Vederstygglig", "Skådande", "Tystande", "Lugnande", "Frammanande", "Skräckinjagande", "Avvärjande", "Tröttande", "Förtvinande"];
+    const etherealElements = ["Aska", "Kaos", "Distorsion", "Dröm", "Damm", "Eko", "Ektoplasma", "Eld", "Dimma", "Spöke", "Harmoni", "Värme", "Ljus", "Blixt", "Minne", "Sinne", "Mutation", "Negation", "Pest", "Plasma", "Sannolikhet", "Regn", "Röta", "Skugga", "Rök", "Snö", "Själ", "Stjärna", "Stasis", "Ånga", "Åska", "Tid", "Tomrum", "Vridning", "Viskning", "Vind"];
+    const etherealForms = ["Aura", "Fyrbåk", "Stråle", "Blast", "Klump", "Bult", "Bubbla", "Kall", "Kaskad", "Cirkel", "Moln", "Slinga", "Kon", "Kub", "Dans", "Skiva", "Fält", "Form", "Blick", "Ögla", "Ögonblick", "Nexus", "Portal", "Puls", "Pyramid", "Stråle", "Skärva", "Sfär", "Spray", "Storm", "Svärm", "Fors", "Beröring", "Virvel", "Våg", "Ord"];
 
     // Roll 2d separately (one for row, one for column)
     const rowRoll = Math.floor(Math.random() * 6);
@@ -29,14 +29,14 @@ function generateSpell() {
     let component1 = parts[0].replace(/ /g, '');
     let component2 = parts[1].replace(/ /g, '');
 
-    // Get the corresponding list of words
+    // Get the corresponding list of words (matchar nu de svenska namnen utan mellanslag)
     const lists = {
-        "PhysicalEffect": physicalEffects,
-        "PhysicalElement": physicalElements,
-        "PhysicalForm": physicalForms,
-        "EtherealEffect": etherealEffects,
-        "EtherealElement": etherealElements,
-        "EtherealForm": etherealForms
+        "FysiskEffekt": physicalEffects,
+        "FysiskElement": physicalElements,
+        "FysiskForm": physicalForms,
+        "EteriskEffekt": etherealEffects,
+        "EteriskElement": etherealElements,
+        "EteriskForm": etherealForms
     };
     
     // Generate spell name
