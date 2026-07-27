@@ -211,10 +211,8 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 
 <script src="assets/uneNPC.js"></script>
 
-## Problem vid kraft 12
-Det finns ett stort problem med kraft 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
-
-> Behöver fortfarande jobba på den här
+## Vid starkare motståndare (skillnadsmodifiering)
+När en motståndare har nått 8 i målvärde träder regeln om skillnadsmodifiering in. Det betyder att skillnaden som finns mellan spelkaraktären och motståndaren ger plus poäng till tärningskastet. Området går från +1, +2 och högst +3. Detta kan antingen hjälpa spelkaraktären att vinna motståndsslaget men allra oftast gör det att kastet går åt skogen.
 
 # Fummel tabeller
 ## Fumla i strid
