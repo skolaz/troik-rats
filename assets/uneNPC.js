@@ -239,4 +239,18 @@ function generateUNE(powerSetting = "Standard", convoSetting = "Neutral") {
     `.trim();
     
     return outputHTML;
+const outputDiv = document.getElementById('une-output');
+    
+    const outputHTML = `
+        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+            <h3>Motståndare</h3>
+            <p>${article} <b>[${mod}] [${noun}]</b>, who is <u>[${powerLevel}]</u> in ability, is feeling [${convoFeeling}].</p>
+            <p><strong>Motivations:</strong><br>
+            - [${motivations[0]}]<br>
+            - [${motivations[1]}]<br>
+            - [${motivations[2]}]</p>
+        </div>
+    `;
+    
+    outputDiv.innerHTML = outputHTML;
 }
