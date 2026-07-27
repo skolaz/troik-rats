@@ -1,3 +1,7 @@
+---
+layout: default
+title: Troik-Rats av Nils Jivegård
+---
 # Grundregler
 * 2d6 slå under ditt (grundvärde + talents =) målvärde för att lyckas
 * Att slå på sitt målvärde är ett lyckat försök, men med en liten konsekvens som hade hänt om du misslyckades
@@ -21,7 +25,7 @@ Talanger är det din karaktär besitter som ger henne mer bakgrund och komplemen
 
 Talanger har ranker som går från 1 och uppåt. Värdet på ranken är det som adderas till målvärdet.
 
-En nybörjare börjar med totalt 6 talang ranker spridda. För att få en talang måste nybörjaren "spendera" minst en talang rank.
+En nybörjare börjar med totalt 6 talang-ranker spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
 
 Slå 2d6 och se vilka talanger du får. Talanger måste inte vara knutna till just dessa **kropp, skill eller minne**. Men ska de ha ett annat grundvärde kan talangen bara användas om situationen kan använda det grundvärdet på ett rimligt sätt.
 
@@ -69,17 +73,29 @@ Slå 2d6 och se vilka talanger du får. Talanger måste inte vara knutna till ju
     6. Ledarskap
 
 # Magi och cirkel talanger
-Magi är kraftfullt men riskerar utövarens sinne. Det kräver fokus, tid och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där cirkel -5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar.
+Magi är kraftfullt men riskerar utövarens minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där cirkel -5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Att det går från 0 till -5 speglar att magin kostar så mycket att använda.
+
+Magin använder sig av *ord magi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver kan du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte pröva svårare cirkel-rank om du inte har en talang-rank som sträcker sig så långt.
+
+> Säg att du har några talanger med Jaga 1 (Kropp), Bluffa 2 (Minne), Hantverk 1 (Skill)
+> Och de magiska orden är Lera (effekt fysisk) + Dimma (form magisk).
+> Med detta skulle du kunna tolka Jaga med: skapa en tjock brun dimma som bara jag ser igenom.
+> Bluffa: skapa en illusion att där finns det vanlig mark, men är egentligen en fälla rakt ner i ett hål
+> Hantverk: skapa en lerfigur som tyvärr går lätt sönder
 
 ## Cirkel
 
 Trollformelns **cirkel rank subtraherar** ditt **minne**-värde för att **skapa ditt målvärde**. **Efter du har lyckats eller misslyckats skadar Cirkel ranken ditt minne.**
-* **Cirkel 0:** Ytterst lätt magi. Skadan du kan göra är 1.
-* **Cirkel -1:** Manipulerande magi, om än något kort. Max 60 sekunder.
-* **Cirkel -2:** Framkallande magi introduceras. Kan göra 1d4+1 i skada.
-* **Cirkel -3:** Omgivningspåverkande magi, kallas även AoE (Area of Effect). 1d4+2 skada. Max 5 min.
-* **Cirkel -4:** Medelstark magi och börjar bli okontrollerbar. 1d6 skada. Max 60 min.
-* **Cirkel -5:** Svår och farlig magi. 1d8 skada. Stora områden eller permanent
+Alltså: Målvärde för trollformel = Grundvärde (oftast minne) + Talang - Cirkel-ranken. Därefter tar grundvärdet minne Cirkel-ranken i skada.
+
+Beroende på vilken Cirkel-rank den kastas i, kan den ge olika styrkor och effekter. 
+
+* **Cirkel 0:** Ytterst lätt magi. Skadan du kan göra är 1. Max 30 sekunder.
+* **Cirkel -1:** Manipulerande magi, om än något kort. 1d4 i skada. Max 60 sekunder.
+* **Cirkel -2:** Framkallande magi introduceras. Kan göra 1d4+1 i skada. Max 2 minuter.
+* **Cirkel -3:** Omgivningspåverkande magi, kallas även AoE (Area of Effect). 1d6 skada. Max 5 min.
+* **Cirkel -4:** Medelstark magi och börjar bli okontrollerbar. 1d6+2 skada. Max 60 min.
+* **Cirkel -5:** Svår och farlig magi. 1d8+2 skada. Stora områden eller permanent.
 
 ### Slumpa fram en trollformel direkt
 <button onclick="generateSpell()">Generera Trollformel</button>
@@ -87,39 +103,12 @@ Trollformelns **cirkel rank subtraherar** ditt **minne**-värde för att **skapa
 
 <script src="assets/mazeMagic.js"></script>
 
-### Cirkel talanger (magiska skolor)
-För att underlätta vårskriket av trollformler kan du ha talanger i vissa magiska skolor. Dessa ranker adderas till målvärdet som vanligt.
-- **Beskydd:** Skapar sköldar, bannlyser spöken och häver förbannelser
-- **Frammaning:** Förflyttar föremål eller kallar på varesler från andra dimensioner.
-- **Spå:** Ger insikt om framtiden, finner dolda sanningar och borttappade saker.
-- **Förtrollning:** Påverkar andras sinnen, känslor och vilja. Kan även påverka fysiska saker.
-- **Framkallning:** Framkallar eld, blixtar, ljus, vatten och andra element.
-- **Illusion:** Skapar skenbilder, ljud och annat som lurar sinnena.
-- **Nekromanti:** Manipulerar liv och död, prata med andar eller väcka döda.
-- **Förvandling:** Ändrar fysiska egenskaper hos föremål eller varelser.
-
-> Designers tanke: Jag funderar på att bryta ner dessa skolor och göra det till "ord magi" istället. Alltså att det finns vissa slumpade ord och effekter som i Maze Rats och som sedan kan kastas som en trollformel med olika utgångar bereonde på vad kastaren önskar. Istället för magiska skolor används vanliga talanger.
-
-> Säg att du har några talang med Jaga 1 (Kropp), Bluffa 2 (Minne), Hantverk 1 (Skill)
-
-> Och de magiska orden är Lera (effekt fysisk) + Dimma (form magisk).
-
-> Med detta skulle du kunna tolka Jaga med: skapa en tjock brun dimma som bara jag ser igenom.
-
-> Bluffa: skapa en illusion att där finns det vanlig mark, men är egentligen en fälla rakt ner i ett hål
-
-> Hantverk: skapa en lerfigur som tyvärr går lätt sönder
-
-> Resultatet skulle göra att det finns färre talanger att hålla koll på, men att jag behöver utöka listor för skapandet av ord magi. Även hur ska cirklerna tolkas då? Och skadan? Frågor som bäst sovs på.
-
 ## Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
 
 1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den närsom utan att behöva slå tärning igen. **Cirkel rank skadan utsöndras när trollformeln används.** **Fummlar sker direkt.**
 2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, måste du slå vanlig standard utmaning **2d6 under minne + Cirkel** mitt i stridens hetta. Misslyckande åstakommer ingenting, plus lite skada på din minne (eller värre – se nedan).
-
-> Du kan alltid välja att kasta en formel från en högre Cirkel (t.ex. använda din kraft från Cirkel -5 för att kasta en Cirkel -2 formel) för att göra det enklare att lyckas. Då skalas effekten enhetligt också. Detta kallas också skala ner på trollformlen. I vissa fall kan spelledaren tillåta att skala upp trollformlen också, men det händer mycket sällan.
 
 ## Fumla med magi
 
@@ -134,7 +123,7 @@ Magi är en instabil kraft. Reglerna för fumla med magi bör läsas i stegvis o
 # Bli bättre
 Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. 
 
-Slå 2d6 och slå på målvärdet eller över för att öka ranken med 1 värde.
+Slå 2d6 och slå på målvärdet med talangen eller över för att öka ranken med 1 värde.
 Om det är ett par ökar grundvärdet också. Är det en fummel händer inget.
 
 1. Välj en talang med bock. Räkna ut målvärdet: rank + grundvärde.
@@ -156,7 +145,7 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
   * _Medel skydd:_ -2 skada och nackdel när du smyger.
   * _Tungt skydd:_ -3 skada och nackdel när du smyger, klättrar och sänker initiativ tärningen med en hel tärning.
 
-* **-3 till 0 kropp / Kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
+* **-3 till 0 kropp / kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
 
 * **-3 till 0 minne / moral:** Psyket brister. Drabbas av total panik, katatoni eller flyr hals över huvud. Karaktären är ospelbar och i händerna på ödet tills du återfått minst upp till 1 **minne**.
 
@@ -286,16 +275,16 @@ Silver:
 * O tungt: -3 skada, nackdel smyga, klättra, simma
 
 **Talanger**
-*Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.* ///*Målvärde = Grundvärde + Talang*
+*Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.* /// *Målvärde = Grundvärde + Talang*
 * O namn på talang. rank: x
 * O namn på talang. rank: x
 * O namn på talang. rank: x
 
 **Cirkel**
 *Målvärde = Minne + Talang - Cirkel Rank* /// *X = förberedd*
-* O namn på trollformel. rank: x
-* O namn på trollformel. rank: x
-* O namn på trollformel. rank: x
+* O namn på trollformel med sin effekt och form. rank: x
+* O namn på trollformel med sin effekt och form. rank: x
+* O namn på trollformel med sin effekt och form. rank: x
 
 **Utrustning**
 * Namn på utrustning
