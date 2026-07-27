@@ -195,6 +195,12 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 
 <script src="assets/mazeMonster.js"></script>
 
+## Slumpa fram en NPC
+<button onclick="generateUNE()">Generera NPC</button>
+<div id="une-output"></div>
+
+<script src="assets/uneNPC.js"></script>
+
 ## Problem vid Kropp 12
 Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
 
