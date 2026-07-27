@@ -80,6 +80,8 @@ Trollformelns **cirkel rank subtraherar** ditt **minne**-värde för att **skapa
 * **Cirkel -3:** Omgivningspåverkande magi, kallas även AoE (Area of Effect). 1d4+2 skada. Max 5 min.
 * **Cirkel -4:** Medelstark magi och börjar bli okontrollerbar. 1d6 skada. Max 60 min.
 * **Cirkel -5:** Svår och farlig magi. 1d8 skada. Stora områden eller permanent
+
+
 ### Cirkel talanger (magiska skolor)
 För att underlätta vårskriket av trollformler kan du ha talanger i vissa magiska skolor. Dessa ranker adderas till målvärdet som vanligt.
 - **Beskydd:** Skapar sköldar, bannlyser spöken och häver förbannelser
@@ -103,7 +105,7 @@ För att underlätta vårskriket av trollformler kan du ha talanger i vissa magi
 
 > Hantverk: skapa en lerfigur som tyvärr går lätt sönder
 
-> Resultatet skulle göra att det finns färre talanger att hålla koll på, men att jag behöver utöka listor för skapandet av ord magi. Även hur ska cirklerna tolkas då?
+> Resultatet skulle göra att det finns färre talanger att hålla koll på, men att jag behöver utöka listor för skapandet av ord magi. Även hur ska cirklerna tolkas då? Och skadan? Frågor som bäst sovs på.
 
 ## Att kasta en trollformel
 
@@ -123,7 +125,7 @@ Magi är en instabil kraft. Reglerna för fumla med magi bör läsas i stegvis o
 -    Ett par: inget händer. Magin svalnar.
 -    En fummel (6, 6): En **katastrof** inträffar. Använd sista siffran och hitta reaktionen på katastroflistan.
 -    Tärningarna visar inget par eller fummel: Sätt ihop siffrorna i obestämd följd och hitta reaktionen på mutationslistan.
----
+
 # Bli bättre
 Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. 
 
@@ -184,7 +186,7 @@ Grundvärde är lite annorlunda:
 ## Motståndar exempel
 HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekomenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
 
-|  HD | Exempel          | Kraft (exempel) | Special | Moral | Skada |
+|  HD | Exempel          | Kraft (medus värde) | Special | Moral | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ----- | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 3               | 2              | 2     | 1d2   |
 |   1 | Ork, Människa, Varg        | 6               | 5              | 4     | 1d6   |
