@@ -253,3 +253,40 @@ Slå för din **Magikontroll** (3d6)
 | **4** | **Väder-omkastning** | Himlen byter färg och det börjar regna flytande mässing, syra eller levande grodor. |
 | **5** | **Själs-läckage** | Magikern och den närmaste personen byter kroppar med varandra (permanent tills motmedel hittas). |
 | **6** | **Historiens Skalv** | En känd historisk händelse raderas eller ändras. (T.ex. en stad som fanns nyss har nu legat i ruin i 100 år). |
+
+
+---
+Karaktärsblad slim
+
+Namn:
+
+Bakgrund:
+
+Silver:
+
+**Grundvärde** *Max / Nuvarande*
+* *Kropp* x / x
+* *Skill* x / x
+* *Minne* x / x
+
+**Skydd**
+* O Lätt: -1 skada
+* O medel: -2 skada, nackdel smyga
+* O tungt: -3 skada, nackdel smyga, klättra, simma
+
+**Talanger**
+*Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.* ///*Målvärde = Grundvärde + Talang*
+* O namn på talang. rank: x
+* O namn på talang. rank: x
+* O namn på talang. rank: x
+
+**Cirkel**
+*Målvärde = Minne + Talang - Cirkel Rank* /// *X = förberedd*
+* O namn på trollformel. rank: x
+* O namn på trollformel. rank: x
+* O namn på trollformel. rank: x
+
+**Utrustning**
+* Namn på utrustning
+* Namn på utrustning
+* Namn på utrustning
