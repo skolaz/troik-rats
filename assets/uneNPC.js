@@ -217,12 +217,10 @@ function generateUNE(powerSetting = "Standard", convoSetting = "Neutral") {
     const powerLevel = getWeightedItem(uneData.power[powerSetting] || uneData.power.Standard);
     const convoFeeling = getWeightedItem(uneData.convo[convoSetting] || uneData.convo.Neutral);
     
-    // Pick a random motivation column key (MotNoun1 - MotNoun5)
     const columnKeys = Object.keys(uneData.motNouns);
     const randomColumnKey = getRandomItem(columnKeys);
     const selectedMotNounList = uneData.motNouns[randomColumnKey];
     
-    // Generate 3 motivations
     const motivations = [];
     for (let i = 0; i < 3; i++) {
         const verb = getRandomItem(uneData.motVerb);
@@ -230,16 +228,8 @@ function generateUNE(powerSetting = "Standard", convoSetting = "Neutral") {
         motivations.push(`${verb} ${motNoun}`);
     }
     
-    // Construct HTML output matching the specification template
-    const outputHTML = `
-        ${article} <b>[${mod}] [${noun}]</b>, who is <u>[${powerLevel}]</u> in ability, is feeling [${convoFeeling}].<br><br>Motivations: <br><br>
-        [${motivations[0]}] <br> 
-        [${motivations[1]}] <br> 
-        [${motivations[2]}] <br>
-    `.trim();
-    
-    return outputHTML;
-const outputDiv = document.getElementById('une-output');
+    const outputDiv = document.getElementById('une-output');
+    if (!outputDiv) return;
     
     const outputHTML = `
         <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
