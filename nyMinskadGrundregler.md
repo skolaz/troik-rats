@@ -1,9 +1,9 @@
 # Grundregler
-* 2d6 slå under ditt (grundvärde + talents=) målvärde för att lyckas
-* Att slå på sitt målvärde är ett lyckat försök, men med en liten konsekvens
+* 2d6 slå under ditt (grundvärde + talents =) målvärde för att lyckas
+* Att slå på sitt målvärde är ett lyckat försök, men med en liten konsekvens som hade hänt om du misslyckades
 * Om det är en svår utmaning slår du först 2d6, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
-* Om det är en lätt utmaning slår du först 2d6, sedan slår du om den lägsta siffran. Extra lätt behöver inte finnas.
-* När du slår ett par lyckas spelaren med ett fantastiskt bra resultat, även kallad krit.
+* Om det är en lätt utmaning slår du först 2d6, sedan slår du om den högsta siffran. Extra lätt behöver inte finnas.
+* När du slår ett par lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
 * Skulle spelaren slå två sexor (6, 6) blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
   
 # Grundvärde
@@ -134,8 +134,8 @@ Om det är ett par ökar grundvärdet också. Är det en fummel händer inget.
 2. Slå **2d6**.
 3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
-* **Misslyckat eller fummel (6, 6):** Inget händer
-* **Kritisk framgång (Par):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
+* **Misslyckat eller fummel (6, 6) (2,78%) :** Inget händer
+* **Kritisk framgång (Par) (16,67%):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
 4. Sudda sedan ut bocken.
 
 ---
@@ -197,3 +197,57 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
 
 > Behöver fortfarande jobba på den här
+
+# Fummel tabeller
+## Fumla i strid
+
+| 2d6  | Fummel  |   |
+|---|---|---|
+| 2-3 | Katastrof  |  Vapnet går sönder eller kastas iväg 5 meter. |
+| 4-5 | Halt  |  Du snubblar och missar din nästa tur. |
+| 6-8 | Blottad  |  Nästa slag mot dig får +2 (enklare att slå under). |
+| 9-10 | Självskada  |  Du slår din egen vapenskada mot dig själv.  |
+| 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns). |
+
+## Fumla med magi & Magikontroll
+
+Slå för din **Magikontroll** (3d6)
+> Par = inget händer (37%)
+> Fummel (6, 6) = katastrof (7%)
+> Inget av ovan -> läs av siffrorna i obestämd ordning och hitta din mutation (55%)
+
+### Mutationslistan
+
+| Kod | Mutation | Spelteknisk Effekt |
+| :--- | :--- | :--- |
+| **123** | **Glasartad hud** | Din hud blir genomskinlig. Du ser dina organ. -1 Moral för de som ser dig. |
+| **124** | **Mässings-fingrar** | Dina fingrar blir av metall. Du kan dyrka lås utan verktyg men låter när du rör dig. |
+| **125** | **Extra mun** | En mun öppnas på din hals. Den pratar konstant och avslöjar dina hemligheter. |
+| **126** | **Insektshår** | Styva, svarta insektshår täcker din kropp. -1 på Akrobatik (du är stel). |
+| **134** | **Teleskop-öga** | Ett öga kan skjutas ut 10 cm. Du har Fördel på slag för att spana. |
+| **135** | **Svamp-växt** | Lila svampar växer ur dina axlar. De lyser svagt i mörker (du kan inte gömma dig). |
+| **136** | **Hål i bröstet** | Ett knytnävsstort hål öppnar sig rakt genom bröstet. Du kan tekniskt sett förvara små saker där, men det syns. |
+| **145** | **Magnetiskt fält** | Små metallföremål (pilar, knivar, nycklar) dras till dig. Tar +1 mer skada från metallvapen. |
+| **146** | **Grod-tunga** | Din tunga blir 1 meter lång och klibbig. Du kan plocka upp saker på avstånd. Du pratar väldigt märkligt. |
+| **156** | **Tids-skugga** | Du har en skugga som rör sig 2 sekunder efter dig. |
+| **234** | **Gälar** | Du kan andas under vatten men måste fukta kroppen för att kunna ta upp syret. |
+| **235** | **Hov-fötter** | Dina fötter blir till hovar. Du springer snabbare men kan inte bära skor och har svårt att smyga. |
+| **236** | **Huggorm-tänder** | Du får gifttänder. Ett lyckat bett gör 1d4 extra skada (Förgiftning). |
+| **245** | **Dubbla leder** | Dina armar och ben kan böjas åt båda hållen. Du kan ta dig ur alla bojor. Att stå rakt är svårt. |
+| **246** | **Svavel-andedräkt** | Din andedräkt luktar ruttna ägg och ryker. -2 på alla sociala slag. |
+| **256** | **Självlysande blod** | Ditt blod lyser starkt neonblått. Om du är skadad är du lätt att spåra. |
+| **345** | **Fjällig hud** | Din hud blir hård och täckt av fiskfjäll. |
+| **346** | **Känselhorn** | Antenner växer ut ur pannan. Du kan "se" i totalt mörker via vibrationer. |
+| **356** | **Tredje arm** | En liten, svag arm växer ut ur magen. Kan hålla en fackla eller en sköld. |
+| **456** | **Muterat kranium** | Ditt huvud sväller och får formen av en kon. |
+
+### Katastroflistan; när dubbla sexor sker
+
+| Tärning (X) | Katastrof | Effekt på världen |
+| :--- | :--- | :--- |
+| **1** | **Dimensionsspricka** | En reva öppnas. 1d6 varelser från en annan tidsepok väller ut och är hungriga. |
+| **2** | **Magisk Torka** | All magi i området (1 km radie) dör ut helt i 1d6 dagar. Inga formler fungerar. |
+| **3** | **Tids-eko** | Alla inom synhåll åldras eller föryngras 1d20 år omedelbart (slå 1d2 för riktning). |
+| **4** | **Väder-omkastning** | Himlen byter färg och det börjar regna flytande mässing, syra eller levande grodor. |
+| **5** | **Själs-läckage** | Magikern och den närmaste personen byter kroppar med varandra (permanent tills motmedel hittas). |
+| **6** | **Historiens Skalv** | En känd historisk händelse raderas eller ändras. (T.ex. en stad som fanns nyss har nu legat i ruin i 100 år). |
