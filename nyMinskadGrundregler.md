@@ -11,7 +11,9 @@ title: Troik-Rats av Nils Jivegård
 * Skulle spelaren slå två sexor (6, 6) blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
   
 # Grundvärde
-Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 5, 6, 7 i grundvärde och placerar de valfritt på varsitt grundvärde.
+Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 3, 4, 5 i grundvärde och placerar de valfritt på varsitt grundvärde.
+
+Grundvärdet kan bli max 8.
 
 * Kropp
     * Din styrka, din hälsa, din uthållighet, din närstridstalang
@@ -24,6 +26,8 @@ Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 5, 6, 7 i g
 Talanger är det din karaktär besitter som ger henne mer bakgrund och komplement som hjälper dig öka målvärdet.
 
 Talanger har ranker som går från 1 och uppåt. Värdet på ranken är det som adderas till målvärdet.
+
+Målvärdet kan max bli 10.
 
 En nybörjare börjar med totalt 6 talang-ranker spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
 
@@ -134,12 +138,14 @@ Om det är ett par ökar grundvärdet också. Är det en fummel händer inget.
 * **Kritisk framgång (Par) (16,67%):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
 4. Sudda sedan ut bocken.
 
+> Grundvärde kan max bli 8.
+
 ---
 # Strid och återhämtning
 ## Skada
-När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar motståndarens kropp med resultatet.
+När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar skadan med motståndarens kraft.
 
-* **Skydd:** Fienden (eller spelkaraktären) drar av sitt skyddsvärde från skadan.
+* **Skydd:** Motståndaren (eller spelkaraktären) drar av sitt skyddsvärde från skadan.
 
   * _Lätt skydd:_ -1 skada.
   * _Medel skydd:_ -2 skada och nackdel när du smyger.
@@ -154,10 +160,12 @@ När du vinner en stridsrunda slår du din vapenskada (t.ex. 1d6 för ett svärd
 * **-4 kropp / kraft / minne / moral:** Du dör på fläcken. Ingen återvändo.
 
 ## Motståndsslag
-När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår 2d6 samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången.
+När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår 2d6 samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången. 
+
+> Designers note: ändra så att motståndarens överläge i grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
 
 ## Initiativ
-Vem agerar först? Tänk ut vem som skulle ha överläge och ge dem +2 på sitt initiativ slag. Alla parter slår sedan 2d6 samtidigt och den eller de med sin överläge bonus räknar med den. Högst vinner och bestämmer sedan vem den ger initiativet vidare till, och den bestämmer sedan till nästa, tills alla har fått göra sin handling. Sedan börjar initiativet om. Kom ihåg att överläget kan ändras.
+Den i gruppen som har högst skill möter den bästa i motståndsgruppen i special. Den grupp som vinner motståndsslaget (med valfri talang om det finns för situationen) börjar. För varje runda gör detta.
 
 ## Jakt
 När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2.Grupperna slår sedan 2d6 samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
@@ -169,7 +177,7 @@ När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika
 
 ---
 # Motståndare
-Grundvärde är lite annorlunda:
+Grundvärden är lite annorlunda:
 * Kraft
     * deras hälsa, styrka, rörelse
 * Special
@@ -180,14 +188,16 @@ Grundvärde är lite annorlunda:
 ## Motståndar exempel
 HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekomenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
 
-|  HD | Exempel          | Kraft | Special | Moral | Skada |
-| --: | :------------------------- |:-----------------:| -------------- | ----- | ----- |
-| 0.5 | Råtta, Vätte, Kobold       | 3               | 2              | 2     | 1d2   |
-|   1 | Ork, Människa, Varg        | 6               | 5              | 4     | 1d6   |
-|   2 | Elitsoldat, Björn          | 8              | 7              | 6     | 1d6+1 |
-|   3 | Ogre, Riddare, Ond Magiker | 10             | 9             | 7     | 1d6+2 |
-|   4 | Jätte, Ung drake         | 14              | 10             | 8     | 1d8+1 |
-|  5+ | Boss, Drake, Demon; naturkatastrof | 18      | 11            | 10    | 2d6+2   |
+> En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på grundvärdet.
+
+|  HD | Exempel                    | Kraft           | Special | Moral | Skada |
+| --: | :------------------------- |:---------------:| ------- | ----- | ----- |
+| 0.5 | Råtta, Vätte, Kobold       | 3               | 2       | 2     | 1d2   |
+|   1 | Ork, Människa, Varg        | 6               | 5       | 4     | 1d6   |
+|   2 | Elitsoldat, Björn          | 8               | 7       | 6     | 1d6+1 |
+|   3 | Ogre, Riddare, Ond Magiker | 10              | 9       | 7     | 1d6+2 |
+|   4 | Jätte, Ung drake           | 10 (4 buffer)   | 10      | 8     | 1d8+1 |
+|  5+ | Boss, Drake, Demon; naturkatastrof | 10 (8 buffer)| 11 | 10    | 2d6+2 |
 
 ## Slumpa fram ett monster
 <button onclick="generateMonster()">Generera Monster</button>
@@ -201,8 +211,8 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 
 <script src="assets/uneNPC.js"></script>
 
-## Problem vid Kropp 12
-Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
+## Problem vid kraft 12
+Det finns ett stort problem med kraft 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
 
 > Behöver fortfarande jobba på den här
 
