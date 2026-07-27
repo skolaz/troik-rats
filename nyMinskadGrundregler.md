@@ -191,7 +191,7 @@ Grundvärde är lite annorlunda:
 ## Motståndar exempel
 HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekomenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
 
-|  HD | Exempel          | Kraft (medus värde) | Special | Moral | Skada |
+|  HD | Exempel          | Kraft | Special | Moral | Skada |
 | --: | :------------------------- |:-----------------:| -------------- | ----- | ----- |
 | 0.5 | Råtta, Vätte, Kobold       | 3               | 2              | 2     | 1d2   |
 |   1 | Ork, Människa, Varg        | 6               | 5              | 4     | 1d6   |
@@ -199,6 +199,12 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 |   3 | Ogre, Riddare, Ond Magiker | 10             | 9             | 7     | 1d6+2 |
 |   4 | Jätte, Ung drake         | 14              | 10             | 8     | 1d8+1 |
 |  5+ | Boss, Drake, Demon; naturkatastrof | 18      | 11            | 10    | 2d6+2   |
+
+## Slumpa fram ett monster
+<button onclick="generateMonster()">Generera Monster</button>
+<div id="monster-output"></div>
+
+<script src="assets/mazeMonster.js"></script>
 
 ## Problem vid Kropp 12
 Det finns ett stort problem med Brawn 12 och det är att de lyckas alltid slå under sitt målvärde. Däremot kan den misslyckas vid en fummel. Men chanserna ser inte bra ut. Taktik, välplanerade Talents och utrustning krävs för att underlätta sådana strider. 
