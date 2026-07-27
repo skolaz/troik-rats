@@ -99,7 +99,7 @@ Beroende på vilken Cirkel-rank den kastas i, kan den ge olika styrkor och effek
 
 ### Slumpa fram en trollformel direkt
 <button onclick="generateSpell()">Generera Trollformel</button>
-<div id="spell-output" style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></div>
+<div id="spell-output"></div>
 
 <script src="assets/mazeMagic.js"></script>
 
