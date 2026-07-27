@@ -81,6 +81,11 @@ Trollformelns **cirkel rank subtraherar** ditt **minne**-värde för att **skapa
 * **Cirkel -4:** Medelstark magi och börjar bli okontrollerbar. 1d6 skada. Max 60 min.
 * **Cirkel -5:** Svår och farlig magi. 1d8 skada. Stora områden eller permanent
 
+### Slumpa fram en trollformel direkt
+<button onclick="generateSpell()">Generera Trollformel</button>
+<div id="spell-output" style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></div>
+
+<script src="assets/mazeMagic.js"></script>
 
 ### Cirkel talanger (magiska skolor)
 För att underlätta vårskriket av trollformler kan du ha talanger i vissa magiska skolor. Dessa ranker adderas till målvärdet som vanligt.
