@@ -39,7 +39,7 @@ function generateCharacter() {
     const minne = stats[2];
 
     // 2. Silver: (Startsilver) Slutsilver
-    const startSilver = rollDice(2, 6) + 10;
+    const startSilver = rollDice(2, 6) + 21;
     let currentSilver = startSilver;
 
     // 3. Talanger & Cirkel (6 ranker totalt)
