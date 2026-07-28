@@ -78,8 +78,8 @@ const GAME_DATA = {
         { name: "Elddon", price: 3, category: "Överlevnad & Ljus" },
         { name: "Låsdyrkar (3)", price: 25, category: "Verktyg & Inbrott" },
         { name: "Kofot", price: 10, category: "Verktyg & Inbrott" },
-        { name: "Bågfil / Metallfil", price: 12, category: "Verktyg & Inbrott" },
-        { name: "Mejsel / Hammare", price: 4, category: "Verktyg & Inbrott" },
+        { name: "Bågfil & Metallfil", price: 12, category: "Verktyg & Inbrott" },
+        { name: "Mejsel & Hammare", price: 4, category: "Verktyg & Inbrott" },
         { name: "Handborr", price: 8, category: "Verktyg & Inbrott" },
         { name: "Järntång", price: 7, category: "Verktyg & Inbrott" },
         { name: "Änterhake", price: 10, category: "Verktyg & Inbrott" },
@@ -100,8 +100,10 @@ const GAME_DATA = {
         { name: "Djurdoft", price: 10, category: "Specialartiklar" },
         { name: "Stålspegel", price: 15, category: "Specialartiklar" },
         { name: "Fiskenät", price: 6, category: "Specialartiklar" },
-        { name: "Krita / Horn", price: 1, category: "Specialartiklar" },
-        { name: "Stor säck / Spade", price: 3, category: "Specialartiklar" }
+        { name: "Krita", price: 1, category: "Specialartiklar" },
+        { name: "Horn", price: 4, category: "Specialartiklar" },
+        { name: "Stor säck / Spade", price: 3, category: "Specialartiklar" },
+        { name: "Spade", price: 5, category: "Specialartiklar" }
     ],
 
     // Magitabeller
