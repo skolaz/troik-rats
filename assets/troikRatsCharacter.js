@@ -80,9 +80,14 @@ function generateCharacter() {
         }
     }
 
-    // C. Slumpa resten av utrustningen upp till bärförmågan (Kropp)
+// C. Slumpa resten av utrustningen upp till bärförmågan (Kropp) utan dubbletter
     while (inventory.length < kropp) {
-        let affordableGear = GAME_DATA.gear.filter(g => g.price <= currentSilver);
+        // Filtrera fram prylar som vi har råd med OCH som inte redan finns i inventory
+        let affordableGear = GAME_DATA.gear.filter(g => 
+            g.price <= currentSilver && !inventory.includes(g.name)
+        );
+
+        // Om det inte finns några unika köpköpköpbara prylar kvar, bryt loopen
         if (affordableGear.length === 0) break;
 
         let item = getRandomFrom(affordableGear);
