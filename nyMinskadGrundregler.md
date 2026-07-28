@@ -306,3 +306,10 @@ Silver:
 * Namn på utrustning
 * Namn på utrustning
 * Namn på utrustning
+
+## Slumpa fram en karaktär
+<button onclick="generateCharacter()">Generera Nybörjare</button>
+<div id="character-output"></div>
+
+<script src="assets/gameData.js"></script>
+<script src="assets/troikRatsCharacter.js"></script>
