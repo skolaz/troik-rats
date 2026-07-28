@@ -95,9 +95,10 @@ Pris per styck om inget annat anges.
 
 | Föremål | Pris | Föremål | Pris |
 | :--- | :---: | :--- | :---: |
-| **Medicin (3)** | 20 s | **Flaska med gift** | >40 s |
+| **Medicin (3)** | 20 s | **Flaska med gift** | 40 s |
 | **Flaska med syra** | 30 s | **Djurdoft** | 10 s |
 | **Stålspegel** | 15 s | **Fiskenät** | 6 s |
+| **Horn** | 1 s | **Spade** | 5 s |
 | **Krita / Horn** | 1 s | **Stor säck / Spade** | 3 s |
 
 # Vikt
