@@ -87,6 +87,8 @@ Magin använder sig av *ord magi* där effekten och formen antingen är fysisk e
 > Bluffa: skapa en illusion att där finns det vanlig mark, men är egentligen en fälla rakt ner i ett hål
 > Hantverk: skapa en lerfigur som tyvärr går lätt sönder
 
+Önskar en nybörjarkaraktär en trollformel behövs en av de sex talang-ranker spenderas som en trollformel istället.
+
 ## Cirkel
 
 Trollformelns **cirkel rank subtraherar** ditt **minne**-värde för att **skapa ditt målvärde**. **Efter du har lyckats eller misslyckats skadar Cirkel ranken ditt minne.**
