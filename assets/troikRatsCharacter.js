@@ -38,7 +38,7 @@ function generateCharacter() {
     const skill = stats[1];
     const minne = stats[2];
 
-    // 2. Silver: (Startsilver) Slutsilver
+    // 2. Silver: Nuvarande (Startsilver)
     const startSilver = rollDice(2, 6) + 21;
     let currentSilver = startSilver;
 
@@ -57,12 +57,14 @@ function generateCharacter() {
         }
     }
 
-    // 4. Utrustning (Max antal = Kropp)
+    // 4. Utrustning (Max antal = Kropp, exklusive gratis skydd)
     let inventory = [];
-    let hasLattSkydd = false;
-    let lattSkyddNote = "";
 
-    // A. Ett garanterat vapen (prioritera Standard, annars Vrakpris)
+    // Gratis startföremål: Ransoner (kostar 0 silver, men tar 1 plats i Kropp)
+    const ransoner = GAME_DATA.gear.find(g => g.name.toLowerCase().includes("ranson"));
+    inventory.push(ransoner ? ransoner.name : "Ransoner");
+
+    // A. Köp ett vapen (prioritera Standard, annars Vrakpris)
     const affordableWeapons = GAME_DATA.weapons.filter(w => w.standard <= currentSilver || w.broken <= currentSilver);
     let chosenWeapon = affordableWeapons.length > 0 ? getRandomFrom(affordableWeapons) : GAME_DATA.weapons[0];
     
@@ -71,27 +73,7 @@ function generateCharacter() {
     currentSilver -= weaponCost;
     inventory.push(`${chosenWeapon.name} (${isVrakprisWeapon ? 'Vrakpris' : 'Standard'})`);
 
-    // B. Garanterat Lätt skydd (om råd)
-    const lattSkydd = GAME_DATA.armors.find(a => a.name === "Lätt skydd");
-    if (lattSkydd) {
-        if (currentSilver >= lattSkydd.standard) {
-            currentSilver -= lattSkydd.standard;
-            hasLattSkydd = true;
-        } else if (currentSilver >= lattSkydd.broken) {
-            currentSilver -= lattSkydd.broken;
-            hasLattSkydd = true;
-            lattSkyddNote = " (Vrakpris)";
-        }
-    }
-
-    // C. Prioritera Ransoner först
-    const ransoner = GAME_DATA.gear.find(g => g.name.toLowerCase().includes("ranson"));
-    if (ransoner && currentSilver >= ransoner.price && inventory.length < kropp) {
-        currentSilver -= ransoner.price;
-        inventory.push(ransoner.name);
-    }
-
-    // D. Slumpa resten av utrustningen upp till bärförmågan (Kropp) utan dubbletter
+    // B. Slumpa resten av utrustningen upp till bärförmågan (Kropp) utan dubbletter
     while (inventory.length < kropp) {
         let affordableGear = GAME_DATA.gear.filter(g => 
             g.price <= currentSilver && !inventory.includes(g.name)
@@ -109,7 +91,7 @@ function generateCharacter() {
 
     html += `<strong>Namn:</strong><br><br>`;
     html += `<strong>Bakgrund:</strong><br><br>`;
-    html += `<strong>Silver:</strong> (${startSilver}) ${currentSilver}<br><br>`;
+    html += `<strong>Silver:</strong> ${currentSilver} (${startSilver})<br><br>`;
 
     html += `<strong>Grundvärde</strong> <em>Max / Nuvarande</em><br>`;
     html += `* <em>Kropp</em> ${kropp} / ${kropp}<br>`;
@@ -117,7 +99,7 @@ function generateCharacter() {
     html += `* <em>Minne</em> ${minne} / ${minne}<br><br>`;
 
     html += `<strong>Skydd</strong><br>`;
-    html += `* ${hasLattSkydd ? 'X' : 'O'} Lätt${lattSkyddNote}: -1 skada<br>`;
+    html += `* X Lätt (Vrakpris): -1 skada<br>`;
     html += `* O medel: -2 skada, nackdel smyga<br>`;
     html += `* O tungt: -3 skada, nackdel smyga, klättra, simma<br><br>`;
 
@@ -144,6 +126,8 @@ function generateCharacter() {
     html += `<br>`;
 
     html += `<strong>Utrustning</strong><br>`;
+    // Gratis skydd visas i listan men belastar inte Kropp-gränsen
+    html += `* Lätt skydd (Vrakpris)<br>`;
     inventory.forEach(item => {
         html += `* ${item}<br>`;
     });
