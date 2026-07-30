@@ -6,21 +6,22 @@ I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hit
 
 | Vapen | Vrakpris (Söndrigt) | Standard (Brukskick) | Mästerligt | Skada | 
 | :--- | :---: | :---: | :---: |  :---: |
-| **Kniv / Dolk** | 1 s | 5 s | 20 s |  x |
-| **Stav / Klubba** | 0 s | 2 s | 10 s |  x |
-| **Yxa / Hammare #** | 4 s | 12 s | 45 s |  x |
-| **Spjut** | 3 s | 10 s | 35 s |  x |
-| **Svärd / Spikklubba #** | 8 s | 25 s | 80 s |  x |
-| **Långsvärd** | 12 s | 40 s | 120 s | x |
-| **Stångvapen** *# | 15 s | 50 s | 150 s | x |
-| **Storsvärd** *# / **Mörbulta** *# | 20 s | 65 s | 200 s | x |
-| **Sköld** | 5 s | 15 s | 50 s | x |
+| **Kniv / Dolk** | 1 s | 5 s | 20 s |  1d4 |
+| **Stav / Klubba** | 0 s | 2 s | 10 s |  1d6 |
+| **Yxa # / Hammare** # | 4 s | 12 s | 45 s |  1d4+2 |
+| **Spjut** ^ | 3 s | 10 s | 35 s |  1d6 |
+| **Svärd** | 8 s | 25 s | 80 s |  1d6 |
+| **Svärd / Spikklubba** # | 8 s | 25 s | 80 s |  1d4+2 |
+| **Långsvärd** ^* | 12 s | 40 s | 120 s | 1d6 |
+| **Lans** ^*# | 15 s | 50 s | 150 s | 1d6+1 |
+| **Storsvärd** *# / **Mörbulta** *# | 20 s | 65 s | 200 s | 1d8 |
 
+`^` Indikerar ett vapen som har längre avstånd än vanligt vapen
 `*` Indikerar ett vapen som kräver minst två händer att använda.  
 `#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
 
 ### Skicket påverkar spelet
-* **Vrakpris (Söndrigt):** Vid ett **Fummel (6, 6)** går vapnet sönder helt. Det kan inte lagas utan en smed och material.
+* **Vrakpris (Söndrigt):** Vid ett **Fummel (6, 6)** går vapnet sönder helt. Det kan inte lagas utan att en smed och hennes hantverk.
 * **Mästerligt:** Balanserat och dödligt. Ger **+1 på målvärdet och skada, eller skydd**.
 
 ---
