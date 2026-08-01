@@ -62,7 +62,7 @@ function generateCharacter() {
 
     // Gratis startföremål: Ransoner (kostar 0 silver, men tar 1 plats i Kropp)
     const ransoner = GAME_DATA.gear.find(g => g.name.toLowerCase().includes("ranson"));
-    inventory.push(ransoner ? ransoner.name : "Ransoner");
+    inventory.push(ransoner ? ransoner.name : "Ransoner (3)");
 
     // A. Köp ett vapen (prioritera Standard, annars Vrakpris)
     const affordableWeapons = GAME_DATA.weapons.filter(w => w.standard <= currentSilver || w.broken <= currentSilver);
