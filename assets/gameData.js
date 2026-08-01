@@ -41,22 +41,22 @@ const GAME_DATA = {
         { name: "Ledarskap", stat: "Minne" }
     ],
 
-    // Vapen (Närstrid och Distans)
+    // Vapen med skada tillagd
     weapons: [
-        { name: "Kniv / Dolk", broken: 1, standard: 5, master: 20, twoHanded: false, armorPiercing: false },
-        { name: "Stav / Klubba", broken: 0, standard: 2, master: 10, twoHanded: false, armorPiercing: false },
-        { name: "Yxa / Hammare", broken: 4, standard: 12, master: 45, twoHanded: false, armorPiercing: true },
-        { name: "Spjut", broken: 3, standard: 10, master: 35, twoHanded: false, armorPiercing: false },
-        { name: "Svärd / Spikklubba", broken: 8, standard: 25, master: 80, twoHanded: false, armorPiercing: true },
-        { name: "Långsvärd", broken: 12, standard: 40, master: 120, twoHanded: false, armorPiercing: false },
-        { name: "Stångvapen", broken: 15, standard: 50, master: 150, twoHanded: true, armorPiercing: true },
-        { name: "Storsvärd / Mörbultare", broken: 20, standard: 65, master: 200, twoHanded: true, armorPiercing: true },
-        { name: "Kastknivar / Yxor", broken: 2, standard: 6, master: 20, twoHanded: false, armorPiercing: false },
-        { name: "Slangbella", broken: 0, standard: 1, master: 5, twoHanded: false, armorPiercing: false },
-        { name: "Pilbåge", broken: 10, standard: 30, master: 100, twoHanded: true, armorPiercing: false },
-        { name: "Armborst", broken: 15, standard: 45, master: 130, twoHanded: true, armorPiercing: false },
-        { name: "Pistolet", broken: 30, standard: 80, master: 250, twoHanded: false, armorPiercing: true },
-        { name: "Lätt musköt", broken: 50, standard: 150, master: 400, twoHanded: true, armorPiercing: true }
+        { name: "Kniv / Dolk", broken: 1, standard: 5, master: 20, damage: "1d4", twoHanded: false, armorPiercing: false },
+        { name: "Stav / Klubba", broken: 0, standard: 2, master: 10, damage: "1d6", twoHanded: false, armorPiercing: false },
+        { name: "Yxa / Hammare", broken: 4, standard: 12, master: 45, damage: "1d4+2", twoHanded: false, armorPiercing: true },
+        { name: "Spjut", broken: 3, standard: 10, master: 35, damage: "1d6", twoHanded: false, armorPiercing: false },
+        { name: "Svärd / Spikklubba", broken: 8, standard: 25, master: 80, damage: "1d4+2", twoHanded: false, armorPiercing: true },
+        { name: "Långsvärd", broken: 12, standard: 40, master: 120, damage: "1d6", twoHanded: false, armorPiercing: false },
+        { name: "Stångvapen", broken: 15, standard: 50, master: 150, damage: "1d6+1", twoHanded: true, armorPiercing: true },
+        { name: "Storsvärd / Mörbultare", broken: 20, standard: 65, master: 200, damage: "1d8", twoHanded: true, armorPiercing: true },
+        { name: "Kastknivar / Yxor", broken: 2, standard: 6, master: 20, damage: "1d4", twoHanded: false, armorPiercing: false },
+        { name: "Slangbella", broken: 0, standard: 1, master: 5, damage: "1d4", twoHanded: false, armorPiercing: false },
+        { name: "Pilbåge", broken: 10, standard: 30, master: 100, damage: "1d6", twoHanded: true, armorPiercing: false },
+        { name: "Armborst", broken: 15, standard: 45, master: 130, damage: "1d6+1", twoHanded: true, armorPiercing: false },
+        { name: "Pistolet", broken: 30, standard: 80, master: 250, damage: "1d4+2", twoHanded: false, armorPiercing: true },
+        { name: "Lätt musköt", broken: 50, standard: 150, master: 400, damage: "1d4+4", twoHanded: true, armorPiercing: true }
     ],
 
     // Skydd & Rustning
