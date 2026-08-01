@@ -102,7 +102,7 @@ const GAME_DATA = {
         { name: "Fiskenät", price: 6, category: "Specialartiklar" },
         { name: "Krita", price: 1, category: "Specialartiklar" },
         { name: "Horn", price: 4, category: "Specialartiklar" },
-        { name: "Stor säck / Spade", price: 3, category: "Specialartiklar" },
+        { name: "Stor säck", price: 3, category: "Specialartiklar" },
         { name: "Spade", price: 5, category: "Specialartiklar" }
     ],
 
