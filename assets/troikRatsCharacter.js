@@ -90,7 +90,7 @@ function generateCharacter() {
     }
 
     // 5. Generera utskriften enligt mallen
-    let html = `<div style="border: 1px solid #ccc; padding: 15px; font-family: monospace; font-size: 12px; background: #fafafa; border-radius: 5px; line-height: 1.6;">`;
+    let html = `<div style="border: 1px solid #ccc; padding: 15px; font-family: monospace; font-size: 14px; background: #fafafa; border-radius: 5px; line-height: 1.6;">`;
 
     html += `<strong>Namn:</strong><br><br>`;
     html += `<strong>Bakgrund:</strong><br><br>`;
