@@ -9,7 +9,14 @@ title: Troik-Rats av Nils Jivegård
 * Om det är en lätt utmaning slår du först 2d6, sedan slår du om den högsta siffran. Extra lätt behöver inte finnas.
 * När du slår ett par lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
 * Skulle spelaren slå två sexor (6, 6) blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
-  
+
+_Länkar till ytterligare regler_
+* [Guide till att skapa en karaktär (Behöver förnyas)](skapaKaraktärGuide.md)
+* [Utrustning](utrustning.md)
+* [Fördjupa din karaktär](fördjupa.md)
+* [Varför håller ni ihop?](varförHåller.md)
+* [Fler motståndare](motståndareTabell.md)
+
 # Grundvärde
 Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 3, 4, 5 i grundvärde och placerar de valfritt på varsitt grundvärde.
 
