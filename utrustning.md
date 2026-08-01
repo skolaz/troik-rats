@@ -16,7 +16,7 @@ I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hit
 | **Lans** ^*# | 15 s | 50 s | 150 s | 1d6+1 |
 | **Storsvärd** *# / **Mörbulta** *# | 20 s | 65 s | 200 s | 1d8 |
 
-`^` Indikerar ett vapen som har längre avstånd än vanligt vapen
+`^` Indikerar ett vapen som har längre avstånd än vanligt vapen.
 `*` Indikerar ett vapen som kräver minst två händer att använda.  
 `#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
 
@@ -31,12 +31,12 @@ Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) el
 
 | Vapen | Vrakpris | Standard | Mästerligt | Skada | 
 | :--- | :---: | :---: | :---: | :---: |
-| **Kastknivar / Yxor** | 2 s | 6 s | 20 s | x |
-| **Slangbella** | 0 s | 1 s | 5 s | x  |
-| **Pilbåge*** | 10 s | 30 s | 100 s |  x  |
-| **Armborst*** | 15 s | 45 s | 130 s |  x  |
-| **Pistolet#** | 30 s | 80 s | 250 s |   x  |
-| **Lätt musköt*#** | 50 s | 150 s | 400 s |   x  |
+| **Kastknivar / Yxor** | 2 s | 6 s | 20 s | 1d4 |
+| **Slangbella** | 0 s | 1 s | 5 s | 1d4  |
+| **Pilbåge** * | 10 s | 30 s | 100 s |  1d6  |
+| **Armborst** *# | 15 s | 45 s | 130 s |  1d6+1  |
+| **Pistolet** # | 30 s | 80 s | 250 s |   1d4+2  |
+| **Lätt musköt** *# | 50 s | 150 s | 400 s |   1d4+4  |
 
 `*` Kräver två händer. `#` Ignorerar 1 Skydd. Krutvapen är extremt högljudda och riskabla.
 
