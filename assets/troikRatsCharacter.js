@@ -71,7 +71,10 @@ function generateCharacter() {
     let isVrakprisWeapon = chosenWeapon.standard > currentSilver;
     let weaponCost = isVrakprisWeapon ? chosenWeapon.broken : chosenWeapon.standard;
     currentSilver -= weaponCost;
-    inventory.push(`${chosenWeapon.name} (${isVrakprisWeapon ? 'Vrakpris' : 'Standard'})`);
+
+    // Här läggs vapnet till med skicket OCH skadan!
+    let weaponQuality = isVrakprisWeapon ? 'Vrakpris' : 'Standard';
+    inventory.push(`${chosenWeapon.name} (${weaponQuality}, ${chosenWeapon.damage} skada)`);
 
     // B. Slumpa resten av utrustningen upp till bärförmågan (Kropp) utan dubbletter
     while (inventory.length < kropp) {
