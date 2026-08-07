@@ -34,7 +34,12 @@ Eftersom ett tärningsresultat kan krocka med flera tolkningar finns en rangordn
 
 <details>
 
-<summary> _Länkar till ytterligare regler_ </summary>
+<summary> 
+
+  *Länkar till ytterligare regler*
+  
+</summary>
+
 * [Guide till att skapa en karaktär (Behöver förnyas)](skapaKaraktärGuide.md)
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
@@ -45,7 +50,12 @@ Eftersom ett tärningsresultat kan krocka med flera tolkningar finns en rangordn
 
 <details>
 
-<summary> Ordlista </summary>
+<summary> 
+  
+  *Ordlista*
+
+</summary>
+
 * Grundvärde
 * Motståndsslag
 * Runda
