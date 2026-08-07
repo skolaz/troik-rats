@@ -12,6 +12,7 @@ title: Troik-Rats av Nils Jivegård
   > Lyckas = 2d6 ≤ Målvärdet
   >
   > Lyckas, men med konsekvens = (2d6 = Målvärdet)
+  
 * Om det är en svår utmaning slår du först 2d6, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
 * Om det är en lätt utmaning slår du först 2d6, sedan slår du om den högsta siffran. Extra lätt behöver inte finnas.
 * När du slår ett par lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
@@ -78,8 +79,9 @@ Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 3, 4, 5 i g
 
 Grundvärdet kan bli max 8.
 
-|  **Kropp** |  **Din styrka, din hälsa, din uthållighet, din närstridstalang** |
+|  Grundvärde |  Beskrivning |
 |---|---|
+|  **Kropp** |  **Din styrka, din hälsa, din uthållighet, din närstridstalang** |
 |  **Skill** |  **Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang** |
 |  **Minne** |  **Din mentala hälsa, din magi, ditt språk, din kunskap** |
 
@@ -211,8 +213,9 @@ När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika
 # 7. Motståndare
 Grundvärden är lite annorlunda.
 
-|  **Kraft** |  **deras hälsa, styrka, rörelse** |
+|  Grundvärde |  Beskrivning |
 |---|---|
+|  **Kraft** |  **deras hälsa, styrka, rörelse** |
 |  **Special** |  **deras skill, minne, magi, fingerfärdighet, språk, kunskap** |
 |  **Moral** |  **deras mentala hälsa och moral** |
  
@@ -256,11 +259,12 @@ Detta går inte göra motvänt från spelare till motståndare.
 | 4-5 | Halt  |  Du snubblar och missar din nästa tur. |
 | 6-8 | Blottad  |  Nästa slag mot dig får +2 (enklare att slå under). |
 | 9-10 | Självskada  |  Du slår din egen vapenskada mot dig själv.  |
-| 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns). |
+| 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns, annars slå igen). |
 
 ## 8.2 Fumla med magi & Magikontroll
 
 Slå för din **Magikontroll** (3d6)
+
 > Par = inget händer (37%)
 > 
 > Fummel (6, 6) = katastrof (7%)
