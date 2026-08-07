@@ -24,7 +24,7 @@ title: Troik-Rats av Nils Jivegård
 >
 > Hanna klättrar och drar sig upp för väggen. Fötterna står stadigt och hon klättrar uppå. Väl uppe var hon inte beredd på att det inte fanns något på andra sidan. Hon får en ny utmaning. För att inte ramla och skada sig behöver hon göra en ny prövning med tärningarna.
 
-Eftersom ett tärningsresultat Rangordning på vilka regler på tärningsresultatet som kommer först.
+Eftersom ett tärningsresultat kan krocka med flera tolkningar finns en rangordning på vilka reglersom kommer först.
 1. Fummel. 6, 6.
 2. Prick på Målvärdet. Lyckas men med en konsekvens.
 > Det kan hända att målvärdet är resultatet av endast ett par, till exempel målvärde 10 med 5, 5. Då är Prick på Målvärdet det som gäller, inte par.
@@ -67,6 +67,7 @@ Eftersom ett tärningsresultat Rangordning på vilka regler på tärningsresulta
 Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 3, 4, 5 i grundvärde och placerar de valfritt på varsitt grundvärde.
 
 Grundvärdet kan bli max 8.
+
 |  **Kropp** |  **Din styrka, din hälsa, din uthållighet, din närstridstalang** |
 |---|---|
 |  **Skill** |  **Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang** |
@@ -98,7 +99,7 @@ Magi är kraftfullt men riskerar utövarens minne. Det kräver kreativitet, lite
 
 Magin använder sig av *ord magi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver kan du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte pröva svårare cirkel-rank om du inte har en talang-rank som sträcker sig så långt.
 
-> Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang +/- Cirkel kraftnivå + din fantasi
+> Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi
 >
 > Målvärdet är uppbyggt av Grundvärde (Minne) + Talang - Cirkel Kraftnivå
 
@@ -114,7 +115,7 @@ Magin använder sig av *ord magi* där effekten och formen antingen är fysisk e
 
 
 **Cirkelns kraftnivå subtraherar** ditt **minne**-värde för att **skapa ditt målvärde**. **Efteråt** du har lyckats eller misslyckats **skadar Cirkelns kraftnivå ditt minne.**
-Alltså: Målvärde för trollformel = Grundvärde (Minne) + Talang - Cirkel-ranken. Därefter tar grundvärdet minne Cirkel-ranken i skada.
+Alltså: Målvärde för trollformel = Grundvärde (Minne) + Talang - Cirkelns kraftnivå. Därefter skadas Grundvärdet Minne med den kraftnivån som användes.
 
 Beroende på vilken kraftnivå en kastas i, kan den ge olika styrkor och effekter. Tänk på att en kraftnivå kan bara bli så stark som Talangens rank. Du får lov att skala upp eller skala ner, men följer reglerna nedan.
 
@@ -167,6 +168,8 @@ Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen
 När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår 2d6 samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången. 
 
 > Designers note: ändra så att motståndarens överläge i grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
+
+
 ## 6.2 Skada
 När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar skadan med motståndarens kraft.
 
@@ -191,12 +194,13 @@ En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen
 När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2.Grupperna slår sedan 2d6 samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
 
 ## 6.5 Återhämtning
-* **Kort vila (8h):** Du återfår hälften av dina förlorade poäng i **kropp** och **minne**.
 
+* **Kort vila (8h):** Du återfår hälften av dina förlorade poäng i **kropp** och **minne**.
 * **Långvila (48h):** Du återfår alla poäng i **kropp** och **minne** till ditt maxvärde.
----
+
 # 7. Motståndare
 Grundvärden är lite annorlunda.
+
 |  **Kraft** |  **deras hälsa, styrka, rörelse** |
 |---|---|
 |  **Special** |  **deras skill, minne, magi, fingerfärdighet, språk, kunskap** |
@@ -248,7 +252,9 @@ Detta går inte göra motvänt från spelare till motståndare.
 
 Slå för din **Magikontroll** (3d6)
 > Par = inget händer (37%)
+> 
 > Fummel (6, 6) = katastrof (7%)
+> 
 > Inget av ovan -> läs av siffrorna i obestämd ordning och hitta din mutation (55%)
 
 ### 8.2.1 Mutationslistan
@@ -316,7 +322,7 @@ Silver:
 **Cirkel**
 *Målvärde = Minne + Talang - Cirkel Kraftnivå* /// *X = förberedd*
 
-*Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang +/- Cirkel kraftnivå + din fantasi*
+*Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi*
 * O namn på trollformel med sin effekt och form
 * O namn på trollformel med sin effekt och form
 * O namn på trollformel med sin effekt och form
