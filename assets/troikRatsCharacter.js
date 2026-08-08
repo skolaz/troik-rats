@@ -38,8 +38,8 @@ function generateCharacter() {
     const skill = stats[1];
     const minne = stats[2];
 
-    // 2. Silver: Nuvarande (Startsilver)
-    const startSilver = rollDice(2, 6) + 23;
+    // 2. Silver: Nuvarande (Startsilver 2d6 + 21)
+    const startSilver = rollDice(2, 6) + 21;
     let currentSilver = startSilver;
 
     // 3. Talanger & Cirkel (6 poäng totalt)
@@ -59,6 +59,14 @@ function generateCharacter() {
         }
     }
 
+    // Slumpa vilka trollformler som är förberedda [X] (max 2 st enligt regel 4.2)
+    let preparedSpells = [];
+    if (mySpells.length > 0) {
+        let shuffled = [...mySpells].sort(() => Math.random() - 0.5);
+        let numPrepared = Math.min(mySpells.length, Math.floor(Math.random() * 3)); // 0, 1 eller 2 st
+        preparedSpells = shuffled.slice(0, numPrepared);
+    }
+
     // 4. Utrustning (Max antal = Kropp, exklusive gratis skydd)
     let inventory = [];
 
@@ -74,16 +82,29 @@ function generateCharacter() {
     let weaponCost = isVrakprisWeapon ? chosenWeapon.broken : chosenWeapon.standard;
     currentSilver -= weaponCost;
 
-    // Bygg upp egenskaper för vapnet (Nr 4)
     let weaponQuality = isVrakprisWeapon ? 'Vrakpris' : 'Standard';
-    let weaponDetails = [weaponQuality];
 
-    if (chosenWeapon.damage) weaponDetails.push(`${chosenWeapon.damage} skada`);
-    if (chosenWeapon.twoHanded) weaponDetails.push('Tvåhands');
-    if (chosenWeapon.reach || chosenWeapon.name.includes("Spjut") || chosenWeapon.name.includes("Stångvapen")) weaponDetails.push('Längre');
-    if (chosenWeapon.armorPiercing) weaponDetails.push('Ignorerar 1 Skydd');
+    // Bygg symboler (*, #, ^) och egenskapstext för vapnet
+    let symbols = [];
+    let traits = [];
 
-    inventory.push(`${chosenWeapon.name} (${weaponDetails.join(', ')})`);
+    if (chosenWeapon.twoHanded) {
+        symbols.push("*");
+        traits.push("Tvåhands");
+    }
+    if (chosenWeapon.armorPiercing) {
+        symbols.push("#");
+        traits.push("Ignorerar 1 Skydd");
+    }
+    if (chosenWeapon.reach || chosenWeapon.longer) {
+        symbols.push("^");
+        traits.push("Längre");
+    }
+
+    let symbolPrefix = symbols.length > 0 ? `${symbols.join("")} ` : "";
+    let traitsString = traits.length > 0 ? `, ${traits.join(", ")}` : "";
+    
+    inventory.push(`${symbolPrefix}${chosenWeapon.name} (${weaponQuality}, ${chosenWeapon.damage} skada${traitsString})`);
 
     // B. Slumpa resten av utrustningen upp till bärförmågan (Kropp)
     while (inventory.length < kropp) {
@@ -111,7 +132,7 @@ function generateCharacter() {
     html += `* <em>Minne</em> ${minne} / ${minne}<br><br>`;
 
     html += `<strong>Skydd</strong><br>`;
-    html += `* X Lätt (Vrakpris): -1 skada<br>`;
+    html += `* X Lätt (Standard): -1 skada<br>`;
     html += `* O medel: -2 skada, nackdel smyga<br>`;
     html += `* O tungt: -3 skada, nackdel smyga, klättra, simma<br><br>`;
 
@@ -132,17 +153,16 @@ function generateCharacter() {
     if (mySpells.length === 0) {
         html += `* Inga trollformler.<br>`;
     } else {
-        // Markera upp till 2 formler som förberedda [X] (Nr 3)
-        mySpells.forEach((spell, index) => {
-            let isPrepared = index < 2 ? 'X' : 'O';
-            html += `* ${isPrepared} ${spell}<br>`;
+        mySpells.forEach(spell => {
+            let isPrep = preparedSpells.includes(spell);
+            let mark = isPrep ? 'X' : 'O';
+            html += `* ${mark} ${spell}<br>`;
         });
     }
     html += `<br>`;
 
-    // Bärförmåga-indikator i rubriken (Nr 2)
-    html += `<strong>Utrustning (${inventory.length}/${kropp} platser använda)</strong><br>`;
-    html += `* Lätt skydd (Vrakpris)<br>`;
+    html += `<strong>Utrustning</strong> (${inventory.length}/${kropp} platser använda)<br>`;
+    html += `* Lätt skydd (Standard)<br>`;
     inventory.forEach(item => {
         html += `* ${item}<br>`;
     });
