@@ -39,17 +39,19 @@ function generateCharacter() {
     const minne = stats[2];
 
     // 2. Silver: Nuvarande (Startsilver)
-    const startSilver = rollDice(2, 6) + 21;
+    const startSilver = rollDice(2, 6) + 23;
     let currentSilver = startSilver;
 
-    // 3. Talanger & Cirkel (6 ranker totalt)
+    // 3. Talanger & Cirkel (6 poäng totalt)
     let myTalents = {};
-    let mySpells = {};
+    let mySpells = [];
 
     for (let i = 0; i < 6; i++) {
         if (Math.random() < 0.2) { // 20% chans för magi
             let spell = generateRandomSpell();
-            mySpells[spell] = (mySpells[spell] || 0) + 1;
+            if (!mySpells.includes(spell)) {
+                mySpells.push(spell);
+            }
         } else {
             let talentObj = getRandomFrom(GAME_DATA.talents);
             let key = `${talentObj.name} (${talentObj.stat})`;
@@ -60,7 +62,7 @@ function generateCharacter() {
     // 4. Utrustning (Max antal = Kropp, exklusive gratis skydd)
     let inventory = [];
 
-    // Gratis startföremål: Ransoner (kostar 0 silver, men tar 1 plats i Kropp)
+    // Gratis startföremål: Ransoner
     const ransoner = GAME_DATA.gear.find(g => g.name.toLowerCase().includes("ranson"));
     inventory.push(ransoner ? ransoner.name : "Ransoner (3)");
 
@@ -72,11 +74,18 @@ function generateCharacter() {
     let weaponCost = isVrakprisWeapon ? chosenWeapon.broken : chosenWeapon.standard;
     currentSilver -= weaponCost;
 
-    // Här läggs vapnet till med skicket OCH skadan!
+    // Bygg upp egenskaper för vapnet (Nr 4)
     let weaponQuality = isVrakprisWeapon ? 'Vrakpris' : 'Standard';
-    inventory.push(`${chosenWeapon.name} (${weaponQuality}, ${chosenWeapon.damage} skada)`);
+    let weaponDetails = [weaponQuality];
 
-    // B. Slumpa resten av utrustningen upp till bärförmågan (Kropp) utan dubbletter
+    if (chosenWeapon.damage) weaponDetails.push(`${chosenWeapon.damage} skada`);
+    if (chosenWeapon.twoHanded) weaponDetails.push('Tvåhands');
+    if (chosenWeapon.reach || chosenWeapon.name.includes("Spjut") || chosenWeapon.name.includes("Stångvapen")) weaponDetails.push('Längre');
+    if (chosenWeapon.armorPiercing) weaponDetails.push('Ignorerar 1 Skydd');
+
+    inventory.push(`${chosenWeapon.name} (${weaponDetails.join(', ')})`);
+
+    // B. Slumpa resten av utrustningen upp till bärförmågan (Kropp)
     while (inventory.length < kropp) {
         let affordableGear = GAME_DATA.gear.filter(g => 
             g.price <= currentSilver && !inventory.includes(g.name)
@@ -90,7 +99,7 @@ function generateCharacter() {
     }
 
     // 5. Generera utskriften enligt mallen
-    let html = `<div style="border: 1px solid #ccc; padding: 15px; font-family: monospace; font-size: 14px; background: #fafafa; border-radius: 5px; line-height: 1.6;">`;
+    let html = `<div style="border: 1px solid #ccc; padding: 15px; font-family: monospace; font-size: 13px; line-height: 1.4; background: #fafafa; border-radius: 5px;">`;
 
     html += `<strong>Namn:</strong><br><br>`;
     html += `<strong>Bakgrund:</strong><br><br>`;
@@ -118,18 +127,21 @@ function generateCharacter() {
     html += `<br>`;
 
     html += `<strong>Cirkel</strong><br>`;
-    html += `<em>Målvärde = Minne + Talang - Cirkel Rank /// X = förberedd</em><br>`;
-    if (Object.keys(mySpells).length === 0) {
+    html += `<em>Målvärde = Minne + Talang - Cirkel Kraftnivå /// X = förberedd</em><br>`;
+    html += `<em>Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi</em><br>`;
+    if (mySpells.length === 0) {
         html += `* Inga trollformler.<br>`;
     } else {
-        for (const [spell, rank] of Object.entries(mySpells)) {
-            html += `* O ${spell}. rank: ${rank}<br>`;
-        }
+        // Markera upp till 2 formler som förberedda [X] (Nr 3)
+        mySpells.forEach((spell, index) => {
+            let isPrepared = index < 2 ? 'X' : 'O';
+            html += `* ${isPrepared} ${spell}<br>`;
+        });
     }
     html += `<br>`;
 
-    html += `<strong>Utrustning</strong><br>`;
-    // Gratis skydd visas i listan men belastar inte Kropp-gränsen
+    // Bärförmåga-indikator i rubriken (Nr 2)
+    html += `<strong>Utrustning (${inventory.length}/${kropp} platser använda)</strong><br>`;
     html += `* Lätt skydd (Vrakpris)<br>`;
     inventory.forEach(item => {
         html += `* ${item}<br>`;
