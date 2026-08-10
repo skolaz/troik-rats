@@ -9,7 +9,7 @@ Fördela värdena 3, 4 och 5 fritt på de tre grundvärdena:
 
 2. Slå Startsilver & Bärförmåga
 
-* Slå 2d6 + 23 för att få ditt startsilver (ger mellan 25 och 35 silver).
+* Slå ´2d6 + 23´ för att få ditt startsilver (ger mellan 25 och 35 silver).
 * Din bärförmåga för föremål i utrustningslistan motsvarar ditt grundvärde i Kropp.
 
 3. Välj Talanger och Cirkel (Magi)
@@ -22,7 +22,8 @@ Du har 6 poäng totalt att fördela:
 4. Utrustning & Skydd
 
 * [Utrustning](utrustning.md)
-* Gratis startutrustning: Alla karaktärer börjar med Lätt skydd (Standard) och Ransoner (3) gratis. Dessa väger inget. Och dessa kan säljas för att börja med mer pengar.
+* Gratis startutrustning: Alla karaktärer börjar med ´Lätt skydd (Standard)´ och ´Ransoner (3)´ gratis. Dessa väger inget. En nybörjarkaraktär kan också välja att sälja skyddet för 30 silver och ransonerna för 5 silver.
+
 * Vapen: Köp ett vapen för ditt startsilver (Standard i första hand, Vrakpris om pengarna inte räcker).
 * Övrigt: Köp övrig utrustning för resterande silver tills dina utrustningsplatser (Kropp) är fulla eller pengarna tar slut.
 
