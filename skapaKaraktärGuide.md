@@ -2,7 +2,7 @@
 
 1. Fördela Grundvärden
 
-Fördela värdena 3, 4 och 5 fritt på de tre grundvärdena:
+> Fördela värdena 3, 4 och 5 fritt på de tre grundvärdena:
 * Kropp: Styrka, fysik, närstrid och din bärförmåga för utrustning.
 * Skill: Smidighet, fingerfärdighet, avståndsvapen och orientering.
 * Minne: Mental hälsa, magi, kunskap och språk.
@@ -14,7 +14,7 @@ Fördela värdena 3, 4 och 5 fritt på de tre grundvärdena:
 
 3. Välj Talanger och Cirkel (Magi)
 
-Du har 6 poäng totalt att fördela:
+> Du har 6 poäng totalt att fördela:
 * Varje poäng i en Talang ger den +1 i Rank (målvärdet blir Grundvärde + Rank).
 * Du kan byta ut enstaka poäng mot en Trollformel.
 * Du får förbereda upp till 2 trollformler i förväg (markeras med X).
@@ -58,11 +58,11 @@ Målvärde = Minne + Talang - Cirkel Kraftnivå /// X = förberedd
 Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi
 * X Besjälande Dimma (FysiskEffekt + EteriskElement)
 
-Utrustning (4/4 platser använda)
+Utrustning (3/4 platser använda)
 * Lätt skydd (Standard)
 * Ransoner (3)
 * # Svärd / Spikklubba (Standard, 1d4+2 skada, Ignorerar 1 Skydd)
 * Rep 20 meter
-* Elddon
+* Elddon (liten och väger inget)
 
 ```
