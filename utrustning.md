@@ -1,6 +1,13 @@
 # Prislista: Utrustning
-Söndriga vapen är billigare och fina skick kan kosta skjortan
-Ett alternativ till att köpa sina vapen själv är att rulla fram 2d6+10 Silver och utgå därifrån vad karaktären har råd med.
+En nybörjarkaraktär startar med 2d6+23 Silver och utgå därifrån vad karaktären har råd med.
+
+Det ingår också `-1 Lätt Skydd (Standard)`, `Ransoner (3)` och dessa väger ingenting.
+
+En karaktär kan också välja att sälja skyddet för 30 silver och ransonerna för 5 silver.
+
+# Vikt
+Du kan bära lika många saker som du har max i Body.
+
 ## Vapen
 I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hittas i rännstenen för några korvöre, medan mästerverk är förbehållna adeln och framgångsrika legosoldater.
 
@@ -17,12 +24,14 @@ I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hit
 | **Storsvärd** *# / **Mörbulta** *# | 20 s | 65 s | 200 s | 1d8 |
 
 `^` Indikerar ett vapen som har längre avstånd än vanligt vapen.
+
 `*` Indikerar ett vapen som kräver minst två händer att använda.  
+
 `#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
 
 ### Skicket påverkar spelet
-* **Vrakpris (Söndrigt):** Vid ett **Fummel (6, 6)** går vapnet sönder helt. Det kan inte lagas utan att en smed och hennes hantverk.
-* **Mästerligt:** Balanserat och dödligt. Ger **+1 på målvärdet och skada, eller skydd**.
+* **Vrakpris (Söndrigt):** Vid ett **Fummel (6, 6)** går vapnet sönder helt. Det kan inte lagas utan att en smed och hennes hantverk. Men är det värt det?
+* **Mästerligt:** Balanserat och dödligt. Ger **+1 på målvärdet, tärningsresultatet eller skadan**.
 
 ---
 
@@ -38,12 +47,18 @@ Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) el
 | **Pistolet** # | 30 s | 80 s | 250 s |   1d4+2  |
 | **Lätt musköt** *# | 50 s | 150 s | 400 s |   1d4+4  |
 
-`*` Kräver två händer. `#` Ignorerar 1 Skydd. Krutvapen är extremt högljudda och riskabla.
+`*` Kräver två händer. 
+
+`#` Ignorerar 1 Skydd. 
+
+Krutvapen är extremt högljudda och riskabla.
 
 ---
 
 ## Prislista: Skydd & Rustning
 Skydd dras av från inkommande skada. Tyngre rustningar ger bättre skydd men gör det svårare att röra sig tyst och smidigt.
+
+Skydden ingår inte i vikten, däremot väger skölden 1.
 
 | Skyddstyp | Effekt | Vrakpris | Standard | Mästerligt |
 | :--- | :--- | :---: | :---: | :---: |
@@ -54,16 +69,17 @@ Skydd dras av från inkommande skada. Tyngre rustningar ger bättre skydd men g�
 
 ### Beskrivning av skydd
 * **Lätt skydd:** Vaxat läder, förstärkt tyg eller en tjock vadderad jacka. Inga nackdelar.
-* **Medel skydd:** Ringbrynja eller härdat läder med metallplattor. Ger **Nackdel** på att *Smyga*.
-* **Tungt skydd:** Helplåt eller tung fjällpansar. Ger **Nackdel** på att *Smyga* och *Klättra*, samt sänker din **Initiativtärning** med ett steg (t.ex. d10 till d8).
+* **Medel skydd:** Ringbrynja eller härdat läder med metallplattor. Gör det svårare att *Smyga*.
+* **Tungt skydd:** Helplåt eller tung fjällpansar. Gör det svårare att *Smyga*, *Simma* *Klättra*.
 * **Sköld:** Ger dig **-1 i skada** när du bär den på ena handen.
 
-*Mästerligt skydd är ofta lättare eller smidigare och kan (om spelledaren tillåter) ignorera en av nackdelarna (t.ex. att man kan smyga i mästerlig ringbrynja).*
+### Skicket påverkar spelet
+*Mästerligt skydd är ofta lättare eller smidigare och kan (om spelledaren tillåter) ignorera någon av nackdelarna (t.ex. att man kan smyga i mästerlig ringbrynja).*
 
 ---
 
 ## Prislista: Utrustning & Verktyg
-Pris per styck om inget annat anges.
+Pris per styck om inget annat anges. Är det väldigt små föremål väger de inget.
 
 ### Överlevnad & Ljus
 
@@ -102,6 +118,3 @@ Pris per styck om inget annat anges.
 | **Horn** | 1 s | **Spade** | 5 s |
 | **Krita** | 1 s | **Stor säck** | 3 s |
 | **Horn** | 3 s | **Spade** | 5 s |
-
-# Vikt
-Du kan bära lika många saker som du har i Body.
