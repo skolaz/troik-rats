@@ -22,7 +22,7 @@
 4. Utrustning & Skydd
 
 * [Utrustning](utrustning.md)
-* Gratis startutrustning: Alla karaktärer börjar med ´Lätt skydd (Standard)´ och ´Ransoner (3)´ gratis. Dessa väger inget. En nybörjarkaraktär kan också välja att sälja skyddet för 30 silver och ransonerna för 5 silver.
+* Gratis startutrustning: Alla karaktärer börjar med Lätt skydd (Standard) och Ransoner (3) gratis. Dessa väger inget. En nybörjarkaraktär kan också välja att sälja skyddet för 30 silver och ransonerna för 5 silver.
 
 * Vapen: Köp ett vapen för ditt startsilver (Standard i första hand, Vrakpris om pengarna inte räcker).
 * Övrigt: Köp övrig utrustning för resterande silver tills dina utrustningsplatser (Kropp) är fulla eller pengarna tar slut.
