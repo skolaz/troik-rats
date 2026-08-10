@@ -94,7 +94,7 @@ Målvärdet kan max bli 10.
 
 En nybörjare börjar med totalt 6 Talang ranker spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
 
-Slå 2d6 och se vilka talanger du får. Talanger måste inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Men ska de ha ett annat grundvärde kan talangen bara användas om situationen kan använda det grundvärdet på ett rimligt sätt.
+Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger måste inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Men ska de ha ett annat grundvärde kan talangen bara användas om situationen kan använda det grundvärdet på ett rimligt sätt.
 
 |  1d6 + 1d6 |  1 |  2 |  3 |  4 |  5 |  6 |
 |---|---|---|---|---|---|---|
