@@ -1,4 +1,3 @@
-```javascript
 // UNE (c)2014 Zach Best and Conjecture Games - Svensk JavaScript-version
 
 const uneData = {
@@ -248,7 +247,7 @@ function getWeightedItem(options) {
 
 
 // Huvudgenerator
-function generateUNE(powerSetting = "Standard", convoSetting = "Neutral") {
+window.generateUNE = function(powerSetting = "Standard", convoSetting = "Neutral") {
     const mod = getRandomItem(uneData.npcMod);
     const noun = getRandomItem(uneData.npcNoun);
 
@@ -295,5 +294,4 @@ function generateUNE(powerSetting = "Standard", convoSetting = "Neutral") {
     `;
     
     outputDiv.innerHTML = outputHTML;
-}
-```
+};
