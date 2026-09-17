@@ -41,7 +41,7 @@ function generateMonster() {
         "Hummer", "Manat", "Manta", "Bisamråtta", "Narval",
         "Vattensalamander", "Bläckfisk", "Utter", "Pingvin",
         "Näbbdjur", "Kulfisk", "Salamander", "Havsanemon",
-        "Sjöborre", "Sjöhäst", "Säl", "Haj", "Räka", "Kalmar",
+        "Sjöborre", "Sjöhäst", "Säl", "Haj", "Räka", "Bläckfisk",
         "Svärdfisk", "Grodyngel", "Sköldpadda", "Valross", "Val"
     ];
 
@@ -79,7 +79,7 @@ function generateMonster() {
         "Fysiskt väsen", "Planbunden", "Spegelblank",
         "Gummiartad", "Skuggskimrande", "Rakbladsvass",
         "Skelettartad", "Slemmig", "Klistrig", "Stinkande",
-        "Pysslingliten", "Genomskinlig"
+        "Pyssling", "Genomskinlig"
     ];
     const monsterTrait = monsterTraits[Math.floor(Math.random() * monsterTraits.length)];
 
@@ -145,91 +145,90 @@ function generateMonster() {
     ];
     const monsterWeakness = monsterWeaknesses[Math.floor(Math.random() * monsterWeaknesses.length)];
 
-    // Statistik
-    const health = [
-        "Svag: 1t",
-        "Normal: 2t",
-        "Tålig: 3t",
-        "Bjässelik: 4t",
-        "Kolossal: 6t"
-    ];
+// Statistik
+const hitDice = [
+    {
+        hd: "0.5",
+        special: 2,
+        moral: 2,
+        damage: "1d2"
+    },
+    {
+        hd: "1",
+        special: 3,
+        moral: 5,
+        damage: "1d6"
+    },
+    {
+        hd: "2",
+        special: 5,
+        moral: 6,
+        damage: "1d6+1"
+    },
+    {
+        hd: "3",
+        special: 8,
+        moral: 9,
+        damage: "1d6+2"
+    },
+    {
+        hd: "4",
+        special: 9,
+        moral: 10,
+        damage: "1d8+1"
+    },
+    {
+        hd: "5+",
+        special: 10,
+        moral: 10,
+        damage: "2d6+2"
+    }
+];
 
-    const armor = [
-        "Obepansrad: 6 rustning",
-        "Lätt skydd: 7 rustning",
-        "Medeltungt skydd: 8 rustning",
-        "Tungt skydd: 9 rustning",
-        "Nästan ogenomtränglig: 10 rustning"
-    ];
+const baseValues = [-2, -1, 0, 1, 2];
 
-    const attackBonus = [
-        "Otränad: +0 AB",
-        "Tränad: +1 AB",
-        "Farlig: +2 AB",
-        "Mästerlig: +3 AB",
-        "Dödlig: +4 AB"
-    ];
+// Slumpa HD
+const randomHitDice = hitDice[Math.floor(Math.random() * hitDice.length)];
 
-    const strBonus = [
-        "Svag: +0 STY",
-        "Medelmåttig: +1 STY",
-        "Stark: +2 STY",
-        "Kraftfull: +3 STY",
-        "Monstruös: +4 STY"
-    ];
+// Slumpa bonusar
+const randomKraft = baseValues[Math.floor(Math.random() * baseValues.length)];
+const randomSpecial = baseValues[Math.floor(Math.random() * baseValues.length)];
+const randomMoral = baseValues[Math.floor(Math.random() * baseValues.length)];
 
-    const dexBonus = [
-        "Långsam: +0 SMI",
-        "Medelmåttig: +1 SMI",
-        "Smidig: +2 SMI",
-        "Snabb: +3 SMI",
-        "Oskymtbar: +4 SMI"
-    ];
+// Formatera bonus
+function formatBonus(value) {
+    if (value > 0) return `+ ${value}`;
+    if (value < 0) return `- ${Math.abs(value)}`;
+    return "";
+}
 
-    const wilBonus = [
-        "Trög: +0 VIL",
-        "Medelmåttig: +1 VIL",
-        "Klipsk: +2 VIL",
-        "Briljant: +3 VIL",
-        "Genialisk: +4 VIL"
-    ];
+const outputHTML = `
+    <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+        <h3>Slumpat monster</h3>
 
-    const randomHealth = health[Math.floor(Math.random() * health.length)];
-    const randomArmor = armor[Math.floor(Math.random() * armor.length)];
-    const randomAttackBonus = attackBonus[Math.floor(Math.random() * attackBonus.length)];
-    const randomStrBonus = strBonus[Math.floor(Math.random() * strBonus.length)];
-    const randomDexBonus = dexBonus[Math.floor(Math.random() * dexBonus.length)];
-    const randomWilBonus = wilBonus[Math.floor(Math.random() * wilBonus.length)];
-    
-    // Generera HTML-utdata
-    const outputHTML = `
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
-            <h3>Slumpat monster</h3>
-            <h4>Grundläggande</h4>
-            <p><strong>Typ:</strong> ${monsterBase}</p>
-            <p><strong>Djur:</strong> ${monsterAnimal}</p>
-            
-            <h4>Statistik</h4>
-            <ul>
-                <li><strong>Hälsa:</strong> ${randomHealth}</li>
-                <li><strong>Rustning:</strong> ${randomArmor}</li>
-                <li><strong>Attackbonus:</strong> ${randomAttackBonus}</li>
-                <li><strong>Styrka:</strong> ${randomStrBonus}</li>
-                <li><strong>Smidighet:</strong> ${randomDexBonus}</li>
-                <li><strong>Vilja:</strong> ${randomWilBonus}</li>
-            </ul>
+        <h4>Grundläggande</h4>
+        <p><strong>Typ:</strong> ${monsterBase}</p>
+        <p><strong>Djur:</strong> ${monsterAnimal}</p>
+        
+        <h4>Statistik</h4>
+        <ul>
+            <li><strong>Kraft:</strong> HD ${randomHitDice.hd} ${formatBonus(randomKraft)}</li>
+            <li><strong>Special:</strong> ${randomHitDice.special} ${formatBonus(randomSpecial)}</li>
+            <li><strong>Moral:</strong> ${randomHitDice.moral} ${formatBonus(randomMoral)}</li>
+            <li><strong>Skada:</strong> ${randomHitDice.damage}</li>
+        </ul>
 
-            <h4>Detaljer</h4>
-            <ul>
-                <li><strong>Egenskap:</strong> ${monsterFeature}</li>
-                <li><strong>Särdrag:</strong> ${monsterTrait}</li>
-                <li><strong>Förmåga:</strong> ${monsterAbility}</li>
-                <li><strong>Taktik:</strong> ${monsterTactic}</li>
-                <li><strong>Personlighet:</strong> ${monsterPersonality}</li>
-                <li><strong>Svaghet:</strong> ${monsterWeakness}</li>
-            </ul>
-        </div>
-    `;
+        <h4>Detaljer</h4>
+        <ul>
+            <li><strong>Egenskap:</strong> ${monsterFeature}</li>
+            <li><strong>Särdrag:</strong> ${monsterTrait}</li>
+            <li><strong>Förmåga:</strong> ${monsterAbility}</li>
+            <li><strong>Taktik:</strong> ${monsterTactic}</li>
+            <li><strong>Personlighet:</strong> ${monsterPersonality}</li>
+            <li><strong>Svaghet:</strong> ${monsterWeakness}</li>
+        </ul>
+    </div>
+`;
     
     outputDiv.innerHTML = outputHTML;
 }
