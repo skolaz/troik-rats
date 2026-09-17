@@ -219,8 +219,8 @@ Grundvärden är lite annorlunda.
 |  **Special** |  **deras skill, minne, magi, fingerfärdighet, språk, kunskap** |
 |  **Moral** |  **deras mentala hälsa och moral** |
  
-## 7.1 Motståndar exempel
-HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekomenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
+## 7.1 Motståndare exempel
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man 1d6 och delar på 2 och avrundar uppåt. Vid HD 5+ slår du 5d6. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekommenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
 
 > En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på grundvärdet. Spelkaraktärer kan inte ha en buffer.
 
