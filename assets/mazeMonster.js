@@ -230,4 +230,4 @@ const outputHTML = `
 `;
     
     outputDiv.innerHTML = outputHTML;
-}
+};
