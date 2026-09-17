@@ -1,5 +1,4 @@
-```javascript
-function generateMonster() {
+window.generateMonster = function() {
     const outputDiv = document.getElementById('monster-output');
     
     // Monsterbas
@@ -232,4 +231,3 @@ const outputHTML = `
     
     outputDiv.innerHTML = outputHTML;
 }
-```
