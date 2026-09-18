@@ -286,9 +286,9 @@ window.generateUNE = function(powerSetting = "Standard", convoSetting = "Neutral
 
             <p>
                 <strong>Motiv:</strong><br>
-                - [${motivations[0]}]<br>
-                - [${motivations[1]}]<br>
-                - [${motivations[2]}]
+                ${motivations[0]}<br>
+                ${motivations[1]}<br>
+                ${motivations[2]}
             </p>
         </div>
     `;
