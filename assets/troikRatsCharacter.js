@@ -43,7 +43,11 @@ function generateCharacter() {
     let currentSilver = startSilver;
 
     // 3. Talanger & Cirkel (6 poäng totalt)
-    let myTalents = {};
+    // Grundtalanger som alltid ska finnas med (börjar på Rank 0)
+    let myTalents = {
+        "Strid": { rank: 0, stat: "Kropp" },
+        "Undvika": { rank: 0, stat: "Kropp" }
+    };
     let mySpells = [];
 
     for (let i = 0; i < 6; i++) {
@@ -142,28 +146,28 @@ function generateCharacter() {
     html += `* O tungt: -3 skada, nackdel smyga, klättra, simma<br><br>`;
 
     html += `<strong>Talanger</strong><br>`;
-    html += `<em>Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.</em><br>`;
-    html += `<em>Målvärde = Grundvärde + Talang</em><br>`;
-    if (Object.keys(myTalents).length === 0) {
-        html += `* Inga talanger.<br>`;
-    } else {
-        for (const [talentName, data] of Object.entries(myTalents)) {
-            // Hämta värdet på grundvärdet som hör till talangen
-            let statNameLower = data.stat.toLowerCase();
-            let baseStatValue = statNameLower.includes('kropp') ? kropp :
-                                statNameLower.includes('skill') ? skill : minne;
-            
-            // Formel: Grundvärde + Rank
-            let targetValue = baseStatValue + data.rank;
+    html += `<em>Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja. /// Målvärde = Grundvärde + Talang</em><br>`;
+    
+    // Sortera talangernas namn i alfabetisk ordning (svensk sortering)
+    const sortedTalentNames = Object.keys(myTalents).sort((a, b) => a.localeCompare(b, 'sv'));
 
-            html += `* O ${talentName} (${data.stat}). rank: ${data.rank}. Målvärde: ${targetValue}<br>`;
-        }
+    for (const talentName of sortedTalentNames) {
+        const data = myTalents[talentName];
+        
+        // Hämta värdet på grundvärdet som hör till talangen
+        let statNameLower = data.stat.toLowerCase();
+        let baseStatValue = statNameLower.includes('kropp') ? kropp :
+                            statNameLower.includes('skill') ? skill : minne;
+        
+        // Formel: Grundvärde + Rank
+        let targetValue = baseStatValue + data.rank;
+
+        html += `* O ${talentName} (${data.stat}). rank: ${data.rank}. Målvärde: ${targetValue}<br>`;
     }
     html += `<br>`;
 
     html += `<strong>Cirkel</strong><br>`;
-    html += `<em>Målvärde = Minne + Talang - Cirkel Kraftnivå</em><br>`;
-    html += `<em>X = förberedd trollformel</em><br>`;
+    html += `<em>Målvärde = Minne + Talang - Cirkel Kraftnivå /// X = förberedd</em><br>`;
     html += `<em>Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi</em><br>`;
     if (mySpells.length === 0) {
         html += `* Inga trollformler.<br>`;
