@@ -26,10 +26,7 @@ function generateRandomSpell() {
     const word1 = getRandomFrom(GAME_DATA.magic.words[comp1]);
     const word2 = getRandomFrom(GAME_DATA.magic.words[comp2]);
 
-    return {
-        text: `${word1} ${word2} (${formulaStr})`,
-        formula: formulaStr
-    };
+    return `${word1} ${word2} (${formulaStr})`;
 }
 
 // Huvudfunktion för att skapa karaktär
@@ -51,19 +48,19 @@ function generateCharacter() {
 
     for (let i = 0; i < 6; i++) {
         if (Math.random() < 0.2) { // 20% chans för magi
-            let spellObj = generateRandomSpell();
-            if (!mySpells.some(s => s.text === spellObj.text)) {
-                mySpells.push(spellObj);
+            let spell = generateRandomSpell();
+            if (!mySpells.includes(spell)) {
+                mySpells.push(spell);
             }
         } else {
             let talentObj = getRandomFrom(GAME_DATA.talents);
-            let key = talentObj.name;
-            let statName = talentObj.stat; // T.ex. "Skill", "Kropp" eller "Minne"
-            
-            if (!myTalents[key]) {
-                myTalents[key] = { rank: 0, stat: statName };
+            let name = talentObj.name;
+            let stat = talentObj.stat; // T.ex. "Skill", "Kropp" eller "Minne"
+
+            if (!myTalents[name]) {
+                myTalents[name] = { rank: 0, stat: stat };
             }
-            myTalents[key].rank += 1;
+            myTalents[name].rank += 1;
         }
     }
 
@@ -72,7 +69,7 @@ function generateCharacter() {
     if (mySpells.length > 0) {
         let shuffled = [...mySpells].sort(() => Math.random() - 0.5);
         let numPrepared = Math.min(mySpells.length, Math.floor(Math.random() * 3)); // 0, 1 eller 2 st
-        preparedSpells = shuffled.map(s => s.text).slice(0, numPrepared);
+        preparedSpells = shuffled.slice(0, numPrepared);
     }
 
     // 4. Utrustning (Max antal = Kropp, exklusive gratis skydd)
@@ -145,34 +142,34 @@ function generateCharacter() {
     html += `* O tungt: -3 skada, nackdel smyga, klättra, simma<br><br>`;
 
     html += `<strong>Talanger</strong><br>`;
-    html += `<em>Vid varje misslyckande sätts en bock. Vid vila, slå över 2d6 över rank för att höja.</em><br>`;
+    html += `<em>Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja. /// Målvärde = Grundvärde + Talang</em><br>`;
     if (Object.keys(myTalents).length === 0) {
         html += `* Inga talanger.<br>`;
     } else {
         for (const [talentName, data] of Object.entries(myTalents)) {
-            // Hämta värdet på rätt attribut baserat på vad talangen är kopplad till
-            let baseStatValue = data.stat.toLowerCase().includes('kropp') ? kropp :
-                                data.stat.toLowerCase().includes('skill') ? skill : minne;
-            let targetValue = baseStatValue + data.rank; // Målvärde = Grundvärde + Talangens rank
+            // Hämta värdet på grundvärdet som hör till talangen
+            let statNameLower = data.stat.toLowerCase();
+            let baseStatValue = statNameLower.includes('kropp') ? kropp :
+                                statNameLower.includes('skill') ? skill : minne;
+            
+            // Formel: Grundvärde + Rank
+            let targetValue = baseStatValue + data.rank;
 
-            html += `* O ${talentName} (${data.stat}): Rank ${data.rank} | <strong>Målvärde: ${targetValue}</strong><br>`;
+            html += `* O ${talentName} (${data.stat}). rank: ${data.rank}. Målvärde: ${targetValue}<br>`;
         }
     }
     html += `<br>`;
 
-    html += `<strong>Cirkel / Trollformler</strong><br>`;
+    html += `<strong>Cirkel</strong><br>`;
+    html += `<em>Målvärde = Minne + Talang - Cirkel Kraftnivå /// X = förberedd</em><br>`;
     html += `<em>Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi</em><br>`;
     if (mySpells.length === 0) {
         html += `* Inga trollformler.<br>`;
     } else {
         mySpells.forEach(spell => {
-            let isPrep = preparedSpells.includes(spell.text);
+            let isPrep = preparedSpells.includes(spell);
             let mark = isPrep ? 'X' : 'O';
-            
-            // Beräkna målvärde för formeln (Minne + fast nivå/modifierare, t.ex. standard 2)
-            let spellTarget = minne + 2; 
-
-            html += `* ${mark} ${spell.text} | <strong>Målvärde: ${spellTarget}</strong><br>`;
+            html += `* ${mark} ${spell}<br>`;
         });
     }
     html += `<br>`;
