@@ -3,14 +3,14 @@ const GAME_DATA = {
     talents: [
         { name: "Råstyrka", stat: "Kropp" },
         { name: "Akrobatik", stat: "Kropp" },
-        { name: "Skrämma", stat: "Kropp" },
+        { name: "Skrämma", stat: "Skill" },
         { name: "Strid", stat: "Kropp" },
         { name: "Uthållighet", stat: "Kropp" },
         { name: "Klättra", stat: "Kropp" },
         { name: "Simma", stat: "Kropp" },
-        { name: "Bygga", stat: "Kropp" },
-        { name: "Undvika", stat: "Kropp/Skill" },
-        { name: "Jaga", stat: "Kropp" },
+        { name: "Bygga", stat: "Skill" },
+        { name: "Undvika", stat: "Kropp" },
+        { name: "Jaga", stat: "Skill" },
         { name: "Rida", stat: "Kropp" },
         { name: "Kasta", stat: "Kropp" },
 
@@ -32,12 +32,12 @@ const GAME_DATA = {
         { name: "Mystik magi", stat: "Minne" },
         { name: "Kunskap", stat: "Minne" },
         { name: "Historia", stat: "Minne" },
-        { name: "Kasino", stat: "Minne" },
+        { name: "Kasino", stat: "Skill" },
         { name: "Språk", stat: "Minne" },
         { name: "Koncentration", stat: "Minne" },
         { name: "Värdera", stat: "Minne" },
         { name: "Astrologi", stat: "Minne" },
-        { name: "Dryckblandare", stat: "Minne" },
+        { name: "Dryckblandare", stat: "Skill" },
         { name: "Ledarskap", stat: "Minne" }
     ],
 
