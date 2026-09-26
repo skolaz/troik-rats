@@ -142,7 +142,8 @@ function generateCharacter() {
     html += `* O tungt: -3 skada, nackdel smyga, klättra, simma<br><br>`;
 
     html += `<strong>Talanger</strong><br>`;
-    html += `<em>Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja. /// Målvärde = Grundvärde + Talang</em><br>`;
+    html += `<em>Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.</em><br>`;
+    html += `<em>Målvärde = Grundvärde + Talang</em><br>`;
     if (Object.keys(myTalents).length === 0) {
         html += `* Inga talanger.<br>`;
     } else {
@@ -161,7 +162,8 @@ function generateCharacter() {
     html += `<br>`;
 
     html += `<strong>Cirkel</strong><br>`;
-    html += `<em>Målvärde = Minne + Talang - Cirkel Kraftnivå /// X = förberedd</em><br>`;
+    html += `<em>Målvärde = Minne + Talang - Cirkel Kraftnivå</em><br>`;
+    html += `<em>X = förberedd trollformel</em><br>`;
     html += `<em>Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi</em><br>`;
     if (mySpells.length === 0) {
         html += `* Inga trollformler.<br>`;
