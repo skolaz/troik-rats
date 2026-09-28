@@ -3,35 +3,22 @@ layout: default
 title: Troik-Rats av Nils Jivegård
 ---
 # 1. Grundregler
-* Slå 2d6 under ditt målvärde för att lyckas
-* Att pricka sitt målvärde är ett lyckat försök, men med en liten konsekvens som hade hänt om du misslyckades
+* Slå `2d6` under eller prick på ditt målvärde för att lyckas med utmaningen.
+*   > Målvärde = Grundvärde Rank + Talang Rank  
+* Att slå över är målvärdet att misslyckas med utmaningen.
 * Målvärdet kan max bli 10.
 * Grundvärdet kan max bli 8.
-  > Målvärde = Grundvärde + Talang Rank
-  >
-  > Lyckas = 2d6 ≤ Målvärdet
-  >
-  > Lyckas, men med konsekvens = (2d6 = Målvärdet)
-  
 * Om det är en svår utmaning slår du först 2d6, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
-* Om det är en lätt utmaning slår du först 2d6, sedan slår du om den högsta siffran. Extra lätt behöver inte finnas.
-* När du slår ett par lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
-* Skulle spelaren slå två sexor (6, 6) blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
-> En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep. Hon behöver slå 2d6 och få ett resultat under sitt målvärde. Hon använder talangen Klättra med Rank 2 och grundvärdet Kropp med 5 i värde.
+* Om det är en lätt utmaning slår du först 2d6, sedan ifall du vill slår du om den högsta siffran. 
+* När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
+* Skulle spelaren slå två sexor _(6, 6)_ blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
+> En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep knutet i toppen. Hon behöver slå `2d6` och få ett resultat under eller prick på sitt målvärde. Hon använder talangen Klättra med Rank 2 och grundvärdet Kropp med 5 i värde. Utmaningen är lätt.
 >
 >  7 (målvärdet) = Kropp 5 (grundvärdet) + Klättra Rank 2 (talang)
 >
-> 2d6 → 4 + 3 = 7 Lyckas, men med en konsekvens
+> 2d6 → 4 + 3 = 7 Lyckas. Lätt utmaning tillåter henne att kasta om högsta siffran. Men eftersom hon lyckades avstår hon.
 >
 > Hanna klättrar och drar sig upp för väggen. Fötterna står stadigt och hon klättrar uppå. Väl uppe var hon inte beredd på att det inte fanns något på andra sidan. Hon får en ny utmaning. För att inte ramla och skada sig behöver hon göra en ny prövning med tärningarna.
-
-Eftersom ett tärningsresultat kan krocka med flera tolkningar finns en rangordning på vilka reglersom kommer först.
-1. Fummel. 6, 6.
-2. Prick på Målvärdet. Lyckas men med en konsekvens.
-> Det kan hända att målvärdet är resultatet av endast ett par, till exempel målvärde 10 med 5, 5. Då är Prick på Målvärdet det som gäller, inte par.
-
-3. Par. 1, 1. 2, 2. 3, 3. 4, 4. 5, 5. Kritisk framgång.
-4. Under eller över Målvärde. Lyckas eller misslyckas.
 
 <details>
 
@@ -75,61 +62,74 @@ Eftersom ett tärningsresultat kan krocka med flera tolkningar finns en rangordn
 
 
 # 2. Grundvärde
-Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med 3, 4, 5 i grundvärde och placerar de valfritt på varsitt grundvärde.
+Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med `3, 4, 5` i grundvärde och placerar de valfritt på varsitt grundvärde.
 
 Grundvärdet kan bli max 8.
 
 |  Grundvärde |  Beskrivning |
 |---|---|
-|  **Kropp** |  **Din styrka, din hälsa, din uthållighet, din närstridstalang** |
-|  **Skill** |  **Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang** |
-|  **Minne** |  **Din mentala hälsa, din magi, ditt språk, din kunskap** |
+|  **Kropp** |  **Din styrka, din hälsa, din uthållighet, din närstridstalang.** |
+|  **Skill** |  **Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang, allt som sitter inövat i ryggmärgen och inte påverkas av trötthet och skador.** |
+|  **Minne** |  **Din mentala hälsa, din magi, ditt språk, din kunskap.** |
 
 # 3. Talanger
-Talanger är det din karaktär besitter som ger henne mer bakgrund och komplement som hjälper dig öka målvärdet.
+Talanger är det din karaktär besitter som ger henne mer bakgrund och ett komplement som hjälper dig öka målvärdet.
 
-Talanger har ranker som går från 1 och uppåt. Värdet på ranken är det som adderas till målvärdet.
+Talanger har ranker som går från 0 och uppåt. Värdet på ranken är det som adderas till målvärdet.
 
 Målvärdet kan max bli 10.
 
-En nybörjare börjar med totalt 6 Talang ranker spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
+En nybörjare börjar med totalt 6 Talang poäng spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
 
-Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger måste inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Men ska de ha ett annat grundvärde kan talangen bara användas om situationen kan använda det grundvärdet på ett rimligt sätt.
+Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger måste inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
 
-|  1d6 + 1d6 |  1 |  2 |  3 |  4 |  5 |  6 |
-|---|---|---|---|---|---|---|
-|  1. Kropp |  Råstyrka |  Akrobatik |  Skrämma |  Strid |  Uthållighet |  Klättra |
-|  2. Kropp |  Simma |  Bygga |  Undvika |  Jaga |  Rida |  Kasta |
-|  3. Skill |  Smidighet |Stjäla |  Skjuta |  Hantverk |  Smygande |  Djurvän |
-|  4. Skill |  Spåra |  Läkemedel |  Bluffa |  Musik |  Mekanik |  Matlagning |
-|  5. Minne |  Bluffa |  Dekryptera |  Mystik magi |  Kunskap |  Historia |  Kasino |
-|  6. Minne |  Språk |  Koncentration |  Värdera |  Astrologi |  Dryckblandare |  Ledarskap |
+| 2d6 | Talang | Grundvärde | 2d6 | Talang | Grundvärde |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
+| **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
+| **13** | Skrämma | Skill | **43** | Bluffa | Skill |
+| **14** | Strid | Kropp | **44** | Musik | Skill |
+| **15** | Uthållighet | Kropp | **45** | Mekanik | Skill |
+| **16** | Klättra | Kropp | **46** | Matlagning | Skill |
+| **21** | Simma | Kropp | **51** | Bluffa | Minne |
+| **22** | Bygga | Skill | **52** | Dekryptera | Minne |
+| **23** | Undvika | Kropp | **53** | Mystik magi | Minne |
+| **24** | Jaga | Skill | **54** | Kunskap | Minne |
+| **25** | Rida | Kropp | **55** | Historia | Minne |
+| **26** | Kasta | Kropp | **56** | Kasino | Skill |
+| **31** | Smidighet | Skill | **61** | Språk | Minne |
+| **32** | Stjäla | Skill | **62** | Koncentration | Minne |
+| **33** | Skjuta | Skill | **63** | Värdera | Minne |
+| **34** | Hantverk | Skill | **64** | Astrologi | Minne |
+| **35** | Smygande | Skill | **65** | Dryckblandare | Skill |
+| **36** | Djurvän | Skill | **66** | Ledarskap | Minne |
 
 
-# 4. Magi och Cirkel
-Magi är kraftfullt men riskerar utövarens minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där cirkel -5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens grundvärde minne.
+# 4. Ordmagi
+Ordmagi är kraftfullt men riskerar utövarens grundvärde minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens grundvärde minne.
 
-Magin använder sig av *ord magi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver kan du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte pröva svårare cirkel-rank om du inte har en talang-rank som sträcker sig så långt.
+Magin använder sig av *ordmagi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver ska du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt.
 
-> Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi
+> Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang + Cirkelns kraftnivå + din fantasi
 >
-> Målvärdet är uppbyggt av Grundvärde (Minne) + Talang - Cirkel Kraftnivå
+> Målvärdet är uppbyggt av Grundvärdet Minne + Talang - Cirkelns Kraftnivå
 
 > Säg att du har några talanger med Jaga 1 (Kropp), Bluffa 2 (Minne), Hantverk 1 (Skill)
 > Och de magiska orden är Lera (effekt fysisk) + Dimma (form magisk).
 > Med detta skulle du kunna tolka Jaga med: skapa en tjock brun dimma som bara jag ser igenom.
-> Bluffa: skapa en illusion att där finns det vanlig mark, men är egentligen en fälla rakt ner i ett hål
+> Bluffa: skapa en illusion att framför oss finns det vanlig mark, men är egentligen en grop som motståndaren kan riskera ramla ner i.
 > Hantverk: skapa en lerfigur som tyvärr går lätt sönder
 
 Önskar en nybörjarkaraktär en trollformel behövs en av de sex talang-ranker spenderas som en trollformel istället.
 
-## 4.1 Cirkel
+## 4.1 Cirkelns kraftnivåer
 
+Cirkelns kraftnivåer har tre användningsområden.
+1. Beskriva hur stark trollformeln är.
+2. Beskriva kostnaden på grundvärdet minne, oavsett om trollformeln lyckas eller inte
+3. Göra målvärdet lägre så det är svårare att lyckas med trollformeln. Speciellt större och farligare Cirklar.
 
-**Cirkelns kraftnivå subtraherar** ditt **minne**-värde för att **skapa ditt målvärde**. **Efteråt** du har lyckats eller misslyckats **skadar Cirkelns kraftnivå ditt minne.**
-Alltså: Målvärde för trollformel = Grundvärde (Minne) + Talang - Cirkelns kraftnivå. Därefter skadas Grundvärdet Minne med den kraftnivån som användes.
-
-Beroende på vilken kraftnivå en kastas i, kan den ge olika styrkor och effekter. Tänk på att en kraftnivå kan bara bli så stark som Talangens rank. Du får lov att skala upp eller skala ner, men följer reglerna nedan.
+Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika styrkor och effekter. Tänk på att du inte kan använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt. Kanske, i vissa stunder kan spelledare tillåta en uppåt skalning av ordmagin. Kanske.
 
 * **Cirkel 0:** Ytterst lätt magi. Skadan på motståndare: 1. Max 30 sekunder.
 * **Cirkel -1:** Skadan på motståndare: 1d4 i skada. Max 60 sekunder.
@@ -148,7 +148,7 @@ Beroende på vilken kraftnivå en kastas i, kan den ge olika styrkor och effekte
 
 Det finns två sätt att hantera magi:
 
-1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" och kan kasta den när som helst utan att behöva slå tärning igen. **Cirkelns kraftnivå skadan utsöndras när trollformeln används.** **Fumlar sker direkt.**
+1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" tills den används och kan kasta den när som helst utan att behöva slå tärningarna igen. **Cirkelns kraftnivå skadan utsöndras när trollformeln används.** **Fumlar sker direkt.**
 2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, gör du samma sak som med förberedda trollformler. Misslyckande åstadkommer ingenting, dock lite skada på din minne.
 
 ## 4.3 Fumla med magi
@@ -164,7 +164,7 @@ Magi är en instabil kraft. Reglerna för att fumla med magi bör läsas i stegv
 # 5. Bli bättre
 Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. Kraftsamling kan vara vid början av en session, vid en vila eller liknande. Ni bestämmer!
 
-1. Välj en talang med bock. Räkna ut Målvärdet: Rank + grundvärde.
+1. Välj en talang med bock. Räkna ut Målvärdet: Rank + grundvärde.**????**
 2. Slå **2d6**.
 3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
