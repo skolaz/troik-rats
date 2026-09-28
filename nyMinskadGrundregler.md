@@ -8,15 +8,15 @@ title: Troik-Rats av Nils Jivegård
 * Att slå över är målvärdet att misslyckas med utmaningen.
 * Målvärdet kan max bli 10.
 * Grundvärdet kan max bli 8.
-* Om det är en svår utmaning slår du först 2d6, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
-* Om det är en lätt utmaning slår du först 2d6, sedan ifall du vill slår du om den högsta siffran. 
+* Om det är en svår utmaning slår du först `2d6`, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
+* Om det är en lätt utmaning slår du först `2d6`, sedan ifall du vill slår du om den högsta siffran. 
 * När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
 * Skulle spelaren slå två sexor _(6, 6)_ blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
 > En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep knutet i toppen. Hon behöver slå `2d6` och få ett resultat under eller prick på sitt målvärde. Hon använder talangen Klättra med Rank 2 och grundvärdet Kropp med 5 i värde. Utmaningen är lätt.
 >
 >  7 (målvärdet) = Kropp 5 (grundvärdet) + Klättra Rank 2 (talang)
 >
-> 2d6 → 4 + 3 = 7 Lyckas. Lätt utmaning tillåter henne att kasta om högsta siffran. Men eftersom hon lyckades avstår hon.
+> `2d6` → 4 + 3 = 7 Lyckas. Lätt utmaning tillåter henne att kasta om högsta siffran. Men eftersom hon lyckades avstår hon.
 >
 > Hanna klättrar och drar sig upp för väggen. Fötterna står stadigt och hon klättrar uppå. Väl uppe var hon inte beredd på att det inte fanns något på andra sidan. Hon får en ny utmaning. För att inte ramla och skada sig behöver hon göra en ny prövning med tärningarna.
 
@@ -83,7 +83,7 @@ En nybörjare börjar med totalt 6 Talang poäng spridda valfritt. För att få 
 
 Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger måste inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
 
-| 2d6 | Talang | Grundvärde | 2d6 | Talang | Grundvärde |
+| `2d6` | Talang | Grundvärde | `2d6` | Talang | Grundvärde |
 | :---: | :--- | :--- | :---: | :--- | :--- |
 | **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
 | **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
@@ -132,11 +132,11 @@ Cirkelns kraftnivåer har tre användningsområden.
 Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika styrkor och effekter. Tänk på att du inte kan använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt. Kanske, i vissa stunder kan spelledare tillåta en uppåt skalning av ordmagin. Kanske.
 
 * **Cirkel 0:** Ytterst lätt magi. Skadan på motståndare: 1. Max 30 sekunder.
-* **Cirkel -1:** Skadan på motståndare: 1d4 i skada. Max 60 sekunder.
-* **Cirkel -2:**  Skadan på motståndare: 1d4+1. Max 2 minuter.
-* **Cirkel -3:** Flera mål eller en zoner, kallas även AoE (Area of Effect). Skadan på motståndare: 1d6. Max 5 minuter.
-* **Cirkel -4:** Skadan på motståndare: 1d6+2. Max 60 minuter.
-* **Cirkel -5:** Svår och farlig magi. Skadan på motståndare: 1d8+2. Stora områden och/eller permanent tid.
+* **Cirkel -1:** Skadan på motståndare: `1d4` i skada. Max 60 sekunder.
+* **Cirkel -2:**  Skadan på motståndare: `1d4+1`. Max 2 minuter.
+* **Cirkel -3:** Flera mål eller en zoner, kallas även AoE (Area of Effect). Skadan på motståndare: `1d6`. Max 5 minuter.
+* **Cirkel -4:** Skadan på motståndare: `1d6+2`. Max 60 minuter.
+* **Cirkel -5:** Svår och farlig magi. Skadan på motståndare: `1d8+2`. Stora områden och/eller permanent tid.
 
 ### 4.1.1 Slumpa fram en trollformel direkt
 <button onclick="generateSpell()">Generera Trollformel</button>
@@ -165,19 +165,19 @@ Magi är en instabil kraft. Reglerna för att fumla med magi bör läsas i stegv
 Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. Kraftsamling kan vara vid början av en session, vid en vila eller liknande. Ni bestämmer!
 
 1. Välj en talang med bock. Räkna ut Målvärdet: Rank + grundvärde.**????**
-2. Slå **2d6**.
+2. Slå `2d6`.
 3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
 * **Misslyckat eller fummel (6, 6) (2,78%) :** Inget händer
 * **Kritisk framgång (Par) (16,67%):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
 4. Sudda sedan ut bocken.
 
-> Humanoida Grundvärde kan max bli 8.
+> Grundvärde kan max bli 8.
 
 ---
 # 6. Strid och återhämtning
 ## 6.1 Motståndsslag
-När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår 2d6 samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången. 
+När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången. 
 
 > Designers note: ändra så att motståndarens överläge i grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
 
@@ -203,7 +203,7 @@ När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett sv
 En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill eller Special för gruppen mottståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. När alla är klara görs ett nytt motståndsslag. Talanger går att använda som det passar för stunden.
 
 ## 6.4 Jakt
-När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2.Grupperna slår sedan 2d6 samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
+När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2.Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
 
 ## 6.5 Återhämtning
 
@@ -253,7 +253,7 @@ Detta går inte göra motvänt från spelare till motståndare.
 # 8. Fummel tabeller
 ## 8.1 Fumla i strid
 
-| 2d6  | Fummel  |   |
+| `2d6`  | Fummel  |   |
 |---|---|---|
 | 2-3 | Katastrof  |  Vapnet går sönder eller kastas iväg 5 meter. |
 | 4-5 | Halt  |  Du snubblar och missar din nästa tur. |
@@ -328,7 +328,7 @@ Silver:
 * O tungt: -3 skada, nackdel smyga, klättra, simma
 
 **Talanger**
-*Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.* /// *Målvärde = Grundvärde + Talang*
+*Vid varje misslyckande sätts en bock. vid vila, slå över `2d6` över rank för att höja.* /// *Målvärde = Grundvärde + Talang*
 * O namn på talang. rank: x
 * O namn på talang. rank: x
 * O namn på talang. rank: x
