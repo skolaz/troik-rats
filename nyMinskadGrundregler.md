@@ -88,7 +88,7 @@ Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger mås
 | **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
 | **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
 | **13** | Skrämma | Skill | **43** | Bluffa | Skill |
-| **14** | Strid | Kropp | **44** | Musik | Skill |
+| **14** | Strid # | Kropp | **44** | Musik | Skill |
 | **15** | Uthållighet | Kropp | **45** | Mekanik | Skill |
 | **16** | Klättra | Kropp | **46** | Matlagning | Skill |
 | **21** | Simma | Kropp | **51** | Bluffa | Minne |
@@ -96,14 +96,19 @@ Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger mås
 | **23** | Undvika | Kropp | **53** | Mystik magi | Minne |
 | **24** | Jaga | Skill | **54** | Kunskap | Minne |
 | **25** | Rida | Kropp | **55** | Historia | Minne |
-| **26** | Kasta | Kropp | **56** | Kasino | Skill |
+| **26** | Kasta # | Kropp | **56** | Kasino | Skill |
 | **31** | Smidighet | Skill | **61** | Språk | Minne |
 | **32** | Stjäla | Skill | **62** | Koncentration | Minne |
-| **33** | Skjuta | Skill | **63** | Värdera | Minne |
+| **33** | Skjuta # | Skill | **63** | Värdera | Minne |
 | **34** | Hantverk | Skill | **64** | Astrologi | Minne |
 | **35** | Smygande | Skill | **65** | Dryckblandare | Skill |
 | **36** | Djurvän | Skill | **66** | Ledarskap | Minne |
 
+`#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för se stridstalanger.
+
+## 3.1 Skapa egna talanger
+Listan ovan är exempel och ger en bra första struktur, men det är bra att göra egna talanger.
+**VIDARE**
 
 # 4. Ordmagi
 Ordmagi är kraftfullt men riskerar utövarens grundvärde minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens grundvärde minne.
@@ -133,7 +138,7 @@ Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika st
 
 * **Cirkel 0:** Ytterst lätt magi. Skadan på motståndare: 1. Max 30 sekunder.
 * **Cirkel -1:** Skadan på motståndare: `1d4` i skada. Max 60 sekunder.
-* **Cirkel -2:**  Skadan på motståndare: `1d4+1`. Max 2 minuter.
+* **Cirkel -2:** Skadan på motståndare: `1d4+1`. Max 2 minuter.
 * **Cirkel -3:** Flera mål eller en zoner, kallas även AoE (Area of Effect). Skadan på motståndare: `1d6`. Max 5 minuter.
 * **Cirkel -4:** Skadan på motståndare: `1d6+2`. Max 60 minuter.
 * **Cirkel -5:** Svår och farlig magi. Skadan på motståndare: `1d8+2`. Stora områden och/eller permanent tid.
@@ -164,20 +169,21 @@ Magi är en instabil kraft. Reglerna för att fumla med magi bör läsas i stegv
 # 5. Bli bättre
 Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. Kraftsamling kan vara vid början av en session, vid en vila eller liknande. Ni bestämmer!
 
-1. Välj en talang med bock. Räkna ut Målvärdet: Rank + grundvärde.**????**
+1. Välj en talang med bock. Målvärdet är endast Talang Ranken.
 2. Slå `2d6`.
 3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
 * **Misslyckat eller fummel (6, 6) (2,78%) :** Inget händer
 * **Kritisk framgång (Par) (16,67%):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
 4. Sudda sedan ut bocken.
+5. Detta går att göra 3 gånger per vila.
 
 > Grundvärde kan max bli 8.
 
 ---
 # 6. Strid och återhämtning
 ## 6.1 Motståndsslag
-När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde, men högre än sin motståndare. Vinnarens talang avgör utgången. 
+När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde, den med lägst inom sitt målvärde vinner. Vinnarens talang avgör utgången. 
 
 > Designers note: ändra så att motståndarens överläge i grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
 
@@ -187,9 +193,9 @@ När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett sv
 
 * **Skydd:** Motståndaren (eller spelkaraktären) drar av sitt skyddsvärde från skadan.
 
-  * _Lätt skydd:_ -1 skada.
-  * _Medel skydd:_ -2 skada och nackdel när du smyger.
-  * _Tungt skydd:_ -3 skada och nackdel när du smyger, klättrar och sänker initiativ tärningen med en hel tärning.
+  * Lätt skydd: -1 skada.
+  * Medel skydd: -2 skada och svårt att smyga.
+  * Tungt skydd: -3 skada och svårt att smyga, klättra och sänker Skill till hälften (avrundat uppåt) när tungt skydd används.
 
 * **-3 till 0 kropp / kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
 
@@ -199,16 +205,19 @@ När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett sv
 
 * **-4 kropp / kraft / minne / moral:** Du dör på fläcken. Ingen återvändo.
 
-## 6.3 Initiativ
-En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill eller Special för gruppen mottståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. När alla är klara görs ett nytt motståndsslag. Talanger går att använda som det passar för stunden.
+## 6.3 Stridstalanger
+**Skriv mer här**
 
-## 6.4 Jakt
-När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2.Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
+## 6.4 Initiativ
+En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill eller Special för gruppen motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger går att använda som det passar för stunden.
+
+## 6.5 Jakt
+När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i målvärde. Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
 
 ## 6.5 Återhämtning
 
-* **Kort vila (8h):** Du återfår hälften av dina förlorade poäng i **kropp** och **minne**.
-* **Långvila (48h):** Du återfår alla poäng i **kropp** och **minne** till ditt maxvärde.
+* **Kort vila (8h):** Du återfår hälften av max poäng i **kropp** och **minne**.
+* **Långvila (2 dagar):** Du återfår alla poäng i **kropp** och **minne** till ditt maxvärde.
 
 # 7. Motståndare
 Grundvärden är lite annorlunda.
@@ -220,7 +229,7 @@ Grundvärden är lite annorlunda.
 |  **Moral** |  **deras mentala hälsa och moral** |
  
 ## 7.1 Motståndare exempel
-HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man 1d6 och delar på 2 och avrundar uppåt. Vid HD 5+ slår du 5d6. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer erbjuda HD och rekommendera kraft. Denna rekommenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för d6 som HD kan man använda en d4. Då blir de betydligt svagare.
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera kraft. Denna rekommenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.
 
 > En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på grundvärdet. Spelkaraktärer kan inte ha en buffer.
 
@@ -239,13 +248,13 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 
 <script src="assets/mazeMonster.js"></script>
 
-## 7.3 Slumpa fram en NPC
+## 7.3 Slumpa fram en NPC med UNE
 <button onclick="generateUNE()">Generera NPC</button>
 <div id="une-output"></div>
 
 <script src="assets/uneNPC.js"></script>
 
-## 7.4 Vid starkare motståndare (skillnadsmodifiering)
+## 7.4 Vid starkare motståndare (skillnadsmodifiering) HA KVAR??
 När en motståndare har nått 8 i Målvärde träder regeln om skillnadsmodifiering in. Det betyder att skillnaden som finns mellan spelkaraktären och motståndaren ger plus poäng till tärningskastet. Området går från +1, +2 och högst +3. Detta kan antingen hjälpa spelkaraktären att vinna motståndsslaget men allra oftast gör det att kastet går över och åt skogen.
 
 Detta går inte göra motvänt från spelare till motståndare.
@@ -263,9 +272,9 @@ Detta går inte göra motvänt från spelare till motståndare.
 
 ## 8.2 Fumla med magi & Magikontroll
 
-Slå för din **Magikontroll** (3d6)
+Slå för din **Magikontroll** `3d6`
 
-> Par = inget händer (37%)
+> Par = magin svalnar; inget händer (37%)
 > 
 > Fummel (6, 6) = katastrof (7%)
 > 
@@ -301,8 +310,8 @@ Slå för din **Magikontroll** (3d6)
 | Tärning (X) | Katastrof | Effekt på världen |
 | :--- | :--- | :--- |
 | **1** | **Dimensionsspricka** | En reva öppnas. 1d6 varelser från en annan tidsepok väller ut och är hungriga. |
-| **2** | **Magisk Torka** | All magi i området (1 km radie) dör ut helt i 1d6 dagar. Inga formler fungerar. |
-| **3** | **Tids-eko** | Alla inom synhåll åldras eller föryngras 1d20 år omedelbart (slå 1d2 för riktning). |
+| **2** | **Magisk Torka** | All magi i området (5 km radie) dör ut helt i `1d6` dagar. Inga formler fungerar. |
+| **3** | **Tids-eko** | Alla inom synhåll åldras eller föryngras `1d20` år omedelbart (slå `1d2` för riktning). |
 | **4** | **Väder-omkastning** | Himlen byter färg och det börjar regna flytande mässing, syra eller levande grodor. |
 | **5** | **Själs-läckage** | Magikern och den närmaste personen byter kroppar med varandra (permanent tills motmedel hittas). |
 | **6** | **Historiens Skalv** | En känd historisk händelse raderas eller ändras. (T.ex. en stad som fanns nyss har nu legat i ruin i 100 år). |
