@@ -68,9 +68,9 @@ Grundvärdet kan bli max 8.
 
 |  Grundvärde |  Beskrivning |
 |---|---|
-|  **Kropp** |  **Din styrka, din hälsa, din uthållighet, din närstridstalang.** |
-|  **Skill** |  **Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang, allt som sitter inövat i ryggmärgen och inte påverkas av trötthet och skador.** |
-|  **Minne** |  **Din mentala hälsa, din magi, ditt språk, din kunskap.** |
+|  **Kropp** |  Din styrka, din hälsa, din uthållighet, din närstridstalang. |
+|  **Skill** |  Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang, allt som sitter inövat i ryggmärgen och inte påverkas av trötthet och skador. |
+|  **Minne** |  Din mentala hälsa, din magi, ditt språk, din kunskap. |
 
 # 3. Talanger
 Talanger är det din karaktär besitter som ger henne mer bakgrund och ett komplement som hjälper dig öka målvärdet.
@@ -81,7 +81,7 @@ Målvärdet kan max bli 10.
 
 En nybörjare börjar med totalt 6 Talang poäng spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
 
-Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger måste inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
+Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _måste_ inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
 
 | `2d6` | Talang | Grundvärde | `2d6` | Talang | Grundvärde |
 | :---: | :--- | :--- | :---: | :--- | :--- |
@@ -107,8 +107,11 @@ Slå 2d6 och titta i tabellen nedan och se vilka talanger du får. Talanger mås
 `#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för se stridstalanger.
 
 ## 3.1 Skapa egna talanger
-Listan ovan är exempel och ger en bra första struktur, men det är bra att göra egna talanger.
-**VIDARE**
+Om man hellre vill skapa egna talanger eller sno från ett annat system så är det fritt fram. Ta bara reda på hur de är kopplade.
+Kropptalanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Kan jag vara lika bra på detta när jag är skadad och trött. Om svaret är självklart ja, så tillhör den grundvärdet kropp. Är den inte riktigt det men ändå "kroppslighet" så tillhör den grundvärdet skill. Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den grundvärdet Minne.
+
+## 3.2 Lära sig nya talanger
+En spelkaraktär är inte fast med sina nybörjartalanger utan kan bygga upp ett rejält paket av talanger. Se mer under 5. Bli bättre.
 
 # 4. Ordmagi
 Ordmagi är kraftfullt men riskerar utövarens grundvärde minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens grundvärde minne.
@@ -179,6 +182,9 @@ Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen
 5. Detta går att göra 3 gånger per vila.
 
 > Grundvärde kan max bli 8.
+
+# 5.1 Lära sig nya talanger
+# 5.2 Pensionera sin spelkaraktär
 
 ---
 # 6. Strid och återhämtning
