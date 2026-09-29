@@ -207,9 +207,18 @@ När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett sv
 
 ## 6.3 Stridstalanger
 **Skriv mer här**
+Vissa talanger har nästan enbart med strid att göra. Dessa talanger är kopplade till antigen Kropp eller Skill. Kropp är närstridsattacker och Skill är distansattacker.
+* Kropp: Närstridstalanger
+  * Enhandsvapen
+  * Tvåhandsvapen
+  * Långvapen
+* Skill: Distanstalanger
+  * Kastvapen
+  * Skjutvapen
+  * Krutvapen
 
 ## 6.4 Initiativ
-En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill eller Special för gruppen motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger går att använda som det passar för stunden.
+En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill (Special för motståndare) i grupperna motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initativ går att använda om det passar för stunden.
 
 ## 6.5 Jakt
 När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i målvärde. Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
@@ -235,12 +244,12 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 
 |  HD | Exempel                    | Kraft           | Special | Moral | Skada |
 | --: | :------------------------- |:---------------:| ------- | ----- | ----- |
-| 0.5 | Råtta, Vätte, Kobold       | 3               | 2       | 2     | 1d2   |
-|   1 | Ork, Människa, Varg        | 4               | 3       | 5     | 1d6   |
-|   2 | Elitsoldat, Björn          | 7               | 5       | 6     | 1d6+1 |
-|   3 | Ogre, Riddare, Ond Magiker | 10              | 8       | 9     | 1d6+2 |
-|   4 | Jätte, Ung drake           | 10 (4 buffer)   | 9      | 10     | 1d8+1 |
-|  5+ | Boss, Drake, Demon; naturkatastrof | 10 (8 buffer)| 10 | 10    | 2d6+2 |
+| 0.5 | Råtta, Vätte, Kobold       | 3               | 2       | 2     | `1d2`   |
+|   1 | Ork, Människa, Varg        | 4               | 3       | 5     | `1d6`   |
+|   2 | Elitsoldat, Björn          | 7               | 5       | 6     | `1d6+1` |
+|   3 | Ogre, Riddare, Ond Magiker | 10              | 8       | 9     | `1d6+2` |
+|   4 | Jätte, Ung drake           | 10 (4 buffer)   | 9      | 10     | `1d8+1` |
+|  5+ | Boss, Drake, Demon; naturkatastrof | 10 (8 buffer)| 10 | 10    | `2d6+2` |
 
 ## 7.2 Slumpa fram ett monster
 <button onclick="generateMonster()">Generera Monster</button>
@@ -288,7 +297,7 @@ Slå för din **Magikontroll** `3d6`
 | **124** | **Mässings-fingrar** | Dina fingrar blir av metall. Du kan dyrka lås utan verktyg men låter när du rör dig. |
 | **125** | **Extra mun** | En mun öppnas på din hals. Den pratar konstant och avslöjar dina hemligheter. |
 | **126** | **Insektshår** | Styva, svarta insektshår täcker din kropp. -1 på Akrobatik (du är stel). |
-| **134** | **Teleskop-öga** | Ett öga kan skjutas ut 10 cm. Du har Fördel på slag för att spana. |
+| **134** | **Teleskop-öga** | Ett öga kan skjutas ut 10 cm. Du har lätt utmaning för att spana. |
 | **135** | **Svamp-växt** | Lila svampar växer ur dina axlar. De lyser svagt i mörker (du kan inte gömma dig). |
 | **136** | **Hål i bröstet** | Ett knytnävsstort hål öppnar sig rakt genom bröstet. Du kan tekniskt sett förvara små saker där, men det syns. |
 | **145** | **Magnetiskt fält** | Små metallföremål (pilar, knivar, nycklar) dras till dig. Tar +1 mer skada från metallvapen. |
