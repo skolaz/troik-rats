@@ -10,7 +10,7 @@ title: Troik-Rats av Nils Jivegård
 * Grundvärdet kan max bli 8.
 * Om det är en svår utmaning slår du först `2d6`, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
 * Om det är en lätt utmaning slår du först `2d6`, sedan ifall du vill slår du om den högsta siffran. 
-* När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad crit.
+* När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad krit.
 * Skulle spelaren slå två sexor _(6, 6)_ blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
 > En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep knutet i toppen. Hon behöver slå `2d6` och få ett resultat under eller prick på sitt målvärde. Hon använder talangen Klättra med Rank 2 och grundvärdet Kropp med 5 i värde. Utmaningen är lätt.
 >
@@ -88,18 +88,18 @@ Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _m
 | **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
 | **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
 | **13** | Skrämma | Skill | **43** | Bluffa | Skill |
-| **14** | Strid # | Kropp | **44** | Musik | Skill |
+| **14** | Enhandsvapen # | Kropp | **44** | Musik | Skill |
 | **15** | Uthållighet | Kropp | **45** | Mekanik | Skill |
 | **16** | Klättra | Kropp | **46** | Matlagning | Skill |
 | **21** | Simma | Kropp | **51** | Bluffa | Minne |
 | **22** | Bygga | Skill | **52** | Dekryptera | Minne |
-| **23** | Undvika | Kropp | **53** | Mystik magi | Minne |
+| **23** | Undvika | Skill | **53** | Mystik magi | Minne |
 | **24** | Jaga | Skill | **54** | Kunskap | Minne |
 | **25** | Rida | Kropp | **55** | Historia | Minne |
-| **26** | Kasta # | Kropp | **56** | Kasino | Skill |
+| **26** | Kastvapen # | Kropp | **56** | Kasino | Skill |
 | **31** | Smidighet | Skill | **61** | Språk | Minne |
 | **32** | Stjäla | Skill | **62** | Koncentration | Minne |
-| **33** | Skjuta # | Skill | **63** | Värdera | Minne |
+| **33** | Skjutvapen # | Skill | **63** | Värdera | Minne |
 | **34** | Hantverk | Skill | **64** | Astrologi | Minne |
 | **35** | Smygande | Skill | **65** | Dryckblandare | Skill |
 | **36** | Djurvän | Skill | **66** | Ledarskap | Minne |
