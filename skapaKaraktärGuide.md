@@ -19,26 +19,28 @@ Du har `6 poäng` totalt att fördela:
 * Du kan byta ut enstaka poäng mot en Trollformel.
 * Du får förbereda upp till 2 trollformler i förväg (markeras med X).
 
-| Slag | Talang | Grundvärde | Slag | Talang | Grundvärde |
+| `2d6` | Talang | Grundvärde | `2d6` | Talang | Grundvärde |
 | :---: | :--- | :--- | :---: | :--- | :--- |
 | **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
 | **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
 | **13** | Skrämma | Skill | **43** | Bluffa | Skill |
-| **14** | Strid | Kropp | **44** | Musik | Skill |
+| **14** | Enhandsvapen # | Kropp | **44** | Musik | Skill |
 | **15** | Uthållighet | Kropp | **45** | Mekanik | Skill |
 | **16** | Klättra | Kropp | **46** | Matlagning | Skill |
 | **21** | Simma | Kropp | **51** | Bluffa | Minne |
 | **22** | Bygga | Skill | **52** | Dekryptera | Minne |
-| **23** | Undvika | Kropp | **53** | Mystik magi | Minne |
+| **23** | Undvika | Skill | **53** | Mystik magi | Minne |
 | **24** | Jaga | Skill | **54** | Kunskap | Minne |
 | **25** | Rida | Kropp | **55** | Historia | Minne |
-| **26** | Kasta | Kropp | **56** | Kasino | Skill |
+| **26** | Kastvapen # | Kropp | **56** | Kasino | Skill |
 | **31** | Smidighet | Skill | **61** | Språk | Minne |
 | **32** | Stjäla | Skill | **62** | Koncentration | Minne |
-| **33** | Skjuta | Skill | **63** | Värdera | Minne |
+| **33** | Skjutvapen # | Skill | **63** | Värdera | Minne |
 | **34** | Hantverk | Skill | **64** | Astrologi | Minne |
 | **35** | Smygande | Skill | **65** | Dryckblandare | Skill |
 | **36** | Djurvän | Skill | **66** | Ledarskap | Minne |
+
+`#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för se stridstalanger.
 
 ## 4 Utrustning & Skydd
 
