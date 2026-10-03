@@ -4,7 +4,7 @@ title: Troik-Rats av Nils Jivegård
 ---
 # 1. Grundregler
 * Slå `2d6` under eller prick på ditt målvärde för att lyckas med utmaningen.
-*   > Målvärde = Grundvärde Rank + Talang Rank  
+> Målvärde = Grundvärde Rank + Talang Rank  
 * Att slå över är målvärdet att misslyckas med utmaningen.
 * Målvärdet kan max bli 10.
 * Grundvärdet kan max bli 8.
@@ -75,7 +75,7 @@ Grundvärdet kan bli max 8.
 # 3. Talanger
 Talanger är det din karaktär besitter som ger henne mer bakgrund och ett komplement som hjälper dig öka målvärdet.
 
-Talanger har ranker som går från 0 och uppåt. Värdet på ranken är det som adderas till målvärdet.
+Talanger har ranker som går från 0 och uppåt. Värdet på Ranken är det som adderas till målvärdet.
 
 Målvärdet kan max bli 10.
 
@@ -96,7 +96,7 @@ Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _m
 | **23** | Undvika | Skill | **53** | Mystik magi | Minne |
 | **24** | Jaga | Skill | **54** | Kunskap | Minne |
 | **25** | Rida | Kropp | **55** | Historia | Minne |
-| **26** | Kastvapen # | Kropp | **56** | Kasino | Skill |
+| **26** | Kastvapen # | Skill | **56** | Kasino | Skill |
 | **31** | Smidighet | Skill | **61** | Språk | Minne |
 | **32** | Stjäla | Skill | **62** | Koncentration | Minne |
 | **33** | Skjutvapen # | Skill | **63** | Värdera | Minne |
@@ -104,11 +104,11 @@ Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _m
 | **35** | Smygande | Skill | **65** | Dryckblandare | Skill |
 | **36** | Djurvän | Skill | **66** | Ledarskap | Minne |
 
-`#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för se stridstalanger.
+`#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för fler stridstalanger.
 
 ## 3.1 Skapa egna talanger
 Om man hellre vill skapa egna talanger eller sno från ett annat system så är det fritt fram. Ta bara reda på hur de är kopplade.
-Kropptalanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Kan jag vara lika bra på detta när jag är skadad och trött. Om svaret är självklart ja, så tillhör den Grundvärdet Kropp. Är den inte riktigt det men ändå "kroppslighet" så tillhör den Grundvärdet Skill. Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den Grundvärdet Minne.
+Kropp-talanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Kan jag vara lika bra på detta när jag är skadad och trött. Om svaret är självklart ja, så tillhör den Grundvärdet Kropp. Är den inte riktigt det men ändå "kroppslighet" så tillhör den Grundvärdet Skill. Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den Grundvärdet Minne.
 
 ## 3.2 Lära sig nya talanger
 En spelkaraktär är inte fast med sina nybörjartalanger utan kan bygga upp ett rejält paket av talanger. Se mer under 5. Bli bättre.
@@ -118,7 +118,7 @@ Ordmagi är kraftfullt men riskerar utövarens Grundvärde Minne. Det kräver kr
 
 Magin använder sig av *ordmagi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver ska du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt.
 
-> Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang + Cirkelns kraftnivå + din fantasi
+> Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang + Cirkelns Kraftnivå + din fantasi
 >
 > Målvärdet är uppbyggt av Grundvärdet Minne + Talang - Cirkelns Kraftnivå
 
@@ -177,7 +177,7 @@ Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen
 3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
 * **Misslyckat eller fummel (6, 6):** Inget händer
-* **Kritisk framgång (Par) (13,89%):** Höj både din rank och tillhörande Grundvärde (**Kropp, Skill** eller **Minne**) med ett poäng.
+* **Kritisk framgång (Par) (13,89%):** Höj både din Rank och tillhörande Grundvärde (**Kropp, Skill** eller **Minne**) med ett poäng.
 4. Sudda sedan ut bocken.
 5. Detta går att göra 3 gånger per vila.
 
@@ -207,13 +207,15 @@ När spelkaraktären pensioneras kan hon välja att nedärva Talanger, trollform
 ---
 # 6. Strid och återhämtning
 ## 6.1 Motståndsslag
-När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde, den med lägst inom sitt målvärde vinner. Vinnarens talang avgör utgången. 
+När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde. Den med lägst inom sitt målvärde vinner, och lägre par vinner mot högre. Blev det lika görs ett nytt motståndsslag. Vinnarens talang avgör utgången. 
+
+När en karaktär har initiativet och gör en attack används stridstalang. Det finns sex stycken stridstalanger. När den används kan inte motståndaren använda en stridstalang i försvar. Men andra lämpliga talanger går bra.
 
 > Designers note: ändra så att motståndarens överläge i Grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
 
 
 ## 6.2 Skada
-När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar skadan med motståndarens kraft.
+När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar skadan med motståndarens Kraft.
 
 * **Skydd:** Motståndaren (eller spelkaraktären) drar av sitt skyddsvärde från skadan.
 
@@ -221,16 +223,15 @@ När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett sv
   * Medel skydd: -2 skada och svårt att smyga.
   * Tungt skydd: -3 skada och svårt att smyga, klättra och sänker Skill till hälften (avrundat uppåt) när tungt skydd används.
 
-* **-3 till 0 Kropp / kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
+* **-3 till 0 Kropp / Kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
 
-* **-3 till 0 Minne / moral:** Psyket brister. Drabbas av total panik, katatoni eller flyr hals över huvud. Karaktären är ospelbar och i händerna på ödet tills du återfått minst upp till 1 **Minne**.
+* **-3 till 0 Minne / Moral:** Psyket brister. Drabbas av total panik, katatoni eller flyr hals över huvud. Karaktären är ospelbar och i händerna på ödet tills du återfått minst upp till 1 **Minne**.
 
 > När spelkaraktären når 0 i antingen Kropp eller Minne kan de få utföra "Några Sista Ord". Vilket är en sista gärning. Kanske användandet av ett annat Grundvärde kan rädda skinnet?
 
-* **-4 Kropp / kraft / Minne / moral:** Du dör på fläcken. Ingen återvändo.
+* **-4 och < Kropp / Kraft / Minne / Moral:** Du dör på fläcken. Ingen återvändo.
 
 ## 6.3 Stridstalanger
-**Skriv mer här**
 Vissa talanger har nästan enbart med strid att göra. Dessa talanger är kopplade till antigen Kropp eller Skill. Kropp är närstridsattacker och Skill är distansattacker.
 * Kropp: Närstridstalanger
   * Enhandsvapen
@@ -242,7 +243,7 @@ Vissa talanger har nästan enbart med strid att göra. Dessa talanger är koppla
   * Krutvapen
 
 ## 6.4 Initiativ
-En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill (Special för motståndare) i grupperna motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initativ går att använda om det passar för stunden.
+En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar utser man den med högst Skill (Special för motståndare) i grupperna att göra motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initiativ går att använda om det passar för stunden.
 
 ## 6.5 Jakt
 När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika Grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i målvärde. Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
@@ -262,7 +263,7 @@ Grundvärden är lite annorlunda.
 |  **Moral** |  **deras mentala hälsa och moral** |
  
 ## 7.1 Motståndare exempel
-HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera kraft. Denna rekommenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera Kraft, Special och Moral. Denna rekommenderade siffra är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.
 
 > En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på Grundvärdet. Spelkaraktärer kan inte ha en buffer.
 
@@ -370,22 +371,17 @@ Silver:
 * O tungt: -3 skada, nackdel smyga, klättra, simma
 
 **Talanger**
-*Vid varje misslyckande sätts en bock. vid vila, slå över `2d6` över rank för att höja.* /// *Målvärde = Grundvärde + Talang*
+*Vid varje misslyckande sätts en bock. Vid vila, slå över `2d6` över grundvärde + rank för att höja.* /// *Målvärde = Grundvärde + Talang*
 * O namn på talang. rank: x
-* O namn på talang. rank: x
-* O namn på talang. rank: x
+
 
 **Cirkel**
 *Målvärde = Minne + Talang - Cirkel Kraftnivå* /// *X = förberedd*
 
 *Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi*
 * O namn på trollformel med sin effekt och form
-* O namn på trollformel med sin effekt och form
-* O namn på trollformel med sin effekt och form
 
 **Utrustning**
-* Namn på utrustning
-* Namn på utrustning
 * Namn på utrustning
 
 ## Slumpa fram en karaktär
