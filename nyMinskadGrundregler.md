@@ -12,9 +12,9 @@ title: Troik-Rats av Nils Jivegård
 * Om det är en lätt utmaning slår du först `2d6`, sedan ifall du vill slår du om den högsta siffran. 
 * När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad krit.
 * Skulle spelaren slå två sexor _(6, 6)_ blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
-> En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep knutet i toppen. Hon behöver slå `2d6` och få ett resultat under eller prick på sitt målvärde. Hon använder talangen Klättra med Rank 2 och grundvärdet Kropp med 5 i värde. Utmaningen är lätt.
+> En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep knutet i toppen. Hon behöver slå `2d6` och få ett resultat under eller prick på sitt målvärde. Hon använder talangen Klättra med Rank 2 och Grundvärdet Kropp med 5 i värde. Utmaningen är lätt.
 >
->  7 (målvärdet) = Kropp 5 (grundvärdet) + Klättra Rank 2 (talang)
+>  7 (målvärdet) = Kropp 5 (Grundvärdet) + Klättra Rank 2 (talang)
 >
 > `2d6` → 4 + 3 = 7 Lyckas. Lätt utmaning tillåter henne att kasta om högsta siffran. Men eftersom hon lyckades avstår hon.
 >
@@ -62,7 +62,7 @@ title: Troik-Rats av Nils Jivegård
 
 
 # 2. Grundvärde
-Alla spelkaraktärer har tre grundvärden. En nybörjare börjar med `3, 4, 5` i grundvärde och placerar de valfritt på varsitt grundvärde.
+Alla spelkaraktärer har tre Grundvärden. En nybörjare börjar med `3, 4, 5` i Grundvärde och placerar de valfritt på varsitt Grundvärde.
 
 Grundvärdet kan bli max 8.
 
@@ -81,7 +81,7 @@ Målvärdet kan max bli 10.
 
 En nybörjare börjar med totalt 6 Talang poäng spridda valfritt. För att få en talang måste nybörjaren "spendera" och lägga minst ett poäng i en talang rank. Under resans gång får karaktärer nya talanger genom att äventyra.
 
-Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _måste_ inte vara knutna till det grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
+Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _måste_ inte vara knutna till det Grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
 
 | `2d6` | Talang | Grundvärde | `2d6` | Talang | Grundvärde |
 | :---: | :--- | :--- | :---: | :--- | :--- |
@@ -108,13 +108,13 @@ Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _m
 
 ## 3.1 Skapa egna talanger
 Om man hellre vill skapa egna talanger eller sno från ett annat system så är det fritt fram. Ta bara reda på hur de är kopplade.
-Kropptalanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Kan jag vara lika bra på detta när jag är skadad och trött. Om svaret är självklart ja, så tillhör den grundvärdet kropp. Är den inte riktigt det men ändå "kroppslighet" så tillhör den grundvärdet skill. Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den grundvärdet Minne.
+Kropptalanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Kan jag vara lika bra på detta när jag är skadad och trött. Om svaret är självklart ja, så tillhör den Grundvärdet Kropp. Är den inte riktigt det men ändå "kroppslighet" så tillhör den Grundvärdet Skill. Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den Grundvärdet Minne.
 
 ## 3.2 Lära sig nya talanger
 En spelkaraktär är inte fast med sina nybörjartalanger utan kan bygga upp ett rejält paket av talanger. Se mer under 5. Bli bättre.
 
 # 4. Ordmagi
-Ordmagi är kraftfullt men riskerar utövarens grundvärde minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens grundvärde minne.
+Ordmagi är kraftfullt men riskerar utövarens Grundvärde Minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens Grundvärde Minne.
 
 Magin använder sig av *ordmagi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver ska du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt.
 
@@ -134,17 +134,17 @@ Magin använder sig av *ordmagi* där effekten och formen antingen är fysisk el
 
 Cirkelns kraftnivåer har tre användningsområden.
 1. Beskriva hur stark trollformeln är.
-2. Beskriva kostnaden på grundvärdet minne, oavsett om trollformeln lyckas eller inte
+2. Beskriva kostnaden på Grundvärdet Minne, oavsett om trollformeln lyckas eller inte
 3. Göra målvärdet lägre så det är svårare att lyckas med trollformeln. Speciellt större och farligare Cirklar.
 
 Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika styrkor och effekter. Tänk på att du inte kan använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt. Kanske, i vissa stunder kan spelledare tillåta en uppåt skalning av ordmagin. Kanske.
 
-* **Cirkel 0:** Ytterst lätt magi. Skadan på motståndare: 1. Max 30 sekunder.
-* **Cirkel -1:** Skadan på motståndare: `1d4` i skada. Max 60 sekunder.
-* **Cirkel -2:** Skadan på motståndare: `1d4+1`. Max 2 minuter.
-* **Cirkel -3:** Flera mål eller en zoner, kallas även AoE (Area of Effect). Skadan på motståndare: `1d6`. Max 5 minuter.
-* **Cirkel -4:** Skadan på motståndare: `1d6+2`. Max 60 minuter.
-* **Cirkel -5:** Svår och farlig magi. Skadan på motståndare: `1d8+2`. Stora områden och/eller permanent tid.
+* **Cirkel 0:** Ytterst lätt magi. Skadan på motståndare: 1. Max 30 sekunder. Alltid lätt utmaning.
+* **Cirkel 1:** Skadan på motståndare: `1d4` i skada. Max 60 sekunder.
+* **Cirkel 2:** Skadan på motståndare: `1d4+1`. Max 2 minuter.
+* **Cirkel 3:** Flera mål eller en zoner, kallas även AoE (Area of Effect). Skadan på motståndare: `1d6`. Max 5 minuter.
+* **Cirkel 4:** Skadan på motståndare: `1d6+2`. Max 60 minuter.
+* **Cirkel 5:** Svår och farlig magi. Skadan på motståndare: `1d8+2`. Stora områden och/eller permanent tid.
 
 ### 4.1.1 Slumpa fram en trollformel direkt
 <button onclick="generateSpell()">Generera Trollformel</button>
@@ -157,7 +157,7 @@ Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika st
 Det finns två sätt att hantera magi:
 
 1. **Förberedda formler:** Du kan förbereda upp till **två formler** i förväg. Detta tar 1 timme per formel och kräver ett lyckat slag mot trollformelns målvärde. Om du lyckas har du formeln "redo" tills den används och kan kasta den när som helst utan att behöva slå tärningarna igen. **Cirkelns kraftnivå skadan utsöndras när trollformeln används.** **Fumlar sker direkt.**
-2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, gör du samma sak som med förberedda trollformler. Misslyckande åstadkommer ingenting, dock lite skada på din minne.
+2. **Spontan magi:** Om du vill kasta en formel som inte är förberedd, gör du samma sak som med förberedda trollformler. Misslyckande åstadkommer ingenting, dock lite skada på din Minne.
 
 ## 4.3 Fumla med magi
 
@@ -172,26 +172,44 @@ Magi är en instabil kraft. Reglerna för att fumla med magi bör läsas i stegv
 # 5. Bli bättre
 Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen. Vid nästa kraftsamling prövar spelkaraktären att bli bättre på de bockade talangerna. Kraftsamling kan vara vid början av en session, vid en vila eller liknande. Ni bestämmer!
 
-1. Välj en talang med bock. Målvärdet är endast Talang Ranken.
+1. Välj en talang med bock. Målvärdet är Grundvärdet + Talang Ranken.
 2. Slå `2d6`.
 3. Bara om resultatet är **ÖVER** ditt målvärde i den talangen, höjs ranken med +1. Om målvärdet är 8, räknas inte 8 som lyckat.
 * **Lyckat:** Höj din rank med ett poäng.
-* **Misslyckat eller fummel (6, 6) (2,78%) :** Inget händer
-* **Kritisk framgång (Par) (16,67%):** Höj både din rank och tillhörande grundvärde (**kropp, skill** eller **minne**) med ett poäng.
+* **Misslyckat eller fummel (6, 6):** Inget händer
+* **Kritisk framgång (Par) (13,89%):** Höj både din rank och tillhörande Grundvärde (**Kropp, Skill** eller **Minne**) med ett poäng.
 4. Sudda sedan ut bocken.
 5. Detta går att göra 3 gånger per vila.
 
 > Grundvärde kan max bli 8.
 
-# 5.1 Lära sig nya talanger
-# 5.2 Pensionera sin spelkaraktär
+## 5.1 Lära sig nya talanger
+
+Att lära sig nya talanger under spelet gång är en självklarhet. Tre sätt har jag utforskat och presenterar nedan.
+
+När man först gör en utmaning med en självklar Talang som saknas gör man som vanligt `2d6` mot endast sitt Grundvärde.
+1. Om man misslyckas skrivs Talangen in i karaktärsbladet under Rank 0 med en bock. Nästa vila får man automatisk Rank 1.
+2. Om man misslyckas får man inte talangen. Däremot om man lyckats har det visat sig att du har en naturlig förmåga att lära dig denna talangen och den skrivs in som Rank 1 direkt.
+3. Du måste slå ett par, endast då skrivs den in som Rank 1.
+
+Väljer man att spela med nr. 1 så är ett en längre arbete som behövs. Nr. 2 ser jag som ett snabbare spel. Nr. 3 känns bäst, och ger tydlighet vad man behöver. Håller reglerna korta.
+
+## 5.2 Pensionera sin spelkaraktär
+
+När en spelkaraktär blivit legendarisk och nästan oförstörbar är det dags att pensionera henne. Spelaren väljer själv när detta är dags, men här kommer en riktlinje:
+
+Dags att pensionera
+* När spelkaraktären uppnått 20 i sammanlagda Grundvärden.
+* När spelkaraktären uppnått 30 i sammanlagda Talang Ranker.
+
+När spelkaraktären pensioneras kan hon välja att nedärva Talanger, trollformler och föremål till nästa karaktär. Talangerna som nedärvs får inte överstiga Rank 3 och antal Talanger och trollformler som nedärvs får inte vara fler än 3. Alltså en Talang och två trollformler, eller tre Talanger och inga trollformler.
 
 ---
 # 6. Strid och återhämtning
 ## 6.1 Motståndsslag
 När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde, den med lägst inom sitt målvärde vinner. Vinnarens talang avgör utgången. 
 
-> Designers note: ändra så att motståndarens överläge i grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
+> Designers note: ändra så att motståndarens överläge i Grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
 
 
 ## 6.2 Skada
@@ -203,13 +221,13 @@ När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett sv
   * Medel skydd: -2 skada och svårt att smyga.
   * Tungt skydd: -3 skada och svårt att smyga, klättra och sänker Skill till hälften (avrundat uppåt) när tungt skydd används.
 
-* **-3 till 0 kropp / kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
+* **-3 till 0 Kropp / kraft :** Karaktären faller samman, medvetslös och förblödande. Om ingen stabiliserar dina sår dör hon inom kort (spelledaren avgör hur många minuter du har kvar).
 
-* **-3 till 0 minne / moral:** Psyket brister. Drabbas av total panik, katatoni eller flyr hals över huvud. Karaktären är ospelbar och i händerna på ödet tills du återfått minst upp till 1 **minne**.
+* **-3 till 0 Minne / moral:** Psyket brister. Drabbas av total panik, katatoni eller flyr hals över huvud. Karaktären är ospelbar och i händerna på ödet tills du återfått minst upp till 1 **Minne**.
 
-> När spelkaraktären når 0 i antingen kropp eller minne kan de få utföra "Några Sista Ord". Vilket är en sista gärning. Kanske användandet av ett annat grundvärde kan rädda skinnet?
+> När spelkaraktären når 0 i antingen Kropp eller Minne kan de få utföra "Några Sista Ord". Vilket är en sista gärning. Kanske användandet av ett annat Grundvärde kan rädda skinnet?
 
-* **-4 kropp / kraft / minne / moral:** Du dör på fläcken. Ingen återvändo.
+* **-4 Kropp / kraft / Minne / moral:** Du dör på fläcken. Ingen återvändo.
 
 ## 6.3 Stridstalanger
 **Skriv mer här**
@@ -227,12 +245,12 @@ Vissa talanger har nästan enbart med strid att göra. Dessa talanger är koppla
 En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar gör den med högst Skill (Special för motståndare) i grupperna motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initativ går att använda om det passar för stunden.
 
 ## 6.5 Jakt
-När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i målvärde. Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
+När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika Grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i målvärde. Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
 
 ## 6.5 Återhämtning
 
-* **Kort vila (8h):** Du återfår hälften av max poäng i **kropp** och **minne**.
-* **Långvila (2 dagar):** Du återfår alla poäng i **kropp** och **minne** till ditt maxvärde.
+* **Kort vila (8h):** Du återfår hälften av max poäng i **Kropp** och **Minne**.
+* **Långvila (2 dagar):** Du återfår alla poäng i **Kropp** och **Minne** till ditt maxvärde.
 
 # 7. Motståndare
 Grundvärden är lite annorlunda.
@@ -240,13 +258,13 @@ Grundvärden är lite annorlunda.
 |  Grundvärde |  Beskrivning |
 |---|---|
 |  **Kraft** |  **deras hälsa, styrka, rörelse** |
-|  **Special** |  **deras skill, minne, magi, fingerfärdighet, språk, kunskap** |
+|  **Special** |  **deras Skill, Minne, magi, fingerfärdighet, språk, kunskap** |
 |  **Moral** |  **deras mentala hälsa och moral** |
  
 ## 7.1 Motståndare exempel
 HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera kraft. Denna rekommenderade kraft är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.
 
-> En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på grundvärdet. Spelkaraktärer kan inte ha en buffer.
+> En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på Grundvärdet. Spelkaraktärer kan inte ha en buffer.
 
 |  HD | Exempel                    | Kraft           | Special | Moral | Skada |
 | --: | :------------------------- |:---------------:| ------- | ----- | ----- |
@@ -269,8 +287,8 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 
 <script src="assets/uneNPC.js"></script>
 
-## 7.4 Vid starkare motståndare (skillnadsmodifiering) HA KVAR??
-När en motståndare har nått 8 i Målvärde träder regeln om skillnadsmodifiering in. Det betyder att skillnaden som finns mellan spelkaraktären och motståndaren ger plus poäng till tärningskastet. Området går från +1, +2 och högst +3. Detta kan antingen hjälpa spelkaraktären att vinna motståndsslaget men allra oftast gör det att kastet går över och åt skogen.
+## 7.4 Vid starkare motståndare (Skillnadsmodifiering) HA KVAR??
+När en motståndare har nått 8 i Målvärde träder regeln om Skillnadsmodifiering in. Det betyder att Skillnaden som finns mellan spelkaraktären och motståndaren ger plus poäng till tärningskastet. Området går från +1, +2 och högst +3. Detta kan antingen hjälpa spelkaraktären att vinna motståndsslaget men allra oftast gör det att kastet går över och åt skogen.
 
 Detta går inte göra motvänt från spelare till motståndare.
 
