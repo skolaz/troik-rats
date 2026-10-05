@@ -1,5 +1,5 @@
 # Prislista: Utrustning
-En nybörjarkaraktär startar med 2d6+23 Silver och utgå därifrån vad karaktären har råd med.
+En nybörjarkaraktär startar med `2d6 + 23` Silver och utgå därifrån vad karaktären har råd med.
 
 Det ingår också `-1 Lätt Skydd (Standard)`, `Ransoner (3)` och dessa väger ingenting.
 
