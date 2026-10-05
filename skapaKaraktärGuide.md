@@ -56,7 +56,7 @@ Du har `6 poäng` totalt att fördela:
 * Vapen: Köp ett vapen för ditt startsilver (Standard i första hand, Vrakpris om pengarna inte räcker).
 * Övrigt: Köp övrig utrustning för resterande silver tills dina utrustningsplatser (Kropp) är fulla eller pengarna tar slut.
 
-Exempel på karaktärsblad
+## 5 Exempel på karaktärsblad
 
 Namn:
 
