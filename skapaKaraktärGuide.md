@@ -29,7 +29,7 @@ Du har `6 poäng` totalt att fördela:
 | **16** | Klättra | Kropp | **46** | Matlagning | Skill |
 | **21** | Simma | Kropp | **51** | Bluffa | Minne |
 | **22** | Bygga | Skill | **52** | Dekryptera | Minne |
-| **23** | Undvika | Skill | **53** | Mystik magi | Minne |
+| **23** | Undvika # | Skill | **53** | Mystik magi | Minne |
 | **24** | Jaga | Skill | **54** | Kunskap | Minne |
 | **25** | Rida | Kropp | **55** | Historia | Minne |
 | **26** | Kastvapen # | Kropp | **56** | Kasino | Skill |
@@ -40,7 +40,13 @@ Du har `6 poäng` totalt att fördela:
 | **35** | Smygande | Skill | **65** | Dryckblandare | Skill |
 | **36** | Djurvän | Skill | **66** | Ledarskap | Minne |
 
-`#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för se stridstalanger.
+`#` Denna symbolen visar talanger som har med strid att göra. Se vidare nedan för de stridstalanger som har med attacker att göra.
+ 
+| Närstridstalanger | Distanstalanger|
+| :---: | :--- |
+| Enhandsvapen | Kastvapen |
+| Tvåhandsvapen | Skjutvapen |
+| Långvapen | Krutvapen |
 
 ## 4 Utrustning & Skydd
 
@@ -50,46 +56,40 @@ Du har `6 poäng` totalt att fördela:
 * Vapen: Köp ett vapen för ditt startsilver (Standard i första hand, Vrakpris om pengarna inte räcker).
 * Övrigt: Köp övrig utrustning för resterande silver tills dina utrustningsplatser (Kropp) är fulla eller pengarna tar slut.
 
-Exempel på en genererad karaktär
+Exempel på karaktärsblad
 
-```
 Namn:
 
 Bakgrund:
 
-Silver: 3 (26)
+Silver: `2d6 + 23`
 
-Grundvärde Max / Nuvarande
-* Kropp 5 / 5
-* Skill 4 / 4
-* Minne 3 / 3
+**Grundvärde** *Nuvarande / Max*
+* *Kropp* x / x
+* *Skill* x / x
+* *Minne* x / x
 
-Skydd
-* X Lätt (Standard): -1 skada
-* O medel: -2 skada, nackdel smyga
-* O tungt: -3 skada, nackdel smyga, klättra, simma
+**Skydd**
+* O Lätt: -1 skada
+* O medel: -2 skada, svårt att smyga
+* O tungt: -3 skada, svårt att smyga, klättra, simma
 
-Talanger
-Vid varje misslyckande sätts en bock. vid vila, slå över 2d6 över rank för att höja.
-Målvärde = Grundvärde + Talang
-* O Jaga (Skill). rank: 1. Målvärde: 5
-* O Kunskap (Minne). rank: 1. Målvärde: 4
-* O Ledarskap (Minne). rank: 1. Målvärde: 4
-* O Strid (Kropp). rank: 1. Målvärde: 6
-* O Bluffa (Skill). rank: 1. Målvärde: 5
+**Talanger**
+*Vid varje misslyckande sätts en bock. Vid vila, slå `2d6` över Grundvärde + Rank för att höja.* /// *Målvärde = Grundvärde + Talang*
+* O namn på talang. rank: x
 
-Cirkel
-Målvärde = Minne + Talang - Cirkel Kraftnivå
-X = förberedd trollformel
-Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi
-* O Kaos Horn (Eterisk Element + Fysisk Form)
 
-Utrustning (5/5 platser använda)
-* Lätt skydd (Standard)
-* Ransoner (3)
-* ^ Spjut (Standard, 1d6 skada, Längre)
-* Kofot
-* Järnspikar (10)
-* Krita
+**Cirkel**
+*Målvärde = Minne + Talang - Cirkel Kraftnivå* /// *X = förberedd*
 
-```
+*Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi*
+* O namn på trollformel med sin effekt och form
+
+**Utrustning** (Bärförmåga 0 använda / Max Kropp)
+* Namn på utrustning
+
+`^` Indikerar ett vapen som har längre avstånd än vanligt vapen.
+
+`*` Indikerar ett vapen som kräver minst två händer att använda.  
+
+`#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
