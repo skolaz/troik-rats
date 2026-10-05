@@ -358,20 +358,20 @@ Namn:
 
 Bakgrund:
 
-Silver:
+Silver: `2d6 + 23`
 
-**Grundvärde** *Max / Nuvarande*
+**Grundvärde** *Nuvarande / Max*
 * *Kropp* x / x
 * *Skill* x / x
 * *Minne* x / x
 
 **Skydd**
 * O Lätt: -1 skada
-* O medel: -2 skada, nackdel smyga
-* O tungt: -3 skada, nackdel smyga, klättra, simma
+* O medel: -2 skada, svårt att smyga
+* O tungt: -3 skada, svårt att smyga, klättra, simma
 
 **Talanger**
-*Vid varje misslyckande sätts en bock. Vid vila, slå över `2d6` över grundvärde + rank för att höja.* /// *Målvärde = Grundvärde + Talang*
+*Vid varje misslyckande sätts en bock. Vid vila, slå `2d6` över Grundvärde + Rank för att höja.* /// *Målvärde = Grundvärde + Talang*
 * O namn på talang. rank: x
 
 
@@ -381,8 +381,14 @@ Silver:
 *Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang - Cirkel kraftnivå + din fantasi*
 * O namn på trollformel med sin effekt och form
 
-**Utrustning**
+**Utrustning** (Bärförmåga 0 använda / Max Kropp)
 * Namn på utrustning
+
+`^` Indikerar ett vapen som har längre avstånd än vanligt vapen.
+
+`*` Indikerar ett vapen som kräver minst två händer att använda.  
+
+`#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
 
 ## Slumpa fram en karaktär
 <button onclick="generateCharacter()">Generera Nybörjare</button>
