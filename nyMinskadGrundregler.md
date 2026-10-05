@@ -5,7 +5,7 @@ title: Troik-Rats av Nils Jivegård
 # 1. Grundregler
 * Slå `2d6` under eller prick på ditt målvärde för att lyckas med utmaningen.
 > Målvärde = Grundvärde Rank + Talang Rank  
-* Att slå över är målvärdet att misslyckas med utmaningen.
+* Att slå över målvärdet är att misslyckas med utmaningen.
 * Målvärdet kan max bli 10.
 * Grundvärdet kan max bli 8.
 * Om det är en svår utmaning slår du först `2d6`, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
