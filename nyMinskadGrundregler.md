@@ -10,8 +10,8 @@ title: Troik-Rats av Nils Jivegård
 * Grundvärdet kan max bli 8.
 * Om det är en svår utmaning slår du först `2d6`, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
 * Om det är en lätt utmaning slår du först `2d6`, sedan ifall du vill slår du om den högsta siffran. 
-* När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad krit.
-* Skulle spelaren slå två sexor _(6, 6)_ blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
+* När du slår ett par _(1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5) (13,89%)_ lyckas spelaren med ett fantastiskt bra resultat, även kallad krit.
+* Skulle spelaren slå två sexor _(6, 6) (2,78%)_ blir det ett fruktansvärt dåligt resultat, även kallad fummel. Om en fummel händer under en strid eller magisk användning finns det tabeller som berättar vad som händer.
 > En äventyrsbana står framför Hanna och hon ska klättra över en vägg med rep knutet i toppen. Hon behöver slå `2d6` och få ett resultat under eller prick på sitt målvärde. Hon använder talangen Klättra med Rank 2 och Grundvärdet Kropp med 5 i värde. Utmaningen är lätt.
 >
 >  7 (målvärdet) = Kropp 5 (Grundvärdet) + Klättra Rank 2 (talang)
@@ -20,6 +20,7 @@ title: Troik-Rats av Nils Jivegård
 >
 > Hanna klättrar och drar sig upp för väggen. Fötterna står stadigt och hon klättrar uppå. Väl uppe var hon inte beredd på att det inte fanns något på andra sidan. Hon får en ny utmaning. För att inte ramla och skada sig behöver hon göra en ny prövning med tärningarna.
 
+* Utmaning mot en motståndare heter tävling och fungerar omvänt. Då summerar man Grundvärde + Talang + `2d6` . Högst summa vinner. Talangen bestämmer utfallet. I en strid får båda parter använda stridtalanger. Vinnaren utgör skadan.
 <details>
 
 <summary> 
@@ -194,25 +195,26 @@ När man först gör en utmaning med en självklar Talang som saknas gör man so
 
 Väljer man att spela med nr. 1 så är ett en längre arbete som behövs. Nr. 2 ser jag som ett snabbare spel. Nr. 3 känns bäst, och ger tydlighet vad man behöver. Håller reglerna korta.
 
+**Uppdattering sker** : som i Troika ska det vara. Att man hittar en lärare och lyckas slå under målvärde så får man. Texten nedan behöver redigeras.
+> Det är också möjligt att förbättra dina avancerade SKILLer eller att lära dig nya, men du måste hitta någon som är villig att lära dig. De måste ha en högre SKILL plus avancerad SKILL än du och kommer med största sannolikhet att kräva betalning såvida de inte är din partikollega eller redan är skyldig dig en tjänst. Träningen tar 1 vecka plus 1 vecka per rang du redan har i den avancerade SKILL du vill förbättra. Vid slutet av denna tid får du en chans att avancera. Misslyckande betyder att du bara måste träna hårdare. När du lär dig nya avancerade SKILLer måste du rulla under din SKILL på 2d6 (brådmogna elever är lättare att lära ut) för att få din första poäng.
+
+
 ## 5.2 Pensionera sin spelkaraktär
 
 När en spelkaraktär blivit legendarisk och nästan oförstörbar är det dags att pensionera henne. Spelaren väljer själv när detta är dags, men här kommer en riktlinje:
 
 Dags att pensionera
-* När spelkaraktären uppnått 20 i sammanlagda Grundvärden.
-* När spelkaraktären uppnått 30 i sammanlagda Talang Ranker.
+* När spelkaraktären uppnått 20 poäng i sammanlagda Grundvärden.
+* När spelkaraktären uppnått 30 poäng i sammanlagda Talang Ranker.
 
 När spelkaraktären pensioneras kan hon välja att nedärva Talanger, trollformler och föremål till nästa karaktär. Talangerna som nedärvs får inte överstiga Rank 3 och antal Talanger och trollformler som nedärvs får inte vara fler än 3. Alltså en Talang och två trollformler, eller tre Talanger och inga trollformler.
 
 ---
 # 6. Strid och återhämtning
-## 6.1 Motståndsslag
-När två parter agerar mot varandra görs motståndsslag, även kallad tävling. Båda slår `2d6` samtidigt och ska slå under sitt värde. Den med lägst inom sitt målvärde vinner, och lägre par vinner mot högre. Blev det lika görs ett nytt motståndsslag. Vinnarens talang avgör utgången. 
+## 6.1 Tävling
+När två parter agerar mot varandra görs en tävling. Båda slår `2d6` och adderar sitt Grundvärde + Talang Rank. Den med högst summa vinner, och högre par vinner över lägre. Blir det lika händer inget. Vinnarens talang avgör utgången. 
 
-När en karaktär har initiativet och gör en attack används stridstalang. Det finns sex stycken stridstalanger. När den används kan inte motståndaren använda en stridstalang i försvar. Men andra lämpliga talanger går bra.
-
-> Designers note: ändra så att motståndarens överläge i Grundvärdet mot spelaren tvingar på +1, +2, eller +3 på deras tärningsslag. Detta för att skapa en viss balans.
-
+När en karaktär har initiativet och gör en attack används stridstalang. Det finns sex stycken stridstalanger. När den används som attack kan motståndaren använda en stridstalang som svar, vilket kan resultera en kontring av motståndaren. Men andra lämpliga talanger går bra.
 
 ## 6.2 Skada
 När du vinner ett motståndsslag slår du din vapenskada (t.ex. 1d6 för ett svärd) och subtraherar skadan med motståndarens Kraft.
@@ -243,10 +245,10 @@ Vissa talanger har nästan enbart med strid att göra. Dessa talanger är koppla
   * Krutvapen
 
 ## 6.4 Initiativ
-En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar utser man den med högst Skill (Special för motståndare) i grupperna att göra motståndsslag mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initiativ går att använda om det passar för stunden.
+En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar utser man den med högst Skill (Special för motståndare) i grupperna att göra tävling mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initiativ går att använda om det passar för stunden.
 
 ## 6.5 Jakt
-När någon jagar eller blir jagad blir det flera motståndsslag i följd. Olika Grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i målvärde. Grupperna slår sedan `2d6` samtidigt med motståndsslag och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
+När någon jagar eller blir jagad blir det flera tävlingar i följd. Olika Grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i sin summa. Grupperna slår sedan `2d6` + Grundvärde + Talang Rank och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
 
 ## 6.5 Återhämtning
 
@@ -263,18 +265,22 @@ Grundvärden är lite annorlunda.
 |  **Moral** |  **deras mentala hälsa och moral** |
  
 ## 7.1 Motståndare exempel
-HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera Kraft, Special och Moral. Denna rekommenderade siffra är nära modus av HD. Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.
+HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. ~~Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`.~~ Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera Kraft, Special och Moral. Denna rekommenderade siffra är nära modus av HD, och sedan anpassad av en magkänsla. ~~Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.~~
 
 > En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på Grundvärdet. Spelkaraktärer kan inte ha en buffer.
 
-|  HD | Exempel                    | Kraft           | Special | Moral | Skada |
+|  HD | Exempel                    | Kraft           | Special | Moral | Skada och TT |
 | --: | :------------------------- |:---------------:| ------- | ----- | ----- |
-| 0.5 | Råtta, Vätte, Kobold       | 3               | 2       | 2     | `1d2`   |
+| 0.5 | Råtta, Vätte, Kobold       | 3               | 2       | 2     | `1d4`   |
 |   1 | Ork, Människa, Varg        | 4               | 3       | 5     | `1d6`   |
 |   2 | Elitsoldat, Björn          | 7               | 5       | 6     | `1d6+1` |
 |   3 | Ogre, Riddare, Ond Magiker | 10              | 8       | 9     | `1d6+2` |
 |   4 | Jätte, Ung drake           | 10 (4 buffer)   | 9      | 10     | `1d8+1` |
 |  5+ | Boss, Drake, Demon; naturkatastrof | 10 (8 buffer)| 10 | 10    | `2d6+2` |
+
+**Uppdatering påväg** : Istället för HD används Tävlings Tärning. Dessa är vad man lägger till vid en tävling
+Tidigare HD 0.5 använder i 1d4. **Och alla behåller sin rekommenderade kraft, special och moral**
+Förresten… skadan blir TT.
 
 ## 7.2 Slumpa fram ett monster
 <button onclick="generateMonster()">Generera Monster</button>
@@ -300,9 +306,9 @@ Detta går inte göra motvänt från spelare till motståndare.
 |---|---|---|
 | 2-3 | Katastrof  |  Vapnet går sönder eller kastas iväg 5 meter. |
 | 4-5 | Halt  |  Du snubblar och missar din nästa tur. |
-| 6-8 | Blottad  |  Nästa slag mot dig får +2 (enklare att slå under). |
+| 6-8 | Blottad  |  Nästa slag mot dig får +2 (enklare att vinna tävling mot dig). |
 | 9-10 | Självskada  |  Du slår din egen vapenskada mot dig själv.  |
-| 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns, annars slå igen). |
+| 11-12 | Vänskaplig eld |  Du träffar en allierad istället (om någon finns, annars slå igen på tabellen). |
 
 ## 8.2 Fumla med magi & Magikontroll
 
