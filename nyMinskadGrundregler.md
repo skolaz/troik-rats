@@ -153,6 +153,45 @@ Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika st
 
 <script src="assets/mazeMagic.js"></script>
 
+| `2d6` | Fysiska effekter | Fysiska element | Fysiska former | Magiska effekter | Magiska former | Magiska element |
+|:---:|---|---|---|---|---|---|
+| 11 | Besjälande | Syra | Altar | Hämnande | Aura | Aska |
+| 12 | Attraherande | Bärnsten | Rustning | Bannlysande | Fyrbåk | Kaos |
+| 13 | Bindande | Bark | Pil | Förvirrande | Stråle | Distorsion |
+| 14 | Blommande | Blod | Best | Bländande | Blast | Dröm |
+| 15 | Förtärande | Ben | Klinga | Charmande | Klump | Damm |
+| 16 | Krypande | Saltvatten | Kittel | Kommunicerande | Bult | Eko |
+| 21 | Krossande | Lera | Kedja | Tvingande | Bubbla | Ektoplasma |
+| 22 | Förminskande | Kråka | Triumfvagn | Döljande | Kall | Eld |
+| 23 | Delande | Kristall | Klo | Dövande | Kaskad | Dimma |
+| 24 | Duplicerande | Glöd | Mantel | Bedräglig | Cirkel | Spöke |
+| 25 | Omslutande | Kött | Kolossal | Tyda | Moln | Harmoni |
+| 26 | Expanderande | Svamp | Krona | Drivande | Slinga | Värme |
+| 31 | Sammansmältande | Glas | Elementväsen | Modig | Kon | Ljus |
+| 32 | Gripande | Honung | Öga | Avkoda | Kub | Blixt |
+| 33 | Påskyndande | Is | Fontän | Energigivande | Dans | Minne |
+| 34 | Hindrande | Insekt | Port | Upplysande | Skiva | Sinne |
+| 35 | Upplysande | Trä | Golem | Bärsärk | Fält | Mutation |
+| 36 | Fängslande | Lava | Hammare | Plågsam | Form | Negation |
+| 41 | Svävande | Mossa | Horn | Framsynt | Blick | Pest |
+| 42 | Öppnande | Obsidian | Nyckel | Berusande | Ögla | Plasma |
+| 43 | Förstenande | Olja | Mask | Gör galen | Ögonblick | Sannolikhet |
+| 44 | Genomträngande | Gift | Monolit | Hypnotiserande | Nexus | Regn |
+| 45 | Genomborrande | Råtta | Grop | Tankeläsande | Portal | Röta |
+| 46 | Förföljande | Salt | Fängelse | Nollställande | Puls | Skugga |
+| 51 | Reflekterande | Sand | Vaktpost | Förlamande | Pyramid | Rök |
+| 52 | Regenererande | Kåda | Tjänare | Avslöjande | Stråle | Snö |
+| 53 | Slitande | Orm | Sköld | Vederstygglig | Skärva | Själ |
+| 54 | Avvisande | Slem | Spjut | Skådande | Sfär | Stjärna |
+| 55 | Återupplivande | Sten | Stridshäst | Tystande | Spray | Stasis |
+| 56 | Skrikande | Tjära | Svärm | Lugnande | Storm | Ånga |
+| 61 | Förseglande | Tagg | Tentakel | Frammanande | Svärm | Åska |
+| 62 | Formskiftande | Törne | Tron | Skräckinjagande | Fors | Tid |
+| 63 | Skyddande | Vatten | Fackla | Avvärjande | Beröring | Tomrum |
+| 64 | Alstrande | Vin | Fälla | Tröttande | Virvel | Vridning |
+| 65 | Omvandlande | Trä | Vägg | Förtvinande | Våg | Viskning |
+| 66 | Förflyttande | Mask | Nät | Åldrande | Ord | Vind |
+
 ## 4.2 Att kasta en trollformel
 
 Det finns två sätt att hantera magi:
