@@ -123,6 +123,8 @@ Kropp-talanger behöver kunna påverkas av att värdet minskar. Se det som fysis
 En spelkaraktär är inte fast med sina nybörjartalanger utan kan bygga upp ett rejält paket av talanger. Se mer under 5. Bli bättre.
 
 # 4. Ordmagi
+<a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Historia_Mundi_Naturalis,_Plinii_Secundi.jpg"><img width="330" alt="Historia Mundi Naturalis, Plinii Secundi" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Historia_Mundi_Naturalis%2C_Plinii_Secundi.jpg/330px-Historia_Mundi_Naturalis%2C_Plinii_Secundi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
 Ordmagi är kraftfullt men riskerar utövarens Grundvärde Minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens Grundvärde Minne.
 
 Magin använder sig av _ordmagi_ där effekten, elemtet och formen antingen är fysisk eller magisk. När du sedan har två ord som beskriver ska du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt.
@@ -233,6 +235,8 @@ Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen
 
 ## 5.1 Lära sig nya talanger
 
+<a title="John Bauer, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:John_Bauer-D%C3%A5_och_d%C3%A5_tog_tomten_tag_i_tyglarna.jpg"><img width="500" alt="John Bauer-Då och då tog tomten tag i tyglarna" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/John_Bauer-D%C3%A5_och_d%C3%A5_tog_tomten_tag_i_tyglarna.jpg/500px-John_Bauer-D%C3%A5_och_d%C3%A5_tog_tomten_tag_i_tyglarna.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
 Att lära sig nya talanger under spelet gång är en självklarhet. Spelledaren får själv bestämma vilka som fungerar bäst för deras spel.
 1. Om spelaren får ett par vid en utmaning och saknar talangen, så får spelkaraktären den talangen med Rank 1.
 2. Om spelaren får en fummel vid en utmaning och saknar talangen, så får spelkaraktären den talangen med Rank 0.
@@ -250,6 +254,7 @@ När spelkaraktären pensioneras kan hon välja att nedärva Talanger, trollform
 
 ---
 # 6. Strid och återhämtning
+<a title="J. Allen St. John, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Face_in_the_Pool-Knight_Fighting_Dragon.jpg"><img width="500" alt="Face in the Pool-Knight Fighting Dragon" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Face_in_the_Pool-Knight_Fighting_Dragon.jpg/500px-Face_in_the_Pool-Knight_Fighting_Dragon.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
 ## 6.1 Tävling
 När två parter agerar mot varandra görs en tävling. Båda slår `2d6` och adderar sitt Grundvärde + Talang Rank. Den med högst summa vinner, och högre par vinner över lägre. Blir det lika händer inget. Vinnarens talang avgör utgången. 
 
