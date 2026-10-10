@@ -93,7 +93,7 @@ En nybörjare börjar med totalt 6 Talang poäng spridda valfritt. För att få 
 
 Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _måste_ inte vara knutna till det Grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
 
-| `2d6` | Talang | Grundvärde | `2d6` | Talang | Grundvärde |
+| `d66` | Talang | Grundvärde | `d66` | Talang | Grundvärde |
 | :---: |:--- |:--- |:---: |:--- |:--- |
 | **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
 | **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
@@ -171,7 +171,7 @@ Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika st
 
 <script src="assets/mazeMagic.js"></script>
 
-| `2d6` | Fysiska effekter | Fysiska element | Fysiska former | Magiska effekter | Magiska former | Magiska element |
+| `d66` | Fysiska effekter | Fysiska element | Fysiska former | Magiska effekter | Magiska former | Magiska element |
 |:---:|---|---|---|---|---|---|
 | 11 | Besjälande | Syra | Altar | Hämnande | Aura | Aska |
 | 12 | Attraherande | Bärnsten | Rustning | Bannlysande | Fyrbåk | Kaos |
@@ -324,10 +324,14 @@ Grundvärden är lite annorlunda.
 |  **Special** |  **deras Skill, Minne, magi, fingerfärdighet, språk, kunskap** |
 |  **Moral** |  **deras mentala hälsa och moral** |
  
-## 7.1 Motståndare exempel
-HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de är. ~~Vid HD 0.5 slår man `1d6` och delar båda halvorna av tärningen betyder 1, 2 och 3. Vid HD 5+ slår du `5d6`.~~ Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera Kraft, Special och Moral. Denna rekommenderade siffra är nära modus av HD, och sedan anpassad av en magkänsla. ~~Så ifall spelledaren inte vill slå fram så kan hon använda den istället. Istället för `d6` som HD kan man använda en `d4`. Då blir de betydligt svagare.~~
+## 7.1 Motståndare regler
+HD betyder Hit Die och använder vanligtvis `d6` för att slå fram vilket värde de har i Kraft. Alltså om du slår fram en HD 1 kan den motståndaren ha ett värde i Kraft mellan 1-6. HD 2 skulle kunna ha 2-12. Skulle det vara starkare motståndare än det får fler tärningar användas. Tabellen nedan kommer visar HD och rekommendera Kraft, Special och Moral. Denna rekommenderade siffra är nära modus av HD, och sedan anpassad av en magkänsla. Motståndare har inte talanger på samma sätt som spelkaraktärer. 
 
-> En motståndares målvärde kan max vara 10 och det som är över räknas som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på Grundvärdet. Spelkaraktärer kan inte ha en buffer.
+Både spelkaraktärer och motståndare kan bara ha 10 som max i målvärde. Men motståndare kan ha högre i sitt Grundvärde, däremot räknas det som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på Grundvärdet. Spelkaraktärer kan inte ha en buffer eftersom deras grundvärde slutar vid 8.
+
+När en motståndare deltar i en tävling använder de sin Tävlings Tärning, vilket är samma som sin skada.
+
+## 7.2 Motståndare exempel
 
 |  HD | Exempel                    | Kraft           | Special | Moral | Skada och TT |
 | --: | :------------------------- |:---------------:| ------- | ----- | ----- |
@@ -338,19 +342,13 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 |   4 | Jätte, Ung drake           | 10 (4 buffer)   | 9      | 10     | `1d8+1` |
 |  5+ | Boss, Drake, Demon; naturkatastrof | 10 (8 buffer)| 10 | 10    | `2d6+2` |
 
-**Uppdatering påväg** : Istället för HD används Tävlings Tärning. Dessa är vad man lägger till vid en tävling.
-
-Tidigare HD 0.5 använder i 1d4. **Och alla behåller sin rekommenderade kraft, special och moral**.
-
-Förresten… skadan blir TT.
-
-## 7.2 Slumpa fram ett monster
+## 7.3 Slumpa fram ett monster
 <button onclick="generateMonster()">Generera Monster</button>
 <div id="monster-output"></div>
 
 <script src="assets/mazeMonster.js"></script>
 
-## 7.3 Slumpa fram en NPC med UNE
+## 7.4 Slumpa fram en NPC med UNE
 <button onclick="generateUNE()">Generera NPC</button>
 <div id="une-output"></div>
 
