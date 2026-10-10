@@ -4,7 +4,7 @@ title: Troik-Rats av Nils Jivegård
 ---
 _Detta är ett low sci-fi fantasy hack av två rollspelssystem. Troika! RPG och Maze Rats. Se detta system som en verktygslåda där öppna regelhål kan förekomma för att spelledaren tillsammans med spelarna skapar egna regler för stunden._
 
-<a title="Johan Gottlob Brusell, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:A_Vaulted_Staircase._Architectural_Piece_(Johan_Gottlob_Brusell)_-_Nationalmuseum_-_21910.tif"><img width="500" alt="A Vaulted Staircase. Architectural Piece (Johan Gottlob Brusell) - Nationalmuseum - 21910" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Vaulted_Staircase._Architectural_Piece_%28Johan_Gottlob_Brusell%29_-_Nationalmuseum_-_21910.tif/lossy-page1-250px-A_Vaulted_Staircase._Architectural_Piece_%28Johan_Gottlob_Brusell%29_-_Nationalmuseum_-_21910.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+<a title="Johan Gottlob Brusell, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:A_Vaulted_Staircase._Architectural_Piece_(Johan_Gottlob_Brusell)_-_Nationalmuseum_-_21910.tif"><img alt="A Vaulted Staircase. Architectural Piece (Johan Gottlob Brusell) - Nationalmuseum - 21910" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Vaulted_Staircase._Architectural_Piece_%28Johan_Gottlob_Brusell%29_-_Nationalmuseum_-_21910.tif/lossy-page1-250px-A_Vaulted_Staircase._Architectural_Piece_%28Johan_Gottlob_Brusell%29_-_Nationalmuseum_-_21910.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
 
 # 1. Grundregler
 * Slå `2d6` under eller prick på ditt målvärde för att lyckas med utmaningen.
@@ -150,12 +150,17 @@ Cirkelns kraftnivåer har tre användningsområden.
 
 Beroende på vilken Cirkel kraftnivå trollformeln kastas i, kan den ge olika styrkor och effekter. Tänk på att du inte kan använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt. Kanske, i vissa stunder kan spelledare tillåta en uppåt skalning av ordmagin. Kanske.
 
-* **Cirkel 0:** Ytterst lätt magi. Skadan på motståndare: 1. Max 30 sekunder. Alltid lätt utmaning.
-* **Cirkel 1:** Skadan på motståndare: `1d4` i skada. Max 60 sekunder.
-* **Cirkel 2:** Skadan på motståndare: `1d4+1`. Max 2 minuter.
-* **Cirkel 3:** Flera mål eller en zoner, kallas även AoE (Area of Effect). Skadan på motståndare: `1d6`. Max 5 minuter.
-* **Cirkel 4:** Skadan på motståndare: `1d6+2`. Max 60 minuter.
-* **Cirkel 5:** Svår och farlig magi. Skadan på motståndare: `1d8+2`. Stora områden och/eller permanent tid.
+`K/M` = Grundvärde Kropp, Kraft eller Minne, Moral
+
+| Cirkel  | Beskrivning |  Skada |  Tidslängd | Utmaning |
+|---|---|---|---|--|
+|  Cirkel 0 |  Ytterst lätt magi. Ett mål. |  1 K/M |  30 sekunder  | Lätt utmaning |
+|  Cirkel 1 |  Börjar likna något. |  1d4 K/M |  60 sekunder |  |
+|  Cirkel 2 |   |  1d4+1 K/M |  2 Minuter |  |
+|  Cirkel 3 |  Flera mål eller zoner. |  1d6 K/M |  5 Minuter |  |
+|  Cirkel 4  |   |  1d6+2 K/M |  60 minuter |  |
+|   Cirkel 5  |  Svår och farlig magi. Stora områden. |  1d8+2 K/M  |  flera timmar till permanent  |  |
+
 
 ### 4.1.1 Slumpa fram en trollformel direkt
 <button onclick="generateSpell()">Generera Trollformel</button>
