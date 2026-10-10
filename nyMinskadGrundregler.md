@@ -35,7 +35,9 @@ _Länkar till ytterligare regler_
 * [Fördjupa din karaktär](fördjupa.md)
 * [Varför håller ni ihop?](varförHåller.md)
 * [Fler motståndare (behöver uppdateras)](motståndareTabell.md)
-  
+
+<details>
+  <summary>
 _Ordlista_
 
 </summary>
@@ -65,7 +67,6 @@ _Ordlista_
 * Initiativ
 
 *
-
 </details>
 
 # 2. Grundvärde
