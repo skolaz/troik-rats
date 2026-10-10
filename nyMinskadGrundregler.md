@@ -26,42 +26,44 @@ _Detta är ett low sci-fi fantasy hack av två rollspelssystem. Troika! RPG och 
 > Hanna klättrar och drar sig upp för väggen. Fötterna står stadigt och hon klättrar uppå. Väl uppe var hon inte beredd på att det inte fanns något på andra sidan. Hon får en ny utmaning. För att inte ramla och skada sig behöver hon göra en ny prövning med tärningarna.
 
 * Utmaning mot en motståndare heter tävling och fungerar omvänt. Då summerar man Grundvärde + Talang + `2d6` . Högst summa vinner. Talangen bestämmer utfallet. I en strid får båda parter använda stridtalanger. Vinnaren utgör skadan. Vid distansattacker kan man bara undvika.
-<details>
-
-<summary> 
 
 _Länkar till ytterligare regler_
   
-</summary>
 
 * [Guide till att skapa en karaktär](skapaKaraktärGuide.md)
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Varför håller ni ihop?](varförHåller.md)
-* [Fler motståndare](motståndareTabell.md)
-
-</details>
-
-<details>
-
-<summary> 
+* [Fler motståndare (behöver uppdateras)](motståndareTabell.md)
   
 _Ordlista_
 
 </summary>
 
 * Grundvärde
+
 * Motståndsslag
+
 * Runda
+
 * Tur
+
 * Cirkel
+
 * Talang
+
 * Målvärde
+
 * Försök / Prövning / Test / Utmaning
+
 * Skydd
+
 * Buffer
+
 * Skillnadsmodifikation
+
 * Initiativ
+
 *
 
 </details>
