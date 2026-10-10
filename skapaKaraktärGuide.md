@@ -32,7 +32,7 @@ Du har `6 poäng` totalt att fördela:
 | **23** | Undvika # | Skill | **53** | Mystik magi | Minne |
 | **24** | Jaga | Skill | **54** | Kunskap | Minne |
 | **25** | Rida | Kropp | **55** | Historia | Minne |
-| **26** | Kastvapen # | Kropp | **56** | Kasino | Skill |
+| **26** | Kastvapen # | Skill | **56** | Kasino | Skill |
 | **31** | Smidighet | Skill | **61** | Språk | Minne |
 | **32** | Stjäla | Skill | **62** | Koncentration | Minne |
 | **33** | Skjutvapen # | Skill | **63** | Värdera | Minne |
