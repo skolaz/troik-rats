@@ -329,7 +329,7 @@ HD betyder Hit Die och använder vanligtvis `d6` för att slå fram vilket värd
 
 Både spelkaraktärer och motståndare kan bara ha 10 som max i målvärde. Men motståndare kan ha högre i sitt Grundvärde, däremot räknas det som en buffer. Skadan ges först till buffern tills den är tömd, sedan går den på Grundvärdet. Spelkaraktärer kan inte ha en buffer eftersom deras grundvärde slutar vid 8.
 
-När en motståndare deltar i en tävling använder de sin Tävlings Tärning, vilket är samma som sin skada.
+När en motståndare deltar i en tävling använder de sin Tävlings Tärning, vilket är samma som sin skada. Den används på alla sina Grundvärden.
 
 ## 7.2 Motståndare exempel
 
