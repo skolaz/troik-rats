@@ -2,10 +2,15 @@
 layout: default
 title: Troik-Rats av Nils Jivegård
 ---
+_Detta är ett low sci-fi fantasy hack av två rollspelssystem. Troika! RPG och Maze Rats. Se detta system som en verktygslåda där öppna regelhål kan förekomma för att spelledaren tillsammans med spelarna skapar egna regler för stunden._
+
+<a title="Johan Gottlob Brusell, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:A_Vaulted_Staircase._Architectural_Piece_(Johan_Gottlob_Brusell)_-_Nationalmuseum_-_21910.tif"><img width="500" alt="A Vaulted Staircase. Architectural Piece (Johan Gottlob Brusell) - Nationalmuseum - 21910" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Vaulted_Staircase._Architectural_Piece_%28Johan_Gottlob_Brusell%29_-_Nationalmuseum_-_21910.tif/lossy-page1-250px-A_Vaulted_Staircase._Architectural_Piece_%28Johan_Gottlob_Brusell%29_-_Nationalmuseum_-_21910.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
 # 1. Grundregler
 * Slå `2d6` under eller prick på ditt målvärde för att lyckas med utmaningen.
 > Målvärde = Grundvärde Rank + Talang Rank  
 * Att slå över målvärdet är att misslyckas med utmaningen.
+* Skulle ett Grundvärde ta skada så minskar värdet som adderas för att bestämma Målvärdet.
 * Målvärdet kan max bli 10.
 * Grundvärdet kan max bli 8.
 * Om det är en svår utmaning slår du först `2d6`, sedan slår du om lägsta siffran. Extra svår gör du samma sak ytterligare en gång till.
@@ -20,16 +25,16 @@ title: Troik-Rats av Nils Jivegård
 >
 > Hanna klättrar och drar sig upp för väggen. Fötterna står stadigt och hon klättrar uppå. Väl uppe var hon inte beredd på att det inte fanns något på andra sidan. Hon får en ny utmaning. För att inte ramla och skada sig behöver hon göra en ny prövning med tärningarna.
 
-* Utmaning mot en motståndare heter tävling och fungerar omvänt. Då summerar man Grundvärde + Talang + `2d6` . Högst summa vinner. Talangen bestämmer utfallet. I en strid får båda parter använda stridtalanger. Vinnaren utgör skadan.
+* Utmaning mot en motståndare heter tävling och fungerar omvänt. Då summerar man Grundvärde + Talang + `2d6` . Högst summa vinner. Talangen bestämmer utfallet. I en strid får båda parter använda stridtalanger. Vinnaren utgör skadan. Vid distansattacker kan man bara undvika.
 <details>
 
 <summary> 
 
-  *Länkar till ytterligare regler*
+_Länkar till ytterligare regler_
   
 </summary>
 
-* [Guide till att skapa en karaktär (Behöver förnyas)](skapaKaraktärGuide.md)
+* [Guide till att skapa en karaktär](skapaKaraktärGuide.md)
 * [Utrustning](utrustning.md)
 * [Fördjupa din karaktär](fördjupa.md)
 * [Varför håller ni ihop?](varförHåller.md)
@@ -41,7 +46,7 @@ title: Troik-Rats av Nils Jivegård
 
 <summary> 
   
-  *Ordlista*
+_Ordlista_
 
 </summary>
 
@@ -61,19 +66,20 @@ title: Troik-Rats av Nils Jivegård
 
 </details>
 
-
 # 2. Grundvärde
 Alla spelkaraktärer har tre Grundvärden. En nybörjare börjar med `3, 4, 5` i Grundvärde och placerar de valfritt på varsitt Grundvärde.
 
 Grundvärdet kan bli max 8.
 
-|  Grundvärde |  Beskrivning |
-|---|---|
-|  **Kropp** |  Din styrka, din hälsa, din uthållighet, din närstridstalang. |
-|  **Skill** |  Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang, allt som sitter inövat i ryggmärgen och inte påverkas av trötthet och skador. |
-|  **Minne** |  Din mentala hälsa, din magi, ditt språk, din kunskap. |
+|Grundvärde|Beskrivning |
+|--|-- |
+|**Kropp** |Din styrka, din hälsa, din uthållighet, din närstridstalang. |
+|**Skill** |Din smidighet, din fingerfärdighet, sikta och skjuta, din orientering, din hantverkstalang, allt som sitter inövat i ryggmärgen och inte påverkas av trötthet och skador.|
+|**Minne** |Din mentala hälsa, din magi, ditt språk, din kunskap. |
 
 # 3. Talanger
+<a title="Carl Gustaf Hellqvist, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:A_Woman._Study_for_Sancta_Simplicitas_(Carl_Gustaf_Hellqvist)_-_Nationalmuseum_-_20628.tif"><img width="250" alt="A Woman. Study for Sancta Simplicitas (Carl Gustaf Hellqvist) - Nationalmuseum - 20628" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/A_Woman._Study_for_Sancta_Simplicitas_%28Carl_Gustaf_Hellqvist%29_-_Nationalmuseum_-_20628.tif/lossy-page1-250px-A_Woman._Study_for_Sancta_Simplicitas_%28Carl_Gustaf_Hellqvist%29_-_Nationalmuseum_-_20628.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
 Talanger är det din karaktär besitter som ger henne mer bakgrund och ett komplement som hjälper dig öka målvärdet.
 
 Talanger har ranker som går från 0 och uppåt. Värdet på Ranken är det som adderas till målvärdet.
@@ -85,7 +91,7 @@ En nybörjare börjar med totalt 6 Talang poäng spridda valfritt. För att få 
 Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _måste_ inte vara knutna till det Grundvärdet de hamnar på utan kan vara till vilken som helst av **Kropp, Skill eller Minne**. Dock måste det fungera, till exempel: det kan bli problem när du knyter an talangen Språk till Kropp, Klättra till Minne eller Rida på Skill. Skill kan ju fungera som allt i allo, men helst ska man dra gränsen hårt för att skapa en balanserad utmaningen för rollspelandet.
 
 | `2d6` | Talang | Grundvärde | `2d6` | Talang | Grundvärde |
-| :---: | :--- | :--- | :---: | :--- | :--- |
+| :---: |:--- |:--- |:---: |:--- |:--- |
 | **11** | Råstyrka | Kropp | **41** | Spåra | Skill |
 | **12** | Akrobatik | Kropp | **42** | Läkemedel | Skill |
 | **13** | Skrämma | Skill | **43** | Bluffa | Skill |
@@ -108,8 +114,10 @@ Slå `2d6` och titta i tabellen nedan och se vilka talanger du får. Talanger _m
 `#` Denna symbolen visar talanger som har med strid att göra. Se vidare i avsnitt "6. Strid och Återhämtning" för fler stridstalanger.
 
 ## 3.1 Skapa egna talanger
-Om man hellre vill skapa egna talanger eller sno från ett annat system så är det fritt fram. Ta bara reda på hur de är kopplade.
-Kropp-talanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Kan jag vara lika bra på detta när jag är skadad och trött. Om svaret är självklart ja, så tillhör den Grundvärdet Kropp. Är den inte riktigt det men ändå "kroppslighet" så tillhör den Grundvärdet Skill. Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den Grundvärdet Minne.
+Om man hellre vill skapa egna talanger eller sno från ett annat system så är det fritt fram. Ta bara reda på vilket grundvärde de är kopplade till.
+Kropp-talanger behöver kunna påverkas av att värdet minskar. Se det som fysisk uthållighet. Ställ frågan: kan jag vara lika bra på detta när jag är skadad och trött? Om svaret är självklart ja, så tillhör den Grundvärdet Kropp.
+Är den inte riktigt det men ändå "kroppslighet" så tillhör den Grundvärdet Skill. Skulle talangen helt och hållet ha att göra med inlärd mekanik och teknik är det en Skill.
+Är det snarare en talang som har med kunskap, social struktur och/eller magi tillhör den Grundvärdet Minne.
 
 ## 3.2 Lära sig nya talanger
 En spelkaraktär är inte fast med sina nybörjartalanger utan kan bygga upp ett rejält paket av talanger. Se mer under 5. Bli bättre.
@@ -117,7 +125,7 @@ En spelkaraktär är inte fast med sina nybörjartalanger utan kan bygga upp ett
 # 4. Ordmagi
 Ordmagi är kraftfullt men riskerar utövarens Grundvärde Minne. Det kräver kreativitet, lite förberedelse och ibland en gnutta tur för att inte slå helt fel. Magin delas upp i sex olika **Cirklar**, där Cirkel 5 är den mest kraftfulla och svåra, och cirkel 0 är där nybörjare härjar. Varför Cirklarna numreras negativt är för att visa hur mycket skada den gör på utövarens Grundvärde Minne.
 
-Magin använder sig av *ordmagi* där effekten och formen antingen är fysisk eller eterisk (tänk magisk). När du sedan har två ord som beskriver ska du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt.
+Magin använder sig av _ordmagi_ där effekten, elemtet och formen antingen är fysisk eller magisk. När du sedan har två ord som beskriver ska du slänga in en talang som du har. Detta hjälper dig hitta den sista delen i pusslet om hur magin yttrar sig. Nästa gång kan du välja att slänga ur dig samma tolkning eller en ny. Du kan dock inte använda starkare Cirkel om du inte har en Talang Rank som sträcker sig så långt.
 
 > Trollformler är uppbyggda av Ord 1 + Ord 2 + Talang + Cirkelns Kraftnivå + din fantasi
 >
@@ -225,18 +233,10 @@ Varje gång en spelkaraktär misslyckas sätts en bock vid den använda talangen
 
 ## 5.1 Lära sig nya talanger
 
-Att lära sig nya talanger under spelet gång är en självklarhet. Tre sätt har jag utforskat och presenterar nedan.
-
-När man först gör en utmaning med en självklar Talang som saknas gör man som vanligt `2d6` mot endast sitt Grundvärde.
-1. Om man misslyckas skrivs Talangen in i karaktärsbladet under Rank 0 med en bock. Nästa vila får man automatisk Rank 1.
-2. Om man misslyckas får man inte talangen. Däremot om man lyckats har det visat sig att du har en naturlig förmåga att lära dig denna talangen och den skrivs in som Rank 1 direkt.
-3. Du måste slå ett par, endast då skrivs den in som Rank 1.
-
-Väljer man att spela med nr. 1 så är ett en längre arbete som behövs. Nr. 2 ser jag som ett snabbare spel. Nr. 3 känns bäst, och ger tydlighet vad man behöver. Håller reglerna korta.
-
-**Uppdattering sker** : som i Troika ska det vara. Att man hittar en lärare och lyckas slå under målvärde så får man. Texten nedan behöver redigeras.
-> Det är också möjligt att förbättra dina avancerade SKILLer eller att lära dig nya, men du måste hitta någon som är villig att lära dig. De måste ha en högre SKILL plus avancerad SKILL än du och kommer med största sannolikhet att kräva betalning såvida de inte är din partikollega eller redan är skyldig dig en tjänst. Träningen tar 1 vecka plus 1 vecka per rang du redan har i den avancerade SKILL du vill förbättra. Vid slutet av denna tid får du en chans att avancera. Misslyckande betyder att du bara måste träna hårdare. När du lär dig nya avancerade SKILLer måste du rulla under din SKILL på 2d6 (brådmogna elever är lättare att lära ut) för att få din första poäng.
-
+Att lära sig nya talanger under spelet gång är en självklarhet. Spelledaren får själv bestämma vilka som fungerar bäst för deras spel.
+1. Om spelaren får ett par vid en utmaning och saknar talangen, så får spelkaraktären den talangen med Rank 1.
+2. Om spelaren får en fummel vid en utmaning och saknar talangen, så får spelkaraktären den talangen med Rank 0.
+3. För att lära sig nya talanger måste man hitta en lärare som är villig att lära ut. Oftast blir de villiga när pengar presenteras. Då behöver de spendera tid (hur mycket bestämmer spelledaren, men rimligt är en vecka) med läraren och tränas i den talangen. På detta sättet kan man också bli bättre på en redan existerande talang, och då med en lätt utmaning.
 
 ## 5.2 Pensionera sin spelkaraktär
 
@@ -284,7 +284,13 @@ Vissa talanger har nästan enbart med strid att göra. Dessa talanger är koppla
   * Krutvapen
 
 ## 6.4 Initiativ
-En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar utser man den med högst Skill (Special för motståndare) i grupperna att göra tävling mot varandra. Vinnarens grupp börjar och de själva bestämmer turordningen. Sedan går turen över till nästa grupp. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initiativ går att använda om det passar för stunden.
+En runda är 10 till 30 sekunder och man agerar gruppvis. Först den ena gruppen och sedan den andra. För att ta reda på vilka som börjar utser man den med högst Skill (Special för motståndare) i grupperna att göra tävling mot varandra. Vinnarens grupp börjar och de själva bestämmer sin turordningen. Sedan går turen över till nästa grupp, och sedan tillbaka. Ordningen fortsätter så tills situationen inte kräver en turordning. Talanger för initiativ går att använda om det passar för stunden.
+
+Under sin tur i rundan kan man endast göra tre saker:
+- Röra sig (spelledaren bestämmer vad som är rimligt för stunden).
+- En attack
+- Säga något
+Alla saker måste inte göras under och man får inte göra flera av samma.
 
 ## 6.5 Jakt
 När någon jagar eller blir jagad blir det flera tävlingar i följd. Olika Grundvärden används beroende på situationen. Den bästa i gruppen slår för hela gruppen. Tänk efter vilken grupp som skulle ha överläge och ge dem +2 i sin summa. Grupperna slår sedan `2d6` + Grundvärde + Talang Rank och den med sin överläge bonus lägger till det. Den som vinner behåller överläget. Första till 3 vinster kommer antingen undan eller ifatt de jagade.
@@ -295,6 +301,8 @@ När någon jagar eller blir jagad blir det flera tävlingar i följd. Olika Gru
 * **Långvila (2 dagar):** Du återfår alla poäng i **Kropp** och **Minne** till ditt maxvärde.
 
 # 7. Motståndare
+<a title="John Bauer, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Brother_St._Martin_and_the_Three_Trolls_(John_Bauer)_-_Nationalmuseum_-_24306.tif"><img width="500" alt="Brother St. Martin and the Three Trolls (John Bauer) - Nationalmuseum - 24306" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Brother_St._Martin_and_the_Three_Trolls_%28John_Bauer%29_-_Nationalmuseum_-_24306.tif/lossy-page1-250px-Brother_St._Martin_and_the_Three_Trolls_%28John_Bauer%29_-_Nationalmuseum_-_24306.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
 Grundvärden är lite annorlunda.
 
 |  Grundvärde |  Beskrivning |
@@ -317,8 +325,10 @@ HD betyder Hit Die och använder vanligtvis d6 för att slå fram hur starka de 
 |   4 | Jätte, Ung drake           | 10 (4 buffer)   | 9      | 10     | `1d8+1` |
 |  5+ | Boss, Drake, Demon; naturkatastrof | 10 (8 buffer)| 10 | 10    | `2d6+2` |
 
-**Uppdatering påväg** : Istället för HD används Tävlings Tärning. Dessa är vad man lägger till vid en tävling
-Tidigare HD 0.5 använder i 1d4. **Och alla behåller sin rekommenderade kraft, special och moral**
+**Uppdatering påväg** : Istället för HD används Tävlings Tärning. Dessa är vad man lägger till vid en tävling.
+
+Tidigare HD 0.5 använder i 1d4. **Och alla behåller sin rekommenderade kraft, special och moral**.
+
 Förresten… skadan blir TT.
 
 ## 7.2 Slumpa fram ett monster
@@ -332,11 +342,6 @@ Förresten… skadan blir TT.
 <div id="une-output"></div>
 
 <script src="assets/uneNPC.js"></script>
-
-## 7.4 Vid starkare motståndare (Skillnadsmodifiering) HA KVAR??
-När en motståndare har nått 8 i Målvärde träder regeln om Skillnadsmodifiering in. Det betyder att Skillnaden som finns mellan spelkaraktären och motståndaren ger plus poäng till tärningskastet. Området går från +1, +2 och högst +3. Detta kan antingen hjälpa spelkaraktären att vinna motståndsslaget men allra oftast gör det att kastet går över och åt skogen.
-
-Detta går inte göra motvänt från spelare till motståndare.
 
 # 8. Fummel tabeller
 ## 8.1 Fumla i strid
@@ -366,7 +371,7 @@ Slå för din **Magikontroll** `3d6`
 | **123** | **Glasartad hud** | Din hud blir genomskinlig. Du ser dina organ. -1 Moral för de som ser dig. |
 | **124** | **Mässings-fingrar** | Dina fingrar blir av metall. Du kan dyrka lås utan verktyg men låter när du rör dig. |
 | **125** | **Extra mun** | En mun öppnas på din hals. Den pratar konstant och avslöjar dina hemligheter. |
-| **126** | **Insektshår** | Styva, svarta insektshår täcker din kropp. -1 på Akrobatik (du är stel). |
+| **126** | **Insektshår** | Styva, svarta insektshår täcker din kropp. -1 på Akrobatik/Smidighet (du är stel). |
 | **134** | **Teleskop-öga** | Ett öga kan skjutas ut 10 cm. Du har lätt utmaning för att spana. |
 | **135** | **Svamp-växt** | Lila svampar växer ur dina axlar. De lyser svagt i mörker (du kan inte gömma dig). |
 | **136** | **Hål i bröstet** | Ett knytnävsstort hål öppnar sig rakt genom bröstet. Du kan tekniskt sett förvara små saker där, men det syns. |
@@ -395,6 +400,7 @@ Slå för din **Magikontroll** `3d6`
 | **5** | **Själs-läckage** | Magikern och den närmaste personen byter kroppar med varandra (permanent tills motmedel hittas). |
 | **6** | **Historiens Skalv** | En känd historisk händelse raderas eller ändras. (T.ex. en stad som fanns nyss har nu legat i ruin i 100 år). |
 
+<a title="Marten Ryckaert, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Landscape_with_a_Fortress_(Marten_Rijckaert)_-_Nationalmuseum_-_23786.tif"><img width="500" alt="Landscape with a Fortress (Marten Rijckaert) - Nationalmuseum - 23786" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Landscape_with_a_Fortress_%28Marten_Rijckaert%29_-_Nationalmuseum_-_23786.tif/lossy-page1-330px-Landscape_with_a_Fortress_%28Marten_Rijckaert%29_-_Nationalmuseum_-_23786.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
 
 ---
 Karaktärsblad slim
@@ -411,7 +417,7 @@ Silver: `2d6 + 23`
 * *Minne* x / x
 
 **Skydd**
-* O Lätt: -1 skada
+* X Lätt: -1 skada
 * O medel: -2 skada, svårt att smyga
 * O tungt: -3 skada, svårt att smyga, klättra, simma
 
@@ -428,6 +434,7 @@ Silver: `2d6 + 23`
 
 **Utrustning** (Bärförmåga 0 använda / Max Kropp)
 * Namn på utrustning
+* Ransoner (3st)
 
 `^` Indikerar ett vapen som har längre avstånd än vanligt vapen.
 
