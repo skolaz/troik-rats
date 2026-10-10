@@ -264,7 +264,7 @@ När spelkaraktären pensioneras kan hon välja att nedärva Talanger, trollform
 # 6. Strid och återhämtning
 <a title="J. Allen St. John, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Face_in_the_Pool-Knight_Fighting_Dragon.jpg"><img width="500" alt="Face in the Pool-Knight Fighting Dragon" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Face_in_the_Pool-Knight_Fighting_Dragon.jpg/500px-Face_in_the_Pool-Knight_Fighting_Dragon.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
 ## 6.1 Tävling
-När två parter agerar mot varandra görs en tävling. Båda slår `2d6` och adderar sitt Grundvärde + Talang Rank. Den med högst summa vinner, och högre par vinner över lägre. Blir det lika händer inget. Vinnarens talang avgör utgången. 
+När två parter agerar mot varandra görs en tävling. Båda slår `2d6` och adderar sitt Grundvärde + Talang Rank. Den med högst summa vinner, och högre par vinner över lägre. Blir det lika händer inget. **Vinnarens talang avgör utgången oavsett vem som initierade attacken eller tävligen. Den som vinner tävlingen är den som orsakar skadan eller utgången.** 
 
 När en karaktär har initiativet och gör en attack används stridstalang. Det finns sex stycken stridstalanger. När den används som attack kan motståndaren använda en stridstalang som svar, vilket kan resultera en kontring av motståndaren. Men andra lämpliga talanger går bra.
 
