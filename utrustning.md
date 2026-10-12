@@ -30,9 +30,9 @@ I den smutsiga ekonomin i Troik-Rats är bra stål dyrt. Söndriga vapen kan hit
 `#` Indikerar ett vapen som ignorerar 1 poäng Skydd.
 
 ### Längre avstånd ^
-Ett vapen med längre avstånd, som lans, långsvärd och spjut, gör att första attacken när två parter möts får användaren av det längre vapnet en vanlig attack men mot motståndaren måste undvika med en Talang. Detta händer för att det längre vapnet når först och den andra får inte attackera när de själva inte når.
-- Om denna första attacken lyckas har inte motståndaren kommit tillräckligt nära och måste försöka igen.
-- Om denna första attacken misslyckas har situationen vänt och den med det längre vapen måste använda någon Talang som tar de till rätt avstånd igen.
+Ett vapen med längre avstånd, som lans, långsvärd och spjut, gör att första attacken när två parter möts får användaren av det längre vapnet en vanlig attack men mot motståndaren måste undvika med en Talang. Den med kortare vapen får inte använda en stridstalang. Detta händer för att det längre vapnet når först och den andra får inte attackera när de själva inte når. Om två längre vapen möts är det vanliga stridsregler som sker.
+- Om längre vapnet lyckas med försvarsattack/attack har inte motståndaren kommit tillräckligt nära och längre vapnet behåller sin fördelsposition.
+- Om längre vapney misslyckas har situationen vänt och den med kortare vapen  får göra en attack nästa möjlighet. Den med längre vapen måste använda någon annan passande Talang (som inte är stridstalang) för att få rätt avstånd igen.
 
 ### Skicket påverkar spelet
 * **Vrakpris (Söndrigt):** Vid ett **Fummel (6, 6)** går vapnet sönder helt. Det kan inte lagas utan att en smed och hennes hantverk. Men är det värt det?
@@ -42,7 +42,8 @@ Ett vapen med längre avstånd, som lans, långsvärd och spjut, gör att först
 
 ## Distansvapen
 Distansvapen är ofta dyrare på grund av de mekaniska delarna (som armborst) eller krutets sällsynthet.
-Ammunition till vapnen är inget som behövs räknas.
+Ammunition till vapnen är inget som behövs räknas, om inte spelledaren föredrar det.
+
 | Vapen | Vrakpris | Standard | Mästerligt | Skada | 
 | :--- | :---: | :---: | :---: | :---: |
 | **Kastknivar / Yxor** | 2 s | 6 s | 20 s | 1d4 |
